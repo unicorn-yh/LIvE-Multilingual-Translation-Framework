@@ -1,0 +1,1069 @@
+In Chapters 3 and 4, we discussed how mechanical energy, such as a thumbtack
+entering your foot, can be converted into a neural signal. First, specialized
+ion channels of the sensory nerve endings allow positive charge to
+enter the axon. If this depolarization reaches threshold, then action potentials
+are generated. Because the axonal membrane is excitable and has
+voltage-gated sodium channels, action potentials can propagate without
+decrement up the long sensory nerves. For this information to be processed
+by the rest of the nervous system, it is necessary that these neural signals
+be passed on to other neurons—for example, the motor neurons that control
+muscle contraction, as well as neurons in the brain and spinal cord that
+lead to a coordinated reflex response. By the end of the nineteenth century,
+it was recognized that this transfer of information from one neuron
+to another occurs at specialized sites of contact. In 1897, English physiologist
+Charles Sherrington gave these sites their name: synapses. The process
+of information transfer at a synapse is called synaptic transmission.
+The physical nature of synaptic transmission was argued for almost a
+century. One attractive hypothesis, which nicely explained the speed of
+synaptic transmission, was that it was simply electrical current flowing
+from one neuron to the next. The existence of such electrical synapses
+was finally proven in 1959 by Edwin Furshpan and David Potter, Harvard
+University physiologists who were studying the nervous system of crayfish.
+We now know that electrical synapses are common in the mammalian
+brain.
+An alternative hypothesis about the nature of synaptic transmission, also
+dating back to the 1800s, was that chemical neurotransmitters transfer
+information from one neuron to another at the synapse. Solid support for
+the concept of chemical synapses was provided in 1921 by Otto Loewi,
+then the head of the Pharmacology Department at the University of Graz
+in Austria. Loewi showed that electrical stimulation of axons innervating
+the frog’s heart caused the release of a chemical and that this chemical
+could mimic the effects of neuron stimulation on the heartbeat (Box 5.1).
+Later, Bernard Katz and his colleagues at University College London,
+conclusively demonstrated that fast transmission at the synapse between a
+motor neuron axon and skeletal muscle was chemically mediated. By 1951,
+John Eccles of the Australian National University was able to study the
+physiology of synaptic transmission within the mammalian central nervous
+system (CNS) using a new tool, the glass microelectrode. These experiments
+indicated that many CNS synapses also use a chemical transmitter.
+Chemical synapses comprise the majority of synapses in the brain. During
+the last decade, new methods of studying the molecules involved in synaptic
+transmission have revealed that synapses are far more complex than
+most neuroscientists anticipated.
+Synaptic transmission is a large and fascinating topic. The actions of
+psychoactive drugs, the causes of mental disorders, the neural bases of
+learning and memory—indeed, all the operations of the nervous system—
+cannot be understood without knowledge of synaptic transmission. Therefore,
+we’ve devoted several chapters to this topic, mainly focusing on chemical
+synapses. In this chapter, we begin by exploring the basic mechanisms
+of synaptic transmission. What do different types of synapse look like? How
+are neurotransmitters synthesized and stored, and how are they released
+in response to an action potential in the axon terminal? How do neurotransmitters
+act on the postsynaptic membrane? How do single neurons
+integrate the inputs provided by the thousands of synapses that impinge
+upon them?
+One of the more colorful stories in the history of neuroscience
+was contributed by Otto Loewi, who, working in
+Austria in the 1920s, showed definitively that synaptic
+transmission between nerve and heart is chemically mediated.
+The heart is supplied with two types of innervation;
+one type speeds the beating of the heart, and the other
+slows it. The latter type of innervation is supplied by the
+vagus nerve. Loewi isolated a frog heart with the vagal
+innervation left intact, stimulated the nerve electrically,
+and observed the expected effect, the slowing of the
+heartbeat. The critical demonstration that this effect was
+chemically mediated came when he took the solution that
+bathed this heart, applied it to a second isolated frog
+heart, and found that the beating of this one also slowed.
+The idea for this experiment had actually come to
+Loewi in a dream. Below is his own account:
+In the night of Easter Sunday, 1921, I awoke, turned on
+the light, and jotted down a few notes on a tiny slip of
+paper. Then, I fell asleep again. It occurred to me at
+six o’clock in the morning that during the night I had
+written down something most important, but I was unable
+to decipher the scrawl.That Sunday was the most
+desperate day in my whole scientific life. During the
+next night, however, I awoke again, at three o’clock, and
+I remembered what it was.This time I did not take any
+risk; I got up immediately,went to the laboratory, made
+the experiment on the frog’s heart, described above,
+and at five o’clock the chemical transmission of the
+nervous impulse was conclusively proved. . . . Careful
+consideration in daytime would undoubtedly have rejected
+the kind of experiment I performed, because it
+would have seemed most unlikely that if a nervous impulse
+released a transmitting agent, it would do so not
+just in sufficient quantity to influence the effector organ,
+in my case the heart, but indeed in such an excess
+that it could partly escape into the fluid which filled the
+heart, and could therefore be detected.Yet the whole
+nocturnal concept of the experiment was based on
+this eventuality, and the result proved to be positive,
+contrary to expectation. (Loewi, 1953, pp. 33, 34)
+The active compound, which Loewi called vagusstoff,
+turned out to be acetylcholine. As we shall see in this
+chapter, acetylcholine is also a transmitter at the synapse
+between nerve and skeletal muscle. Here, unlike at the
+heart, acetylcholine causes excitation and contraction of
+the muscle.
+We introduced the synapse in Chapter 2. A synapse is the specialized junction
+where one part of a neuron contacts and communicates with another
+neuron or cell type (such as a muscle or glandular cell). Information tends
+to flow in one direction, from a neuron to its target cell. The first neuron
+is said to be presynaptic and the target cell is said to be postsynaptic. Let’s take
+a closer look at the different types of synapse.
+Electrical synapses are relatively simple in structure and function, and they
+allow the direct transfer of ionic current from one cell to the next. Electrical
+synapses occur at specialized sites called gap junctions. At a gap
+junction, the membranes of two cells are separated by only about 3 nm,
+and this narrow gap is spanned by clusters of special proteins called connexins.
+Six connexins combine to form a channel called a connexon, and
+two connexons (one from each cell) combine to form a gap junction channel
+(Figure 5.1). The channel allows ions to pass directly from the cytoplasm
+of one cell to the cytoplasm of the other. The pore of most gap junction
+channels is relatively large. Its diameter is about 1–2 nm, big enough
+for all the major cellular ions, and many small organic molecules, to pass
+through.
+Most gap junctions allow ionic current to pass equally well in both directions;
+therefore, unlike the vast majority of chemical synapses, electrical
+synapses are bidirectional. Because electrical current (in the form
+of ions) can pass through these channels, cells connected by gap junctions
+are said to be electrically coupled. Transmission at electrical synapses
+is very fast and, if the synapse is large, fail-safe. Thus, an action potential
+in the presynaptic neuron can produce, almost instantaneously, an
+action potential in the postsynaptic neuron. In invertebrate species, such
+as the crayfish, electrical synapses are sometimes found between sensory
+and motor neurons in neural pathways mediating escape reflexes. This
+mechanism enables an animal to beat a hasty retreat when faced with a
+dangerous situation.
+Electrical synapses also occur in the vertebrate brain (Box 5.2). Studies
+over the past few years have revealed that electrical synapses are common
+in every part of the mammalian CNS (Figure 5.2a). When two neurons are
+electrically coupled, an action potential in the presynaptic neuron causes a
+small amount of ionic current to flow across the gap junction channels into
+the other neuron. This current causes a postsynaptic potential (PSP) in
+the second neuron (Figure 5.2b). Because most electrical synapses are bidirectional,
+note that when the second neuron generates an action potential,
+it will in turn induce a PSP in the first neuron. The PSP generated by a single
+electrical synapse in the mammalian brain is usually small—about 1 mV
+or less at its peak—and may not, by itself, be large enough to trigger an action
+potential in the postsynaptic cell. One neuron usually makes electrical
+synapses with many other neurons, however, so several PSPs occurring
+simultaneously may strongly excite a neuron. This is an example of synaptic
+integration, which is discussed later in the chapter.
+The precise roles of electrical synapses vary from one brain region to another.
+They are often found where normal function requires that the activity
+of neighboring neurons be highly synchronized. Gap junctions between
+neurons are particularly common during early embryonic stages.
+Evidence suggests that during brain development, gap junctions allow
+neighboring cells to share both electrical and chemical signals that may help
+coordinate their growth and maturation. Gap junctions also interconnect
+many non-neural cells, including glia, epithelial cells, smooth and cardiac
+muscle cells, liver cells, and some glandular cells.
+Most synaptic transmission in the mature human nervous system is chemical,
+so we will now focus exclusively on chemical synapses. Before we discuss
+the different types of chemical synapse, let’s take a look at some of
+their universal characteristics (Figure 5.3).
+The presynaptic and postsynaptic membranes at chemical synapses are
+separated by a synaptic cleft that is 20–50 nm wide, 10 times the width of
+the separation at gap junctions. The cleft is filled with a matrix of fibrous
+extracellular protein. One function of this matrix is to make the pre- and
+postsynaptic membranes adhere to each other. The presynaptic side of the
+synapse, also called the presynaptic element, is usually an axon terminal.
+The terminal typically contains dozens of small membrane-enclosed
+spheres, each about 50 nm in diameter, called synaptic vesicles (Figure
+5.4a). These vesicles store neurotransmitter, the chemical used to communicate
+with the postsynaptic neuron. Many axon terminals also contain
+larger vesicles, each about 100 nm in diameter, called secretory
+granules. Secretory granules contain soluble protein that appears dark in
+the electron microscope, so they are sometimes called large, dense-core
+vesicles (Figure 5.4b).
+Dense accumulations of protein adjacent to and within the membranes
+on either side of the synaptic cleft are collectively called membrane differentiations.
+On the presynaptic side, proteins jutting into the cytoplasm
+of the terminal along the intracellular face of the membrane sometimes
+look like a field of tiny pyramids. The pyramids, and the membrane associated
+with them, are the actual sites of neurotransmitter release, called active
+zones. Synaptic vesicles are clustered in the cytoplasm adjacent to the
+active zones (see Figure 5.3).
+The protein thickly accumulated in and just under the postsynaptic membrane
+is called the postsynaptic density. The postsynaptic density contains
+the neurotransmitter receptors, which convert the intercellular chemical
+signal (i.e., neurotransmitter) into an intracellular signal (i.e., a change
+in membrane potential, or a chemical change) in the postsynaptic cell. As
+we shall see, the nature of this postsynaptic response can be quite varied,
+depending on the type of protein receptor that is activated by the neurotransmitter.
+CNS Synapses. In the CNS, different types of synapse may be distinguished
+by which part of the neuron is postsynaptic to the axon terminal.
+If the postsynaptic membrane is on a dendrite, the synapse is said to be axodendritic.
+If the postsynaptic membrane is on the cell body, the synapse is
+said to be axosomatic. In some cases, the postsynaptic membrane is on another
+axon, and these synapses are called axoaxonic (Figure 5.5). In certain
+specialized neurons, dendrites actually form synapses with one another;
+these are called dendrodendritic synapses. The sizes and shapes of CNS
+synapses also vary widely (Figure 5.6).
+CNS synapses may be further classified into two general categories based
+on the appearance of their presynaptic and postsynaptic membrane
+differentiations, under the powerful magnification of the electron
+microscope. Synapses in which the membrane differentiation on the
+postsynaptic side is thicker than that on the presynaptic side are called
+asymmetrical synapses, or Gray’s type I synapses; those in which the
+membrane differentiations are of similar thickness are called symmetrical
+synapses, or Gray’s type II synapses (Figure 5.7). As we shall see later in the
+chapter, these structural differences predict functional differences. Gray’s
+type I synapses are usually excitatory, while Gray’s type II synapses are
+usually inhibitory.
+The Neuromuscular Junction. Synaptic junctions also exist outside the
+central nervous system. For example, axons of the autonomic nervous system
+innervate glands, smooth muscle, and the heart. Chemical synapses
+also occur between the axons of motor neurons of the spinal cord and
+skeletal muscle. Such a synapse is called a neuromuscular junction, and
+it has many of the structural features of chemical synapses in the CNS
+(Figure 5.8).
+The question of soup versus sparks, not so recent slang
+for chemical transmission versus electrical transmission,
+goes back to the 1800s.The pharmacologists, who applied
+drugs to their experimental preparations, favored soup.
+The electrophysiologists, who used electrical stimuli and
+studied action potentials favored sparks.They argued that
+chemicals were too slow, and besides, if electrical current
+was good enough for axons, it should work for synapses
+as well. Eventually, intracellular electrodes demonstrated
+that synaptic transmission was indeed chemical at the
+neuromuscular junction and at synapses on spinal motoneurons,
+and people were convinced. The vote was in—
+all synaptic transmission was chemical; case closed.
+In that context I started postdoctoral work with Harry
+Grundfrest at the College of Physicians and Surgeons, in
+New York City. Every summer he transported his laboratory
+to the Marine Biological Laboratory (MBL), in Woods
+Hole, Massachusetts; I accompanied him and have been
+going ever since. He proposed that I and Stanley Crain
+work on the supramedullary neurons of the pufferfish.
+These brain stem neurons are large, even visible to the
+naked eye.We soon found that they send their axons to
+the skin and are excited by cutaneous inputs. Each cell is
+large enough to permit penetration by two microelectrodes,
+for current application and voltage recording.Now
+and then our electrodes accidentally penetrated adjacent
+cells, which led to the discovery that all cells give the
+same number of impulses in response to stimuli, and that
+an impulse evoked in one cell could spread to other cells;
+the cells are mutually excitatory. At first, and for several
+wrong reasons, it seemed that the mutual excitation was
+chemically mediated; I thought that the spike in the initial
+part of the axon was an excitatory postsynaptic potential.
+Jack Eccles, subsequently Sir John, was passing through
+the lab. He looked at a spike on the oscilloscope screen,
+in the sort of live demonstration that rarely works, and
+said, no, that potential is the spike from the initial axon
+segment; push your electrode deeper and record from
+the axons. Damned if he wasn’t right, but there was more.
+Recording in an axon, I found the soma of a different
+neuron that was electrically coupled to it for hyperpolarization
+as well as depolarization. This was impossible to
+ignore, even for the unprepared mind: there were electrical
+synapses between the two cells. Several important biophysical
+properties of electrical transmission were exemplified
+by these giant neurons. Some years later Yasuko
+Nakajima, using electron microscopy (EM) and working
+with George Pappas, found gap junctions between axons
+of the supramedullary neurons.
+A couple of years later I was working on fish electric
+organs in Harry’s lab, and he pointed me to the question
+of neural control. Emilio Aljure and I looked at the spinal
+cord of a mormyrid electric fish. The neurons fire highly
+synchronously, and the synchrony is mediated by electrical
+coupling between the cells. Mutually excitatory chemical
+synapses would not be adequate to synchronize their firing
+because of their characteristic delay. Nakajima and Pappas
+showed that the dendrites were connected by gap junctions
+(although they did not yet have that name).We suggested
+in a brief Science paper that EM identification of
+electrical synapses might be useful in examining dendritic
+regions.We were pleased when 10 years later John Sloper
+and Thomas Powell, using EM, found dendrodendritic gap
+junctions in primate neocortex.
+The early work on electrical synapses was done almost
+entirely in fishes and invertebrates; many mammalian physiologists
+regarded electrical transmission as primitive compared
+to chemical transmission and unsuited for the subtle
+neural processing of the mammalian brain. (Ironically,
+current work suggests that vertebrate electrical synapses
+actually evolved later than chemically mediated transmission.)
+During the 1980s, a few examples of electrical coupling
+of neurons became known in mammals, such as inferior
+olive cells and retinal horizontal cells.Now technical
+advances have led to a burgeoning of knowledge about
+electrical synapses in mammals.
+Electrical synapses exist where they are useful.Although
+their numbers are small compared to chemical synapses,
+any description of how the nervous system works requires
+their inclusion. In general in mammals, the speed of
+electrical transmission is not the only explanation for its
+being there.A more likely selective advantage is its ability
+to synchronize neural activity by reciprocal action and
+transmission of sub-threshold voltages.
+Ramon y Cajal was right when he concluded that the
+nervous system is made of individual, discontinuous
+neurons. But he also wrote that the neuron doctrine
+could withstand some exceptions. The direct connection
+between cell interiors provided by gap junctions could be
+viewed as an exception.
+Neuromuscular synaptic transmission is fast and reliable. An action potential
+in the motor axon always causes an action potential in the muscle
+cell it innervates. This reliability is accounted for, in part, by structural
+specializations of the neuromuscular junction. Its most important specialization
+is its size—it is one of the largest synapses in the body. The presynaptic
+terminal also contains a large number of active zones. In addition, the
+post-synaptic membrane, also called the motor end-plate, contains a series
+of shallow folds. The presynaptic active zones are precisely aligned with
+these junctional folds, and the postsynaptic membrane of the folds is packed
+with neurotransmitter receptors. This structure ensures that many neurotransmitter
+molecules are focally released onto a large surface of chemically
+sensitive membrane.
+Because neuromuscular junctions are more accessible to researchers than
+CNS synapses, much of what we know about the mechanisms of synaptic
+transmission was first established here. Neuromuscular junctions are also
+of considerable clinical significance; diseases, drugs, and poisons that interfere
+with this chemical synapse have direct effects on vital bodily functions.
+Consider the basic requirements of chemical synaptic transmission. There
+must be a mechanism for synthesizing neurotransmitter and packing it into
+the synaptic vesicles, a mechanism for causing vesicles to spill their contents
+into the synaptic cleft in response to a presynaptic action potential, a
+mechanism for producing an electrical or biochemical response to neurotransmitter
+in the postsynaptic neuron, and a mechanism for removing
+neurotransmitter from the synaptic cleft. And, to be useful for sensation,
+perception, and the control of movement, all these things must occur very
+rapidly. No wonder physiologists initially were skeptical about the existence
+of chemical synapses in the brain!
+Fortunately, thanks to several decades of research on the topic, we now
+understand how many of these aspects of synaptic transmission are so
+efficiently carried out. Here we present a general survey of the basic principles.
+In Chapter 6, we will take a more detailed look at the individual
+neurotransmitters and their modes of postsynaptic action.
+Since the discovery of chemical synaptic transmission, researchers have been
+identifying neurotransmitters in the brain. Our current understanding is that
+most neurotransmitters fall into one of three chemical categories: (1) amino
+acids, (2) amines, and (3) peptides (Table 5.1). Some representatives of these
+categories are shown in Figure 5.9. The amino acid and amine neurotransmitters
+are all small organic molecules containing at least one nitrogen atom,
+and they are stored in and released from synaptic vesicles. Peptide neurotransmitters
+are large molecules stored in and released from secretory
+granules. As mentioned above, secretory granules and synaptic vesicles are
+frequently observed in the same axon terminals. Consistent with this observation,
+peptides often exist in the same axon terminals that contain amine
+or amino acid neurotransmitters. And, as we’ll discuss in a moment, these
+different neurotransmitters are released under different conditions.
+Different neurons in the brain release different neurotransmitters. Fast
+synaptic transmission at most CNS synapses is mediated by the amino acids
+glutamate (Glu), gamma-aminobutyric acid (GABA), and glycine
+(Gly). The amine acetylcholine (ACh) mediates fast synaptic transmission
+at all neuromuscular junctions. Slower forms of synaptic transmission
+in the CNS and in the periphery are mediated by transmitters from all three
+chemical categories.
+Chemical synaptic transmission requires that neurotransmitters be synthesized
+and ready for release. Different neurotransmitters are synthesized in different
+ways. For example, glutamate and glycine are among the 20 amino
+acids that are the building blocks of protein (see Figure 3.4b); consequently,
+they are abundant in all cells of the body, including neurons. In contrast,
+GABA and the amines are made only by the neurons that release them. These
+neurons contain specific enzymes that synthesize the neurotransmitters from
+various metabolic precursors. The synthesizing enzymes for both amino acid
+and amine neurotransmitters are transported to the axon terminal, where
+they locally and rapidly direct transmitter synthesis.
+Once synthesized in the cytosol of the axon terminal, the amino acid and
+amine neurotransmitters must be taken up by the synaptic vesicles. Concentrating
+these neurotransmitters inside the vesicle is the job of transporters,
+special proteins embedded in the vesicle membrane.
+Quite different mechanisms are used to synthesize and store peptides in
+secretory granules. As we learned in Chapters 2 and 3, peptides are formed
+when amino acids are strung together by the ribosomes of the cell body.
+In the case of peptide neurotransmitters, this occurs in the rough ER.
+Generally, a long peptide synthesized in the rough ER is split in the Golgi
+apparatus, and one of the smaller peptide fragments is the active neurotransmitter.
+Secretory granules containing the peptide neurotransmitter
+bud off from the Golgi apparatus and are carried to the axon terminal by
+axoplasmic transport. Figure 5.10 compares the synthesis and storage of
+amine and amino acid neurotransmitters with that of peptide neurotransmitters.
+Neurotransmitter release is triggered by the arrival of an action potential in
+the axon terminal. The depolarization of the terminal membrane causes
+voltage-gated calcium channels in the active zones to open. These
+membrane channels are very similar to the sodium channels we discussed
+in Chapter 4, except they are permeable to Ca2 ions instead of Na ions.
+There is a large inward driving force on Ca2. Remember that the internal
+calcium ion concentration—[Ca2]i—at rest is very low, only 0.0002 mM;
+therefore, Ca2 will flood the cytoplasm of the axon terminal as long as the
+calcium channels are open. The resulting elevation in [Ca2]i is the signal
+that causes neurotransmitter to be released from synaptic vesicles.
+The vesicles release their contents by a process called exocytosis. The
+membrane of the synaptic vesicle fuses to the presynaptic membrane at
+the active zone, allowing the contents of the vesicle to spill out into the
+synaptic cleft (Figure 5.11). Studies of a giant synapse in the squid nervous
+system showed that exocytosis can occur very rapidly—within 0.2 msec of
+the Ca2 influx into the terminal. Synapses in mammals, which generally
+operate at higher temperatures, are even faster. Exocytosis is quick because
+Ca2 enters at the active zone, precisely where synaptic vesicles are ready
+and waiting to release their contents. In this local “microdomain” around
+the active zone, calcium can achieve very high concentrations (greater
+than 0.1 mM).
+The precise mechanism by which [Ca2]i stimulates exocytosis is poorly
+understood, but it is currently under intensive investigation. The speed of
+neurotransmitter release suggests that the vesicles involved are those already
+“docked” at the active zones. Docking is believed to involve interactions
+between proteins in the synaptic vesicle membrane and the active
+zone (Box 5.3). In the presence of high [Ca2]i, these proteins alter their
+conformation so that the lipid bilayers of the vesicle and presynaptic membranes
+fuse, forming a pore that allows the neurotransmitter to escape into
+the cleft. The mouth of this exocytotic fusion pore continues to expand
+until the membrane of the vesicle is fully incorporated into the presynaptic
+membrane (Figure 5.12). The vesicle membrane is later recovered by the
+process of endocytosis, and the recycled vesicle is refilled with neurotransmitter
+(see Figure 5.11). During periods of prolonged stimulation,
+vesicles are mobilized from a “reserve pool” that is bound to the cytoskeleton
+of the axon terminal. The release of these vesicles from the cytoskeleton,
+and their docking to the active zone, is also triggered by elevations of
+[Ca2]i.
+Secretory granules also release peptide neurotransmitters by exocytosis,
+in a calcium-dependent fashion, but typically not at the active zones. Because
+the sites of granule exocytosis occur at a distance from the sites of
+Ca2 entry, peptide neurotransmitters are usually not released in response
+to every action potential invading the terminal. Instead, the release of peptides
+generally requires high-frequency trains of action potentials, so that
+the [Ca2]i throughout the terminal can build to the level required to trigger
+release away from the active zones. Unlike the fast release of amino
+acid and amine neurotransmitters, the release of peptides is a leisurely
+process, taking 50 msec or more.
+Neurotransmitters released into the synaptic cleft affect the postsynaptic
+neuron by binding to specific receptor proteins that are embedded in the
+postsynaptic density. The binding of neurotransmitter to the receptor is like
+inserting a key in a lock; this causes conformational changes in the protein,
+and the protein can then function differently. Although there are well over
+100 different neurotransmitter receptors, they can be classified into two
+types: transmitter-gated ion channels and G-protein-coupled receptors.
+Transmitter-Gated Ion Channels. Receptors known as transmittergated
+ion channels are membrane-spanning proteins consisting of four or
+five subunits that come together to form a pore between them (Figure 5.13).
+In the absence of neurotransmitter, the pore is usually closed. When neurotransmitter
+binds to specific sites on the extracellular region of the channel,
+it induces a conformational change—just a slight twist of the subunits— which within microseconds causes the pore to open. The functional consequence
+of this depends on which ions can pass through the pore.
+Transmitter-gated channels generally do not show the same degree of ion
+selectivity as do voltage-gated channels. For example, the ACh-gated ion
+channels at the neuromuscular junction are permeable to both Na and K
+ions. Nonetheless, as a rule, if the open channels are permeable to Na, the
+net effect will be to depolarize the postsynaptic cell from the resting membrane
+potential (Box 5.4). Because it tends to bring the membrane potential
+toward threshold for generating action potentials, this effect is said to
+be excitatory. A transient postsynaptic membrane depolarization caused by
+the presynaptic release of neurotransmitter is called an excitatory postsynaptic
+potential (EPSP) (Figure 5.14). Synaptic activation of AChgated
+and glutamate-gated ion channels causes EPSPs.
+If the transmitter-gated channels are permeable to Cl, the net effect
+will be to hyperpolarize the postsynaptic cell from the resting membrane
+potential (because the chloride equilibrium potential is negative; see Chapter
+3). Because it tends to bring the membrane potential away from threshold
+for generating action potentials, this effect is said to be inhibitory. A
+transient hyperpolarization of the postsynaptic membrane potential caused
+by the presynaptic release of neurotransmitter is called an inhibitory
+postsynaptic potential (IPSP) (Figure 5.15). Synaptic activation of
+glycine-gated or GABA-gated ion channels cause an IPSP. We’ll discuss
+EPSPs and IPSPs in more detail when we explore the principles of synaptic
+integration shortly.
+Yeasts are single-celled organisms valued for their ability to make dough
+rise and grape juice ferment. Remarkably, the humble yeasts have some
+close similarities to the chemical synapses in our brain. Recent research
+has shown that the proteins controlling secretion in both yeast cells and
+synapses are only minor variations of each other. Apparently, these molecules
+are so generally useful that they have been conserved across more
+than a billion years of evolution, and they are found in all eukaryotic cells.
+The trick to fast synaptic function is to deliver neurotransmitter-filled
+vesicles to just the right place—the presynaptic membrane, and then
+cause them to fuse at just the right time—when an action potential delivers
+a pulse of high Ca2concentration to the cytosol. This process of
+exocytosis is a special case of a more general cellular problem, membrane
+trafficking. Cells have many types of membranes, including those enclosing
+the whole cell, the nucleus, endoplasmic reticulum, Golgi apparatus, and
+various types of vesicles.To avoid intracellular chaos, each of these membranes
+needs to be moved and delivered to specific locations within the
+cell. After delivery, one type of membrane often has to fuse with another
+type. A common molecular machinery has evolved for the delivery and
+fusion of all these membranes, and small variations in these molecules
+determine how and when membrane trafficking takes place.
+The specific binding and fusion of membranes seem to depend on the
+SNARE family of proteins, which were first found in yeast cells. SNARE is
+an acronym too convoluted to define here, but the name perfectly defines
+the function of these proteins—SNAREs allow one membrane to snare
+another. Each SNARE peptide has a lipid-loving end that embeds itself
+within the membrane and a longer tail that projects into the cytosol.Vesicles
+have “v-SNAREs,” and the outer membrane has “t-SNAREs” (for “target”
+membrane). The cytosolic ends of these two complementary types
+of SNAREs can bind tightly to one another, allowing a vesicle to “dock”
+very close to a presynaptic membrane and nowhere else (Figure A).
+Although SNARE-to-SNARE complexes form the main connection between
+vesicle membrane and target membrane, a large and bewildering
+array of other proteins stick to the “SNAREpin.” We still don’t understand
+the functions of most of them, but synaptotagmin, a vesicle protein, may
+be the critical Ca2sensor that rapidly triggers vesicle fusion and thus
+transmitter release. On the presynaptic membrane side, calcium channels
+may form part of the docking complex. By placing the calcium channels
+very close to the docked vesicles, inflowing Ca2can trigger transmitter
+release with astonishing speed—within about 60 μsec in a mammalian
+synapse at body temperature.
+We have a long way to go before we understand all the molecules involved
+in synaptic transmission. In the meantime, we can count on yeasts
+to provide delightful brain food (and drink) for thought.
+G-Protein-Coupled Receptors. Fast chemical synaptic transmission is
+mediated by amino acid and amine neurotransmitters acting on transmitter-
+gated ion channels. However, all three types of neurotransmitter, acting
+on G-protein-coupled receptors, can also have slower, longer-lasting,
+and much more diverse postsynaptic actions. This type of transmitter action
+involves three steps:
+1) Neurotransmitter molecules bind to receptor proteins embedded in the
+postsynaptic membrane.
+2) The receptor proteins activate small proteins, called G-proteins, that are
+free to move along the intracellular face of the postsynaptic membrane.
+3) The activated G-proteins activate “effector” proteins.
+Effector proteins can be G-protein-gated ion channels in the membrane
+(Figure 5.16a), or they can be enzymes that synthesize molecules called
+second messengers that diffuse away in the cytosol (Figure 5.16b). Second
+messengers can activate additional enzymes in the cytosol that can
+regulate ion channel function and alter cellular metabolism. Because Gprotein-
+coupled receptors can trigger widespread metabolic effects, they are
+often referred to as metabotropic receptors.
+We’ll discuss the different neurotransmitters, their receptors, and their
+effectors in more detail in Chapter 6. However, you should be aware that
+the same neurotransmitter can have different postsynaptic actions, depending
+on what receptors it binds to. An example is the effect of ACh on the
+heart and on skeletal muscles. ACh slows the rhythmic contractions of the
+heart by causing a slow hyperpolarization of the cardiac muscle cells. In
+contrast, in skeletal muscle, ACh induces contraction by causing a rapid
+depolarization of the muscle fibers. These different actions are explained by
+different receptors. In the heart, a metabotropic ACh receptor is coupled by
+a G-protein to a potassium channel. The opening of the potassium channel
+hyperpolarizes the cardiac muscle fibers. In skeletal muscle, the receptor is
+a transmitter-gated ion channel, specifically an ACh-gated ion channel,
+permeable to Na+. The opening of this channel depolarizes the muscle
+fibers.
+Autoreceptors. Besides being a part of the postsynaptic density, neurotransmitter
+receptors are also commonly found in the membrane of the
+presynaptic axon terminal. Presynaptic receptors that are sensitive to the
+neurotransmitter released by the presynaptic terminal are called autoreceptors.
+Typically, autoreceptors are G-protein-coupled receptors that stimulate
+second messenger formation. The consequences of activating these receptors
+vary, but a common effect is inhibition of neurotransmitter release
+and, in some cases, neurotransmitter synthesis. This allows a presynaptic
+terminal to regulate itself. Autoreceptors appear to function as a sort of
+safety valve to reduce release when the concentration of neurotransmitter
+in the synaptic cleft gets too high.
+Once the released neurotransmitter has interacted with postsynaptic receptors,
+it must be cleared from the synaptic cleft to allow another round
+of synaptic transmission. One way this happens is by simple diffusion of the
+transmitter molecules away from the synapse. For most of the amino acid
+and amine neurotransmitters, however, diffusion is aided by their reuptake
+into the presynaptic axon terminal. Reuptake occurs by the action of specific
+neurotransmitter transporter proteins located in the presynaptic membrane.
+Once inside the cytosol of the terminal, the transmitters may be enzymatically
+destroyed, or they may be reloaded into synaptic vesicles.
+Neurotransmitter transporters also exist in the membranes of glia surrounding
+the synapse, which assist in the removal of neurotransmitter from
+the cleft.
+Another way neurotransmitter action can be terminated is by enzymatic
+destruction in the synaptic cleft itself. This is how ACh is removed at the
+neuromuscular junction, for example. The enzyme acetylcholinesterase (AChE) is deposited in the cleft by the muscle cells. AChE cleaves the ACh
+molecule, rendering it inactive at the ACh receptors.
+The importance of transmitter removal from the cleft should not be
+underestimated. At the neuromuscular junction, for example, uninterrupted
+exposure to high concentrations of ACh after several seconds leads
+to a process called desensitization, in which, despite the continued presence
+of ACh, the transmitter-gated channels close. This desensitized state can
+persist for many seconds even after the neurotransmitter is removed. The
+rapid destruction of ACh by AChE normally prevents desensitization from
+occurring. However, if the AChE is inhibited, as it is by various nerve gases
+used as chemical weapons, the ACh receptors will become desensitized and
+neuromuscular transmission will fail.
+In Chapter 4, we saw that when the membrane voltagegated
+sodium channels open during an action potential,
+Na enters the cell, causing the membrane potential to
+rapidly depolarize until it approaches the sodium equilibrium
+potential, ENa, about 40 mV. Unlike the voltage-gated
+channels, however, many transmitter-gated ion channels
+are not permeable to a single type of ion. For example,
+the ACh-gated ion channel at the neuromuscular junction
+is permeable to both Na and to K. Let’s explore the
+functional consequence of activating these channels.
+In Chapter 3, we learned that the membrane potential,
+Vm, can be calculated using the Goldman equation, which
+takes into account the relative permeability of the membrane
+to different ions (see Box 3.3). If the membrane
+were equally permeable to Na and K, as it would be if
+the ACh-gated channels were open, then Vm would have
+a value between ENa and EK, around 0 mV. Therefore,
+ionic current would flow through the channels in a direction
+that brings the membrane potential toward 0 mV. If
+the membrane potential were 0 mV before ACh was applied,
+as is usually the case, the direction of net current
+flow through the ACh-gated ion channels would be inward,
+causing a depolarization. However, if the membrane
+potential were 0 mV before ACh was applied, the direction
+of net current flow through the ACh-gated ion
+channels would be outward, causing the membrane potential
+to become less positive.
+Ionic current flow at different membrane voltages can
+be graphed, as shown in Figure A. Such a graph is called
+an I-V plot (I: current; V: voltage). The critical value of
+membrane potential at which the direction of current
+flow reverses is called the reversal potential. In this case,
+the reversal potential would be 0 mV. The experimental
+determination of a reversal potential, therefore, helps tell
+us which types of ions the membrane is permeable to.
+If, by changing the relative permeability of the membrane
+to different ions, a neurotransmitter causes Vm to
+move toward a value that is more positive than the action
+potential threshold, the neurotransmitter action would
+be termed excitatory. As a rule, neurotransmitters that
+open a channel permeable to Na are excitatory. If a
+neurotransmitter causes Vm to take on a value that is
+more negative than the action potential threshold, the
+neurotransmitter action would be termed inhibitory.
+Neurotransmitters that open a channel permeable to Cl
+tend to be inhibitory, as are neurotransmitters that open
+a channel permeable only to K.
+Each of the steps of synaptic transmission we have discussed so far—neurotransmitter
+synthesis, loading into synaptic vesicles, exocytosis, binding and
+activation of receptors, reuptake, and degradation—is chemical, and therefore
+can be affected by specific drugs and toxins (Box 5.5). The study of the
+effects of drugs on nervous system tissue is called neuropharmacology.
+What do the bacteria Clostridium botulinum, black widow
+spiders, cobras, and humans have in common? They all
+produce toxins that attack the chemical synaptic transmission
+that occurs at the neuromuscular junction. Botulism
+is caused by several kinds of botulinum neurotoxins
+that are produced by the growth of C. botulinum in improperly
+canned foods. (The name comes from the Latin
+word for “sausage” because of the early association of the
+disease with poorly preserved meat.) Botulinum toxins
+are very potent blockers of neuromuscular transmission;
+it has been estimated that as few as 10 molecules of the
+toxins are enough to inhibit a cholinergic synapse. Botulinum
+toxins are extraordinarily specific enzymes that destroy
+certain of the SNARE proteins in the presynaptic
+terminals, which are critical for transmitter release (see
+Box 5.3). Ironically, this specific action of the toxins made
+them important tools in the early research on SNAREs.
+Although its mechanism of action is different, black
+widow spider venom also exerts deadly effects by affecting
+transmitter release (Figure A). The venom first increases,
+and then eliminates, ACh release at the neuromuscular
+junction. Electron microscopic examination of
+synapses poisoned with black widow spider venom reveals
+that the axon terminals are swollen and the synaptic
+vesicles are missing. The action of the venom, a protein
+molecule, is not entirely understood. Venom binds
+with proteins on the outside of the presynaptic membrane,
+perhaps forming a membrane pore that depolarizes
+the terminal and allows Ca2 to enter and trigger rapid
+and total depletion of transmitter. In some cases, the
+venom can induce transmitter release even without the
+need for Ca2.
+The bite of the Taiwanese cobra also results in the
+blockade of neuromuscular transmission in its victim, but
+by yet another mechanism. One of the active compounds
+in the snake’s venom, called -bungarotoxin, is a peptide
+molecule that binds so tightly to the postsynaptic nicotinic
+ACh receptors that it takes days to be removed.
+Often, there is not time for its removal, however, because
+cobra toxin prevents the activation of nicotinic receptors
+by ACh, thereby paralyzing the respiratory muscles of its
+victims.
+We humans have synthesized a large number of chemicals
+that poison synaptic transmission at the neuromuscular
+junction. Originally motivated by the search for
+chemical warfare agents, this effort led to the development
+of a new class of compounds called organophosphates.
+These are irreversible inhibitors of AChE, and by
+preventing the degradation of ACh, they probably kill their
+victims by causing a desensitization of ACh receptors.
+The organophosphates used today as insecticides, like
+parathion, are toxic to humans only in high doses.
+Above, we mentioned that nerve gases can interfere with synaptic transmission
+at the neuromuscular junction by inhibiting the enzyme AChE.
+This interference represents one class of drug action, which is to inhibit the
+normal function of specific proteins involved in synaptic transmission; such
+drugs are called inhibitors. Inhibitors of neurotransmitter receptors, called
+receptor antagonists, bind to the receptors and block (antagonize) the
+normal action of the transmitter. An example of a receptor antagonist is curare,
+an arrow-tip poison traditionally used by South American Indians to paralyze
+their prey. Curare binds tightly to the ACh receptors on skeletal muscle
+cells and blocks the actions of ACh, thereby preventing muscle contraction.
+Other drugs bind to receptors, but instead of inhibiting them, they mimic
+the actions of the naturally occurring neurotransmitter. These drugs are
+called receptor agonists. An example of a receptor agonist is nicotine, derived
+from the tobacco plant. Nicotine binds to, and activates, the ACh receptors
+in skeletal muscle. In fact, the ACh-gated ion channels in muscle
+are also called nicotinic ACh receptors, to distinguish them from other
+types of ACh receptors, such as those in the heart, that are not activated
+by nicotine. There are also nicotinic ACh receptors in the CNS, and these
+are involved in the addictive effects of tobaccco use.
+The immense chemical complexity of synaptic transmission makes it especially
+susceptible to the medical corollary of Murphy’s law, which states
+that if a physiological process can go wrong, it will go wrong. When chemical
+synaptic transmission goes wrong, the nervous system malfunctions.
+Defective neurotransmission is believed to be the root cause of a large number
+of neurological and psychiatric disorders. The good news is that, thanks
+to our growing knowledge of the neuropharmacology of synaptic transmission,
+clinicians have new and increasingly effective therapeutic drugs for
+treating these disorders. We’ll discuss the synaptic basis of some psychiatric
+disorders, and their neuropharmacological treatment, in Chapter 22.
+Most CNS neurons receive thousands of synaptic inputs that activate different
+combinations of transmitter-gated ion channels and G-protein-coupled
+receptors. The postsynaptic neuron integrates all these complex ionic
+and chemical signals and gives rise to a simple form of output: action potentials.
+The transformation of many synaptic inputs to a single neuronal
+output constitutes a neural computation. The brain performs billions of
+neural computations every second we are alive. As a first step toward understanding
+how neural computations are performed, let’s explore some
+basic principles of synaptic integration. Synaptic integration is the process
+by which multiple synaptic potentials combine within one postsynaptic
+neuron.
+The most elementary postsynaptic response is the opening of a single
+transmitter-gated channel (Figure 5.17). Inward current through these
+channels depolarizes the postsynaptic membrane, causing the EPSP. The
+postsynaptic membrane of one synapse may have from a few tens to several
+thousands of transmitter-gated channels; how many of these are activated
+during synaptic transmission depends mainly on how much neurotransmitter
+is released.
+Quantal Analysis of EPSPs. The elementary unit of neurotransmitter release
+is the contents of a single synaptic vesicle. Vesicles each contain about
+the same number of transmitter molecules (several thousand); the total
+amount of transmitter released is some multiple of this number. Consequently,
+the amplitude of the postsynaptic EPSP is some multiple of the response
+to the contents of a single vesicle. Stated another way, postsynaptic
+EPSPs at a given synapse are quantized; they are multiples of an indivisible
+unit, the quantum, that reflects the number of transmitter molecules in a
+single synaptic vesicle and the number of postsynaptic receptors available
+at the synapse.
+At many synapses, exocytosis of vesicles occurs at some very low rate in
+the absence of presynaptic stimulation. The size of the postsynaptic response
+to this spontaneously released neurotransmitter can be measured
+electrophysiologically. This tiny response is a miniature postsynaptic
+potential, often called simply a “mini.” Each mini is generated by the
+transmitter contents of one vesicle. The amplitude of the postsynaptic EPSP
+evoked by a presynaptic action potential, then, is simply an integer multiple
+(i.e., 1, 2, 3, etc.) of the mini amplitude.
+Quantal analysis, a method of comparing the amplitudes of miniature
+and evoked postsynaptic potentials, can be used to determine how many
+vesicles release neurotransmitter during normal synaptic transmission.
+Quantal analysis of transmission at the neuromuscular junction reveals that
+a single action potential in the presynaptic terminal triggers the exocytosis
+of about 200 synaptic vesicles, causing an EPSP of 40 mV or more. At many
+CNS synapses, in striking contrast, the contents of only a single vesicle are
+released in response to a presynaptic action potential, causing an EPSP of
+only a few tenths of a millivolt.
+EPSP Summation. The difference between excitatory transmission at
+neuromuscular junctions and CNS synapses is not surprising. The neuromuscular
+junction has evolved to be fail-safe; it needs to work every time,
+and the best way to ensure this is to generate an EPSP of a huge size. On
+the other hand, if every CNS synapse were, by itself, capable of triggering
+an action potential in its postsynaptic cell (as the neuromuscular junction
+can), then a neuron would be little more than a simple relay station. Instead,
+most neurons perform more sophisticated computations, requiring
+that many EPSPs add together to produce a significant postsynaptic depolarization.
+This is what is meant by integration of EPSPs.
+EPSP summation represents the simplest form of synaptic integration
+in the CNS. There are two types of summation: spatial and temporal. Spatial
+summation is the adding together of EPSPs generated simultaneously at
+many different synapses on a dendrite. Temporal summation is the
+adding together of EPSPs generated at the same synapse if they occur in
+rapid succession, within about 1–15 msec of one another (Figure 5.18).
+Even with the summation of several EPSPs out on a dendrite, the depolarization
+still may not be enough to cause a neuron to fire an action potential.
+The current entering at the sites of synaptic contact must spread
+down the dendrite, through the soma, and cause the membrane of the
+spike-initiation zone to be depolarized beyond threshold, before an action
+potential can be generated. The effectiveness of an excitatory synapse in
+triggering an action potential, therefore, depends on how far the synapse
+is from the spike-initiation zone and on the properties of the dendritic
+membrane.
+Dendritic Cable Properties. To simplify the analysis of how dendritic
+properties contribute to synaptic integration, let’s assume that dendrites
+function as cylindrical cables that are electrically passive; that is, lacking
+voltage-gated ion channels (in contrast, of course, with axons). Using an
+analogy introduced in Chapter 4, imagine that the influx of positive charge
+at a synapse is like turning on the water that will flow down a leaky garden
+hose (the dendrite). There are two paths the water can take: One is
+down the inside of the hose; the other is through the leaks. By the same
+token, there are two paths that synaptic current can take: One is down the
+inside of the dendrite; the other is across the dendritic membrane. At some
+distance from the site of current influx, the EPSP amplitude may approach
+zero because of the dissipation of the current across the membrane.
+The decrease in depolarization as a function of distance along a dendritic
+cable is plotted in Figure 5.19. In order to simplify the mathematics, in this
+example we assume the dendrite is infinitely long, unbranched, and uniform
+in diameter. Notice that the amount of depolarization falls off exponentially
+with increasing distance. Depolarization of the membrane at a
+given distance (Vx) can be described by the equation Vx  Vo/ex/	, where
+Vo is depolarization at the origin (just under the synapse), e ( 2.718...) is
+the base of natural logarithms, x is the distance from the synapse, and l is
+a constant that depends on the properties of the dendrite. Notice that when
+x  	, then Vx  Vo/e. Put another way, V	  0.37 (Vo). This distance 	,
+where the depolarization is 37% of that at the origin, is called the dendritic
+length constant. (Remember that this analysis is an oversimplification.
+Real dendrites have finite lengths, branches, and tend to taper, all of which
+also affect the spread of current, and thus the effectiveness of synaptic
+potentials.)
+The length constant is an index of how far depolarization can spread
+down a dendrite or axon. The longer the length constant, the more likely
+it is that EPSPs generated at distant synapses will depolarize the membrane
+at the axon hillock. The value of 	 in our idealized, electrically passive dendrite
+depends on two factors: (1) the resistance to current flowing longitudinally
+down the dendrite, called the internal resistance (ri); and (2) the
+resistance to current flowing across the membrane, called the membrane
+resistance (rm). Most current will take the path of least resistance; therefore,
+the value of 	 will increase as membrane resistance increases because
+more depolarizing current will flow down the inside of the dendrite. The
+value of 	 will decrease as internal resistance increases because more current
+will flow across the membrane. Just as water will flow farther down
+a wide hose with few leaks, synaptic current will flow farther down a wide
+dendrite (low ri) with few open membrane channels (high rm).
+The internal resistance depends only on the diameter of the dendrite and
+the electrical properties of the cytoplasm; consequently, it is relatively constant
+in a mature neuron. The membrane resistance, in contrast, depends on
+the number of open ion channels, which changes from moment to moment
+depending on what other synapses are active. The dendritic length constant,
+therefore, is not constant at all! As we will see in a moment, fluctuations
+in the value of l are an important factor in synaptic integration.
+Excitable Dendrites. Our analysis of dendritic cable properties made another
+important assumption: The dendrite’s membrane is electrically passive,
+which means it lacks voltage-gated channels. Some dendrites in the
+brain have nearly passive and inexcitable membranes, and thus follow the
+simple cable equations. The dendrites of spinal motor neurons, for example,
+are very close to passive. However, many other neuronal dendrites are
+decidedly not passive. A variety of neurons have dendrites with significant
+numbers of voltage-gated sodium, calcium, and potassium channels. Dendrites
+rarely have enough ion channels to generate fully propagating action
+potentials, as in axons. But the voltage-gated channels in dendrites can act
+as important amplifiers of small postsynaptic potentials generated far out
+on dendrites. EPSPs that would diminish to near nothingness in a long, passive
+dendrite may nevertheless be large enough to trigger the opening of
+voltage-gated sodium channels, which in turn would add current to boost
+the synaptic signal along toward the soma.
+Paradoxically, in some cells dendritic sodium channels may also serve to
+carry electrical signals in the other direction—from the soma outward along
+dendrites. This may be a mechanism by which synapses on dendrites are
+informed that a spike occurred in the soma, and it has relevance for hypotheses
+about the cellular mechanisms of learning that will be discussed
+in Chapter 25.
+So far, we’ve seen that whether or not an EPSP contributes to the action
+potential output of a neuron depends on several factors, including the
+number of coactive excitatory synapses, the distance the synapse is from
+the spike-initiation zone, and the properties of the dendritic membrane. Of
+course, not all synapses in the brain are excitatory. The action of some
+synapses is to take the membrane potential away from action potential
+threshold; these are called inhibitory synapses. Inhibitory synapses exert a
+powerful control over a neuron’s output (Box 5.6).
+IPSPs and Shunting Inhibition. The postsynaptic receptors under most
+inhibitory synapses are very similar to those under excitatory synapses;
+they’re transmitter-gated ion channels. The only important differences are
+that they bind different neurotransmitters (either GABA or glycine) and
+that they allow different ions to pass through their channels. The transmitter-
+gated channels of most inhibitory synapses are permeable to only
+one natural ion, Cl. Opening of the chloride channel allows Cl ions to
+cross the membrane in a direction that brings the membrane potential toward
+the chloride equilibrium potential, ECl, about 65 mV. If the membrane
+potential were less negative than 65 mV when the transmitter was
+released, activation of these channels would cause a hyperpolarizing IPSP.
+Notice that if the resting membrane potential were already 65 mV, no
+IPSP would be visible after chloride channel activation because the value of
+the membrane potential would already equal ECl (i.e., the reversal potential
+for that synapse; see Box 5.4). If there is no visible IPSP, is the neuron
+really inhibited? The answer is yes. Consider the situation illustrated in Figure
+5.20, with an excitatory synapse on a distal segment of dendrite and
+an inhibitory synapse on a proximal segment of dendrite, near the soma.
+Activation of the excitatory synapse leads to the influx of positive charge
+into the dendrite. This current depolarizes the membrane as it flows toward
+the soma. At the site of the active inhibitory synapse, however, the membrane
+potential is approximately equal to ECl, 65 mV. Positive current
+therefore flows outward across the membrane at this site to bring Vm to
+65 mV. This synapse acts as an electrical shunt, preventing the current
+from flowing through the soma to the axon hillock. This type of inhibition
+is called shunting inhibition. The actual physical basis of shunting inhibition
+is the inward movement of negatively charged chloride ions, which is formally
+equivalent to outward positive current flow. Shunting inhibition is like
+cutting a big hole in the leaky garden hose—all the water flows down this
+path of least resistance, out of the hose, before it gets to the nozzle where
+it can “activate” the flowers in your garden.
+A flash of lightning . . . a thunderclap . . . a tap on the shoulder
+when you think you’re alone! If you are not expecting
+them, any of these stimuli can make you jump, grimace,
+hunch your shoulders, and breathe faster.We all know the
+brief but dramatic nature of the startle response.
+Luckily, when lightning strikes twice or a friend taps our
+shoulder again, we tend to be much less startled the second
+time. We quickly habituate, and relax. However, for
+an unfortunate minority of mice, cows, dogs, horses, and
+people, life is a succession of exaggerated startle responses.
+Even normally benign stimuli, such as hands clapping or a
+touch to the nose, may trigger an uncontrollable stiffening
+of the body, an involuntary shout, flexion of the arms
+and legs, and a fall to the ground.Worse yet, these overdone
+responses don’t adapt when the stimuli are repeated.
+The clinical term for startle disease is hyperekplexia, and
+the first recorded cases were members of a community
+of French-Canadian lumberjacks in 1878. Hyperekplexia is
+an inherited condition, seen worldwide, and its sufferers
+are known by colorful local names: the “Jumping Frenchmen
+of Maine” (Quebec), “myriachit” (Siberia), “latah”
+(Malaysia), and “Ragin’ Cajuns” (Louisiana).
+We now know the molecular basis for two general
+types of startle diseases. Remarkably, both involve defects
+of inhibitory glycine receptors.The first type, identified in
+humans and in a mutant mouse called spasmodic, is caused
+by a mutation of a gene for the glycine receptor. The
+change is the smallest one possible—the abnormal receptors
+have only one amino acid (out of more than 400)
+coded wrong—but the result is a chloride channel that
+opens less frequently when exposed to the neurotransmitter
+glycine. The second type of startle disease is seen
+in the mutant mouse spastic and in a strain of cattle. In
+these animals, normal glycine receptors are expressed, but
+in fewer than normal numbers. The two forms of startle
+disease thus take different routes to the same unfortunate
+end: The transmitter glycine is less effective at inhibiting
+neurons in the spinal cord and brain stem.
+Most neural circuits depend on a delicate balance of
+synaptic excitation and inhibition for normal functioning.
+If excitation is increased or inhibition reduced, then a turbulent
+and hyperexcitable state may result. An impairment
+of glycine function yields exaggerated startles; reduced
+GABA function can lead to the seizures of epilepsy (as
+discussed in Chapter 14). How can such diseases be
+treated? There is often a clear and simple logic. Drugs that
+enhance inhibition can be very helpful.
+The genetic mutations of the glycine system resemble
+strychnine poisoning. Strychnine is a powerful plant toxin,
+first isolated in the early nineteenth century. It has traditionally
+been used by farmers to eradicate pesky rodents
+and by murderers. Strychnine has a simple mechanism of
+action: It is an antagonist of glycine at its receptor. Mild
+strychnine poisoning enhances startle and other reflexes,
+and resembles hyperekplexia. High doses nearly eliminate
+glycine-mediated inhibition in circuits of the spinal cord and
+brain stem. This leads to uncontrollable seizures and
+unchecked muscular contractions, spasm and paralysis of
+the respiratory muscles, and ultimately death from asphyxiation.
+It is a painful, agonizing way to die; because glycine is
+not a transmitter in the higher centers of the brain, strychnine
+itself does not impair cognitive or sensory functions.
+Thus, you can see that the action of inhibitory synapses also contributes
+to synaptic integration. The IPSPs can be subtracted from EPSPs, making
+the postsynaptic neuron less likely to fire action potentials. In addition,
+shunting inhibition acts to drastically reduce rm and consequently 	, thus
+allowing positive current to flow out across the membrane instead of internally
+down the dendrite toward the spike-initiation zone.
+The Geometry of Excitatory and Inhibitory Synapses. Inhibitory
+synapses in the brain that use GABA or glycine as a neurotransmitter always
+have a morphology characteristic of Gray’s type II (see Figure 5.7b). This
+structure contrasts with excitatory synapses that use glutamate, which always
+have a Gray’s type I morphology. This correlation between structure and
+function has been useful for working out the geometric relationships among
+excitatory and inhibitory synapses on individual neurons. In addition to
+being spread over the dendrites, inhibitory synapses on many neurons are
+found clustered on the soma and near the axon hillock, where they are in an especially powerful position to influence the activity of the postsynaptic
+neuron.
+Most of the postsynaptic mechanisms we’ve discussed so far involve transmitter
+receptors that are, themselves, ion channels. To be sure, synapses
+with transmitter-gated channels carry the bulk of the specific information
+that is processed by the nervous system. However, there are many synapses
+with G-protein-coupled neurotransmitter receptors that are not directly associated
+with an ion channel. Synaptic activation of these receptors does
+not directly evoke EPSPs and IPSPs, but instead modifies the effectiveness of
+EPSPs generated by other synapses with transmitter-gated channels. This
+type of synaptic transmission is called modulation. We’ll give you a taste
+for how modulation influences synaptic integration by exploring the effects
+of activating one type of G-protein-coupled receptor in the brain, the
+norepinephrine beta (
+) receptor.
+The binding of the amine neurotransmitter norepinephrine (NE) to the
+
+ receptor triggers a cascade of biochemical events within the cell. In short,
+the 
+ receptor activates a G-protein that, in turn, activates an effector protein,
+the intracellular enzyme adenylyl cyclase. Adenylyl cyclase catalyzes
+the chemical reaction that converts adenosine triphosphate (ATP), the
+product of oxidative metabolism in the mitochondria, into a compound
+called cyclic adenosine monophosphate, or cAMP, that is free to diffuse
+within the cytosol. Thus, the first chemical message of synaptic transmission
+(the release of NE into the synaptic cleft) is converted by the 
+ receptor
+into a second message (cAMP); cAMP is an example of a second
+messenger.
+The effect of cAMP is to stimulate another enzyme known as a protein
+kinase. Protein kinases catalyze a chemical reaction called phosphorylation,
+the transfer of phosphate groups (PO3) from ATP to specific sites on
+cell proteins (Figure 5.21). The significance of phosphorylation is that it can
+change the conformation of a protein, thereby changing that protein’s activity.
+In some neurons, one of the proteins that is phosphorylated when cAMP
+rises is a particular type of potassium channel in the dendritic membrane.
+Phosphorylation causes this channel to close, thereby reducing the membrane
+K conductance. By itself, this does not cause any dramatic effects on the
+neuron. But consider the wider consequence: decreasing the K+ conductance
+increases the dendritic membrane resistance and therefore increases the length constant.
+It is like wrapping the leaky garden hose in duct tape; more water can
+flow down the inside of the hose and less leaks out the sides. As a consequence
+of increasing 	, distant or weak excitatory synapses will become
+more effective in depolarizing the spike-initiation zone beyond threshold;
+the cell will become more excitable. Thus, the binding of NE to 
+ receptors
+produces little change in membrane potential but greatly increases the
+response produced by another neurotransmitter at an excitatory synapse.
+Because this effect involves several biochemical intermediaries, it can last
+far longer than the presence of the modulatory transmitter itself.
+We have described one particular G-protein-coupled receptor and the
+consequences of activating it in one type of neuron. But it is important to
+recognize that other types of receptor can lead to the formation of other
+types of second messenger molecules. Activation of each of these receptor
+types will initiate a distinct cascade of biochemical reactions in the postsynaptic
+neuron that do not always include phosphorylation and decreases
+in membrane conductance. In fact, cAMP in a different cell type with different
+enzymes may produce functionally opposite changes in the excitability
+of cells.
+In Chapter 6, we will describe more examples of synaptic modulation
+and their mechanisms. However, you can already see that modulatory
+forms of synaptic transmission offer an almost limitless number of ways
+that information encoded by presynaptic impulse activity can be transformed
+and used by the postsynaptic neuron.
+In this chapter, we have covered the basic principles of chemical synaptic
+transmission. The action potential that arose in the sensory nerve when
+you stepped on that thumbtack in Chapter 3, and swept up the axon in
+Chapter 4, has now reached the axon terminal in the spinal cord. The depolarization
+of the terminal triggered the presynaptic entry of Ca2 through
+voltage-gated calcium channels, which then stimulated exocytosis of the
+contents of synaptic vesicles. Liberated neurotransmitter diffused across the
+synaptic cleft and attached to specific receptors in the postsynaptic membrane.
+The transmitter (probably glutamate) caused transmitter-gated channels
+to open, which allowed positive charge to enter the postsynaptic dendrite.
+Because the sensory nerve was firing action potentials at a high rate,
+and because many synapses were activated at the same time, the EPSPs
+summed to bring the spike-initiation zone of the postsynaptic neuron to
+threshold, and this cell then generated action potentials. If the postsynaptic
+cell were a motor neuron, this activity would cause the release of ACh
+at the neuromuscular junction and muscle contraction. If the postsynaptic
+cell were an interneuron that used GABA as a neurotransmitter, the activity
+of the cell would result in inhibition of its synaptic targets. If this cell used
+a modulatory transmitter such as NE, the activity could cause lasting changes
+in the excitability or metabolism of its synaptic targets. It is this rich diversity
+of chemical synaptic interactions that allows complex behaviors (such
+as shrieking with pain as you jerk up your foot) to emerge from simple
+stimuli (such as stepping on a thumbtack).
+Although we surveyed chemical synaptic transmission in this chapter, we
+did not cover the chemistry of synaptic transmission in any detail. In Chapter
+6, we’ll take a closer look at the chemical “nuts and bolts” of different
+neurotransmitter systems. In Chapter 15, after we’ve examined the sensory
+and motor systems in Part II, we’ll explore the contributions of several different
+neurotransmitters to nervous system function and behavior. You’ll
+see that the chemistry of synaptic transmission warrants all this attention
+because defective neurotransmission is the basis for many neurological and
+psychiatric disorders. And virtually all psychoactive drugs, both therapeutic
+and illicit, exert their effects at chemical synapses.
+In addition to providing explanations for aspects of neural information
+processing and the effects of drugs, knowledge of chemical synaptic transmission
+is also the key to understanding the neural basis of learning and
+memory. Memories of past experiences are established by modification of the
+effectiveness of chemical synapses in the brain. Material discussed in this
+chapter suggests possible sites of modification, ranging from changes in presynaptic
+Ca2 entry and neurotransmitter release to alterations in postsynaptic
+receptors or excitability. As we shall see in Chapter 25, all of these changes
+are likely to contribute to the storage of information by the nervous system.

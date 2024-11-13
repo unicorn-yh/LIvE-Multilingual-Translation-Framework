@@ -1,0 +1,554 @@
+Circadian rhythms in multiple aspects of cellular physiology help organisms across
+taxa, from unicellular cyanobacteria to multicellular animals, adapt to environmental
+day–night changes (1, 2). In mammals, neurons in the hypothalamic suprachiasmatic
+nucleus (SCN) show circadian rhythms in gene expression, intracellular calcium, neural
+activity, and other cellular properties (3). Circadian rhythms in SCN neuronal outputs
+coordinate circadian rhythms in other cells throughout the body and generate behavioral
+rhythms (4). The rhythms of SCN neuronal outputs can be generated cell intrinsically
+by the negative transcription/translation feedback loop of core clock genes as a
+molecular clock, which then generates 24-h oscillations in a series of genes (1, 5–7).
+These gene oscillations then regulate different aspects of membrane physiology, such as
+the expression levels of channels for potassium, sodium, and calcium (8–12). The
+mechanisms by which the molecular clockworks coordinate complex membrane physiology
+to generate neural activity rhythms within individual circadian pacemakers
+remain to be defined.
+Calcium signaling regulates many cellular processes, such as neural excitability, neurotransmitter
+release, and gene expression (13). Cytoplasmic calcium can be regulated
+from extracellular calcium influx as well as from intracellular calcium stored in the
+endoplasmic reticulum (ER) and mitochondria (14). Studies on SCN neurons in vitro
+(15, 16) and recently, in vivo (17) measured circadian calcium rhythms (CCRs) in
+SCN neurons. Some studies suggested that calcium rhythms were driven by neuronal
+firing and voltage-gated calcium channels (15, 18), while others suggested they were
+driven by intracellular stores via the ER channel ryanodine receptor (RyR) (16). These
+alternative hypotheses may derive from the technical differences in the various studies,
+including the details of in vitro preparations, but also, due to a lack of single-cell resolution
+in the calcium measurements.
+In Drosophila, circadian pacemaker neurons also show clock-driven CCRs (19). The
+dynamics can be resolved across all five major pacemaker groups (the small ventral lateral
+neurons [s-LNv], the large ventral lateral neurons [l-LNv], the dorsal lateral neurons
+[LNd], the group #1 dorsal neurons [DN1], and the group #3 Dorsal Neurons
+[DN3]), and each group exhibits distinct and sequential daily peak phases. Within
+such groups, the rhythms can be measured in single identified cells (19). The multihour
+phase diversity exhibited by this network requires a series of delays effected by
+environmental light and by noncell-autonomous modulation mediated by different
+neuropeptides (20). Precisely how neuropeptide signaling regulates calcium activity in
+pacemaker neurons over long (many-hour) durations is
+unknown. To begin to understand these critical mechanisms of
+pacemaker modulation, we begin by addressing the cellular and
+molecular basis of pacemaker calcium rhythms with physiological,
+genetic, and behavioral measures.
+In this study, we again used in vivo calcium imaging at
+single-cell resolution, here using a high-speed light-sheet microscope
+termed OCPI-2 (21); the acronym OCPI stands for
+objective-coupled planar illumination. OCPI-2 represents a
+fundamental technical advance because it permits sampling frequencies
+to capture stacks of large tissue volumes, without
+compromising photon efficiency or spatial resolution. Whereas
+OCPI-1 methods permitted us to sample a whole-brain volume
+once every 10 min across the 24-h day, OCPI-2 methods permit
+us to sample volumetrically at rates as high as 5 Hz. Thus,
+we simultaneously measured both basal calcium levels and fast
+calcium fluctuations at single-cell resolution over entire 24-h
+durations. We found circadian rhythmicity in both measures.
+We consider the fast fluctuations to represent events closely
+coupled to neuronal firing, as have previous studies conducted
+in much more restricted temporal durations (i.e., not circadian)
+(e.g., refs. 22–26). In all the Drosophila pacemaker neurons we
+studied, these two layers of calcium rhythms shared the same
+daily temporal pattern (i.e., they were cophasic). To gain
+insights into the mechanism of these patterns, we exploited the
+fact that in Drosophila, many calcium channels are encoded by
+single genes (14), and we used genetics to study the roles of
+individual channels in generating daily pacemaker calcium
+rhythms. Here, we present results of experiments in which we
+knocked down RNAs encoding different calcium channels
+selectively in all or a subset of pacemakers. We evaluated the
+impact of individual channels in setting both slow daily changes
+in basal calcium levels and in fast fluctuations. Finally, we measured
+PERIOD (PER) protein staining levels and behavior to
+determine which channels provide feedback to the molecular
+clock and which are required for normal circadian output from
+the pacemaker network.
+Results
+The Rhythms of Slow and Fast Calcium Activity Changes
+Show Similar Daily Patterns. Previously, we reported that five
+major groups of circadian pacemaker neurons each exhibit daily
+calcium rhythms with distinct phases (19). These results stand
+in apparent contrast to descriptions of synchronous daily electrical
+activity rhythms among three of these groups: s-LNv,
+l-LNv, and DN1 (12, 27, 28). The electrical activity rhythms
+were recorded ex vivo from different brains isolated at four to
+six different time points of the day. In contrast, we measured
+calcium rhythms in vivo by scanning individual flies every 10
+min for 24 h. Because of the close peak phases of calcium
+rhythms in s-LNv, l-LNv, and DN1 (between late night to
+midmorning) (19) and because of the coarse sampling of electrophysiological
+studies, it is not certain whether calcium and
+electrical activity patterns are in fact distinct. To help clarify
+apparent differences in results derived from the two sets of
+studies, we began by performing short-term continuous in vivo
+calcium imaging (1-Hz volumetric rate) on fly brains that were
+exposed acutely before each imaging experiment at five different
+times of day. We focused on the LNd because this group has a
+phase of calcium rhythms most distinct from those of s-LNv, l-
+LNv, and DN1. In addition, the daily electrophysiological
+activity pattern of LNd has not previously been reported. We
+found that ∼0.1-Hz calcium fluctuations peaked at around the
+same ZT8 to ZT12 (ZT, Zeitgeber Time), at which time this
+pacemaker group shows peak intensity in its daily calcium
+rhythm (Fig. 1A and SI Appendix, Fig. S1). The time course of
+“fast” (by circadian standards) calcium fluctuations in the late
+day suggests they might be caused by the calcium influx that
+occurs during single action potentials or bursts of them (Fig.
+1A) (23, 24, 26). This result suggested that one or more LNd
+pacemakers exhibit a daily rhythm in electrical neural activity
+that is roughly cophasic with this pacemaker group’s slow daily
+calcium rhythm.
+Because the slow and fast calcium LNd rhythms are synchronous
+as measured, it is formally possible that one rhythm is
+downstream of the other; for example, the slow calcium rhythm
+could be the consequence of a rhythm in the fast. Alternatively,
+these two processes could be completely distinct. To better
+understand the relationships between the two and better
+describe their phases across the entire network, we performed a
+series of short-term (1-min) high-frequency (5-Hz) in vivo calcium
+imaging episodes at 1-h intervals using the light-sheet
+microscope dual-channel Objective Coupled Planar Illumination
+(OCPI-2) (21). In so doing, we tracked both slow basal
+calcium level and fast calcium fluctuations in the same individual
+neurons from all five major circadian pacemaker groups; we
+collected these data consecutively from single brains for entire
+24-h durations (Fig. 1B). To ensure minimal disruption to the
+circadian clocks due to repeated optical scanning, we used cry01
+flies for these experiments, which are null for the internal photosensitive
+protein CRYPTOCHROME (29). On average, all
+circadian neuron groups displayed slow calcium rhythms comparable
+with those we previously reported (19), except for
+l-LNv, which showed additional daily calcium activation peaks
+right after the time of lights off and again just before lights on.
+Nevertheless, all pacemaker groups displayed daily changes in
+the minimal calcium level, demonstrating that their basal calcium
+levels cycle with a daily rhythm (Fig. 1 C and D). We
+found that within all five pacemaker groups, changes in basal
+calcium levels and in fast calcium fluctuations shared similar
+daily patterns; when basal calcium levels were high within a
+single pacemaker group, that group also exhibited largeramplitude
+fast calcium fluctuations (SI Appendix, Fig. S3).
+Power spectrum analysis clearly revealed that, for individual
+neurons within each pacemaker group, calcium activity at all
+frequency domains increased when the basal calcium level was
+high (Fig. 1E). We asked whether the change in the incidence
+of high-frequency fluctuations, measured using the geneticallyencoded
+calcium reporter GCaMP6s could have a technical
+basis: specifically, whether it derives from a higher level of photon
+shot noise due to the higher baseline intensity. In order to
+normalize the effect of shot noise, we also calculated the intensity
+of the calcium signal as the square root of photon number
+collected from an individual region of interest (ROI). In this
+analysis, we still found daily rhythms in fast calcium fluctuations
+(SI Appendix, Fig. S2). These results support the hypothesis that,
+in each circadian pacemaker group, fast calcium fluctuations
+exhibit a daily rhythmic pattern that is cophasic with a slow daily
+rhythm in basal calcium levels.
+An RNAi Screen to Identify Potential Contributions of
+Different Calcium Channels. The observations described above
+support the conclusion that for individual pacemakers, slow
+and fast calcium activities covary across the day. Yet, these
+observations do not reveal whether the two rhythms are mechanistically
+linked or represent independent functions. To identify
+the sources for different calcium rhythms and ask about
+their relatedness, we used RNA interference (RNAi) methods
+to knock down different calcium channels. We performed a
+limited screen for calcium channels, including three subtypes of
+α1-subunits and one type of α2δ-subunits of voltage-gated calcium
+channels. In addition, we tested two types of storeoperated
+calcium entry, dSTIM and dOrai, and two types of
+calcium channels on the ER, RyR and inositol trisphosphate
+receptor (Itpr); finally, we included the sarco/endoplasmic reticulum
+calcium pump (SERCA). By knocking down these genes
+selectively in circadian pacemaker neurons using tim-GAL4 or
+in a subset of eight pacemaker neurons that express the
+pigment dispersing factor neuropeptide (PDF) using pdf-GAL4,
+we first tested whether any of these genes are required for
+normal circadian behavioral rhythms. We found evidence for
+the involvement of three (Fig. 2 and Table 1) as indicated by
+increases in the percentage of arrhythmic (AR) flies tested
+under constant darkness (DD). Reduced expression of the α1T
+channel, which encodes the α1-subunit for the T-type voltagegated
+calcium channel, caused the strongest behavioral
+arrhythmicity when driven by either pdf-GAL4 or tim-GAL4
+(65 and 83%, respectively) with one of the two RNAi lines
+tested (KK100082). Likewise, knockdown of expression of the
+SERCA calcium pump caused strong arrhythmicity in two
+different RNAi lines. Yet, knocking down SERCA with the
+stronger RNAi line in all circadian pacemakers by tim-GAL4
+also shortened the flies’ life spans; 69% of flies died during
+behavioral experiments. Knockdown of another calcium
+channel on the ER membrane, Itpr, also affected the circadian
+rhythm in behavior when driven by tim-GAL4. These
+behavioral deficits suggested that α1T, SERCA, and ITPR
+might be involved in the regulation of calcium rhythms in
+circadian pacemaker neurons.
+Slow Calcium Rhythms Require inositol trisphosphate
+receptor (ITPR). We then asked whether the α1T, SERCA, and
+ITPR channels that regulate circadian behavior also influence
+calcium rhythms. We measured GCaMP6 fluorescence during
+in vivo 24-h recordings in Drosophila knockdowns in all circadian
+neurons or in just the subset of PDF-positive ones (Fig.
+3). Although knocking down α1T caused the strongest behavioral
+deficits, the slow calcium rhythms of all pacemaker neuron
+groups in these flies were similar to those in the control genotypes.
+The amplitude of calcium rhythms in flies with α1T
+knocked down in all pacemaker neurons showed a nonsignificant
+trend of decrease to 59.3% on average (SI Appendix, Fig.
+S5A), while their activity phases were still normal (Fig. 3D and
+SI Appendix, Fig. S4). In contrast, when SERCA was knocked
+down in PDF neurons (Fig. 3E) or in all circadian neurons
+(Fig. 3F) (using the stronger RNAi line KK107371), the slow
+calcium activities of these neurons were largely AR. The amplitudes
+of calcium fluctuations were decreased to 37.8% on average
+(SI Appendix, Fig. S3), and the coherence was lost within
+groups (Rayleigh test, P > 0.2). Likewise, the calcium rhythms
+were still normal when Itpr was knocked down in PDF neurons
+(Fig. 3G) but became largely AR when Itpr was knocked down
+in all circadian neurons (Fig. 3H). In the latter case, the coherence
+of peak phase was lost within groups (Rayleigh test, P >
+0.1), consistent with the behavioral phenotypes of the two
+manipulations for Itpr RNAi. Together, these results implicate
+SERCA and IP3R channel activities as essential for slow calcium
+rhythms and suggest that the ER may be a key calcium
+source for the daily fluctuations of the basal calcium levels in
+circadian pacemaker neurons.
+Because the slow calcium rhythms are driven by molecular
+clock gene oscillations (19), we asked whether the molecular
+clock controls slow calcium rhythms by regulating SERCA
+and/or ITPR levels. If SERCA and Itpr are downstream of the
+molecular clock, knocking down these genes would affect calcium
+rhythms and behavior but not affect the molecular clock
+itself. We examined PER protein levels in all five circadian
+pacemaker groups at four 12-h light:12-h dark (LD) time
+points, and we found that PER cycling appeared robust in Itpr
+knockdown flies but was clearly diminished in SERCA knockdown
+flies (Fig. 4). Therefore, in this system, only Itpr appears
+to operate principally downstream of the molecular clock and is
+necessary to generate daily rhythms in basal calcium levels.
+Fast Calcium Fluctuations Require α1T Calcium Channels and
+ITPR. Knocking down the RNA for α1T voltage-gated calcium
+channels in pacemaker neurons impaired circadian rhythms in
+behavior but did not affect circadian rhythmicity in basal
+calcium levels within those neurons. Therefore, we next asked
+whether α1T may underlie the circadian rhythm of fast calcium
+fluctuations in pacemakers. To test this, we again performed
+imaging across a series of short-term (2-min) high-frequency
+(1-Hz) calcium measurements on the same flies for a 24-h day
+with 1-h intervals (similar to Fig. 1 yet with a slightly lower
+sampling rate and using flies that were wild type for cry). By
+comparing control Drosophila with those with α1T knocked
+down in all circadian pacemaker neurons by tim-GAL4, we
+found that knocking down α1T did not affect the daily
+rhythms in the basal (slow) calcium level in any pacemaker
+group except for the DN1, which showed a reduction in the
+day–night difference of the basal calcium level (Fig. 5 A–I and
+SI Appendix, Fig. S6). These high-frequency measures of slow
+basal calcium levels largely conform with those obtained with
+the slow-frequency (every 10 min) recording sessions (cf Fig.
+3D). However, the high-frequency recording revealed that fast
+calcium fluctuations were significantly reduced in all circadian
+pacemaker neurons of the α1T knockdown flies, except for
+l-LNv (Fig. 5J and SI Appendix, Fig. S7). That specific pacemaker
+group instead displayed higher levels of fast calcium fluctuations.
+These results indicated that, at least in the majority of
+circadian pacemaker neurons, α1T is required for strong daily
+rhythms in fast calcium fluctuations and that the rhythm of
+fast calcium fluctuations can be selectively impaired.
+We then asked whether the fast calcium fluctuations are also
+affected in flies with Itpr knocked down in all pacemaker neurons.
+We performed the same high-frequency calcium imaging
+and analysis in Itpr knockdown flies (Fig. 6 and SI Appendix,
+Fig. S8) as in α1T knockdown flies. The daily variation of
+pacemaker calcium was greatly reduced in Itpr knockdown flies
+(Fig. 6E), which largely recapitulated previous observations
+with less frequent sampling (cf Fig. 3H). In addition, fast calcium
+fluctuations were significantly reduced in all circadian
+pacemaker neurons of the Itpr knockdown flies (Fig. 6F and SI
+Appendix, Fig. S7). These results suggested that rhythms in
+basal calcium levels, regulated by ITPR, may be necessary for
+rhythms in fast calcium fluctuations.
+Discussion
+In this study, we used in vivo 24-h high-frequency calcium
+imaging and genetic screening to study the cellular biology of
+daily calcium rhythms in circadian pacemaker neurons of Drosophila.
+We found that the calcium rhythm is in fact a composite;
+it reflects daily fluctuations in both a slow component
+(basal levels) and a fast one (high-frequency fluctuations). We
+interpret fast calcium fluctuations as representations of calcium
+dynamics that occur as neurons fire single action potentials or
+bursts of them. While it is not sufficient to resolve single action
+potentials, GCaMP6-induced fluorescence is a good index of
+neuronal electrical activity (e.g., refs. 24 and 26). For individual
+identified pacemakers, these two calcium rhythms share the
+same daily pattern, yet distinct calcium sources appear to contribute
+differentially to these two rhythms. An extracellular calcium
+influx, through plasma membrane calcium channels that
+include the α1T subunit, is critical for the fast calcium fluctuations.
+In contrast, calcium fluxes from the ER via the channel
+ITPR are required for both the slow rhythms in the basal calcium
+levels and the fast ones. Importantly, both channels are
+essential for normal circadian behavior. Thus, the molecular
+clocks may drive circadian rhythms in pacemaker neuron output
+by regulating different calcium sources to generate coordinate
+but distinct rhythms in its calcium activities.
+CCRs are widespread across taxa (15, 30). Calcium
+rhythms are required for circadian pacemaker functions in
+both rodents and Drosophila (31, 32). Studies on mammalian
+circadian pacemakers in the SCN are controversial
+regarding the temporal relationship between the CCR and
+rhythms in electrical activity, such as in spontaneous firing
+rate (SFR) and in resting membrane potential (RMP).
+Recordings from SCN slice cultures showed that the phases
+of CCR in individual pacemakers are diverse and could be
+different from the populational phase of SFR rhythms (16,
+33). However, the populational SFR phase is composed of
+many diverse phases of SFR rhythms on the individual cell
+level (34); it is unclear whether SFR phases align with the
+phases of CCR. Imaging with both voltage sensor and calcium
+sensors in SCN slices, Brancaccio et al. (35) concluded
+that RMP rhythms and CCR were in phase, yet
+Enoki et al. (18) concluded that RMP rhythms and CCR
+were in phase in the ventral SCN but that in dorsal SCN,
+the CCR phase led the RMP rhythms by ∼2 h. Because the
+voltage sensor signal measured from dorsal SCN may derive
+from the neural processes of ventral SCN neurons, the cellular
+interpretation of these results is unclear. Another
+source for the inconsistency might be the culture conditions;
+in fact, when SCN neurons were recorded in vivo by
+photometry, the rhythms in fast calcium activity were in
+phase with slow calcium rhythms (17). In general,
+comparisons of population rhythms and rhythms in single
+cells are not easily reconciled. Our recordings that tracked
+pacemaker neurons from different identified groups in vivo
+for 24 h showed that at the single cell level, slow calcium
+rhythms (CCRs) were unambiguously in phase with
+rhythms in fast calcium fluctuations; the latter likely
+reflects rhythms in SFR (Fig. 1).
+To measure the fast calcium fluctuations, we employed a
+high-frequency light-sheet scanning microscope termed OCPI-
+2 (21). OCPI-2 resolved limitations present in previous microscope
+designs that created a bottleneck in terms of the rate at
+which tissue volumes can be repeatedly scanned. Importantly,
+it does so without compromising photon efficiency or spatial
+resolution. Its use here was instrumental in letting us sample
+the whole-brain volume at frequencies as high as 5 Hz periodically
+throughout the day. As before (19), we were mindful that
+the wavelength and amount of total incident light may activate
+pacemaker neurons and alter molecular clocks (36). We used
+cry01 flies to avoid the direct light responses of pacemaker neurons
+and found that all pacemaker groups displayed slow calcium
+rhythms, with patterns that were comparable with those
+we previously reported (19), except for that of l-LNv (Fig. 1).
+That group displayed an additional calcium peak in the early
+evening and another just before lights on. Because l-LNv innervates
+the optic lobes and receives large-scale visual inputs (37),
+we speculate that the repeated optical scanning might anomalously
+activate l-LNv in the evening via visual systems. In the
+later experiments, when we reduced the illumination duration
+per hour from 31.5 s (Fig. 1) (7-ms exposure time, 15 frames
+per stack, 5 Hz for 1 min) to 2.4 s (Figs. 5 and 6) (1-ms exposure
+time, 20 frames per stack, 1 Hz for 2 min), l-LNv did not
+show the additional evening peaks; this was true even when
+measured in flies wild type for cry. Shorter durations of light
+exposure permit all pacemaker groups to display slow calcium
+rhythms (Fig. 5A) with phases similar to those obtained with
+the slow-frequency (every 10-min) recording sessions (cf Fig.
+3B and ref. 19). Therefore, the concern to avoid technical artifacts
+when imaging from light-sensitive pacemaker appears
+especially acute in the case of l-LNv. Nevertheless, by carefully
+tuning the illumination intensity for calcium imaging, we propose
+that it is possible to monitor normal slow calcium rhythms
+and fast calcium fluctuations from the same individual pacemaker
+neurons.
+The causal relationships between clock gene rhythms, calcium
+rhythms, and electrical activity rhythms in the SCN remain generally
+unresolved. Treating SCN slices with Tetrodotoxin (TTX, to
+block Na-dependent action potentials) diminished SFR rhythms
+(16), partially affected RMP rhythms and CCRs (18, 33, 38), and
+slowly affected clock gene rhythms over several days (39).
+Dispersed SCN cells in vitro showed a TTX-resistant CCR, suggesting
+that CCR is driven by clock gene rhythms (40). Thus, the
+variation in CCR sensitivity to TTX treatment might be caused
+by the degree to which clock gene rhythms in vitro become progressively
+dysfunctional. In Drosophila, our findings suggested that
+clock gene rhythms drive two components of the CCR—both
+basal calcium levels and fast calcium fluctuations—via circadian
+regulation of the ER channel ITPR and membrane voltage-gated
+calcium channel α1T. Both channels might then contribute to
+SFR and RMP rhythms. Similarly, in SCN pacemakers, pharmacologically
+blocking another ER channel RyR affected both CCR
+and SFR rhythms (16), suggesting that rhythms in basal calcium
+levels are regulated by calcium from ER and are required for fast
+electric activity rhythms. In addition, SCN pacemakers also
+showed a circadian rhythm in fast calcium activity mediated by
+L-type voltage-gated calcium channels (8). Pharmacologically
+blocking these membrane channels affected SFR rhythms and in
+some case, affected CCR (16, 18). In our studies, manipulating a
+membrane voltage-gated calcium channel in all or a subset of
+pacemakers selectively affected rhythms in fast calcium fluctuations,
+which likely reflected SFR rhythms and thus, impaired circadian
+outputs; however, it did not significantly affect the slow
+rhythms in basal calcium levels (Fig. 5). Manipulating the ER calcium
+channel IP3R in all pacemakers affected rhythms in both
+slow and fast calcium rhythms. Therefore, in parallel to mammalian
+SCN neurons, Drosophila circadian pacemakers generate calcium
+rhythms by regulating both ER and extracellular calcium
+sources. Since our results suggest little or no role for the RyR
+channel (Fig. 2B), the daily rhythmic regulation in fly pacemakers
+likely acts on a different set of ER and cytoplasmic membrane
+channels from those in mammalian pacemakers.
+We also presented RNAi evidence implicating the Itpr and
+Ca-alpha1T genes in pacemaker cell calcium fluxes. However,
+for each, only a single RNAi proved effective in reducing rhythmic
+power and increasing percentage of arrhythmicity. Corroboration
+for our findings is provided by a prior report (41),
+which found that the same RNAi line we used decreases Itpr
+RNA levels. Likewise, we find corroboration in a prior report
+by Jeong et al. (42), who described a specific Ca-alpha1T insertion
+line as a protein null mutation that exhibited reduced percentage
+of rhythmicity and power in DD but without a change
+in circadian period or in the daily per rhythm. They concluded
+that Ca-alpha1T expression does not affect the central clock
+mechanism and surmised instead that it likely affects the output
+of the circadian system, specifically via a requirement for the
+channel to permit normal physiological activation of pacemaker
+neurons. That work provides independent genetic confirmation
+of our RNAi results, and its conclusions align precisely with
+our own.
+The RNAi knockdown experiments indicate a role for the
+ER calcium channel SERCA in supporting slow calcium
+rhythms in Drosophila pacemakers and behavioral rhythms.
+However, SERCA knockdown also produced high rates of
+lethality and among survivors, strong effects on the PER molecular
+oscillation. We conclude that SERCA, which maintains the
+ER cytoplasmic calcium gradient, is essential for the normal
+physiology of the cells but that these additional phenotypes precluded
+an assessment of its precise role in circadian rhythmicity.
+In contrast to the situation with SERCA, our results support a
+hypothesis that ITPR is a crucial actuator of the molecular
+clock. Previous transcriptomic analysis also supports that possibility;
+in circadian neurons, Itpr displays rhythmic expression,
+while SERCA does not (SI Appendix, Fig. S9) (43). Knocking
+down Itpr in all circadian neurons (with tim-GAL4) generally
+caused stronger deficits in both behavioral rhythms and calcium
+rhythms than in just the PDF-positive neurons (with pdf-
+GAL4). One possibility might be that the RNAi expression
+level is lower when driven by pdf-GAL4 than when driven by
+tim-GAL4. However, in SI Appendix, Fig. S5A, knocking down
+Itpr in all circadian neurons caused stronger deficits in the
+amplitude of calcium rhythms of non–PDF-positive neurons
+(LNd, DN1, and DN3) than in those of PDF-positive neurons
+(s-LNv and l-LNv). Hence, a difference in the vulnerability to
+IP3R disruption between PDF-negative and PDF-positive neurons
+might provide an additional or alternative explanation for
+why the pdf-GAL4–driven knockdown of Itpr affected neither
+calcium rhythms nor behavior. We also note that the literature
+provides examples, wherein a single RNAi line produces stronger
+behavioral effects when coupled with pdf-Gal4 than with
+tim-GAL4 (e.g., ref. 44). Such findings suggest that the final
+result in such experiments will represent a mixture of GAL4
+driver line strength and the differential contributions of the
+UAS:Responder gene product across different positions within
+an affected neural circuit.
+Finally, the RNAi knockdown of the plasma membrane calcium
+channel α1T indicated a role for voltage-gated T-type calcium
+channels in the final rhythmic output of the pacemakers.
+Consistent with a role in the presumed output pathway,
+impairing the rhythm of fast calcium activity strongly affected
+circadian behavior but did not affect the molecular clock (42)
+or the slow calcium rhythms. T-type channels play a crucial
+role in other pacemakers, such as the Sino-Atrial node of the
+mammalian heart (45, 46). Their conduction in the hyperpolarized
+state and closure at more depolarized potentials are central
+to their role in generating bursting dynamics with periods
+much longer than the membrane time constant (47). Given the
+power spectrum of the fluctuations we observed, it seems possible
+that α1T channels play a similar role in the fast (∼0.1-Hz)
+fluctuations of Drosophila circadian neurons. Remarkably, the
+expression of α1T also displays a circadian rhythm, with distinct
+phases in different groups of pacemaker neurons (SI
+Appendix, Fig. S9) (43). Collectively, these results suggest that
+Itpr and α1T channel activity are together critical to produce
+clock regulation of rhythms in both slow and fast calcium activities
+of key pacemaker neurons.
+Materials and Methods
+Fly Stocks. Flies were reared on standard yeast-supplemented cornmeal/agar
+food at room temperature. After eclosion, male flies were entrained under LD
+cycles at 25 °C for at least 3 d. The tim > GCaMPS6s; cry01/01 flies were
+entrained under LD for more than 6 d.
+The following fly lines were previously described: tim(UAS)-GAL4 (48), pdf-
+GAL4 (49), cry-LexA (20), UAS-GCaMP6s, and LexAop-GCaMP6s (24). UAS-dSTIM
+and UAS-dOrai (50) were gifts from G. Hasan, National Center For Biological Sciences,
+Bengaluru, India. UAS-Itpr RNAi (41) was a gift from Mark Wu, Johns
+Hopkins University, Baltimore, MD. Stable lines UAS-dcr2; tim(UAS)-GAL4; UASGCaMP6s
+and pdf-GAL4;UAS-dcr2;cry-LexA,LexAop-GCaMP6s were created for
+RNAi screening of calcium channels. The cry-LexA line was a gift from F. Rouyer,
+National Center for Scientific Research (France), Gyf, Paris, France.
+RNAi lines were obtained from the Bloomington Drosophila Stock Center
+(BDSC) , the Vienna Drosophila Resource Center (VDRC), and the Tokyo Stock Center:
+two lines for cac (CG43368): UAS-KK101478-RNAi (VDRC 104168) and UASJF02572-
+RNAi (BDSC 27244); two lines for α1T (CG15899): UAS-KK100082-RNAi
+(VDRC 108827) and UAS-JF02150-RNAi (BDSC 26251); three lines for α1D
+(CG4894): UAS-GD1737-RNAi (VDRC 51491), UAS-JF01848-RNAi (BDSC 25830),
+and UAS-HMS00294-RNAi (BDSC 33413); two lines for α2δ (CG12295): UASKK101267-
+RNAi (VDRC 18569) and UAS-JF01825-RNAi (BDSC 25807); one line
+for Orai (CG11430) UAS-HMC03562-RNAi (BDSC 53333); three lines for dSTIM
+(CG9126): UAS-KK102366-RNAi (VDRC 106256), UAS-GLC01785-RNAi (BDSC
+51685), and UAS-JF02567-RNAi (BDSC 27263); two lines for SERCA (CG3725):
+UAS-KK107371-RNAi (VDRC 107446) and UAS-JF01948-RNAi (BDSC 25928); and
+three lines for RyR (CG19844): UAS-KK101716-RNAi (VDRC 109631), UASHM05130-
+RNAi (BDSC 28919), and UAS-JF03381-RNAi (BDSC 29445).
+In Vivo Fly Preparations and Calcium Imaging. The fly surgery followed
+procedures previously described (19, 20). Flies were first anesthetized by CO2
+and immobilized by inserting the neck into a narrow cut in an aluminum foil
+base. A portion of the dorsoanterior cuticle on one side of the head, an antenna,
+and a small part of one compound eye were then removed. For slow calcium
+rhythm measurements, imaging was conducted with a custom horizontalscanning
+Objective Coupled Planar Illumination microscope (51). The scanning
+was done by moving the stage horizontally every 10 min for 24 h. Each scan contained
+20 to 40 separate frames with a step size of 5 to 10 μm. For fast calcium
+rhythm measurements, imaging was conducted with a custom high-speed OCPI-
+2 microscope (21). Each scanning session involved moving the objective using a
+piezo motor at 1 to 5 Hz for 1 to 2 min. The same scans were then repeated on
+the same specimens every hour for 24 h. During both slow and fast imaging
+modes, fresh haemolymph-like solution (HL3 saline) was continuously perfused
+(0.1 to 0.2 mL/min).
+Locomotor Activity Rhythm. The Trikinetics Drosophila Activity Monitor system
+was used to monitor the locomotor activity rhythms of individual flies; 4- to
+6-d-old male flies were monitored for 6 d under LD cycles and then, for 9 d
+under DD conditions. The circadian rhythmicity and periodicity were measured
+by χ2 periodograms with a 95% confidence cutoff and SNR analysis (52).
+Arrhythmicity was defined by a power value (χ2 power at the best period) less
+than 10, a width lower than one, and a period less than 18 h or more than
+30 h.
+Immunocytochemistry. The flies were entrained for 6 d under LD and dissected
+at ZT0, ZT6, ZT12, and ZT18. After dissection in ice-cold, calcium-free
+saline, fly brains were fixed for 15 min in 4% paraformaldehyde containing 7%
+(vol/vol) picric acid in phosphate-buffered saline. Primary antibodies were rabbit
+anti-PER [1:5,000; provided by M. Rosbash, Brandeis University, Waltham, MA
+(53)]. Secondary antisera were Cy3-conjugated (1:1,000; Jackson Immunoresearch).
+Images were taken on the Olympus FV1200 confocal microscope. PER
+protein immunostaining intensity was measured in ImageJ-based Fiji (54).
+Imaging Data Analysis. Calcium imaging data were acquired by custom software,
+Imagine (51), and preprocessed using custom scripts in Julia 0.6 to produce
+nonrigid registration, alignment, and maximal projection along the z axis.
+The images were then visualized and analyzed in ImageJ-based Fiji by manually
+selecting ROIs over individual cells or groups of cells and measuring the intensity
+of ROIs over time. Slow calcium activity was analyzed as described previously
+(19, 20). Fast calcium activity in each scanning session was analyzed similarly.
+Between sequential scanning sessions, the ROIs for individual neurons were
+manually corrected for position drifts. For the calcium signal of each ROI in each
+session, the mean of calcium intensity (e.g., Fig. 1C) was measured. The range
+of calcium transients (e.g., Fig. 1D) was measured by the average maximal calcium
+intensity at each time point and by the average minimal calcium intensity
+at each time point. The power spectrum (e.g., Fig. 1E) was generated by fast Fourier
+transform. Then, the calcium signal was filtered by a high-pass filter (1/15
+Hz), and the SD of calcium changes was measured. Calcium activity trace analysis
+and statistics were performed using R 3.3.3 and Prism 8 (GraphPad).

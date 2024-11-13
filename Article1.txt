@@ -1,0 +1,974 @@
+Almost all living organisms from humans to bacteria possess
+a circadian clock (Dunlap, 1999). This internal timekeeping
+system enables organisms to anticipate and adapt to the
+rhythmic environmental changes that occur over a 24-hour
+cycle. At their molecular core, these clocks are comprised of
+cell-autonomous transcription-translation negative feedback
+loops (Takahashi, 2017). In most animals, the master
+circadian clock in the brain receives light cues via the eyes
+which enable synchronization (or entrainment) with the external
+24-hour light-dark cycles. The master clock sits at the
+top of the hierarchy and in turn modulates the activity of
+downstream neurons, as well as the peripheral clocks located
+in tissues throughout the body via endocrine and systemic
+signaling. In vertebrates, the master clock is located in
+the suprachiasmatic nucleus (SCN) of the hypothalamus
+and is comprised of approximately 20,000 neurons (Mohawk
+et al., 2012). Extensive intercellular coupling between these
+neurons likely via neurotransmitters, neuropeptides, and
+gap junctions forms a neuronal network that is resilient to
+internal and environmental perturbations (Maywood et al.,
+2006, Liu et al., 2007). Systematic characterization of these
+diverse coupling mechanisms between clock neurons is thus
+crucial to understanding circadian clock entrainment and
+the mutual coupling of the clock neurons. In addition, unraveling
+the clock output pathways which generate rhythmic
+behaviors and hormonal signaling can provide mechanistic
+insights into circadian regulation of organismal physiology
+and homeostasis.
+These aims are particularly challenging to accomplish in
+vertebrates due to the large neuronal network size and resultant
+increase in complexity. However, the molecular
+clock architecture as well as the neuronal network motifs are
+highly conserved from humans to insects (Panda et al., 2002,
+Helfrich-Förster, 2004). Hence, Drosophila melanogaster
+with its powerful genetic toolkit and a complete brain connectome
+represents an ideal system for deciphering the
+clock network and its input and output pathways (Zheng et
+al., 2018, Dorkenwald et al., 2023, Schlegel et al., 2023). Not
+surprisingly, the fly circadian clock, generally regarded to be
+comprised of approximately 150 neurons, is extremely well
+characterized (Dubowy and Sehgal, 2017). These neurons
+have historically been classified into different groups of Lateral
+and Dorsal Neurons (LN and DN, respectively) based on
+their size, anatomy, location in the brain, and differences in
+gene expression (Abruzzi et al., 2017). Further, these neuronal
+subgroups are active at different times during the day
+and are consequently distinct functionally (Liang et al.,
+2016). Single-cell transcriptome sequencing analyses of
+clock neurons recently revealed additional heterogeneity
+within some of these clusters, which can largely be explained
+by neuronal signaling molecules that they express (Ma et al.,
+2021, Ma et al., 2023). Comprehensive mapping of the synaptic
+partners of clock neurons and comparing this connectivity
+can determine if the molecular heterogeneity based on
+gene expression also translates into heterogenous synaptic
+connectivity. Nonetheless, given the rich array of neuropeptides
+expressed in clock neurons, both synaptic and paracrine
+signaling appear crucial in mediating the connectivity
+between clock neurons as well as their output pathways.
+
+Here, we harnessed the power of connectomics to generate
+the first comprehensive connectivity map of the circadian
+clock. Intriguingly, we identified additional DN in the network,
+thus showing that the Drosophila circadian clock is in
+fact comprised of at least 240 neurons instead of 150 neurons.
+In addition, our analyses revealed that light input from
+extrinsic photoreceptors to the clock neurons is largely indirect.
+Furthermore, we discovered extensive ipsilateral synaptic
+connectivity between the clock neurons and identified
+a subset of DN as an important hub that link the clock network
+across the two brain hemispheres via contralateral projections.
+We also elucidated the output pathways from the
+clock network that could affect general behavioral activity
+levels and organismal physiology. In particular, we characterized
+clock inputs to subsets of neurosecretory cells (NSC)
+in the brain which collectively represent a major neuroendocrine
+center (Nässel and Zandawala, 2020). We observed
+sparse monosynaptic connectivity between clock neurons
+and NSC, suggesting that multi-synaptic connections and
+peptidergic signaling account for most of the connectivity, as
+is characteristic of the vertebrate clock output pathways
+(Wen et al., 2020). Hence, as a complementary approach, we
+also deciphered putative paracrine signaling pathways
+within the clock network by extensively mapping the expression
+of clock neuropeptides and their receptors, and filtering
+them based on the topographical constraints determined by
+the connectome. This peptidergic signaling greatly enriches
+the connectivity within the clock network and is the major
+output pathway to the neuroendocrine center which regulates
+systemic physiology.
+The master clock in the Drosophila brain is widely regarded
+to be comprised of approximately 150 neurons. This number
+is derived from neuronal expression of different clock genes
+(Ma et al., 2021). Clk856-Gal4, based on the Clk promoter,
+faithfully recapitulates expression in most of these clock
+neurons (Figure 1A). These neurons can be broadly classified
+into four classes each of LN and DN (Figure 1B and Table
+1). The LN comprise Lateral Posterior Neurons (LPN),
+dorsoLateral Neurons (LNd), Ion Transport Peptide (ITP)-expressing
+LN (LNITP), and Pigment-Dispersing Factor (PDF)-
+expressing ventroLateral Neurons (LNv
+PDF). Conversely, the
+DN include anterior Dorsal Neurons 1 (DN1a), posterior DN1
+(DN1p), DN2 and DN3. These clock neuron classes can be further
+subdivided into different cell types (Figure 1C and Table
+1). Morphological characterization of some DN1p and DN3
+subtypes is currently lacking (Reinhard et al., 2022b). Moreover,
+the estimated number of clock neurons in Drosophila
+is likely an underestimation as the precise number of DN3
+has not been determined thus far (Shafer et al., 2006). This is
+partly because drivers like Clk856-Gal4 only include a small
+proportion of DN3 (Ma et al., 2021). In addition, most DN3
+have small somata that are densely packed together, making
+it difficult to count. Majority of these small DN3 project to
+the central brain, and hence they are aptly called small Central
+Projecting DN3 (s-CPDN3) (Table 1) (Sun et al., 2022).
+Similarly, a pair of DN3 with large somata project to the central
+brain (large Central Projecting DN3; l-CPDN3), whereas
+about 6 neurons per brain hemisphere project to the anterior
+brain (Anterior Projecting DN3; APDN3) (Sun et al., 2022).These latter cells also have larger somata than the s-CPDN3
+(Reinhard et al., 2022b). Despite the large number of DN3,
+previous studies suggest that they are less important for behavioral
+rhythmicity compared to some of the LN, which are
+regarded as the master pacemaker neurons (Rieger et al.,
+2006, Yoshii et al., 2012, Li et al., 2018).
+As a first step in determining the synaptic connectivity
+within the clock network, we used a systematic approach
+(Figure S1) to identify most, if not all, of the clock neurons
+in the FlyWire connectome generated in our companion papers
+(Dorkenwald et al., 2023, Schlegel et al., 2023). In total,
+we successfully identified 242 clock neurons based on a combination
+of morphology, previously determined connectivity,
+and location of their cell soma (Figure 1C-D, Supplementary
+Videos 1-2) (Schubert et al., 2018, Reinhard et al., 2022a,
+Reinhard et al., 2022b, Shafer et al., 2022, Sun et al., 2022).
+The number of clock neurons that we identified in the connectome
+was considerably higher than the expected number
+of clock neurons (~152) in the adult brain (Table 1). This was
+mainly due to the presence of more s-CPDN3 in the connectome
+than estimated, which prompted us to accurately
+quantify the total number of DN3 in adult brains. To comprehensively
+quantify DN3, we used antibodies against clock
+proteins Period (PER) and Vrille (VRI) in tim-Gal4 > GFP
+expressing flies. Since PER and VRI exhibit peak expression
+at different Zeitgeber times (Figure 2A), the inclusion of
+three clock markers (PER, VRI, and tim) can provide a reliable
+estimate of the total number of DN3 (Figure 2B and C,
+Supplementary Video 3). Indeed, our analyses revealed that
+there are more than 70 DN3 per hemisphere in both males
+and females (Figure 2D). Thus, the number of DN3 identified
+in the connectome (171 neurons) is in line with our DN3 estimate
+(~166 neurons) based on anatomical analysis. The
+majority of these are s-CPDN3 (157 neurons) which we now
+classified into five subtypes (s-CPDN3A-E) based on morphological
+similarity (Figure 2E-I). These five DN3 subtypes
+are comprised of 26 distinct cell types (Schlegel et al., 2023)
+and could thus be subdivided further in the future.
+Additionally, we also identified several candidate DN1p
+which could not be classified into previously characterized
+DN1p cell types (Table 1). To verify if these neurons identified
+in the connectome are indeed DN1p, we characterized them
+anatomically. Specifically, we performed multi-color flip out
+(MCFO) analysis of DN1p using Clk4.1M-Gal4 to elucidate
+the morphology of this densely packed neuronal cluster. In
+total, about 14 DN1p per hemisphere are labeled with the
+Clk4.1M-Gal4 (Figure 2J). MCFO analysis revealed DN1pA
+(4-5 neurons) and DN1pB (2 neurons) subtypes characterized
+previously (Table 1 and Figure 2K). Our analysis additionally
+revealed the morphology of previously uncharacterized
+DN1p subtypes (Figure 2L-N). DN1pC and DN1pE are each
+comprised of two neurons per hemisphere (Figure 2L and
+N). DN1pD is comprised of four neurons per hemisphere
+(Figure 2M). Two of these project over the midline while the
+other two remain ipsilateral, suggesting that the DN1pD is
+comprised of two morphologically distinct subtypes. Notably,
+our analysis confirmed that the candidate DN1p identified
+from the connectome are in fact morphologically similar
+to DN1pC-E subtypes labeled by Clk4.1M-Gal4. Taken together,
+our identification and morphological characterization
+of novel DN3 and DN1p subtypes provide a solid framework
+to comprehensively examine the connectivity of clock
+neurons.
+The FlyWire connectome combines automatically detected
+chemical synapses with proofread neurons. These synapses
+represent an additional anatomical feature that could potentially
+distinguish neuronal groups. Consequently, we asked
+whether the classification of clock neurons based on differences
+in their synaptic connectivity aligns with the traditional
+anatomical and recent gene expression-based classification.
+To address this, we clustered clock neurons based on
+cosine similarity between their total synaptic inputs and outputs.
+Our clustering analysis shows that neurons of a given
+clock cell type (Table 1) usually cluster together, suggesting
+that neurons from the same group are more similar (in terms
+of synaptic connectivity) to each other than to other clock
+neurons (Figure S2A-B). For example, all three LNd
+CRY- from
+one hemisphere are part of the same clade. Similarly, the two
+DN2 are part of a clade. Exceptions to this are the clades containing
+DN1p and DN3. For DN1p, this can be explained by our
+findings which show that this group comprises five morphologically
+distinct subtypes. In the case of DN3, while some of
+them form their own cluster, other DN3 cluster together with
+different clock neuron subtypes. On one hand, this is not unexpected
+since it is unlikely for such a large group of neurons
+to have similar connectivity patterns. On the other hand, this
+is quite interesting since it provides insights into their possible
+function. For instance, heterogenous clusters comprising
+clock neurons of different classes have similar synaptic inputs
+and outputs, and may thus play similar roles in the
+clock network and beyond. Moreover, the connectivitybased
+clustering does not resolve the five subtypes of the s-
+CPDN3. This suggests that these five s-CPDN3 subtypes comprise
+synaptically heterogeneous cell populations. Nonetheless,
+synaptic connectivity-based classification of clock neurons
+largely aligns with the ones determined based on anatomical
+and gene expression differences.
+Having identified all the clock neurons, we next sought to
+determine their synaptic interconnectivity which could facilitate
+intercellular coupling within the network. Generally,
+we regarded >4 common synapses per neuron as significant
+connections and >9 synapses as strong connections. We first
+wanted to validate our analysis by comparing it with previously
+reported connections. In agreement with previous reports
+(Reinhard et al., 2022b, Shafer et al., 2022), we observed
+strong synaptic connectivity from DN1a to LNITP, from DN1pA
+to LNITP and LNd, and from DN1pB to DN2 clusters (Figure 1E
+and S3), highlighting the robustness of our approach. Importantly,
+our analysis also uncovered novel connections between
+the different subgroups. Specifically, we observed strong contralateral and ipsilateral connectivity from DN1pA
+to LNITP, as well as additional significant connections with s-
+CPDN3C, s-CPDN3D, and LNd
+CRY+ across both hemispheres.
+Similarly, LNITP also provide synaptic inputs to s-CPDN3
+clusters in both hemispheres (Figure 1E and S3). This raised
+the question of whether DN1pA represents a heterogeneous
+population where one subgroup forms ipsilateral connections
+and the other contralateral. To address this, we examined
+the connectivity at cellular resolution (Figure S4-S5)
+which revealed that individual DN1pA indeed form both ipsilateral
+and contralateral connections (Figure 1F). Our
+analysis thus identified DN1pA as an important center which
+links the clock network across the two brain hemispheres.
+These results are in line with previous reports of contralateral
+projections of DN1p (Lamaze et al., 2018). In contrast,
+there are virtually no synaptic connections between the s-
+LNv and the LNd neurons (Figure 1E and S3-S5), which control
+morning and evening activities, respectively. This is
+consistent with previous analyses using the hemibrain
+connectome (Shafer et al., 2022). Interestingly, the connectivity
+of clock neurons across both hemispheres is not symmetrical,
+owing to the differences in the number of synapses
+(Figure 1E and S3).
+To assess the extent of inter-individual differences in the
+numbers, neuronal projections, and synaptic connectivity of
+clock neurons, we next performed comparisons with the partial
+hemibrain connectome (Scheffer et al., 2020). Several
+groups of clock neurons were previously identified in the
+hemibrain connectome including all s-LNv, l-LNv, LNd,
+LNITP, LPN, DN1a, and some DN2, DN1p, and DN3 (Reinhard
+et al., 2022a, Reinhard et al., 2022b, Shafer et al., 2022). Here,
+we identified additional DN1p and DN3 (Figure S6A-D). In
+total, 64 clock neurons can be identified in the hemibrain
+connectome, with the majority of missing neurons belonging
+to the DN3 subgroups (Figure S6A-D, Supplementary Table
+5). Comparison of different subgroups revealed stable
+neuronal numbers across the two connectomes (Table 1 and
+Figure S6D). Similarly, there is a high degree of stereotypy
+in the connectivity between the clock clusters (Figure S6EF).
+For instance, l-LNv and DN2 form the least synaptic contacts
+with other clock clusters. At the opposite end of the
+spectrum, s-CPDN3A are connected to all the clock clusters
+except for s-LNv, l-LNv, DN1a, and DN1pE. Given its partial
+nature, the hemibrain connectome lacks information about
+all contralateral connections, reiterating the significance of
+characterizing information flow across entire networks.
+Taken together, our analyses revealed hitherto unknown
+connectivity between the clock neurons which could contribute
+to the robustness of the master clock. Moreover, the
+identification of the complete circadian neuronal network in
+the FlyWire connectome underscores the power of the fruit
+fly in pushing forward the frontier of our understanding of
+chronobiology.
+Validating clock neuron connectivity using trans-synaptic
+tracing
+While the FlyWire and hemibrain connectomes exhibit a
+high degree of stereotypy, we further used an independent
+approach to validate our connectivity analyses. We
+performed light microscopy-based trans-synaptic circuit
+tracing by expressing trans-Tango (Talay et al., 2017) using
+specific driver lines for different populations of clock
+neurons (Figure S7-S8). Upon driving trans-Tango with
+Clk4.1M-Gal4 which labels most DN1p (Figure S7B), we
+observed post-synaptic signals in DN1p, DN2, DN3, LPN, LNd,
+5th-LNv, and s-LNv (Figure S9A). However, l-LNv and DN1a
+were not post-synaptic to DN1p. Thus, our trans-Tango
+analysis of DN1p agrees with the connectivity of DN1p based
+on the connectomes (Figure S3 and S6F). Similarly, a split-
+Gal4 line targeting DN3 drives post-synaptic signals in DN1a,
+DN1p, DN2, DN3, LPN, LNd, and l-LNv (Figure S9B), which
+mirrors the connectivity seen in the connectomes. While
+post-synaptic signal was not detected in most clock neurons
+of control flies, occasionally, a false post-synaptic signal was
+detected in two clock neurons (LNd) from the entire network
+(Figure S10A). Hence, any potential synaptic output to LNd
+should be treated with caution. Overall, we observed similar
+congruency between the two approaches with other Gal4-
+lines including those targeting DN2 (Figure S10B), LPN
+(Figure S10C), and LNITP (Figure S10D).
+Differences compared to the connectomes were observed
+when driving trans-Tango with Pdf-Gal4 (for s-LNv and l-
+LNv) (Figure S10E) and with the DN1a-specific split-Gal4 line
+(Figure S10F). In both cases, trans-Tango generated postsynaptic
+signals in more clock neurons than anticipated
+based on the connectomes. This discrepancy could be
+explained by: 1) the presence of additional neurons in the
+Gal4 (e.g. PDF tritocerebrum neurons (Selcho et al., 2018))
+and/or 2) daily remodeling of neural circuits, as shown
+previously for s-LNv and DN1a (Fernandez et al., 2008, Song
+et al., 2021). In summary, our trans-Tango analysis is largely
+in agreement with the clock network generated using the
+connectomes.
+Deciphering light input pathways via in-silico retrograde
+tracing of clock neurons
+Following the successful validation of our connectivity data,
+we next identified all the major classes of neurons providing
+inputs to the clock network. To this end, we utilized the
+annotation scheme of our companion paper (Schlegel et al.,
+2023), which provides a hierarchical classification of all
+neurons in the connectome (Figure 3A). We found that
+neurons intrinsic to the brain provide the majority of the
+inputs to the clock network (Figure 3A-C). This includes
+visual centrifugal neurons projecting from the central brain
+to the optic lobes, visual projection neurons projecting from
+the optic lobes to the central brain, as well neurons intrinsic
+to the optic lobes and central brain (Figure 3C). Examining
+inputs to specific clock clusters, we observed differential
+inputs across all the subgroups (Figure 3B). As expected, s-
+LNv and l-LNv receive most of their input from optic lobe and
+visual centrifugal neurons as they have a large number of
+input sites in the optic lobes and the accessory medulla
+(AME) (Figure S11). In contrast, APDN3, l-CPDN3, and LNITP
+populations receive major inputs from visual projection
+neurons. The remaining clock clusters receive most of their
+inputs from central brain neurons (Figure 3B, S11, and S12).
+In some cases, such as DN1pC-E, DN2, and s-CPDN3A-E, a
+significant portion of these central neurons are clock
+neurons themselves, confirming prominent intercellular
+synaptic connectivity between some clock clusters.
+Interestingly, only 4 sensory neurons provide direct inputs
+to the clock network. These are anterior cells (aDT4) (Dr.
+Gregory Jefferis, personal communication) (Figure 3A and
+D) which provide temperature inputs to LPN, DN1pC, and
+DN1pE (Jin et al., 2021, Alpert et al., 2022).
+Having broadly classified the inputs from different neuronal
+super classes to the clock network, we probed further and
+identified individual cells providing the strongest synaptic
+inputs to clock neurons. For this purpose, we used a
+stringent threshold of 80 synapses to obtain a narrow list of
+candidate inputs. Our analysis discovered 13 neurons,
+including 7 aMe neurons (a subset of visual projection and
+visual centrifugal neurons) that are strongly connected to
+specific downstream clock neurons (Figure 3E). For
+example, individual aMe3 and aMe6a neurons can form
+more than 79 synapses with APDN3, while aMe8 are
+similarly connected to LNd
+CRY+ & ITP clock neurons (Figure
+3E). The unifying feature of these aMe neurons is their dense
+arborization in the AME and posterior lateral
+protocerebrum (Figure 3E), where they anatomically
+interact with clock neuron dendrites (Figure S11 and S12)
+(Reinhard et al., 2022b, Tang et al., 2022). Interestingly, the
+aMe neurons themselves receive strong inputs from the
+extraretinal photoreceptors. Specifically, aMe3 and aMe6a
+neurons receive strong inputs directly from the Hofbauer-
+Buchner (HB) eyelets (Figure 3E). Conversely, aMe8 receive
+indirect inputs from ocellar retinula cells via the ocellar
+ganglion neurons (OCG) type 2c (OCG02c) (Figure 3E). This
+suggests that the clock receives strong light inputs from
+extrinsic photoreceptor cells, albeit indirectly. This is not
+surprising since light is the most important Zeitgeber for
+circadian clocks (Helfrich-Förster, 2020). Flies synchronize
+their circadian clocks with the light-dark cycles using these
+extrinsic photoreceptor cells as well as via the blue-light
+photoreceptor Cryptochrome (CRY), which is expressed in
+about half of the clock neurons (Figure 3F) (Helfrich-
+Förster, 2020). While CRY interacts with the core clock
+protein Timeless and can quickly reset the clock, the
+different photoreceptor cells are important for sensing
+dawn, dusk, high light intensities, and day length, and for
+adapting morning and evening activities to the appropriate
+time of day. Regardless, we found little direct inputs from
+the photoreceptor cells and other sensory cells to the clock
+neurons (Figure 3A). This is consistent with previous
+findings which revealed that most of the light input to the
+clock appears to be indirect (Alejevski et al., 2019). In light
+of this and our in-silico circuit tracing analysis described
+above, we comprehensively characterized indirect
+connectivity between photoreceptor cells and clock neurons.
+Therefore, we traced all the disynaptic connections between
+them. Using the normal threshold of >4 synapses, we again
+recovered the strong connections from the H-B eyelets via
+the aMe3/aMe6a to the APDN3, and additional weaker
+connections to the s-CPDN3A, LNITP, l-LNv, and LNd
+CRY+
+(Figure 3G). Furthermore, we revealed connections from
+R7/R8 compound eye photoreceptors to several clock
+neurons via aMe12 (Kind et al., 2021) and other
+interneurons. While we did not observe any disynaptic
+connections from the ocellar retinula cells to clock neurons
+using the normal threshold (Figure 3G), reducing the
+threshold to >2 synapses revealed connections from the
+ocelli to APDN3 and l-CPDN3 via OCG02c (Figure 3H). The
+synaptic connections from the ocelli to OCG and beyond are
+extensively characterized in our companion paper and
+demonstrate interesting details that may also be valid for the
+other photoreceptor inputs to clock neurons (Dorkenwald et
+al., 2023). The majority of ocellar photoreceptors are
+synaptically connected to ocellar ganglion neurons with
+thick axons (OCG01a-f) or directly to descending neurons
+(DNp28). These connections likely enable fast behavioral
+responses. In contrast, axons of OCG02c that connect to the
+clock neurons are rather thin and not suited for fast
+neurotransmission. Instead, these neurons appear suited for
+collecting light information over time – a property needed
+for entraining the circadian clock. Further, collecting light
+information over larger time intervals may not require a
+high synapse density. Thus, 3 to 4 synapses between retinula
+cells and the relevant downstream OCG observed here could
+be sufficient for this purpose (Figure 3H). The same is also
+true for the photoreceptor cells of the compound eyes.
+Reducing the threshold of significant connections from 5 to
+3 synapses revealed indirect clock input from additional
+photoreceptor cells, including those that project from the
+dorsal rim area of the eye (Figure 3H). These photoreceptor
+cells are involved in polarized vision and might contribute to
+time-compensated sun compass orientation (Homberg,
+2004). Whether the connectivity observed with a lower
+threshold of >2 synapses is functional in vivo remains to be
+seen; however, this is very likely since there are usually
+many photoreceptor cells that synapse onto only a few aMe
+neurons. For example, theoretically, the ~300 pale R8 cells
+project to only 3-4 aMe12 neurons (Kind et al., 2021),
+resulting in ~100 connections on average per aMe neuron.
+Even if each of these connections were mediated via only 3
+synapses, each aMe neuron could potentially receive inputs
+from R8 cells via 300 synapses, which is quite substantial
+(Figure 3H).
+In-silico anterograde tracing of clock neurons
+Delineating the output pathways that translate daily 24-hour
+oscillations of the molecular clock into physiological and
+behavioral rhythms remains a major focus in chronobiology.
+Using the same strategy as above to identify the inputs, we
+systematically classified all the neurons downstream of the
+clock network. Most synaptic output from the clock network
+is directed to intrinsic brain neurons, and in particular, the
+central brain neurons (Figure 4A-C). Except for l-LNv, all
+clock clusters have a majority of their output onto central
+brain neurons. l-LNv mostly provide inputs to Medullary
+intrinsic neurons in the optic lobe (Mi 1, Figure 4B-C),
+consistent with their role in adapting the sensitivity of the
+visual system to the time of day (Chen et al., 1992, Pyza and
+Meinertzhagen, 1997). Further, the majority of the output
+from DN1pA is onto visual projecting and central brain
+neurons that are part of the clock network (LNITP, s-
+CPDN3C/D, Figure 4B). After broadly classifying clock
+outputs, we next focused on specific cell types which receive
+the strongest synaptic inputs (>49 synapses) from clock
+neurons using an approach similar to the one used earlier
+for clock inputs. Our analysis identified the enigmatic
+Clamp neurons (Figure 4D), which receive strong synaptic
+inputs from APDN3. While the functions of most of these
+clamp neurons are still unknown, some of them output onto
+descending neurons, while others promote sleep (Sun et al.,
+2022). Moreover, DN1pB provide strong inputs to Tubercleinnervating
+neurons (Figure 4E), which are part of the
+anterior visual pathway (Hulse et al., 2021). Lastly, several
+clock neurons are strongly connected to diverse neurons
+from different neuropil regions (Figure 4F).
+Next, we examined clock inputs to descending neurons
+which could influence locomotor and other behaviors
+regulated by neurons in the ventral nerve cord. Interestingly,
+clock neurons provide direct inputs to 18 descending
+neurons (Figure 4A and G). These descending neurons
+include those which have not yet been classified (Figure 4H),
+as well as Allatostatin-C (AstC) and SIFamine (SIFa)
+peptidergic neurons (Figure 4I), the latter of which
+modulate feeding, mating, and sleep (Nässel and Zandawala,
+2022). Direct synaptic inputs to downstream descending
+neurons predominantly derive from s-CPDN3A-D, and LPN
+(Figure 4B). When considering disynaptic connections, the
+connectivity between the clock network and descending
+neurons increased drastically, with approximately 24% of all
+descending neurons receiving indirect inputs from most of
+the clock neurons (Figure 4G). In summary, our
+connectivity analysis indicates that the clock can have a
+major influence on diverse behaviors, including locomotion,
+via outputs to descending neurons.
+In addition, the circadian clock is also known to modulate
+behaviors such as activity/sleep, spatial orientation, and
+learning and memory (Beer and Helfrich-Förster, 2020,
+Flyer-Adams et al., 2020). These behaviors are regulated by
+higher brain centers such as the central complex and
+mushroom bodies. Consistent with previous results
+(Reinhard et al., 2022a, Reinhard et al., 2022b), we found few
+direct connections from the clock to neurons associated with
+the central complex (Figure 4J) and mushroom bodies
+(Figure 4K). Consequently, we predicted that the clock
+output to these higher coordination centers is either indirect
+or paracrine via neuropeptides. In line with this prediction,
+we found prominent disynaptic connectivity between clock
+neurons and central complex neurons (mainly fan-shaped
+body (FB) and ellipsoid body neurons (EB)), as well as
+between clock neurons and Kenyon cells (KC),
+dopaminergic neurons (DANs) and mushroom body output
+neurons (MBONs) (Figure 4J-K). In support of paracrine
+signaling, receptors for several clock neuropeptides are also
+enriched in higher brain centers (Nässel and Zandawala,
+2019). Taken together, circadian modulation of neurons
+regulating diverse behaviors is largely indirect or paracrine.
+Similarly, we observed very few direct connections between
+clock neurons and endocrine cells which influence
+organismal physiology and systemic homeostasis (Figure
+4A-B). We address this connectivity in more detail below.
+Identification and characterization of the neuroendocrine
+center in the FlyWire connectome
+While recent work has unraveled some clock output
+pathways to endocrine cells, our collective understanding of
+the circadian regulation of endocrine rhythms is poor (Nagy
+et al., 2019, Barber et al., 2021, Hidalgo et al., 2023). To
+address this knowledge gap, we first identified and classified
+all endocrine or NSC in the brain which are a major source
+of circulating hormones. These endocrine cells can be
+broadly classified into lateral, medial, and subesophageal
+zone NSC (l-NSC, m-NSC, and SEZ-NSC, respectively) based
+on their location in the brain. Their axons exit the brain via
+a pair of nerves (nervii corpora cardiaca, NCC), and
+depending on the cell type, innervate the corpora cardiaca,
+corpora allata, hypocerebral ganglion, crop, aorta, or the
+anterior midgut (Figure 5A). Their axon terminals form
+neurohemal sites through which hormones are released into
+the circulation or locally on peripheral targets such as the
+crop. Collectively, the NSC form a major, yet distributed,
+neuroendocrine center that is functionally analogous to the
+hypothalamus (Nässel and Zandawala, 2020). We identified
+all brain NSC in the FlyWire connectome by isolating the
+nerve bundle containing their axons (Figure 5B-C). In total,
+we independently identified 80 brain NSC (Supplementary
+Video 4), in agreement with our companion studies
+(Dorkenwald et al., 2023, Schlegel et al., 2023). We propose
+and utilize a systematic nomenclature for all brain NSC
+based on their location and neuropeptide identity (Table 2).
+While all adult SEZ-NSC and some l-NSC can easily be
+classified based on their morphology and location (Figure
+5B-C), this approach is not feasible for m-NSC since they are
+clustered together in the superior medial protocerebrum and
+appear similar based on gross morphology. Therefore, we
+asked whether cosine similarity-based clustering, such as
+the one used previously for clock neurons, can be used to
+distinguish and identify different m-NSC clusters, as well as
+the l-NSCCRZ cluster. As expected, SEZ-NSCHugin, SEZNSCCapa,
+and l-NSCDH31 form three separate clusters (Figure
+S13A-C). Most l-NSCITP (Figure S13B) do not have any input
+synapses in our dataset and were thus excluded from this
+analysis. Notably, this analysis resulted in two clusters of m-
+NSC comprising 4 and 6 neurons each. Hence, these clusters
+likely represent m-NSCDMS and m-NSCDH44, respectively
+(Figure S13A and D). We obtained two additional clusters of
+m-NSC comprising 18 and 12 neurons, with the latter having
+low similarity between the neurons. The cluster comprising
+18 m-NSC represents IPCs (m-NSCDILP). Whether all cells in
+this cluster express DILP2,3 and 5 remains unknown;
+however, DILP2 is expressed in more than 14 neurons in
+adults (Ohhara et al., 2018).
+Interestingly, we could only reliably identify 6 out of the
+expected 14 l-NSCCRZ (Figure S13B and Table 2). These 6
+neurons cluster into two separate clades (Figure S13A) as
+they represent a heterogenous population both anatomically
+and functionally (Oh et al., 2019, Zandawala et al., 2021).
+Our inability to identify the remaining 8 CRZ neurons
+inspired us to examine if these adult-specific CRZ neurons
+are indeed neurosecretory. Using Gr64a-Gal4 to label the
+adult-specific CRZ neurons (Fujii et al., 2015), we showed
+that there are only 6 adult l-NSCCRZ (Figure S14). Contrary to
+our expectation, the adult-specific CRZ neurons do not
+project via the NCC and are thus not endocrine. Hence, our
+clustering analysis accounts for all the NSC that persist into
+adulthood. Additionally, it uncovered 12 putative m-NSC
+and 14 putative l-NSC in the adult brain (Figure 5D, S13E,
+Supplementary Video 5). These neurons have smaller
+somata compared to other identified NSC (Figure S13) and
+have relatively fewer dense core vesicles than neurons such
+as l-NSCITP (data not shown). Hence, the type (neuropeptide,
+biogenic amine, or fast-acting neurotransmitter) and the
+identity of the signaling molecules within these neurons
+remain unknown.
+Informed by these new insights on different subgroups of
+NSC, we first explored potential inputs from clock neurons.
+Intriguingly, we observed sparse direct inputs from clock
+neurons to most NSC (Figure 5E), despite clock neuron
+projections being closely associated with NSC dendrites in
+the superior medial and lateral protocerebrum. The only
+exceptions are l-NSCDH31 which receive inputs from LNITP
+and s-CPDN3B. (Figure 5F). This observation prompted us to
+examine other types of synaptic inputs to NSC to ensure that
+the lack of synaptic connectivity between the clock network
+and NSC was not due to false negatives. Consistent with the
+location of m-NSC dendrites in the tritocerebrum (King et
+al., 2017, Zandawala et al., 2018), a large portion of their
+inputs derive from central, ascending and sensory neurons
+(Figure 5G). Therefore, a lack of direct clock output to the
+NSC is genuine, and this connectivity is likely indirect or
+paracrine in nature. To explore the extent of indirect
+connections, we examined disynaptic connectivity between
+clock neurons and NSC. Approximately 43% of the clock
+neurons provide inputs to half of the NSC disynaptically.
+The interneurons which facilitate these connections mainly
+include central neurons (Figure 5G and H) and descending
+neurons (Figure 5I). Taken together, these prominent
+indirect connections between the clock network and NSC
+could form the basis of circadian regulation of systemic
+physiology.
+Identifying the molecular basis of paracrine clock output
+pathways
+Given the large repertoire of neuropeptides previously
+shown to be expressed in clock neurons (Abruzzi et al., 2017,
+Ma et al., 2021, Ma et al., 2023), we predicted that peptidergic
+combined with immunohistochemical localization and T2AGal4
+lines. Unsupervised clustering of all clock neuron
+transcriptomes using t-SNE analysis yields 32 independent
+clusters (data not shown), 16 of which have high expression
+of clock genes (tim and Clk) and can be reliably identified
+based on known markers (Figure 6A-B). Our analysis
+revealed that most clock clusters express at least one
+neuropeptide (Figure 6B). Consistent with previous studies,
+l-LNv express high levels of Pdf, whereas s-LNv express both
+Pdf and short neuropeptide F (sNPF) (Figure 6B). Similar
+coexpression of neuropeptides is also observed in other
+clusters including the “DN1p
+CNMa & AstC” cluster which
+coexpresses CNMamide (CNMa), AstC, and Dh31
+neuropeptides. In total, at least 12 neuropeptides are highly
+expressed in the clock network (Figure 6B-C). Importantly,
+this includes novel clock-related neuropeptides, namely
+DH44 and Proctolin (Proc). Dh44 is expressed in several
+clock clusters including DN1a, DN1p
+AstA, DN1p
+sNPF, DN3
+VGlut,
+LPN and LNd
+NPF (Figure 6B-C). We independently confirmed
+the presence of DH44 peptide in these clusters using a
+combination of DH44 antibody or DH44-T2A-Gal4 (Figure
+6D, S15, and S16). Proc, on the other hand, is strongly
+expressed in the DN1p
+CNMa and weakly in DN2 clusters which
+was verified by driving GFP using a Proc-T2A-LexA driver
+(Figure 6E and S15). Proc expression in other clock clusters
+such as LNd
+NPF and DN3
+VGlut, remains to be validated. Lastly,
+we also detected AstC expression in additional clock
+neurons. AstC immunoreactivity was previously localized in
+DN1p, DN3, and LPN (Diaz et al., 2019, Reinhard et al.,
+2022a), which is in agreement with AstC transcript
+expression in DN1p
+Rh7 and DN1p
+CNMa & AstC clusters (Figure 6BC).
+Here, we show that AstC is additionally expressed in
+DN2, which were labeled using an antibody against VRI
+(Figure 6B, 6F, S15, and S16). Our expression analyses
+revealed the comprehensive neuropeptide complement of
+clock neurons (Figure 6B-F, S15, and S16) and provides the
+basis to explore paracrine targets of clock neurons.
+As a first step in this direction and to validate our approach,
+we focused on select NSC which have been extensively
+characterized previously. We predicted that NSC are
+targeted by clock-related neuropeptides since they receive
+sparse monosynaptic inputs from clock neurons despite
+being closely associated with them anatomically. To
+investigate potential paracrine signaling between clock
+neurons and NSC, we again turned our attention to singlecell
+transcriptomics. We identified single-cell RNA
+transcriptomes of m-NSCDH44, m-NSCDILP, l-NSCCRZ, l-
+NSCDH31, and l-NSCITP (Davie et al., 2018) based on
+previously identified markers, and quantified the expression
+of clock peptide receptors (Figure 6G). We could not reliably
+mine m-NSCDMS due to the lack of multiple molecular
+markers. We also disregarded SEZ-NSCCapa and SEZNSCHugin
+from this analysis since they are much further away
+from clock neuron projections. Consistent with our
+prediction, our analysis indicated that multiple receptors for
+clock peptides are indeed expressed in NSC. Modulatory
+inputs to m-NSCDILP have been examined extensively and
+our analysis is in agreement with previous expression and
+functional studies (Kapan et al., 2012, Nässel and Vanden
+Broeck, 2016, Nagy et al., 2019, Oh et al., 2019, Held et al.,
+2023). Taken together, our analysis uncovers the molecular
+substrates of paracrine signaling between clock neurons and
+NSC.
+We next explored the magnitude of peptidergic paracrine
+signaling between clock neurons themselves. To predict
+putative paracrine connections, we extensively mapped the
+expression of clock neuropeptide receptors within the clock
+network. Consistent with promoter and genomic fragmentbased
+Pdfr-Gal4 expression (Im and Taghert, 2010), Pdf
+receptor (Pdfr) transcript is highly enriched in most clock
+clusters (Figure 7A-B), which we verified independently by
+expressing GFP using Pdfr[RA]-T2A-Gal4 (Figure 7C and
+D). Other receptors are more sparsely expressed within the
+clock network (Figure 7A-B). However, most clock clusters
+express at least two receptors, with DN1p
+sNPF expressing at
+least 7 receptors. We validated our single-cell transcriptome
+analysis by mapping the expression of select receptors using
+T2A-Gal4 knock-in lines. Our anatomical mapping of
+receptors (Figure 7D and S17) is largely in agreement with
+transcriptome data. In some cases, however, receptor
+mapping can provide additional insights. For instance, there
+are four transcript variants (A, B, C, and D) encoding the
+Drosophila Neuropeptide F receptor (NPFR). Using Gal4
+lines specific for NPFR-A/C and NPFR-B/D isoforms, we
+showed that these isoforms are differentially expressed
+across the clock clusters, with A/C isoforms expressed more
+broadly than B/D isoforms (Figure 7D and S17).
+Finally, we utilized our expression data of neuropeptides
+and their cognate receptors in clock neurons to delineate
+putative paracrine signaling pathways within the network.
+For this, we utilized an approach (Figure S18) similar to the
+one used recently to predict the Caenorhabditis elegans
+neuropeptide connectome (Ripoll-Sanchez et al., 2023).
+Briefly, we used expression data based on independent
+methods to conservatively localize the expression of
+neuropeptides and their receptors across all the clock
+clusters. We also utilized the connectome to factor in the
+distance between neurons of different clusters. This was
+done to ensure that the cells releasing the peptide and those
+expressing its receptor are not further apart than a cut-off of
+14μm, which was set based on a previous paracrine connectivity
+study (Nagy et al., 2019). Lastly, we only considered
+strong peptide-receptor interactions by disregarding ligands
+with EC50 values for receptor activation higher than 500nM.
+This stringent in silico approach allowed us to predict
+paracrine connectivity within the clock network with high
+confidence. Taking s-LNv as an example, this cluster
+expresses both PDF and sNPF. Following our expression
+thresholding, PDFR is expressed in most clock clusters,
+whereas sNPF receptor is expressed in DN1p, DN3, LPN and
+l-LNv (Figure 7 and S18). Thus, in addition to providing
+synaptic inputs to DN3, s-LNv can potentially provide
+paracrine inputs to most clock clusters across both
+hemispheres (Figure 7E). Connectivity from l-LNv is also
+enhanced by paracrine signaling, although not to the same
+extent as it is for s-LNv. Expanding this analysis to other
+clock clusters allowed us to comprehensively identify
+putative peptidergic signaling pathways between clock
+clusters (Figure 7E). These pathways, however, can only be
+considered putative for three main reasons: (1) all clock
+neuropeptides are also expressed in other non-clock neurons
+(Nässel and Zandawala, 2019), suggesting likely inputs from
+neurons extrinsic to the clock network, (2) we don’t account
+for peptide efficacies and receptor affinities since these
+values were independently determined in distinct systems
+thus making comparisons difficult and (3) despite our best
+efforts to account for it, distance of peptide diffusion may
+vary. Nonetheless, the presence of receptors for clock
+peptides in other clock neurons provides the molecular basis
+for potential paracrine signaling between them. In
+summary, peptidergic signaling greatly enriches the
+connectivity between different subsets of clock neurons.
+Additional investigations are necessary to determine which
+of these putative connections are functional in vivo.
+Discussion
+Peptidergic signaling supplements synaptic connectivity
+within the circadian clock network
+Using a multipronged approach centered around the Fly-
+Wire connectome (Dorkenwald et al., 2023, Schlegel et al.,
+2023), we describe the first whole-brain neural connectome
+of an animal circadian clock. Our analysis using the complete
+brain connectome eluded identification of one DN2,
+and a couple of s-CPDN3. Nevertheless, given the fact that
+we identified almost all of the expected clock neurons as well
+as several additional DN3 (Table 1), our clock neuron synaptic
+wiring diagram is complete enough to be regarded as a
+connectome. Our clock connectome is also a significant upgrade
+(10-fold larger numerically) compared to the partial
+connectivity diagram based on the hemibrain connectome
+reported earlier (Shafer et al., 2022). The previous analysis
+was based on only 24 clock neurons and largely focused on
+LN clusters, while excluding l-LNv, and several DN1p, DN2,
+and DN3 clusters due to the incomplete nature of the dataset.
+However, as evident from our analysis here, the DN in fact
+represent an important hub in the clock network and display
+high synaptic connectivity. In particular, DN1p play a large
+role in clock cluster interconnectivity and DN3 appear important
+for clock output pathways. Our analysis also sheds
+light on the precise number of DN3 in the clock network. Although
+approximately 80 DN3 were previously estimated in
+the entire clock network, there are in total about 170 DN3
+based on our connectome and anatomical analyses. We anticipate
+that resources such as NeuronBridge (Meissner et
+al., 2023), which allow for comparisons between electron
+and light microscopy datasets, will facilitate the identification
+of Gal4 drivers that target the novel s-CPDN3 subtypes
+identified here. In addition, we also characterized the molecular
+basis for neuropeptide connectivity between the clock
+neurons, consequently highlighting putative peptidergic
+pathways within the clock network. Similar to vertebrates
+(Wen et al., 2020, Morris et al., 2021), the Drosophila clock
+network is highly peptidergic, with all clock neuron clusters
+expressing at least one neuropeptide. Notably, a majority of
+the clock clusters express two neuropeptides, and several express
+three, while the LPN express four neuropeptides. Similar
+neuropeptide coexpression is also evident in SCN
+neurons and thus appears to be a common feature of clock
+neurons (Wen et al., 2020). Surprisingly, there is little to no
+overlap in the neuropeptide complement of the Drosophila
+and vertebrate clock neurons (Figure 8). Orthologs of vertebrate
+clock neuropeptides including vasoactive intestinal
+peptide, arginine vasopressin, neuromedin S, cholecystokinin,
+gastrin-releasing peptide, and prokineticin 2 are either
+absent in the Drosophila genome or expressed outside
+the clock network. Hence, Drosophila and vertebrates have
+evolved to utilize different signaling molecules while still
+conserving the diversity of neuropeptide signaling within
+the clock networks. Remarkably, except for PDF, there appears
+to be little conservation in neuropeptide identities of
+clock neurons across different insects (Stengl and Arendt,
+2016, Beer and Helfrich-Förster, 2020). This suggests that it
+is more important to conserve the mode of communication
+(paracrine signaling) rather than the messenger (specific
+neuropeptide).
+Contralateral connectivity within the network prevents decoupling
+of clock neurons across the hemispheres
+Analysis of interconnectivity within the clock network
+revealed extensive contralateral synaptic connectivity
+between the clock neurons, which is largely mediated by
+DN1pA and to a lesser extent by s-CPDN3C, s-CPDN3D, l-
+CPDN3, and LNITP. Furthermore, paracrine peptidergic
+signaling amongst clock neurons has the potential to further
+strengthen this contralateral connectivity. Such a strong
+bilateral coupling of clock neurons prevents the internal
+two hemispheres – a phenomenon that can happen in other
+insects and even in mammals, but so far has not been
+observed in fruit flies (Helfrich-Förster, 2004). In addition,
+consistent with previous analysis using the hemibrain
+connectome (Shafer et al., 2022), we did not observe any
+synaptic connectivity between the s-LNv and the LNd
+neurons, which control morning and evening activities,
+respectively. In line with this observation, the phase
+relationship between morning and evening oscillators is
+plastic, consequently facilitating seasonal adaptations as in
+mammals (Yoshii et al., 2012). Our data may also explain
+how the morning and evening oscillators in flies internally
+desynchronize under certain conditions (Helfrich-Förster,
+2014). One such relevant condition is increased PDF
+signaling during long days (Hidalgo et al., 2023), which was
+shown to delay the evening oscillators (Liang et al., 2016,
+Liang et al., 2017, Vaze and Helfrich-Förster, 2021) and may
+lead to internal desynchronization (Wulbeck et al., 2008).
+Here, we confirm the presence of PDFR in the evening
+neurons. Thus, enhanced PDF signaling could delay the
+evening neurons and bring them out of phase with the
+morning neurons, especially because the two sets of neurons
+are not connected via synapses. Taken together, the lack of
+interconnectivity between s-LNv and LNd could potentially
+be a factor promoting adaptation to different seasons and
+contexts.
+Light and other inputs to Drosophila and vertebrate circadian
+clocks
+Our analyses reveal that extrinsic light input from the
+photoreceptor cells of the compound eyes, HB eyelets, and
+ocelli to the clock neurons is largely indirect, with the former
+two transmitting light inputs via aMe neurons. This
+situation may appear to be different from mammals where
+intrinsically photosensitive retinal ganglion cells in the
+retina project directly through the retinohypothalamic tract
+onto the SCN neurons (Figure 8) (Starnes and Jones, 2023).
+However, even the mammalian clock receives indirect
+photoreceptor inputs from rods and cones via bipolar cells
+and retinal ganglion cells. Furthermore, indirect light inputs
+may reach the SCN also via the intergeniculate leaflets of the
+thalamus (Kim and Harrington, 2008). Altogether, this
+suggests that the fly and mammalian system are not
+fundamentally different. One apparent difference is the
+presence of CRY, a cell-autonomous circadian
+photoreceptor, in subsets of Drosophila clock neurons that is
+sufficient for light entrainment in eyeless mutants (Helfrich-
+Förster et al., 2001). Mammals lack light-sensitive CRY.
+Instead, they possess light-sensitive melanopsin in retinal
+ganglion cells, and mice lacking rods and cones can still
+entrain to light/dark cycles due to melanopsin (Foster et al.,
+2020). Thus, flies and mice possess several redundant and
+partly parallel light-input pathways to entrain their clocks.
+The similarity is even higher when comparing flies with
+vertebrates in general. For instance, fish, birds, and reptiles
+possess additional photoreceptors in the pineal gland, which
+is reminiscent of the extraretinal HB eyelets or even the
+ocelli of flies (Figure 8). Most importantly, vertebrates and
+flies use their eyes for both vision and entraining their
+circadian clocks, tasks that require completely different
+properties of light inputs. Vision requires image formation
+and fast neurotransmission, whereas circadian entrainment
+is dependent on integrating light collection over a longer
+time that can be at a slower rate. The connectome reveals
+that the number of synapses as well as the axon thickness of
+the neurons mediating this connectivity are very different
+between the two types of photoreception. Hence, they are
+aptly suited to perform their required functions.
+Paracrine modulation of the neuroendocrine system by circadian
+clock
+Since circadian control of organismal physiology is likely
+mediated via hormones, in parallel with the clock
+connectome, we also identified the cells that make up the
+neurosecretory center of an adult Drosophila brain. This
+neurosecretory center is comprised of 80 endocrine cells,
+located in distinct regions of the brain and having unique
+neuropeptide identities. Neurosecretory connectomes of
+larval Drosophila and the marine annelid, Platynereis
+dumerilii have been established previously (Williams et al.,
+2017, Huckesfeld et al., 2021). Unfortunately, these studies
+did not examine the connectivity between the circadian
+clock and the neuroendocrine centers. Thus, it remains to be
+seen whether the largely indirect and paracrine signaling
+between the adult Drosophila circadian network and NSC is
+a phenomenon conserved across other animals. However,
+given the relatively slow timescales at which the circadian
+output needs to be propagated to downstream neurons,
+neuropeptides seem suited for this role.
+Limitations of our approach
+The novel synaptic and putative paracrine connections
+reported here can only be considered predictions until they
+are functionally verified. In the case of paracrine
+connectivity, functional connectivity experiments (in
+normal and peptide mutant flies) using electrophysiological
+methods or genetically encoded secondary messenger
+sensors (calcium and cAMP) are needed to confidently
+establish functional paracrine connectivity. Additionally,
+the synaptic connectivity reported here is likely an
+underestimation due to several factors: 1) we did not explore
+connectivity via gap junctions, 2) approximately 30% of
+synapses are missing for photoreceptors (Dorkenwald et al.,
+2023) and 3) we generally used a connectivity threshold of
+>4 synapses. Preliminary expression analysis using the
+single-cell transcriptomes of clock neurons suggests that gap
+junction genes are enriched in the clock network (data not
+shown) and they can influence activity-rest rhythms
+(Ramakrishnan and Sheeba, 2021). It remains to be seen
+which clock neurons are additionally coupled via gap
+junctions and how this electrical connectivity complements
+synaptic and peptidergic connectivity detailed here.
+Moreover, as discussed earlier, fewer than 5 synapses could
+also represent functional connections which were largely
+disregarded in our analyses. While the FlyWire and
+hemibrain connectomes exhibit a high degree of stereotypy,
+they are both based on an adult female brain. The lack of a
+male brain connectome currently prevents any comparisons
+on sex-specific differences within the circadian network and
+its output pathways which could influence sexually
+dimorphic behaviors and physiology. Further, the
+connectome provides a singular snapshot of connectivity
+which could change depending on the time of day, the age of
+the animal as well as its internal state.
+Conclusion
+In conclusion, our circadian clock connectome, the first of
+its magnitude, is a significant milestone in chronobiology.
+Given the high conservation of circadian network motifs
+between Drosophila and vertebrates, this connectome
+provides the framework to systematically investigate
+circadian dysregulation which is linked to various health
+issues in humans including sleep, metabolic, and mood
+disorders. Moreover, it will also facilitate the development
+and experimental validation of novel hypotheses on clock
+function.

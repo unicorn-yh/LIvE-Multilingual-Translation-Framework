@@ -1,0 +1,335 @@
+Neurons are remarkable among the cells of the body in their ability to
+propagate signals rapidly over large distances. They do this by generating characteristic electrical pulses called action potentials, or more simply
+spikes, that can travel down nerve fibers. Neurons represent and transmit
+information by firing sequences of spikes in various temporal patterns.
+The study of neural coding, which is the subject of the first four chapters of
+this book, involves measuring and characterizing how stimulus attributes,
+such as light or sound intensity, or motor actions, such as the direction of
+an arm movement, are represented by action potentials.
+The link between stimulus and response can be studied from two opposite
+points of view. Neural encoding, the subject of chapters 1 and 2, refers to
+the map from stimulus to response. For example, we can catalogue how
+neurons respond to a wide variety of stimuli, and then construct models
+that attempt to predict responses to other stimuli. Neural decoding refers
+to the reverse map, from response to stimulus, and the challenge is to reconstruct a stimulus, or certain aspects of that stimulus, from the spike
+sequences it evokes. Neural decoding is discussed in chapter 3. In chapter
+4, we consider how the amount of information encoded by sequences of
+action potentials can be quantified and maximized. Before embarking on
+this tour of neural coding, we briefly review how neurons generate their
+responses and discuss how neural activity is recorded. The biophysical
+mechanisms underlying neural responses and action potential generation
+are treated in greater detail in chapters 5 and 6.
+Neurons are highly specialized for generating electrical signals in response
+to chemical and other inputs, and transmitting them to other cells. Some
+important morphological specializations, seen in the drawings of figure
+1.1, are the dendrites that receive inputs from other neurons and the axon
+that carries the neuronal output to other cells. The elaborate branching
+structure of the dendritic tree allows a neuron to receive inputs from many
+other neurons through synaptic connections. The cortical pyramidal neuron of figure 1.1A and the cortical interneuron of figure 1.1C each receives
+thousands of synaptic inputs, and for the cerebellar Purkinje cell of figure
+1.1B the number is over 100,000. Figure 1.1 does not show the full extent of
+the axons of these neurons. Axons from single neurons can traverse large
+fractions of the brain or, in some cases, of the entire body. In the mouse
+brain, it has been estimated that cortical neurons typically send out a total
+of about 40 mm of axon and have approximately 4 mm of total dendritic
+cable in their branched dendritic trees. The axon makes an average of 180
+synaptic connections with other neurons per mm of length while the dendritic tree receives, on average, 2 synaptic inputs per µm. The cell body or
+soma of a typical cortical neurons ranges in diameter from about 10 to 50
+µm.
+Along with these morphological features, neurons have physiological
+specializations. Most prominent among these are a wide variety of
+membrane-spanning ion channels that allow ions, predominantly sodium
+(Na+), potassium (K+), calcium (Ca2+), and chloride (Cl−), to move into
+and out of the cell. Ion channels control the flow of ions across the cell
+membrane by opening and closing in response to voltage changes and
+both internal and external signals.
+The electrical signal of relevance to the nervous system is the difference
+in electrical potential between the interior of a neuron and the surrounding extracellular medium. Under resting conditions, the potential inside
+the cell membrane of a neuron is about -70 mV relative to that of the surrounding bath (which is conventionally defined to be 0 mV), and the cell
+is said to be polarized. Ion pumps located in the cell membrane maintain
+concentration gradients that support this membrane potential difference.
+For example, Na+ is much more concentrated outside a neuron than inside it, and the concentration of K+ is significantly higher inside the neuron than in the extracellular medium. Ions thus flow into and out of a
+cell due to both voltage and concentration gradients. Current, in the form
+of positively charged ions flowing out of the cell (or negatively charged
+ions flowing into the cell) through open channels makes the membrane
+potential more negative, a process called hyperpolarization. Current flow
+ing into the cell changes the membrane potential to less negative or even
+positive values. This is called depolarization.
+If a neuron is depolarized sufficiently to raise the membrane potential
+above a threshold level, a positive feedback process is initiated, and the
+neuron generates an action potential. An action potential is a roughly 100
+mV fluctuation in the electrical potential across the cell membrane that
+lasts for about 1 ms (figure 1.2A). Action potential generation also depends
+on the recent history of cell firing. For a few milliseconds just after an
+action potential has been fired, it may be virtually impossible to initiate
+another spike. This is called the absolute refractory period. For a longer
+interval known as the relative refractory period, lasting up to tens of milliseconds after a spike, it is more difficult to evoke an action potentials.
+Action potentials are of great importance because they are the only form
+of membrane potential fluctuation that can propagate over large distances.
+Subthreshold potential fluctuations are severely attenuated over distances
+of 1 mm or less. Action potentials, on the other hand, are regenerated
+actively along axon processes and can travel rapidly over large distances
+without attenuation.
+Axons terminate at synapses where the voltage transient of the action potential opens ion channels producing an influx of Ca2+ that leads to the
+release of a neurotransmitter (figure 1.2B). The neurotransmitter binds to
+receptors at the signal receiving or postsynaptic side of the synapse causing ion-conducting channels to open. Depending on the nature of the ion
+flow, the synapses can have either an excitatory, depolarizing, or an inhibitory, typically hyperpolarizing, effect on the postsynaptic neuron.
+Figure 1,3 illustrates intracellular and extracellular methods for recording
+neuronal responses electrically (they can also be recorded optically). Membrane potentials are measured intracellularly by connecting to a neuron a
+hollow glass electrode filled with a conducting electrolyte, and comparing
+the potential it records to that of a reference electrode placed in the extracellular medium. Intracellular recordings are made either with sharp electrodes inserted through the membrane into the cell, or patch electrodes 
+that have broader tips and are sealed tightly to the surface of the membrane. After the patch electrode seals, the membrane beneath its tip is
+either broken or perforated providing electrical contact with the interior
+of the cell. The top trace in figure 1.3 is a schematic of an intracellular
+recording from the soma of a neuron firing a sequence of action potentials.
+The recording shows rapid spikes riding on top of a more slowly varying
+subthreshold potential. The bottom trace in figure 1.3 is a schematic of an
+intracellular recording made some distance out on the axon of the neuron. These traces are drawings, not real recordings, and such intracellular
+axon recordings, although possible in some types of cells, are difficult and
+rare. Intracellular recordings from the soma are the norm, but intracellular dendritic recordings are increasingly being made as well. The subthreshold membrane potential waveform, apparent in the soma recording, is completely absent on the axon due to attenuation, but the action
+potential sequence in the two recordings is the same. This illustrates the
+important point that spikes, but not subthreshold potentials, propagate
+regeneratively down axons.
+The middle trace in figure 1,3 illustrates an idealized, noise-free extracellular recording. Here an electrode is placed near a neuron but it does not
+penetrate the cell membrane. Such recordings can reveal the action potentials fired by a neuron, but not its subthreshold membrane potentials. Extracellular recordings are typically used for in vivo experiments, especially
+those involving behaving animals. Intracellular recordings are sometimes
+made in vivo, but are more commonly used for in vitro preparations such
+as experiments on slices of neural tissue. The responses studied in this
+chapter are action potential sequences that can be recorded either intra- or
+extra-cellularly.
+Characterizing the relationship between stimulus and response is difficult
+because neuronal responses are complex and variable. Neurons typically
+respond by producing complex spike sequences that reflect both the intrinsic dynamics of the neuron and the temporal characteristics of the stimulus. Isolating features of the response that encode changes in the stimulus
+can be difficult, especially if the time scale for these changes is of the same
+order as the average interval between spikes. Neural responses can vary
+from trial to trial even when the same stimulus is presented repeatedly.
+There are many potential sources of this variability including variable levels of arousal and attention, randomness associated with various biophysical processes that affect neuronal firing, and the effects of other cognitive
+processes taking place during a trial. The complexity and trial-to-trial variability of action potential sequences make it unlikely that we can describe
+and predict the timing of each spike deterministically. Instead, we seek a
+model that can account for the probabilities that different spike sequences
+are evoked by a specific stimulus.
+Typically, many neurons respond to a given stimulus, and stimulus features are therefore encoded by the activities of large neural populations. In
+studying population coding, we must examine not only the firing patterns
+of individual neurons, but also the relationships of these firing patterns to
+each other across the population of responding cells.
+In this chapter, we introduce the firing rate and spike-train correlation
+functions, which are basic measures of spiking probability and statistics.
+We also discuss spike-triggered averaging, a method for relating action
+potentials to the stimulus that evoked them. Finally, we present basic
+stochastic descriptions of spike generation, the homogeneous and inhomogeneous Poisson models, and discuss a simple model of neural responses to which they lead. In chapter 2, we continue our discussion of
+neural encoding by showing how reverse-correlation methods are used
+to construct estimates of firing rates in response to time-varying stimuli.
+These methods have been applied extensively to neural responses in the
+retina, lateral geniculate nucleus (LGN) of the thalamus, and primary visual cortex, and we review the resulting models.
+Action potentials convey information through their timing. Although action potentials can vary somewhat in duration, amplitude, and shape,
+they are typically treated in neural encoding studies as identical stereotyped events. If we ignore the brief duration of an action potential (about
+1 ms), an action potential sequence can be characterized simply by a list
+of the times when spikes occurred. For n spikes, we denote these times
+by ti with i = 1, 2,..., n. The trial during which the spikes are recorded
+is taken to start at time zero and end at time T, so 0 ≤ ti ≤ T for all i. The
+spike sequence can also be represented as a sum of infinitesimally narrow,
+idealized spikes in the form of Dirac δ functions (see the Mathematical
+Appendix).
+Response tuning curves characterize the average response of a neuron to
+a given stimulus. We now consider the complementary procedure of averaging the stimuli that produce a given response. To average stimuli in
+this way, we need to specify what fixed response we will use to ‘trigger’
+the average. The most obvious choice is the firing of an action potential.
+Thus, we ask, “what on average did the stimulus do before an action potential was fired?” The resulting quantity, called the spike-triggered average stimulus, provides a useful way of characterizing neuronal selectivity.
+Spike-triggered averages are computed using stimuli characterized by a
+parameter s(t) that varies over time. Before beginning our discussion of
+spike triggering, we describe some features of such stimuli.
+Neurons responding to sensory stimuli face the difficult task of encoding
+parameters that can vary over an enormous dynamic range. For example,
+photoreceptors in the retina can respond to single photons or can operate in bright light with an influx of millions of photons per second. To
+deal with such wide-ranging stimuli, sensory neurons often respond most
+strongly to rapid changes in stimulus properties and are relatively insensitive to steady-state levels. Steady-state responses are highly compressed
+functions of stimulus intensity, typically with logarithmic or weak powerlaw dependences. This compression has an interesting psychophysical
+correlate. Weber measured how different the intensity of two stimuli had
+to be for them to be reliably discriminated, the ‘just noticeable’ difference.
+The spike-triggered average stimulus is widely used to study and characterize neural responses. Because C(τ) is the average value of the stimulus
+a time τ before a spike, larger values of τ represent times further in the
+past relative to the time of the triggering spike. For this reason, we plot
+spike-triggered averages with the time axis going backward compared to
+the normal convention. This allows the average spike-triggering stimulus
+to be read off from the plots in the usual left to right order.
+Figure 1.9 shows the spike-triggered average stimulus for a neuron in
+the electrosensory lateral-line lobe of the weakly electric fish Eigenmania.
+Weakly electric fish generate oscillating electric fields from an internal
+electric organ. Distortions in the electric field produced by nearby objects
+are detected by sensors spread over the skin of the fish. The lateral-line
+lobe acts as a relay station along the processing pathway for electrosensory
+signals. Fluctuating electrical potentials, such as that shown in the upper
+left trace of figure 1,9 elicit responses from electrosensory lateral-line lobe
+neurons, as seen in the lower left trace. The spike-triggered average stimulus, plotted at the right, indicates that, on average, the electric potential
+made a positive upswing followed by a large negative deviation prior to a
+spike being fired by this neuron.
+The results obtained by spike-triggered averaging depend on the particular set of stimuli used during an experiment. How should this set be
+chosen? In chapter 2, we show that there are certain advantages to using a
+stimulus that is uncorrelated from one time to the next, a white-noise stimulus. A heuristic argument supporting the use of such stimuli is that, in
+asking what makes a neuron fire, we may want to sample its responses
+to stimulus fluctuations at all frequencies with equal weight (i.e. equal
+power), and this is one of the properties of white noise stimuli. In practice, white-noise stimuli can only be generated with equal power up to a
+finite frequency cutoff, but neurons only respond to stimulus fluctuations
+within a limited frequency range anyway. Figure 1.9 is based on a such an
+approximate white-noise stimulus. The power in a signal as a function of
+its frequency is called the power spectrum or power spectral density, and
+white noise has a flat power spectrum.
+A stochastic process that generates a sequence of events, such as action 
+potentials, is called a point process. In general, the probability of an event
+occurring at any given time could depend on the entire history of preceding events. If this dependence extends only to the immediately preceding
+event, so that the intervals between successive events are independent,
+the point process is called a renewal process. If there is no dependence 
+at all on preceding events, so that the events themselves are statistically
+independent, we have a Poisson process. The Poisson process provides
+an extremely useful approximation of stochastic neuronal firing. To make 
+the presentation easier to follow we separate two cases, the homogeneous
+Poisson process, for which the firing rate is constant over time, and the
+inhomogeneous Poisson process, which involves a time-dependent firing
+rate.
+One possibility is to use the spikes to distinguish slow from rapid, so that
+a temporal code is identified when peaks in the firing rate occur with
+roughly the same frequency as the spikes themselves. In this case, each
+peak corresponds to the firing of only one, or at most a few action potentials. While this definition makes intuitive sense, it is problematic to
+extend it to the case of population coding. When many neurons are involved, any single neuron may fire only a few spikes before its firing rate
+changes, but collectively the population may produce a large number of
+spikes over the same time period. Thus, a neuron that appears to employ
+a temporal code, by this definition, may be part of a population that does
+not.
+Another proposal is to use the stimulus, rather than the response, to establish what makes a temporal code. In this case, a temporal code is defined
+as one in which information is carried by details of spike timing on a scale
+shorter than the fastest time characterizing variations of the stimulus. This
+requires that information about the stimulus be carried by Fourier components of r(t) at frequencies higher than those present in the stimulus.
+Many of the cases where a temporal code has been reported using spikes
+to define the nature of the code would be called rate codes if the stimulus
+were used instead.
+The debate between rate and temporal coding dominates discussions
+about the nature of the neural code. Determining the temporal resolution
+of the neural code is clearly important, but much of this debate seems uninformative. We feel that the central challenge is to identify relationships
+between the firing patterns of different neurons in a responding population and to understand their significance for neural coding.
+The spike-triggered average stimulus introduced in chapter 1 is a standard way of characterizing the selectivity of a neuron. In this chapter,
+we show how spike-triggered averages and reverse-correlation techniques
+can be used to construct estimates of firing rates evoked by arbitrary
+time-dependent stimuli. Firing rates calculated directly from reversecorrelation functions provide only a linear estimate of the response of a
+neuron, but we also present in this chapter various methods for including
+nonlinear effects such as firing thresholds.
+Spike-triggered averages and reverse-correlation techniques have been 
+used extensively to study properties of visually responsive neurons in the
+retina (retinal ganglion cells), lateral geniculate nucleus (LGN), and primary visual cortex (V1, or area 17 in the cat). At these early stages of
+visual processing, the responses of some neurons (simple cells in primary
+visual cortex, for example) can be described quite accurately using this
+approach. Other neurons (complex cells in primary visual cortex, for example) can be described by extending the formalism. Reverse-correlation
+techniques have also been applied to responses of neurons in visual areas
+V2, area 18, and MT, but they generally fail to capture the more complex
+and nonlinear features typical of responses at later stages of the visual
+system. Descriptions of visual responses based on reverse correlation are
+approximate, and they do not explain how visual responses arise from
+the synaptic, cellular, and network properties of retinal, LGN, and cortical
+circuits. Nevertheless, they provide a important framework for characterizing response selectivities, a reference point for identifying and characterizing novel effects, and a basis for building mechanistic models, some
+of which are discussed at the end of this chapter and in chapter 7.
+Neuronal selectivity is often characterized by describing stimuli that evoke
+maximal responses. The reverse-correlation approach provides a justification for this procedure by relating the optimal kernel for firing rate estimation to the stimulus predicted to evoke the maximum firing rate, subject
+to a constraint. A constraint is essential because the linear estimate 2.1 is
+unbounded. The constraint we use is that the time integral of the square of
+the stimulus over the duration of the trial is held fixed. We call this integral
+the stimulus energy. The stimulus for which equation 2.1 predicts the maximum response at some fixed time subject to this constraint, is computed
+in appendix B. The result is that the stimulus producing the maximum response is proportional to the optimal linear kernel, or equivalently to the
+white-noise spike-triggered average stimulus. This is an important result
+because in cases where a white-noise analysis has not been done, we may
+still have some idea what stimulus produces the maximum response.
+The maximum stimulus analysis provides an intuitive interpretation of
+the linear estimate of equation 2,1. At fixed stimulus energy, the integral
+in 2.1 measures the overlap between the actual stimulus and the most effective stimulus. In other words, it indicates how well the actual stimulus
+matches the most effective stimulus. Mismatches between these two reduce the value of the integral and result in lower predictions for the firing
+rate.
+The optimal kernel produces an estimate of the firing rate that is a linear
+function of the stimulus. Neurons and nervous systems are nonlinear, so
+a linear estimate is only an approximation, albeit a useful one. The linear prediction has two obvious problems: there is nothing to prevent the
+predicted firing rate from becoming negative, and the predicted rate does
+not saturate, but instead increases without bound as the magnitude of the
+stimulus increases. One way to deal with these and some of the other deficiencies of a linear prediction is to write the firing rate as a background
+rate plus a nonlinear function of the linearly filtered stimulus. We use L to
+represent the linear term we have been discussing thus far.
+Before discussing how reverse correlation methods are applied to visually
+responsive neurons, we review the basic anatomy and physiology of the
+early stages of the visual system. The conversion of a light stimulus into
+an electrical signal and ultimately an action potential sequence occurs in
+the retina. Figure 2.4A is an anatomical diagram showing the five principal cell types of the retina, and figure 2.4B is a rough circuit diagram.
+In the retina, light is first converted into an electrical signal by a phototransduction cascade within rod and cone photoreceptor cells. Figure 2.4B
+shows intracellular recordings made in neurons of the retina of a mudpuppy (an amphibian). The stimulus used for these recordings was a flash
+of light falling primarily in the region of the photoreceptor at the left of
+figure 2.4B. The rod cells, especially the one on the left side of figure 2.4B,
+are hyperpolarized by the light flash. This electrical signal is passed along
+to bipolar and horizontal cells through synaptic connections. Note that in
+one of the bipolar cells, the signal has been inverted leading to depolarization. These smoothly changing membrane potentials provide a graded
+representation of the light intensity during the flash. This form of coding is adequate for signaling within the retina, where distances are small.
+However, it is inadequate for the task of conveying information from the
+retina to the brain.
+The output neurons of the retina are the retinal ganglion cells whose axons
+form the optic nerve. As seen in figure 2,4B, the subthreshold potentials
+of the two retinal ganglion cells shown are similar to those of the bipolar
+cells immediately above them in the figure, but now with superimposed
+action potentials. The two retinal ganglion cells shown in the figure have
+different responses and transmit different sequences of action potentials.
+G2 fires while the light is on, and G1 fires when it turns off. These are called
+ON and OFF responses, respectively. The optic nerve conducts the output
+spike trains of retinal ganglion cells to the lateral geniculate nucleus of the
+thalamus, which acts as a relay station between the retina and primary
+visual cortex (figure 2.5). Prior to arriving at the LGN, some retinal ganglion cell axons cross the midline at the optic chiasm. This allow the left
+and right sides of the visual fields from both eyes to be represented on the
+right and left sides of the brain respectively (figure 2.5).
+Neurons in the retina, LGN, and primary visual cortex respond to light
+stimuli in restricted regions of the visual field called their receptive fields.
+Patterns of illumination outside the receptive field of a given neuron cannot generate a response directly, although they can significantly affect responses to stimuli within the receptive field. We do not consider such effects, although they are a current focus of experimental and theoretical interest. In the monkey, cortical receptive fields range in size from around a
+tenth of a degree near the fovea to several degrees in the periphery. Within
+the receptive fields, there are regions where illumination higher than the
+background light intensity enhances firing, and other regions where lower
+illumination enhances firing. The spatial arrangement of these regions determines the selectivity of the neuron to different inputs. The term receptive field is often generalized to refer not only to the overall region where
+light affects neuronal firing, but also to the spatial and temporal structure
+within this region.
+Visually responsive neurons in the retina, LGN, and primary visual cortex
+are divided into two classes depending on whether or not the contributions from different locations within the visual field sum linearly, as assumed in equation 2.24. X-cells in the cat retina and LGN, P-cells in the
+monkey retina and LGN, and simple cells in primary visual cortex appear
+to satisfy this assumption. Other neurons, such as Y cells in the cat retina
+and LGN, M cells in the monkey retina and LGN, and complex cells in
+primary visual cortex, do not show linear summation across the spatial
+receptive field and nonlinearities must be included in descriptions of their
+responses. We do this for complex cells later in this chapter.
+A first step in studying the selectivity of any neuron is to identify the
+types of stimuli that evoke strong responses. Retinal ganglion cells and
+LGN neurons have similar selectivities and respond best to circular spots
+of light surrounded by darkness or dark spots surrounded by light. In primary visual cortex, many neurons respond best to elongated light or dark
+bars or to boundaries between light and dark regions. Gratings with alternating light and dark bands are effective and frequently used stimuli for
+these neurons.
+Many visually responsive neurons react strongly to sudden transitions in
+the level of image illumination, a temporal analog of their responsiveness
+to light-dark spatial boundaries. Static images are not very effective at
+evoking visual responses. In awake animals, images are constantly kept
+in motion across the retina by eye movements. In experiments in which the
+eyes are fixed, moving light bars and gratings, or gratings undergoing periodic light-dark reversals (called counterphase gratings) are used as more
+effective stimuli than static images. Some neurons in primary visual cortex
+are directionally selective; they respond more strongly to stimuli moving
+in one direction than in the other.
+To streamline the discussion in this chapter, we consider only greyscale
+images, although the methods presented can be extended to include color.
+We also restrict the discussion to two-dimensional visual images, ignoring how visual responses depend on viewing distance and encode depth.
+In discussing the response properties of retinal, LGN, and V1 neurons,
+we do not follow the path of the visual signal, nor the historical order of
+experimentation, but, instead, begin with primary visual cortex and then
+move back to the LGN and retina. The emphasis is on properties of individual neurons, so we do not discuss encoding by populations of visually
+responsive neurons. For V1, this has been analyzed in terms of wavelets,
+a scheme for decomposing images into component pieces, as discussed in
+chapter 10.
+A striking feature of most visual areas in the brain, including primary visual cortex, is that the visual world is mapped onto the cortical surface in
+a topographic manner. This means that neighboring points in a visual image evoke activity in neighboring regions of visual cortex. The retinotopic
+map refers to the transformation from the coordinates of the visual world
+to the corresponding locations on the cortical surface.
+Figure 2,7A shows a dramatic illustration of the retinotopic map in the
+primary visual cortex of a monkey. The pattern on the cortex seen in figure 2,7A was produced by imaging a radioactive analog of glucose that
+was taken up by active neurons while a monkey viewed a visual image
+consisting of concentric circles and radial lines, similar to the pattern in
+figure 2,6B. The vertical lines correspond to the circles in the image, and
+the roughly horizontal lines are due to the activity evoked by the radial
+lines. The fovea is represented at the left-most pole of this piece of cortex
+and eccentricity increases toward the right. Azimuthal angles are positive
+in the lower half of the piece of cortex shown, and negative in the upper
+half.

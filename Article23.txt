@@ -1,0 +1,528 @@
+The functional properties of neurons in the primary visual cortex (V1)
+are thought to be closely related to the structural properties of this network,
+but the specific relationships remain unclear. Previous theoretical
+studies have suggested that sparse coding, an energy-efficient coding
+method, might underlie the orientation selectivity of V1 neurons. We
+thus aimed to delineate how the neurons are wired to produce this
+feature. We constructed a model and endowed it with a simple Hebbian
+learning rule to encode images of natural scenes. The excitatory neurons
+fired sparsely in response to images and developed strong orientation
+selectivity. After learning, the connectivity between excitatory neuron
+pairs, inhibitory neuron pairs, and excitatory-inhibitory neuron pairs
+depended on firing pattern and receptive field similarity between the
+neurons. The receptive fields (RFs) of excitatory neurons and inhibitory
+neurons were well predicted by the RFs of presynaptic excitatory neurons
+and inhibitory neurons, respectively. The excitatory neurons formed
+a small-world network, in which certain local connection patterns were
+significantly overrepresented. Bidirectionally manipulating the firing
+rates of inhibitory neurons caused linear transformations of the firing
+rates of excitatory neurons, and vice versa. These wiring properties and
+modulatory effects were congruent with a wide variety of data measured
+in V1, suggesting that the sparse coding principle might underlie both
+the functional and wiring properties of V1 neurons.
+Revealing the functional properties of visual neurons and their wiring pattern
+is key to understanding the working mechanisms of the visual system.
+One of the greatest discoveries about the functions of neurons in the
+mammalian primary visual cortex (V1) comes from Hubel andWiesel’s experiments
+in which a large portion of them were found to be orientation
+or direction selective (Hubel, 1959; Hubel & Wiesel, 1962). This has been
+attributed to the sparse activity of neurons in response to visual stimuli
+(Olshausen & Field, 1996, 1997).
+Over the past 20 years, technical advances have enabled researchers to
+probe the topology of the networks formed by V1 neurons. We now know
+that the wiring pattern of layer 2/3 neurons in the rodent V1 is highly nonrandom
+(Alonso & Martinez, 1998; Bock et al., 2011; Cossell et al., 2015;
+Hofer et al., 2011; Ko et al., 2011; Yoshimura, Dantzker, & Callaway, 2005).
+For instance, the connection probability between two pyramidal (PYR) excitatory
+neurons depends on their preferred orientation difference (Hofer
+et al., 2011; Ko et al., 2011), and the connection strength between two PYR
+neurons correlates with their response similarity and receptive field (RF)
+similarity (Cossell et al., 2015). However, it remains unclear how these
+wiring properties emerge and how they are related to the functions of
+neurons.
+To address these unanswered questions, it would be helpful to have a
+simple, biologically plausible, and sensitive learning model that is based
+on few assumptions and is capable of unifying previous data while predicting
+new connectivity patterns. As a preliminary requirement, such a model
+should incorporate the emergence of orientation selectivity of V1 neurons.
+Sparse coding models (Olshausen & Field, 1996, 1997) and related independent
+component analysis models (Bell & Sejnowski, 1997) are able to replicate
+this functional property. They often have a two-layer structure where
+the first layer contains visible units corresponding to image pixels and the
+second layer contains latent units corresponding to V1 neurons. Some of
+these models either do not consider the dependence between latent units
+(Bell & Sejnowski, 1997; Lee, Battle, Raina, & Ng, 2006; Olshausen & Field,
+1996, 1997) or do not model the dependence by explicit connections (Garrigues
+& Olshausen, 2010; Hyvärinen, Hoyer, & Inki, 2001), which makes it
+impossible to compare the models with cortical circuits in terms of structure.
+A nonfactorial sparse coding model (Garrigues & Olshausen, 2008)
+considers lateral connections between neurons, but the model lacks biological
+plausibility. Amore biologically plausible model assuming lateral connections
+between neurons refers to the locally competitive network (LCN)
+(Rozell, Johnson, Baraniuk,&Olshausen, 2008).Acombination of Hebb rule
+and anti-Hebb rule can be used by theLCNto learn the oriented bar-like RFs
+of V1 neurons (Brito & Gerstner, 2016). A spiking model equipped with local
+plasticity rules, named SAILnet (Zylberberg, Murphy, & DeWeese, 2011)
+was shown to be able to not only replicate the bar-like RFs of V1 neurons but
+also log-normal-like distributions of inhibitory connection weight between
+excitatory neurons. Similar distributions of synaptic efficacy have been observed
+in the brain (Buzsaki & Mizuseki, 2014; Song, Sjostrom, Reigl, Nelson,
+& Chklovskii, 2005).
+The aforementioned models do not differentiate between excitatory neurons
+and inhibitory neurons. Some excitatory-inhibitory models (Brunel,
+2016; Carlson, Richert, Dutt, & Krichmar, 2013; Miner & Triesch, 2016; Montangie,
+Miehl, & Gjorgjieva, 2020) have been shown to be able to replicate
+either the orientation selectivity of V1 neurons or wiring features of cortical
+neuron—for example, log-normal-like distribution of the connection
+strength (Song et al., 2005) and network motifs (Perin, Berger, & Markram,
+2011; Song et al., 2005) among PYR neurons, but not both. We are aware
+of only one excitatory-inhibitory model (King, Zylberberg, & DeWeese,
+2013) that related the orientation selectivity of V1 neurons to their connectivity
+by taking structured visual input. But in that study, only the connections
+between excitatory-inhibitory pairs were analyzed with respect
+to the RFs of neurons. In addition, the model assumes no lateral connections
+between excitatory neurons and therefore cannot be used directly to
+study the wiring features among excitatory neurons reported in animal
+studies (Cossell et al., 2015; Perin et al., 2011). In fact, many computational
+studies, including most of those already noted (Brunel, 2016; Carlson
+et al., 2013; King et al., 2013; Miner & Triesch, 2016), do not assume
+existence and plasticity of all types of connections: excitatory-to-excitatory
+(E-to-E), excitatory-to-inhibitory (E-to-I), inhibitory-to-excitatory (I-to-E),
+and inhibitory-to-inhibitory (I-to-I) connections. It is yet to be known if the
+wiring features of V1 neurons could emerge in a fully learnable model.
+We extended the LCN (Rozell et al., 2008) into an excitatory–inhibitory
+network (see Figure 1A) and adopted the Hebb rule (Brito & Gerstner,
+2016) to learn all types of connections given natural images as stimuli. The
+model replicated numerous wiring properties of V1 neurons discovered in
+recent years and made many interesting predictions that can now be tested
+experimentally.
+connection strengths from excitatory neurons to inhibitory neurons and
+from inhibitory neurons to excitatory neurons are similar (Holmgren,
+Harkany, Svennenfors, & Zilberter, 2003; Pfeffer et al., 2013) Fifth, the connection
+probability, calculated as the number of detected connections divided
+by the number of potential connections assayed, between excitatory
+neuronswas about 20% and the connection probability fromexcitatory neurons
+to inhibitory neurons was about 90% (Cossell et al., 2015; Hofer et al.,
+2011; Ko et al., 2011; Yoshimura et al., 2005).
+Starting from these assumptions, we constructed a network consisting
+of 1000 excitatory neurons and 250 inhibitory neurons (see Figure 1A). The
+dynamic equations of the neurons are
+where zE and zI denote the membrane potentials of the excitatory neurons
+and inhibitory neurons, respectively; rE and rI denote the firing rates of
+excitatory neurons and inhibitory neurons, respectively; x denotes visual
+stimuli (small patches extracted from natural images in our experiment that
+contain both positive and negative values); and c denotes input from other
+brain areas. The firing rates rE and rI are determined by the activation functions
+f E(zE) and f I(zI ), respectively (see Figure 1B).MPQ denotes the lateral
+connections from neuron set Q to neuron set P (red and blue arrows in Figure
+1A); P and Q can take two values, E and I, denoting excitatory neurons
+and inhibitory neurons, respectively. WE and WI denote the feedforward
+connections from visual stimuli x to excitatory neurons and inhibitory neurons,
+respectively (gray arrows in Figure 1A). Therefore, each row of WE
+denotes the RF of an excitatory neuron, and each row ofWI denotes the RF
+of an inhibitory neuron. All elements inMPQ are constrained to be nonnegative,
+whereas the elements inWE andWI do not have this constraint. It is
+possible to model the neural projection from the lateral geniculate nucleus
+to V1 and separate WE and WI into matrices with nonnegative elements,
+but that is not the focus of this study. The time constants τE and τI govern
+the evolving speeds of zE(t) and zI(t), respectively. Given the stimuli x
+and external input c, the states of the neurons evolve over time according
+to equations 2.1 and 2.2 (see Figure 1C). Throughout this letter, the characters
+in bold denote vectors or matrices, and the letters in plain type denote
+scalars.
+By distinguishing excitatory neurons and inhibitory neurons, the two
+equations are essentially in the form of LCN (Rozell et al., 2008). This form
+can trace back to the continuous Hopfield network (Hopfield, 1984). In biologically
+detailed neuronal models, the synaptic inputs zE, zI, and c usually
+denote potential, but here for convenience we assume that they have been
+multiplied by a constant to convert potential to firing rate and are therefore
+measured in units of Hz (Dayan & Abbott, 2001). This makes the synaptic
+weights dimensionless. Note that this view does not imply that zE, zI, and
+c could only be nonnegative.
+The neurons start to fire when the inputs exceed certain thresholds (Desai,
+Rutherford, & Turrigiano, 1999; Fuortes & Mantegazzini, 1962; Tateno
+et al., 2004). Specifically, the activation functions for the excitatory and inhibitory
+neurons are defined.
+In a biological system, connected neurons can become disconnected
+when the synapses are weak. To simulate the process, one could use a small
+threshold to prune all connections whose strengths are below it (Miner &
+Triesch, 2016). But that would only prune the E-to-E connections because
+the other three types of lateral connections should be much stronger according
+to physiological data (Hofer et al., 2011; Holmgren et al., 2003) and
+therefore would not be affected. A better strategy is to define a probability
+function depending on the connection strength w for randomly dropping
+connections. Three nonincreasing probability functions p(w) were tested,
+called one-over-w, sigmoid and piecewise-linear (see Figure 1D) The parameters
+of the functions were set such that after convergence of the learning
+algorithm, the probability of connection between excitatory neurons
+was about 20% and the probability of connection fromexcitatory neurons to
+inhibitory neurons was about 90% according to experimental observations
+in layer 2/3 of rodents’ V1 area (Cossell et al., 2015; Hofer et al., 2011; Ko
+et al., 2011; Yoshimura et al., 2005).We empirically found that to satisfy the
+above conditions, p(w) should first decrease quickly to a low probability
+then stay there or decrease slowly. We did not find qualitatively different
+results by using different functions or different parameters of a particular
+function if only the above conditions were satisfied. All results presented
+in this letter were obtained with p(w) being the one-over-w function unless
+otherwise specified. Without connection dropping, the results presented
+in this letter, except those depending on disconnections between neurons
+(e.g., connection probability and network topology), did not change
+significantly.
+Overall Firing and Connection Patterns. The distributions of firing
+rates of the excitatory neurons and inhibitory neurons showed a higher
+peak at zero and a heavier “tail” than the fitted half-normal distributions
+(see Figure 1E), indicating sparseness of the neural activities. This was due
+to the threshold activation functions of the neurons. Consistent with the
+sparse coding theory (Olshausen & Field, 1996, 1997), the RFs of the excitatory
+neurons resembled simple oriented bars, but the RFs of inhibitory
+neurons were much more complex (see Figure 1F). Using gratings with different
+orientations (0◦–180◦) as the input, we calculated the preferred orientations
+and the orientation selectivity indexes (OSIs) of all neurons (see
+Figures 1G and 1H): 84.7% of excitatory neurons had an OSI larger than 0.8,
+but 85.6% of inhibitory neurons had an OSI less than 0.4, consistent with
+physiological data (Atallah et al., 2012; Hofer et al., 2011; Kerlin et al., 2010).
+We attribute these differences to different levels of sparseness in the activity
+of the excitatory neurons and inhibitory neurons. Given a set of stimuli,
+the percentage of active excitatory neurons was approximately 5%, while
+the percentage of active inhibitory neurons was approximately 35%.When
+inhibitory neurons were made to fire more sparsely, which was achieved
+by increasing their firing thresholds, many of their RFs also resembled oriented
+bars (see Figure 1I). This is consistent with a previous computational
+study (King et al., 2013) in which both excitatory neurons and inhibitory
+neurons fired sparsely to image patches and the obtained RFs all resembled
+oriented bars.
+Neurons with Similar Responses Form Strong Connections. Because
+the learning rule was based on the Hebb rule, we expected that the
+strengths of connections between neurons would correlate with their responses
+to natural images. We therefore calculated the correlation coefficients
+of responses of pairs of neurons to 100 randomly sampled image
+patches (see Figures 3A–3C). The distribution of the coefficients between
+excitatory neurons was quite sparse, and most coefficients were small (see
+Figure 3A). Similar results were also produced in a previous computational
+model (Zylberberg et al., 2011). Excitatory neurons were more likely to be
+connected if their responses were more similar (see Figure 3D). In addition,
+they tended to form strong connections if their response correlation
+coefficient was large but tended weak connections if the coefficient was
+small or negative (see Figure 3E). In fact, 3.7% of the most correlated Eto-
+E pairs accounted for 50% of the total strength of all E-to-E connections
+(see Figure 3F), highlighting the nonuniform distribution of the connection
+strengths between excitatory neurons. These results are consistent with experimental
+data obtained from the mouse V1 (Cossell et al., 2015).
+The distributions of the correlation coefficients between excitatoryinhibitory
+pairs (see Figure 3B) and between inhibitory pairs (see Figure 3C)
+were peaked at points below zero, wider than that between excitatory pairs
+(see Figure 3A). The connection probability between excitatory-inhibitory
+pairs was higher if their responses were positively correlated and lower
+if their responses were negatively correlated (see Figures 3G and 3J). The
+I-to-I connection probability was always close to one and had weak dependence
+on the response correlation (see Figure 3M). Similar to the E-to-E
+connections, the I-to-E, E-to-I and I-to-I connections were stronger between
+neurons with more similar responses (Figures 3E, 3H, 3K, and 3N). The
+nonuniformity of the strength distributions was not as high as that of the
+E-to-E connection strength distribution. The 36.6% most correlated I-to-E
+pairs (see Figure 3I), 36.0% most correlated E-to-I pairs (see Figure 3L) and
+33.2% of most correlated I-to-I pairs (see Figure 3O) accounted for 50% of
+the total strength of all I-to-E, E-to-I and I-to-I connections, respectively.
+Taken together, these results indicated that the model neurons, regardless
+of type, were more strongly connected if their responses were more
+similar.
+Neurons with Similar RFs Form Strong Connections. Besides response
+correlation, RF correlation, quantified using the pixel-to-pixel correlation
+coefficient between two RFs, can be also used to measure the
+functional similarity between neurons (see Figure 4). The distributions of
+RF correlation coefficients were more symmetric than those of response
+correlation coefficients (compare Figures 4A–4C with Figures 3A–3C). This
+difference was observed between the two distributions calculated between
+PYR neurons in mouse V1 (Cossell et al., 2015). We investigated whether
+the connection probability and the strength of connections between neurons
+correlated with the similarity between the RFs of the neurons (see Figures
+4D–4O). All the conclusions based on the response similarity were also
+obtained based on the RF similarity. In fact, 1.7% of strong E-to-E connections
+accounted for 50% of the total strength (see Figure 4F), while considerably
+larger portions of strong connections of other types (I-to-E, 24.4%;
+E-to-I, 24.3%; I-to-I, 29.2%) were required to account for 50% of the total
+strength (see Figures 4I, 4L, and 4O).
+Consistent with the results obtained between PYR/PYR pairs in the
+mouse V1 (Cossell et al., 2015),we found that the connections between bidirectionally
+connected excitatory neuron pairs were stronger than the connections
+between unidirectionally connected excitatory pairs, and the RFs
+of bidirectionally connected neuron pairs were more similar than the RFs
+of unidirectionally connected pairs (see Figure 5).
+We also investigated the relationships between the RFs of postsynaptic
+neurons and the RFs of presynaptic neurons using the method described in
+a published physiological study (Cossell et al., 2015). For each postsynaptic
+neuron, we calculated the weighted sum of the RFs of all presynaptic excitatory
+or inhibitory neurons using the corresponding connection strengths
+as the weighting coefficients and then compared this sum with the actual
+RF of the postsynaptic neuron. The RFs of the excitatory neurons were well
+predicted by their presynaptic excitatory neurons (see Figure 6A) but not
+by the presynaptic inhibitory neurons (see Figure 6B). The RFs of the inhibitory
+neurons were predicted by their presynaptic excitatory neurons
+to some extent (see Figure 6C) and well predicted by their presynaptic inhibitory
+neurons (see Figure 6D).
+For each neuron, we sorted the presynaptic neurons into descending order
+of connection strength and then divided them into four quarters. In the
+case of E-to-E connections, the first two quarters of presynaptic neurons accounted
+for 81.2% and 14.0% of the total connection strength on average,
+and the predicted RFs of the postsynaptic neurons based on these neurons
+were highly correlated with the actual RF (median correlations were 0.94
+and 0.78, respectively; see Figure 6A). These findings are consistent with
+the results obtained between PYR/PYR pairs in themouse V1 (Cossell et al.,
+2015). In the cases of E-to-I and I-to-I connections, only the first quarter of
+presynaptic neurons could predict the RFs of postsynaptic neurons to some
+extent (median correlations were 0.64 and 0.83, respectively; see Figures 6C
+and 6D). In the case of I-to-E connections, none of the quarters of presynaptic
+neurons could predict the RFs of postsynaptic neurons well (median
+correlations were smaller than 0.5; see Figure 6B). In all four cases, the median
+correlations decreased with increasing quarter number. Finally, as expected,
+the unconnected neurons in all four cases failed to predict the RFs
+of the postsynaptic neurons.
+These analyses indicate that all neurons in the model with more similar
+RFs were more strongly connected, and the presynaptic neurons played an
+important role in shaping the RFs of the postsynaptic neurons.
+Excitatory Neurons Form a Small-World Network. The previous
+analyses suggested that the learned network was not randomly wired. We
+therefore systematically evaluated the nonrandomness of the network. We
+investigated only the subnetwork consisting of the excitatory neurons, because
+we aimed to analyze the connectivity pattern, which was meaningful
+only in a population with sparse connections while the inhibitory neurons
+were densely connected to each other and to the excitatory neurons. We
+randomly selected 10,000 small subnets consisting of K excitatory neurons,
+with K equal to 3 to 8, and then calculated the number of connections
+between all neurons in each subnet. For comparison, we constructed
+100 random networks whose unidirectional and bidirectional connection
+probabilities matched those of the learned network. A higher number
+of connections in a K-cell subnet tended to be found more frequently in
+the learned network than in random networks (see Figures 7A and 7B),
+implying that certain local connection patterns (or motifs) (Perin et al., 2011;
+Song et al., 2005) were significantly overrepresented. The neurons with
+more similar RFs tended to form overrepresented motifs (see Figure 7C).
+Moreover, pairs of neurons tended to share more common neighbors than
+expected, and with more common neighbors, neurons were more likely to
+be connected (see Figure 8). Similar motif patterns and common neighbor
+effect were observed among somatosensory neurons of rats (Perin et al.,
+2011).
+Many types of networks can exhibit the local clustering effect described
+above. Next,we tested two most common hypotheses in describing nonrandom
+complex networks: the scale-free network (Barabasi & Albert, 1999)
+and small-world network (Watts & Strogatz, 1998) hypotheses. These are
+global characteristics of complex networks. The hallmark of the scale-free
+network is that its node degree follows a power-law distribution. In other
+words, the distribution of the node degree is approximately a straight line
+with a negative slope in the log-log plane; so is its cumulative distribution
+(but with a different slope). We did not observe this pattern in the distribution
+of node in-degree, out-degree, or total degree (see Figure 9). To test
+the small-world hypothesis, we converted the excitatory neuronal network
+into an undirected and unweighted network: if there existed at least one
+connection between two neurons, they were said to be connected, and the
+connectionweightwas set to one. The average shortest path length between
+all pairs of excitatory neurons was 1.81 ± 0.39 (mean ± standard deviation),
+and the average clustering coefficient was 0.36 ± 0.7. For comparison,
+we constructed a random network with the same number of neurons and
+connections. This was achieved by randomly shuffling the connections in
+the undirected and unweighted excitatory neuronal network. The average
+shortest path length in this random network was 1.81 ± 0.39, nearly the
+same as that of the learned network, but the average clustering coefficient
+was 0.18 ± 0.003, which is much smaller than that of the learned network,
+indicating the small-worldness of the learned network.
+Akey question is how this small-world network is wired. It is known that
+a small-world network can be obtained by randomly reconnecting some
+connections in a ring lattice (Watts & Strogatz, 1998). In many small-world
+networks, such as social networks and theWorldWideWeb, it is difficult to
+visualize this process because it is difficult to arrange the nodes into a ring
+lattice. In our network, the neurons can be ordered in a ring lattice according
+to their orientation preferences. We generated an example subnetwork
+consisting of 36 neurons whose preferred orientations increased from 0◦ to
+180◦ (see Figure 10A). The subnetwork exhibited a clustering pattern on
+neighboring neurons as most of the output weights and input weights of
+each neuron were between neighboring neurons, though some distant connections
+were also present. We used a threshold to remove the half of the
+original weighted connections with the weakest weights and converted the
+connections to binary; we also observed a prominent clustering effect (see
+Figure 10B).
+But the connections are inhibitory connections between
+excitatory neurons, which violates Dale’s law. Inhibitory neurons
+were introduced to resolve this problem (King et al., 2013). It was reported
+that the strength of connection between an excitatory-inhibitory neuron
+pair was correlated with the RF similarity between the two neurons. The
+same prediction was made in our study. However, in that model, excitatory
+neurons were not directly connected; therefore, the model cannot be
+used to study the wiring scheme of excitatory neurons about which there
+were abundant experimental data in recent decades.We extended these two
+studies by constructing an excitatory-inhibitory model with all four types
+of lateral connections (E-to-E, E-to-I, I-to-E, and I-to-I) and systematically
+analyzed the functional properties (including activities and RFs) of neurons
+and their wiring properties (including connection probabilities and
+strengths) and the relations between these properties. In addition, we analyzed
+local and global characteristics of the subnetwork consisting of excitatory
+neurons. We also analyzed modulatory effect by changing the firing
+rates of excitatory and inhibitory neurons.
+Not all results presented in this letter have been verified in animals, and
+those results can be regarded as predictions for the local circuits in layer 2/3
+of the rodent V1 area. The first set of predictions concerns the connection
+pattern between PYR/PYR pairs in layer 2/3 of the V1 area. One prediction
+is the existence of overrepresented network motifs in the network consisting
+exclusively of PYR neurons, and such motifs consist of neurons with
+similar RFs (see Figure 7). Previous studies revealed overrepresented network
+motifs in different sensory areas (Perin et al., 2011; Song et al., 2005)
+but did not investigate the properties (e.g., the RFs) of neurons in these motifs.
+Computational models have been proposed to unravel the underlying
+mechanism for the emergence of networkmotifs (Brunel, 2016; Druckmann
+& Chklovskii, 2012; Miner & Triesch, 2016; Montangie et al., 2020). However,
+these models take noise as input or do not take sensory input at all;
+therefore, they cannot relate the motifs related to the RFs of neurons in V1
+either. Another prediction, which is closely related to the previous one, is
+that the PYR neuronal network in layer 2/3 of the rodent V1 area is a smallworld
+network. Functional and anatomical studies have identified many
+small-world networks in the brain, including the network of all neurons
+of Caenorhabditis elegans (Watts & Strogatz, 1998), the medial reticular formation
+of the vertebrate brain (Humphries, Gurney, & Prescott, 2005), and
+a subnetwork of layer 5 PYR neurons in rat somatosensory cortex (Perin
+et al., 2011). But whether the layer 2/3 PYR neuronal network in V1 has this
+property and how this topology is related to the functional properties of
+neurons have not been studied yet.
+A widely accepted assumption about the formation of small-world
+architecture is that this architecture minimizes the wiring cost (Bassett &
+Bullmore, 2006). However, it is difficult to conceptualize creating a model
+specifically designed to result in small-worldness. Our findings demonstrate
+that this is not necessary. We have shown that the small-worldness
+emerged from a model based on more basic principles. If layer 2/3 PYR
+neurons in actual brain tissue are verified to form a small-world network,
+our model will establish a close link between the functional efficiency and
+structural efficiency of the V1 circuit.
+The second set of predictions concerns the properties of connections
+between excitatory-inhibitory pairs and inhibitory-inhibitory pairs, which
+have not been assessed in animals to date. First, both the I-to-E and
+E-to-I connection probabilities increase with the similarity between the neurons’
+RFs (see Figures 4G and 4J), but the connection probability between
+inhibitory pairs has only weak dependence on the similarity between the
+neurons’ responses (see Figure 3M) or RFs (see Figure 4M). Second, the
+I-to-E and E-to-I connection strengths increase with the similarity between
+the neurons’ RFs (see Figures 4H and 4K). This was also predicted in a previous
+computational study (King et al., 2013). Third, the I-to-I connection
+strength increases with the similarity between the neurons’ responses (see
+Figure 3N) and RFs (see Figure 4N). Fourth, the RF of an inhibitory neuron
+can somehow be predicted by its presynaptic excitatory and inhibitory
+neurons that are strongly connected to it (see Figures 6C and 6D). If these
+predictions are verified, ourmodel would provide amore complete picture
+of the local circuits in layer 2/3 of V1.
+The third set of predictions concerns the modulatory effects. One prediction
+is that if both excitatory neurons and inhibitory neurons in V1 are
+suppressed such that the inhibitory neurons’ firing is sufficiently sparse,
+then after a long period of exposure to natural scenes, the RFs of many inhibitory
+neurons will also be oriented bars (see Figure 1I). This is also predicted
+in another study (King et al., 2013). An extension of the prediction
+is that certain subtypes of inhibitory neurons with sparser activities tend to
+have higher OSI than other subtypes of inhibitory neurons. Another prediction
+is closely related to a previous study (Atallah et al., 2012), which
+demonstrated that increasing (or decreasing) the firing rates of the PV neurons
+linearly decreased (or increased) the firing rates of the excitatory neurons.
+Besides reproducing these results, we predicted that if the activities of
+the excitatory neurons can be modulated, increasing (or decreasing) their
+firing rates will linearly increase (or decrease) the firing rates of PV neurons
+(see Figures 11G and 11H). These predictions suggest that excitatory
+neurons and inhibitory neurons in the visual cortex play complementary
+roles in encoding the visual stimuli.
+Our model is an extension of a previous model LCN (Rozell et al., 2008)
+and the learning algorithm is based on the conventional Hebb rule, similar
+to what is described in a previous study (Brito & Gerstner, 2016). The aim
+of our study is not to propose novel models or learning algorithms, but to
+unify a number of functional and wiring properties of the V1 circuits in a
+single model, then make testable predictions.
+We believe that some spiking models (Carlson et al., 2013; King et al.,
+2013; Miner & Triesch, 2016; Montangie et al., 2020) starting from the same
+set of assumptions as made in the this study could yield similar results
+as presented in this letter by taking natural images as input and setting
+all connections plastic and learnable. The reasons are as follows. First, by
+distinguishing excitatory and inhibitory neurons, spiking models can have
+sparse neural activities. This is mainly due to the balanced excitatory and
+inhibitory input to each neuron. Another factor contributing to the sparse
+activities of neurons in our model is the threshold firing property of neurons
+(see Figure 1B) because the neurons could not fire when the inputs did
+not exceed the thresholds. This is an inherent property of spiking models
+of neurons if the firing rate of a neuron is plotted against the input current
+(Dayan & Abbott, 2001). Second, the learning algorithms used in previous
+spiking models (Carlson et al., 2013; King et al., 2013; Miner & Triesch, 2016;
+Montangie et al., 2020) all follow the same spirit of the Hebb rule (neurons
+fire together, wire together) including Oja’s rule, correlation measuring rule
+and spike-timing-dependent plasticity rule.
+By using a firingrate model instead of a spiking model we aim to shed
+some light on the development of new artificial neural networks (ANN)
+considering that the mainstream ANNs are firing-rate models. The widely
+used multilayer perceptrons and convolutional neural networks in the artificial
+intelligence (AI) field originate from neuroscience, but they have
+little in common with the visual system of animals in terms of wiring patterns
+revealed in recent decades. A promising future direction is therefore
+to extend our proposed model to a new ANN by using deep learning techniques
+(LeCun, Bengio, & Hinton, 2015) and test its performance in AI
+tasks.
+Stimuli. We downloaded 10 512 × 512 pixel grayscale images, used
+in a previous computational study (Olshausen & Field, 1996, 1997), that describe
+natural scenes (e.g., rocks, trees, and mountains).1 The images were
+whitened such that the amplitudes of low-frequency and high-frequency
+components in the frequency domain were approximately the same (Olshausen
+& Field, 1997). The data set was augmented by rotating images 90
+degrees. The stimuli consisted of 12,000 patches of 20 × 20 pixels extracted
+from the 20 images at random positions. The L2 norm of every patch was
+normalized to 800.
+Model. We used the Matlab function ode45 to solve equations 2.1
+and 2.2), which is based on an explicit Runge–Kutta (4,5) formula (Dormand
+& Prince, 1980). The external input c to every neuron for every presentation
+of stimuli was 2 Hz. Time constants were τE = 100 ms and τI = 50 ms. Different
+values did not affect learning results so long as the simulation time
+was long enough to allow the solution to converge to steady state. In our
+experiments, the simulation time was 1000 ms (see Figure 1C).
+In accordance with physiological studies (Cossell et al., 2015; Hofer et al.,
+2011; Ko et al., 2011; Yoshimura et al., 2005), in our model network, the connection
+probability between a set of neurons was defined as the number
+of existing connections divided by the number of potential connections between
+the neurons. Since a pair of neurons can have reciprocal connections,
+the number of potential connections between N neurons is N(N − 1). If a
+neuron pair has reciprocal connections, they are said to be bidirectionally
+connected. If a neuron pair has one and only one connection, they are said to
+be unidirectionally connected. The bidirectional (or unidirectional) connection
+probability between a set of neurons was defined as the number of existing
+bidirectionally (or unidirectionally) connected neuron pairs divided
+by the maximum number of potential bidirectionally (or unidirectionally)
+connected pairs. The maximum numbers of potential bidirectionally and
+unidirectionally connected pairs between N neurons are both N(N − 1)/2.
+Local Connection Patterns in the Excitatory Neuronal Network.
+We generated 100 random networks whose bidirectional and unidirectional
+connection probabilities matched those of the learned excitatory neuronal
+network. From each network, we randomly selected 10,000 K-cell subnets
+and counted the number of connections in every K-cell subnet. Because the
+connections are directed, the possible number of connections in a K-cell subnet
+ranges between zero and K(K − 1). The numbers obtained in the learned
+network are called the observed values, and the numbers obtained in the random
+networks are called the expected values (see Figure 7).
+Two neurons were said to be neighbors if a connection existed between
+them, regardless of its direction. We randomly selected an N-cell subnet
+from a network and recorded the number of common neighbors of two randomneurons
+in the subnet. This processwas repeated 10,000 times, yielding
+10,000 numbers, for every network (i.e., the learned network or a random
+network with matched unidirectional and bidirectional probabilities). The
+distribution of the numbers is plotted in Figure 8, left. The connection probability
+of two neurons as a function of the number of common neighbors is
+plotted in Figure 8, right.
+Characterization of the Small-Worldness. Two quantities are usually
+used to characterize a small-world network: the average shortest path
+length over all pairs of nodes and the average clustering coefficient over
+all nodes (Watts & Strogatz, 1998). The shortest path length between two
+nodes is the minimum number of connections traveling from one node to
+the other. The clustering coefficient of a node is defined as the number of
+connections that actually exist between all its neighbors, divided by the
+maximum number of connections that can exist between all its neighbors.
+We only calculated the two quantities in the undirected and unweighted
+networks formed by excitatory neurons.
+Visualization of the Connection Pattern among Excitatory Neurons.
+The connections among K excitatory neurons (see Figure 10) were visualized
+using the free software Circos (Krzywinski et al., 2009).
+A K × K connection matrix
+was created in which the element at location (i, j) was the connection
+weight from the ith neuron to the jth neuron. The neurons were sorted according
+to their preferred orientations in both columns and rows. In the
+case of undirected and unweighted networks, the nonzero elements in the
+matrix were set to 1; only the upper diagonal matrix was shown because
+Circos treats every network as a directed graph, and there is no need to
+show the connections in the lower diagonal matrix, which are symmetric to
+the connections in the upper diagonal matrix.

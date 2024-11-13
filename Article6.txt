@@ -1,0 +1,664 @@
+As connectomics advances, it will become commonplace to know far more about the
+structure of a nervous system than about its function. The starting point for many
+investigations will become neuronal wiring diagrams, which will be interpreted to
+make theoretical predictions about function. Here I demonstrate this emerging
+approach with the Drosophila optic lobe, analysing its structure to predict that three
+Dm3 (refs. 1–4) and three TmY (refs. 2,4) cell types are part of a circuit that serves the
+function of form vision. Receptive fields are predicted from connectivity, and suggest
+that the cell types encode the local orientation of a visual stimulus. Extraclassical5,6
+receptive fields are also predicted, with implications for robust orientation tuning7,
+position invariance8,9 and completion of noisy or illusory contours10,11. The TmY types
+synapse onto neurons that project from the optic lobe to the central brain12,13, which
+are conjectured to compute conjunctions and disjunctions of oriented features.
+My predictions can be tested through neurophysiology, which would constrain the
+parameters and biophysical mechanisms in neural network models of fly vision14.
+The 40,000 neurons in an optic lobe of the Drosophila brain15–17 have
+now been completely classified into cell types4. Although the 200+ cell
+types intrinsic to the optic lobe are well defined by structural analysis,
+their functions are largely unknown because less than 20% have had
+their visual responses recorded by neurophysiologists. For the most
+part, at present the online catalogue of visual cell types (https://codex.
+flywire.ai/app/optic_lobe_catalog) is an enigmatic museum of structures
+without functions.
+A beautiful example is Dm3, a trio of neuronal cell types that are
+intrinsic to the distal medulla. A Dm3 cell is tangentially oriented
+(Fig. 1a), and is orthogonal to the columnar cells that project from the
+medulla to other neuropils (Fig. 1a). The three Dm3 types are easily
+distinguished from each other because their dendrites point in three
+directions4 (Fig. 1b–d and Methods). For interactive visualizations of
+cells and pathways, see the URLs in Supplementary Data 1.
+Dm3 was originally called the line amacrine cell when it was discovered
+in 1970 in dipterans1. It was named Dm3 in Drosophila in 19892,
+and split into two types in 20153,18,19. A third Dm3 type was recently
+identified in a large-scale connectomic census4. No recordings of Dm3
+visual responses have ever been reported by physiologists. Dm3 function
+has remained unknown.
+I will begin by attempting to predict Dm3 function from structure.
+The field of connectomics has been motivated by a conviction that the
+computational capabilities of the brain depend strongly on the connectome20,21.
+Indeed, neural circuit functions such as the computation
+of visual motion22, heading direction23, and reward and punishment
+signals24 are now known to be supported by specific patterns of neural
+connectivity in the Drosophila brain. These successes of structural
+explanation came after neurophysiologists had already identified circuit
+functions25–27. The present study attempts to go beyond explaining
+post facto. I tackle the challenge of predicting function ex ante, a more
+stringent test of the power of structure–function relationships.
+Predictions of Dm3 receptive fields
+The receptive field of a visual neuron was classically defined as “the
+region of the retina which must be illuminated in order to obtain a
+response”28. I predict Dm3 receptive fields by mapping their input
+connections from Tm1, a cell type that is in one-to-one correspondence
+with the hexels (hexagonal pixels) of the compound eye (Methods). Tm1
+is the strongest input to Dm3 (Extended Data Fig. 1a,c), and Dm3 is a
+strong output of Tm1 (Extended Data Fig. 2d). Figure 1e shows a typical
+Dm3 cell receiving strong Tm1 input in three collinear columns, even
+though the cell extends over many columns (Fig. 1b–d).
+The Tm1 cells presynaptic to each Dm3v cell were mapped to a hexagonal
+lattice (Fig. 1f, Methods and Supplementary Data 2). The colour
+of each hexel indicates the number of synapses received by the Dm3v
+cell from Tm1 cells. Aligning (Fig. 1g) and averaging all maps yielded
+an average Tm1–Dm3v input map (Fig. 1b inset).
+This procedure was repeated for all three Dm3 types. The resulting
+average maps (Fig. 1b–d insets) show that the three Dm3 types are
+aligned to the three cardinal orientations of the hexagonal lattice29
+(p, q and v axes in Fig. 1f).
+Cell-to-cell variation is visible in the individual maps for single Dm3
+cells (Fig. 1g and Supplementary Data 3). To quantify variability, each
+Tm1–Dm3 connectivity map was approximated as an ellipse (Fig. 1g,h
+and Methods). The distributions of angular orientations for the Dm3
+populations overlap little (Fig. 1i), and the median angles are close to
+the cardinal orientations of the hexagonal lattice. The aspect ratios
+of the ellipses have median values near 4 for all Dm3 populations
+(Fig. 1j).
+To further characterize the size and shape of the predicted receptive
+fields, one-dimensional (1D) projections of Tm1–Dm3 maps were computed
+(Fig. 1k–m). The longitudinal and transverse projections provide
+information about the length and width of the predicted receptive field,
+respectively. Standard deviations are marked to provide information
+about variability across cells.
+The Tm1 receptive field is radially symmetric, with a centre that is
+about one ommatidium wide30. As this is so narrow, Tm1–Dm3 connectivity
+maps (Fig. 1b–d insets) can be regarded as estimates of Dm3
+receptive fields, assuming that a Dm3 cell sums inputs from its presynaptic
+Tm1 cells.
+Orientation selectivity was discovered in mammalian primary visual
+cortex, and found to be related to spatial orientation of the receptive
+field31. As the predicted receptive fields of Dm3 are oriented, I likewise
+predict that Dm3 cells prefer stimuli at the three cardinal orientations.
+Although Tm1 is the strongest input to Dm3 by a large margin
+(Extended Data Fig. 1a), Dm3 also receives weaker input from other
+‘hexel cell types’ (see Methods for definition). Maps of their connectivity
+with Dm3 look similar to Tm1–Dm3 maps (Extended Data Fig. 3). Like
+Tm1, these inputs (Mi4, Tm2, L3 and Tm9) are known to have receptive
+field centres that are roughly a single ommatidium in width30,32,33, and
+therefore are not expected to change the shape of the receptive field
+estimated from Tm1. All of these inputs are consistent with the prediction
+that Dm3 cells have OFF receptive fields (Methods).
+Predictions of TmY receptive fields
+Top targets of Dm3 include TmY4 and TmY9 (Extended Data Fig. 1b,d),
+which project from the distal medulla to the lobula and lobula plate2
+(Fig. 1a). In the distal medulla, TmY4 dendrites are horizontally
+oriented, extending symmetrically on two sides of the main trunk
+(Fig. 2a). TmY9 has been split into TmY9q and TmY9q⟂ (Methods).
+In the distal medulla, both TmY9 types have dendrites that are asymmetrically
+directed to one side of the main trunk along the q and q⟂
+directions.
+Tm1 is one of the top inputs to TmY4 and TmY9 (Extended Data
+Figs. 4 and 5). Once again, I predict receptive fields by mapping Tm1
+inputs. The average maps have three distinct orientations (Fig. 2d–f).
+Cell-to-cell variability (Fig. 2g–i and Supplementary Data 4) is visualized
+by approximating ellipses (Fig. 2j). The median orientations of the
+TmY4 and TmY9q⟂ ellipses are well approximated by the horizontal
+and q⟂ orientations of the hexagonal lattice (Fig. 2k). The median orientation
+of the TmY9q ellipses is between the q and p⟂ orientations,
+and closer to q (Fig. 2k). Roughly speaking, each TmY orientation is
+orthogonal to one of the Dm3 orientations, although the orthogonality
+of TmY9q and Dm3p is less than perfect. Aspect ratios of the ellipses
+indicate the degree of anisotropy (Fig. 2l). Longitudinal and transverse
+1D projections of Tm1–TmY maps (Fig. 2m–o) provide complementary
+information about the length and width of the predicted receptive
+field, respectively.
+From these estimates of receptive fields, TmY4, TmY9q and TmY9q⟂
+are predicted to prefer visual stimuli at the horizontal, q and q⟂ orientations,
+respectively. On the basis of their strong Tm1 inputs, TmY4 and
+TmY9 are predicted to be OFF cells, although they also receive input
+from the ON hexel type Mi1 (Extended Data Figs. 4 and 5). Monosynaptic
+inputs to individual TmY cells from Tm1, Mi1 and other hexel types are
+mapped in Supplementary Data 4.
+Connectivity between Dm3 and TmY types
+Dm3 and TmY neurons are also connected with each other (Fig. 3a and
+Extended Data Figs. 1, 4 and 5). Dm3 will be presumed inhibitory in its
+synaptic effects on other cells, and TmY will be presumed excitatory,
+on the basis of evidence from both electron micrographs and transcriptomic
+data (Methods).
+Each Dm3 type avoids synapsing onto cells of the same type, and
+prefers to synapse onto the other two Dm3 types, which have different
+dendrite orientations (Fig. 3a). Each Dm3 type prefers to synapse onto a
+single TmY type, that with the orthogonal dendrite orientation (Fig. 3a).
+Therefore, Dm3 output connectivity conforms to cross-orientation
+inhibition, a connectivity motif proposed for visual cortex more than
+50 years ago34,35.
+TmY cells prefer to synapse onto TmY cells of the same type (Fig. 3a).
+It follows that TmY–TmY connectivity conforms approximately to
+iso-orientation excitation, a connectivity motif proposed for visual
+cortex more than 40 years ago8. In addition, there is some weaker connectivity
+from TmY9q to TmY9q⟂ (Fig. 3a).
+TmY4 and TmY9q cells synapse onto Dm3 cells of the orthogonal
+orientation (Fig. 3a). By contrast, TmY9q⟂ shows no preference, synapsing
+onto Dm3 cells of all orientations (Fig. 3a). Therefore TmY-to-Dm3
+connectivity is a combination of cross-orientation and indiscriminate
+connectivity.
+The above connectivity patterns are represented schematically in
+Fig. 3b. This is effectively a thresholded version of Fig. 3a that will be
+used in subsequent analyses.
+Figure 3c illustrates a Dm3 cell synapsing onto another Dm3 cell,
+which in turn synapses onto a TmY cell. Figure 3d illustrates reciprocally
+connected TmY4 cells. These visualizations suggest that there
+are spatial relationships (Extended Data Fig. 6) between the connected
+cells, which are not described by population-level wiring diagrams
+(Fig. 3a,b). The consequences of these spatial relationships for visual
+responses of cells will be predicted below.
+Dm3 extraclassical receptive fields
+The receptive field predictions of Figs. 1 and 2 were for the ‘classical’
+receptive field (CRF). For some visual neurons, stimulation of areas
+outside the CRF may modulate the response to stimulation of the
+CRF5. These areas are sometimes called the ‘extraclassical’ receptive
+field (ERF). By definition, stimulating the ERF alone (without the CRF),
+should not result in any response. The amount of modulation induced
+by ERF stimulation may depend on the orientation, contrast or other
+properties of the modulating stimulus6. Locations outside an oriented
+CRF near the longitudinal axis will be called the end zones, and locations
+near the transverse axis will be called the side zones (Fig. 3e).
+I propose that the ERF of Dm3 cells is determined by disynaptic pathways
+from Tm1 to Dm3. (This is a conceptual leap, and potential pitfalls
+are deferred to the section entitled ‘Predictions and their limitations’).
+I searched for such pathways with the greatest anatomical strength. In
+brief, the strength of the A-to-B connection was defined as the fraction
+of input synapses to cell type B provided by cell type A. The strength of
+the A-to-B-to-C disynaptic pathway was then defined as the product of
+the A-to-B and B-to-C strengths. Details about this strength estimate
+and its limitations are given in the Methods.
+Strong disynaptic pathways from Tm1 to Dm3 were mapped (Methods,
+Extended Data Fig. 7 and Supplementary Data 3), aligned and
+averaged across Dm3 cells (Fig. 4a–c). For each Dm3 type, the average
+disynaptic pathway map overlaps with the average predicted CRF
+(Fig. 1b,c), but also extends beyond it. The beyond-the-CRF portion of
+each disynaptic pathway map will be regarded as a component of the
+predicted ERF. Henceforth, ‘pERF’ and ‘pCRF’ will be used as abbreviations
+for the predicted ERF component and predicted CRF, respectively.
+As the maps do not have sharp borders, they will be approximated as
+ellipses for the purpose of defining beyond-the-CRF regions (Fig. 4a–c).
+For each Dm3 type, the strongest two pERFs are from the other
+two Dm3 types. These mostly extend into the side zones of the pCRF
+(Fig. 4a–c), and are predicted to be suppressive because Dm3 is presumed
+inhibitory. Such cross-orientation suppression could have the
+function of sharpening orientation tuning7.
+The next strongest pERF is mediated by T2a, and is predicted to
+be facilitating because T2a is presumed excitatory (Methods). The
+T2a-mediated average pERF covers both end zones of the Dm3v pCRF
+(Fig. 4c), and mainly the posterior end zone of the Dm3p and Dm3q
+pCRFs (Fig. 4a,b). Ellipse approximations to Tm1–T2a–Dm3 maps for
+individual Dm3 cells show that their orientations tend to be similar
+to those of the Dm3 pCRFs (Fig. 4d). For some Dm3p and Dm3q cells,
+the Tm1–T2a–Dm3 map is small and located in the pCRF end zone,
+not overlapping with the pCRF at all. This shows up as a hotspot in the
+average Tm1–T2a–Dm3 maps (Fig. 4a,b).
+1D projections of the average Tm1–T2a–Dm3 maps (Fig. 4e–g) show
+that they tend to be longer than the pCRFs, and result in pERFs that
+are biased towards the posterior pCRF end zone of Dm3p (Fig. 4f) and
+Dm3q (Fig. 4g).
+The remaining disynaptic pathways from Tm1 to Dm3 are substantially
+weaker by anatomical strength (Extended Data Fig. 7), but
+are included for completeness because they might turn out to be
+physiologically strong. It is not easy to predict the overall effect at
+locations where suppressive and facilitating pERFs overlap. I predict
+that suppression will be prominent in the pCRF side zones, where the
+Dm3-mediated pERFs seem numerically stronger. In the end zones, the
+T2a-mediated pERFs are largely unopposed by suppression, and should
+lead to facilitation that is not selective for orientation or contrast of
+the modulating stimulus.
+pERFs for individual Dm3 cells are provided in Supplementary Data 3.
+There is considerable variability across cells of the same type, but the
+geometric relationships evident in the average pERFs do hold for many
+individual cells.
+TmY extraclassical receptive fields
+I predict the ERF of TmY cells by considering disynaptic pathways
+from Tm1 to TmY types. The strongest pathways are mediated by
+Dm3 (Extended Data Fig. 7), and the resulting pERF covers mainly the
+pCRF side zones and is expected to be suppressive (Fig. 5a–c). Such
+cross-orientation suppression could have the function of sharpening
+orientation tuning7.
+Of the weaker pERFs that are facilitating (Fig. 5a–c and Extended
+Data Fig. 7), the TmY–TmY pERF extends the farthest into the pCRF end
+zones (Fig. 5a–c). Ellipse approximations show the degree of variability
+across cells (Fig. 5d). 1D projections show that the pERF extends into
+both end zones (Fig. 5e–g). This pathway could lead to iso-orientation
+facilitation in the end zones, as the TmY–TmY connections are between
+the same TmY type.
+The extension of the facilitating TmY–TmY pERF into the pCRF end
+zones is consistent with the idea that TmY–TmY connectivity aids in the
+completion of noisy or illusory contours. A similar ‘collinear facilitation’
+in visual cortex has been proposed to enable completion of noisy
+or illusory contours, because an orientation detector receiving weak
+or ambiguous input from the image can be driven over threshold by
+excitation from neighbouring orientation detectors10,11,36.
+The TmY–TmY pERFs also extend slightly into the pCRF side zones.
+This is consistent with the idea that TmY–TmY connectivity can give
+rise to positional invariance while preserving orientation selectivity8,9.
+pERFs and pCRFs for individual TmY cells are provided in Supplementary
+Data 4. The geometric relationships evident in the average
+pERFs do hold for many individual cells.
+Prediction of spatial normalization
+The TmY pERF was predicted above by disynaptic pathways terminating
+at TmY, but trisynaptic or longer pathways could also contribute. Of
+particular interest is Tm1–TmY–Dm3–TmY, which involves recurrent
+inhibition of TmY by Dm3. This pathway is expected to contribute a
+suppressive pERF located in the far side zones of the pCRF and tuned
+to the preferred orientation (Supplementary Data 4). In the near side
+zones, this pathway could be obscured by a facilitating pERF due to
+Tm1–TmY–TmY (Fig. 5a–c and Supplementary Data 4).
+A similar excitatory–inhibitory motif is found for many types in the
+Dm interneuron family and can be viewed as implementing spatial
+normalization, a common computation in image processing37. The
+inhibitory neuron pools activity of excitatory neurons over some spatial
+neighbourhood, and sends recurrent inhibition back to the same
+excitatory neurons. An unusual aspect here is that recurrent inhibition
+in the Tm1–TmY–Dm3–TmY pathway is opposed by recurrent excitation
+in the Tm1–TmY–TmY pathway, in the case of side-by-side stimuli
+at the preferred orientation.
+Pathways leaving the optic lobe
+I have predicted that the three Dm3 and three TmY types respond selectively
+to the local orientation of a visual stimulus. This is conceptualized
+as a decomposition of the image into small oriented elements such as
+edges or bars, similar to early visual processing in computer science38
+as well as models of visual cortex39. In such models, the computation
+of local orientation is a general starting point for recognizing all visual
+forms by subsequent processing steps.
+Similarly, information about local stimulus orientation might be
+used by the fly brain for form vision. TmY cells synapse onto a number
+of visual projection neurons (VPNs) that project out of the optic lobe
+into the central brain. I will focus on the most numerous of these VPN
+types, LC15 and LC10e, which number about 50 cells each (Fig. 6 and
+Supplementary Data 5). These are of particular interest, because they
+retain more information about location and are therefore potentially
+more useful for recognizing complex visual forms. The other VPNs,
+by contrast, discard more information about location by pooling widely
+over space, and will be studied elsewhere.
+LC15 invariance to orientation
+LC15 neurons project from the lobula to the posterior ventrolateral
+protocerebrum (PVLP), a neuropil in the central brain13 (Fig. 6a). LC15
+receives input from all three TmY types (Fig. 6a and Extended Data
+Figs. 4, 5 and 8).
+Direct connections from hexel types to LC15 are weak or non-existent,
+so here the top disynaptic pathways are mapped to predict feature
+selectivity (Extended Data Fig. 7). Aligning and averaging the maps
+yields Fig. 6b. Maps for individual cells are in Supplementary Data 5,
+and are summarized by ellipses in Fig. 6c.
+Given that LC15 input from TmY cells of all three orientations is indiscriminate,
+it is natural to reason that LC15 responds indiscriminately
+to any orientation, detecting a disjunction (logical OR) of activity in
+the three channels. If TmY orientation tuning is sufficiently broad, it
+follows that LC15 should be activated by a stimulus of any orientation.
+Indeed, recordings of LC15 visual responses show that LC15 is activated
+by bars of any orientation40,41.
+Other strong intermediaries of disynaptic pathways include T3,
+Tm25 and Tm21 (Fig. 6b and Extended Data Fig. 7). T3 is known to be
+a small-object detector42, and Tm25 and Tm21 may be object detectors
+on the basis of their connectivity4. Indeed, recordings of LC15
+responses show that LC15 is also activated by small objects, although
+not as strongly as by bars40,41.
+LC10e as possible junction detector
+LC10 neurons project from the lobula to the anterior optic tubercle
+of the central brain12 (Fig. 6d). LC10 has been divided into four types
+(LC10a to LC10d) with distinct stratification profiles in the lobula13.
+I identified a new LC10e type, and further subdivided it into dorsal and
+ventral variants (LC10ev and LC10ed) on the basis of their distinct connectivity
+patterns (Extended Data Fig. 8). Both variants receive inputs
+from TmY9 types, but these inputs are stronger for LC10ev (Fig. 6d and
+Extended Data Fig. 8), so I will focus on it.
+Disynaptic pathways starting from hexel types were mapped, and the
+top intermediaries turned out to be TmY9q and TmY9q⟂ (Fig. 6e and
+Extended Data Figs. 4d, 5d and 7). The maps were aligned and averaged
+(Fig. 6e). The average Tm1–TmY9q–LC10ev map is to the left of the
+average Tm1–TmY9q⟂–LC10ev map (compare green and blue ellipses
+in Fig. 6e centre). The displacement vectors between ellipse centres
+(Fig. 6f, inset) are within 90° of the q direction for almost all LC10ev
+cells. This suggests a systematic spatial relationship between the receptive
+field components mediated by TmY9q and TmY9q⟂. Noisiness in
+this relationship is evident in the maps for individual cells (Fig. 6f and
+Supplementary Data 5), but many individual cells are consistent with
+the systematic relationship.
+Although LC10ev receives input from both TmY9q and TmY9q⟂, it is
+unclear how these two pathways interact. One possibility is that LC10ev,
+like LC15, detects a disjunction of activity in two pathways, and responds
+to a stimulus at either the q or q⟂ orientation. Another possibility is
+that LC10ev detects a conjunction (logical AND) of activity in the two
+pathways. In the latter case, LC10ev could be a detector of corners or
+T-junctions, owing to the systematic spatial relationship evident in
+Fig. 6e,f. This is just a speculation, because there are additional strong
+inputs to LC10ev other than TmY9 (Fig. 6e and Supplementary Data 4),
+and it is unclear how they shape the feature selectivity of LC10ev.
+Motion, object and colour vision
+TmY pERFs mediated by T4 and T5 cells (Fig. 5a–c, Extended Data Figs. 4
+and 5 and Supplementary Data 3) cover the pCRF end zones, and are
+facilitating. T4 and T5 neurons are activated by motion, and are also
+known to prefer oriented stimuli43. Therefore, input from the motion
+system may enhance the orientation selectivity of TmY cells, and also
+cause TmY responses to be stronger for moving stimuli than for flashed
+stimuli. Dm3 inputs and outputs do not contain cell types known to
+encode motion direction (Extended Data Fig. 1).
+TmY4 receives inhibition from several lobula plate interneurons,
+including the full-field cells LPi14 and LPi15 (Extended Data Figs. 4a
+and 5a), which are presumed to be inhibitory (Methods), and receive
+strong input from T4a and T5a, and from T4b and T5b, respectively. This
+suggests that TmY4 might be suppressed by horizontal background
+motion. TmY9q⟂ (and to a lesser extent TmY9q) receives input from
+LPi07 (Extended Data Figs. 4c and 5c), suggesting that TmY9q⟂ (and
+TmY9q) might be suppressed by vertical background motion if LPi07
+is inhibitory, because LPi07 receives input from T4c and T5c, and from
+T4d and T5d.
+TmY outputs include motion-related types. TmY4 synapses onto
+LPi07 cells (Extended Data Figs. 4 and 5), which synapse onto T4c and
+T5c, and from T4d and T5d. TmY9q and TmY9q⟂ synapse onto a number
+of types (Y1, Y11, Y12 and so on) that are reciprocally coupled to
+T4 and T5 cells4,44.
+The TmY–TmY pERFs also extend slightly into the pCRF side zones.
+This is consistent with the idea that TmY–TmY connectivity can give
+rise to positional invariance while preserving orientation selectivity8,9.
+pERFs and pCRFs for individual TmY cells are provided in Supplementary
+Data 4. The geometric relationships evident in the average
+pERFs do hold for many individual cells.
+Prediction of spatial normalization
+The TmY pERF was predicted above by disynaptic pathways terminating
+at TmY, but trisynaptic or longer pathways could also contribute. Of
+particular interest is Tm1–TmY–Dm3–TmY, which involves recurrent
+inhibition of TmY by Dm3. This pathway is expected to contribute a
+suppressive pERF located in the far side zones of the pCRF and tuned
+to the preferred orientation (Supplementary Data 4). In the near side
+zones, this pathway could be obscured by a facilitating pERF due to
+Tm1–TmY–TmY (Fig. 5a–c and Supplementary Data 4).
+A similar excitatory–inhibitory motif is found for many types in the
+Dm interneuron family and can be viewed as implementing spatial
+normalization, a common computation in image processing37. The
+inhibitory neuron pools activity of excitatory neurons over some spatial
+neighbourhood, and sends recurrent inhibition back to the same
+excitatory neurons. An unusual aspect here is that recurrent inhibition
+in the Tm1–TmY–Dm3–TmY pathway is opposed by recurrent excitation
+in the Tm1–TmY–TmY pathway, in the case of side-by-side stimuli
+at the preferred orientation.
+Pathways leaving the optic lobe
+I have predicted that the three Dm3 and three TmY types respond selectively
+to the local orientation of a visual stimulus. This is conceptualized
+as a decomposition of the image into small oriented elements such as
+edges or bars, similar to early visual processing in computer science38
+as well as models of visual cortex39. In such models, the computation
+of local orientation is a general starting point for recognizing all visual
+forms by subsequent processing steps.
+Similarly, information about local stimulus orientation might be
+used by the fly brain for form vision. TmY cells synapse onto a number
+of visual projection neurons (VPNs) that project out of the optic lobe
+into the central brain. I will focus on the most numerous of these VPN
+types, LC15 and LC10e, which number about 50 cells each (Fig. 6 and
+Supplementary Data 5). These are of particular interest, because they
+retain more information about location and are therefore potentially
+more useful for recognizing complex visual forms. The other VPNs,
+by contrast, discard more information about location by pooling widely
+over space, and will be studied elsewhere.
+LC15 invariance to orientation
+LC15 neurons project from the lobula to the posterior ventrolateral
+protocerebrum (PVLP), a neuropil in the central brain13 (Fig. 6a). LC15
+receives input from all three TmY types (Fig. 6a and Extended Data
+Figs. 4, 5 and 8).
+Direct connections from hexel types to LC15 are weak or non-existent,
+so here the top disynaptic pathways are mapped to predict feature
+selectivity (Extended Data Fig. 7). Aligning and averaging the maps
+yields Fig. 6b. Maps for individual cells are in Supplementary Data 5,
+and are summarized by ellipses in Fig. 6c.
+Given that LC15 input from TmY cells of all three orientations is indiscriminate,
+it is natural to reason that LC15 responds indiscriminately
+to any orientation, detecting a disjunction (logical OR) of activity in
+the three channels. If TmY orientation tuning is sufficiently broad, it
+follows that LC15 should be activated by a stimulus of any orientation.
+Indeed, recordings of LC15 visual responses show that LC15 is activated
+by bars of any orientation40,41.
+Other strong intermediaries of disynaptic pathways include T3,
+Tm25 and Tm21 (Fig. 6b and Extended Data Fig. 7). T3 is known to be
+a small-object detector42, and Tm25 and Tm21 may be object detectors
+on the basis of their connectivity4. Indeed, recordings of LC15
+responses show that LC15 is also activated by small objects, although
+not as strongly as by bars40,41.
+LC10e as possible junction detector
+LC10 neurons project from the lobula to the anterior optic tubercle
+of the central brain12 (Fig. 6d). LC10 has been divided into four types
+(LC10a to LC10d) with distinct stratification profiles in the lobula13.
+I identified a new LC10e type, and further subdivided it into dorsal and
+ventral variants (LC10ev and LC10ed) on the basis of their distinct connectivity
+patterns (Extended Data Fig. 8). Both variants receive inputs
+from TmY9 types, but these inputs are stronger for LC10ev (Fig. 6d and
+Extended Data Fig. 8), so I will focus on it.
+Disynaptic pathways starting from hexel types were mapped, and the
+top intermediaries turned out to be TmY9q and TmY9q⟂ (Fig. 6e and
+Extended Data Figs. 4d, 5d and 7). The maps were aligned and averaged
+(Fig. 6e). The average Tm1–TmY9q–LC10ev map is to the left of the
+average Tm1–TmY9q⟂–LC10ev map (compare green and blue ellipses
+in Fig. 6e centre). The displacement vectors between ellipse centres
+(Fig. 6f, inset) are within 90° of the q direction for almost all LC10ev
+cells. This suggests a systematic spatial relationship between the receptive
+field components mediated by TmY9q and TmY9q⟂. Noisiness in
+this relationship is evident in the maps for individual cells (Fig. 6f and
+Supplementary Data 5), but many individual cells are consistent with
+the systematic relationship.
+Although LC10ev receives input from both TmY9q and TmY9q⟂, it is
+unclear how these two pathways interact. One possibility is that LC10ev,
+like LC15, detects a disjunction of activity in two pathways, and responds
+to a stimulus at either the q or q⟂ orientation. Another possibility is
+that LC10ev detects a conjunction (logical AND) of activity in the two
+pathways. In the latter case, LC10ev could be a detector of corners or
+T-junctions, owing to the systematic spatial relationship evident in
+Fig. 6e,f. This is just a speculation, because there are additional strong
+inputs to LC10ev other than TmY9 (Fig. 6e and Supplementary Data 4),
+and it is unclear how they shape the feature selectivity of LC10ev.
+Motion, object and colour vision
+TmY pERFs mediated by T4 and T5 cells (Fig. 5a–c, Extended Data Figs. 4
+and 5 and Supplementary Data 3) cover the pCRF end zones, and are
+facilitating. T4 and T5 neurons are activated by motion, and are also
+known to prefer oriented stimuli43. Therefore, input from the motion
+system may enhance the orientation selectivity of TmY cells, and also
+cause TmY responses to be stronger for moving stimuli than for flashed
+stimuli. Dm3 inputs and outputs do not contain cell types known to
+encode motion direction (Extended Data Fig. 1).
+TmY4 receives inhibition from several lobula plate interneurons,
+including the full-field cells LPi14 and LPi15 (Extended Data Figs. 4a
+and 5a), which are presumed to be inhibitory (Methods), and receive
+strong input from T4a and T5a, and from T4b and T5b, respectively. This
+suggests that TmY4 might be suppressed by horizontal background
+motion. TmY9q⟂ (and to a lesser extent TmY9q) receives input from
+LPi07 (Extended Data Figs. 4c and 5c), suggesting that TmY9q⟂ (and
+TmY9q) might be suppressed by vertical background motion if LPi07
+is inhibitory, because LPi07 receives input from T4c and T5c, and from
+T4d and T5d.
+TmY outputs include motion-related types. TmY4 synapses onto
+LPi07 cells (Extended Data Figs. 4 and 5), which synapse onto T4c and
+T5c, and from T4d and T5d. TmY9q and TmY9q⟂ synapse onto a number
+of types (Y1, Y11, Y12 and so on) that are reciprocally coupled to
+T4 and T5 cells4,44.
+as TmY9 (Fig. 6e). Recordings of these additional intermediary types
+have not been reported, but a companion paper uses connectivity to
+speculate that they are involved in colour vision4.
+Predictions and their limitations
+By interpreting a neuronal wiring diagram, I have predicted visual
+responses of Drosophila neurons that have not previously been
+recorded by neurophysiologists. Testing these predictions seems
+bound to be informative, whether or not they turn out to be correct.
+CRFs of Dm3 and TmY cells were predicted by mapping monosynaptic
+pathways from Tm1 cells, and found to be oriented (Figs. 1b–d
+and 2b–d). On this basis, Dm3 and TmY cells were predicted to be orientation
+selective.
+pERFs were predicted by mapping disynaptic pathways from Tm1
+cells (Figs. 4 and 5), which involve connections in the Dm3–TmY
+circuit (Fig. 3 and Extended Data Fig. 6). A Dm3 pERF mediated by other
+Dm3 types was predicted to be suppressive in the pCRF side zones, and
+tuned to non-preferred orientations. A Dm3 pERF mediated by T2a
+was predicted to be facilitating in the pCRF end zones, and not tuned
+to the orientation or contrast of the modulating stimulus (Fig. 4a–c).
+A TmY pERF mediated by TmY was predicted to be facilitating in
+the pCRF end zones and near side zones, and tuned to modulating
+stimuli at the pCRF orientation (Fig. 5a–c). A TmY pERF mediated by
+Dm3 was predicted to be suppressive in the pCRF side zones and tuned
+to modulating stimuli orthogonal to the pCRF orientation (Fig. 5a–c).
+A TmY pERF due to a trisynaptic pathway mediated by both the same
+TmY type and the orthogonal Dm3 type was predicted to be suppressive
+in the pCRF side zones for stimuli at the pCRF orientation
+(Supplementary Data 4).
+Although my predictions are powerfully concrete and specific, they
+also have limitations. First, I relied on the fundamental assumption
+that the CRF arises from monosynaptic connectivity, and that the ERF
+arises from polysynaptic pathways that are not paralleled by a monosynaptic
+connection. One can be confident about the assumption for an
+inhibitory pathway such as Tm1–Dm3v–TmY4, which by itself should be
+incapable of activating the TmY4 cell. However, stimulating an excitatory
+pathway such as Tm1–TmY4–TmY4 could conceivably activate the
+final TmY4 cell, even if the direct Tm1–TmY4 pathway is not stimulated.
+In general, my fundamental assumption is more certain for inhibitory
+and less certain for excitatory polysynaptic pathways.
+If experiments show that the size and shape of CRFs match the predictions
+of Figs. 1 and 2, then the fundamental assumption will be upheld,
+and further experiments can proceed to look for the predicted facilitating
+and suppressive ERF components.
+On the other hand, if the CRF turns out to be longer than predicted,
+that would mean excitatory polysynaptic pathways, here predicted to
+contribute to the ERF, instead turn out to lengthen the CRF. The prediction
+of a facilitating ERF in the CRF end zone would become invalid,
+because the end zone would be swallowed up by the lengthened CRF.
+The ERF would then be determined solely by inhibitory polysynaptic
+pathways and be only suppressive.
+The above uncertainty is related to some ambiguity inherent in
+the ERF definition5. It is supposed to be impossible to evoke a neural
+response through stimulation of the ERF alone (without CRF stimulation).
+If the definition is revised to substitute difficult for impossible,
+the distinction between ERF and CRF is no longer black and
+white.
+In the second limitation, predictions can be challenging owing to
+the existence of many polysynaptic pathways that can contribute to
+the ERF (Figs. 4 and 5). When relevant pathways are both excitatory
+and inhibitory, it can be difficult to predict the overall sign (facilitating
+versus suppressing) of modulation by a stimulus outside the CRF.
+I have accordingly focused my ERF predictions on locations where
+either excitation or inhibition is likely to dominate.
+However, there are additional ERF pathways that were not considered
+above. For example, a companion paper37 predicts numerous normalization
+mechanisms that are presynaptic to the Dm3–TmY circuit: Tm1
+responses are spatially normalized by five Pm interneuron types that
+pool over multiple length scales (Extended Data Fig. 2), L2 (the dominant
+input to Tm1) is normalized by three Dm interneuron types, and
+the L2–Tm1 connection is normalized by two Dm interneuron types.
+All of these mechanisms are expected to contribute suppressive ERF
+components that are not tuned to stimulus orientation, and could
+obscure the predicted facilitating ERF components.
+A third limitation concerns variation across cells of the same type,
+which is summarized by the ellipses in Figs. 1h, 2j, 4d, 5d, 6c,f and
+detailed in Supplementary Data 3–5. A systematic kind of variation is
+the distortion of geometric relationships near the borders of the eye.
+There is also apparently random variation even in the interior of the
+eye, far from the borders. pERFs tend to look more variable (Figs. 4d
+and 5d and Supplementary Data 3 and 4) than pCRFs (Figs. 1 and 2),
+which may be due in part to randomness in the coverage of the visual
+field by non-hexel types.
+Finally, my conjecture about LC10e assumes a high threshold for
+activation, which suggests that LC10e should detect a conjunction
+of TmY9q and TmY9q⟂ activation, triggered by two oriented stimuli
+arranged in a corner or T-junction (Fig. 6e,f and Supplementary Data 4).
+Alternatively, LC10e might detect a disjunction of its inputs, if it has
+a low threshold for activation. LC15 is indiscriminately connected
+with all three TmY types, and its observed invariance to stimulus
+orientation40,41 suggests that LC15 has a low threshold for activation.
+An additional subtlety, not further discussed here, is that threshold
+actually varies dynamically owing to the presence of inhibitory
+inputs.
+In principle, some of the above limitations could be overcome by
+building network models of neural activity. That might not improve
+the predictive power at this time, however, because so many model
+parameters are unknown at present. Synapse counts are only crude
+estimates of physiological connection strength14, and unitary conductance
+can differ markedly between inhibitory and excitatory synapses45.
+Other uncertainties, such as whether inhibition should be modelled
+as subtractive or divisive46, go beyond parameters. Therefore, it is crucial
+to carry out experiments that reduce model uncertainty. If visual
+physiologists measure orientation and location tuning curves, that
+would constrain the strength of cross-orientation inhibition relative to
+direct Tm1 excitation, as well as the relative strengths of ERF pathways.
+Biophysical experiments would clarify the extent to which voltage
+varies throughout a neuronal arbour47–49, which is important because
+pCRF and pERF pathways may terminate in synapses at different locations
+on the arbour.
+Discussion
+Convolutional nets are a popular approach to form vision in artificial
+intelligence. Optic lobe cell types can be interpreted as feature maps in
+a convolutional net50, and average Tm1–Dm3 (Fig. 1b–d) and Tm1–TmY
+(Fig. 2d–f) connectivity maps can be interpreted as convolution kernels.
+LC10e and LC15 combine inputs from TmY cells, and may be regarded
+as complex feature detectors built by combining inputs from simpler
+feature detectors. This accords with the original hierarchical conception
+of convolutional nets39, which was inspired by hypothetical wiring
+diagrams for primary visual cortex (V1) in mammals31.
+The wiring of the Dm3–TmY circuit resembles connectivity motifs
+originally proposed for V1 (refs. 8,34,35), and some visual responses
+predicted here for fly neurons have precedents in V1. In particular, a
+‘collinear facilitation’ is predicted for the ERF of TmY cells, meaning
+that a stimulus of the preferred orientation in the end zone can facilitate
+the response to a stimulus of the preferred orientation in the CRF.
+Collinear facilitation was previously reported for V1 neurons10,11,36,
+but most reports emphasize suppression6. The conflicting reports
+might be reconciled if ERFs are generated by diverse parallel polysynaptic
+pathways6. Different visual stimuli might emphasize either
+excitatory or inhibitory pathways, leading to different experimental
+results.
+The ERFs of TmY cells are similarly predicted to be shaped by many
+overlapping excitatory and inhibitory pathways (Figs. 4 and 5 and Supplementary
+Data 4), but the complexity is constrained by the connectome.
+We can reason about the cell types and connections (as in this
+work), observe and manipulate them with the aid of genetic tools,
+and use them to build neural network models. This new opportunity
+has the potential to overcome the limitations of traditional methods
+used to disentangle the effects of overlapping ERF mechanisms in
+the cortex, such as manipulating stimulus contrast, orientation and
+timing6,51.
+‘Line amacrine’ cells probably homologous to Dm3 have been
+described in several dipteran species1. If Dm3 and TmY homologues
+turn out to exist in honeybees, it will be worth comparing with studies
+of honeybee behaviour, with the caveat that visual acuity is higher and
+inter-ommatidial spacing is lower in honeybees than in Drosophila52.
+Behavioural experiments were interpreted to infer the existence
+of “at least three orientation-sensitive channels” in the bee visual system53,54.
+Orientation-selective neurons were later predicted to span a
+maximum of three ommatidia55. This roughly matches the predicted
+CRFs of Dm3 and TmY cells. It is worth noting that Dm3 receptive fields
+would not previously have been guessed to be so short, because Dm3
+dendrites are quite long (Fig. 1b–d). The predicted CRFs require true
+connectivity, not just morphology.
+The collinear facilitation predicted for TmY cells could have consequences
+for insect visual behaviours. Bees were once claimed to
+perceive illusory contours56,57. The experiments were later declared to
+be irreproducible58,59, although this belated renunciation seems to have
+escaped notice60. The topic seems worth reopening, if neurophysiology
+experiments can detect the collinear facilitation predicted here. The
+design of illusory contour stimuli seems more likely to be successful
+if guided by neurophysiology as well as behaviour.
+Behavioural experiments with honeybees were used to argue that
+the orientation of a visual stimulus is computed independently from
+its direction of motion53. Orientation selectivity was subsequently
+discovered in direction-selective T4 and T5 cells of Drosophila43. The
+present work predicts an orientation-selective Dm3–TmY circuit that
+is indeed distinct from the motion circuit, although there are interactions
+between them as described above.
+The Dm3–TmY circuit immediately suggests many questions about
+neural development. Unknowns include the identities of the molecules
+that guide Dm3 dendrites to grow in three directions, and how the Dm3
+dendrites ‘decide’ how far to grow, even after turning sharply at the
+border of the medulla (Fig. 1). The molecules that establish connectivity
+preferences of Dm3 and TmY cells (Fig. 3a) are of obvious interest.
+There should also be molecules that establish preferences for synapse
+formation at particular dendritic locations, which are important for the
+spatial organization of connectivity (Extended Data Fig. 6) and remain
+to be analysed in future work.

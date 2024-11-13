@@ -1,0 +1,1843 @@
+The second part of the twentieth century was charac
+terized by the development of new preparations trying 
+to con fi rm the Hebb principle (see Chap.   26    ). In 1970, 
+E. Kandel elaborated the gill-withdrawal re fl ex (GWR) 
+paradigm from his work with  Aplysia : a water current 
+on the gills produced their retraction. He elaborated 
+the circuit involved, from the tactile receptors in the 
+skin to the monosynaptic and polysynaptic pathways 
+that induced the contraction of the gills. Over a period 
+of 30 years, Kandel and coworkers explained the cel
+lular and molecular mechanisms of habituation and 
+dishabituation. They demonstrated differential classi
+cal conditioning of the GWR of  Aplysia  and proposed 
+activity-dependent presynaptic facilitation and pre
+synaptic interaction between high intracellular Ca 2+
+ levels and 5-HT. Many reviews have been published 
+on the preparation differentiating short- and long-term 
+memory storage (see Chap.   26    ). Postsynaptic pro
+cesses are also involved in memory mechanisms in 
+invertebrates. Neurotransmitters, second messenger 
+systems, protein kinases, ion channels, and transcrip
+tion factors like CREB have been con fi rmed to func
+tion in both vertebrate and invertebrate learning and 
+memory storage. 
+The second preparation was on the mammalian 
+hippocampus, a very stereotyped structure composed 
+of an S curve, the dentate gyrus, the subiculum, and 
+the enthorinal cortex and the three parts, CA3, CA2, 
+and CA1. This structure was known from EEG record
+ings for its characteristic 4–12 Hz oscillation, the 
+theta rhythm associated with movement through 
+space. The phenomenon of long-term potentiation 
+(LTP) was initially observed in 1966 in the hippocam
+pus of the rabbit by Terje Lomo, then working in the 
+laboratory of Andersen. In 1973, he described the 
+phenomenon in a seminal paper  [  41  ] . High frequency 
+stimulation increased the excitatory response in the 
+postsynaptic cell for 30 min to 10 h (Fig.  1.6 ). LTP 
+was con fi rmed in hippocampus slices in 1975 by 
+Schwartzkroin and Wester. At the beginning of the 
+1980s, the role of NMDA receptors and calcium in fl ux 
+at the postsynaptic cell became evident. Over the last 
+years, evidence has accumulated to support the notion 
+that dendritic spines are not passive structures but are 
+involved in memory storage. Also, the hippocampus
+appeared to possess “ place cells ” that  fi re when the 
+animal is in a speci fi c place of a given environment. 
+Following this discovery, O’Keefe and Nadel in 1978 
+ [  42  ]  proposed that the primary function of the rat hip
+pocampus is to form a “ cognitive map” of the envi
+ronment (see Chap.   28    ).  
+Invertebrates also perform complex neuronal activi
+ties. Learning in honeybees can be compared to learn
+ing in vertebrates in many respects, and the honeybee 
+can be used as a model system to gain an understand
+ing of the intermediate levels of complexity of cogni
+tive functions and their neural substrates. The 
+“ minibrain ” of the honeybee, with its 960,000 neurons, 
+is now extensively explored; as Menzel said in a recent 
+article “ Small brain ,  bright mind !”. 
+Analysis of the brain’s cortical activities linked 
+with a learning behavior was studied systematically 
+in monkeys where different cortical units of different 
+areas, sensory or motor, have been recorded in rela
+tion with a given behavior (see Sect.  1.5 ). In the late 
+1980s, it became possible to record several units 
+simultaneously; with this one could analyze the tem poral structure of activity patterns. It appeared that 
+ongoing activity has predictive power and that self
+generated  fl uctuations can sometimes synchronize in 
+attention or during high-level activities  [  43  ] . The 
+mirror neurons  discovered by the group of Rizzolatti 
+in 1996 have spectacular properties. These cells are 
+both activated when the subject performs a motor 
+action or when the subject observes someone in front 
+performing the same action. Described  fi rst in the 
+monkey, mirror neurons were con fi rmed in human. 
+They have been considered as the substrate of several 
+behaviors linked with action, intention, emotion, and 
+empathy. Their dysfunction leads to impairment in 
+social interactions as seen, for instance, in autism dis
+orders; see  [  44  ] . 
+Two types of recordings were used:  fi rst the EEG and 
+then cortical imaging. EEG was a very global activity; 
+still several events seemed linked with cognition. In 
+1964, Walter et al. described the  contingent negative 
+variation  ( CNV ) as a response linked to attention and 
+vigilance. Sutton et al. in 1965  [  45  ]  described the 
+“ P300  ( P3 )” wave, an event-related potential (ERP). 
+Both were different, the CNV re fl ecting early arousal 
+and attentional processes, P300 related to a decisional 
+behavior involved in stimulus evaluation or categoriza
+tion. Analyzed with other waves this showed that the 
+brain produced some electrical signals linked with 
+cognitive activities. 
+B. Libet (1916–2007) in the 1980s suggested that a 
+readiness potential is formed in the cortex 500 ms 
+before a voluntary movement  [  46  ] . Thus decisions 
+made by a subject are  fi rst being made at a subconscious 
+level and become conscious only afterwards. With new 
+brain scanning technology, Soon et al. (2008  [  47  ] ) were 
+even able to demonstrate that the delay could reach 10 s 
+before a subject is conscious of his decision. 
+N. Geschwind (1826–1984) worked on aphasia and 
+epilepsy, as well as dyslexias and on the neuroanatomy 
+of cerebral lateral asymmetries. He coined the term 
+behavioral neurology  in the 1970s to describe the 
+ensemble of elements composing higher cortical func
+tions. Ungerleider and Mishkin (1982) proposed sepa
+rate pathways for characterizing object shape and 
+location in extrastriate visual cortex. Around the 1990s, 
+brain imaging became extensively used to con fi rm the 
+data previously collected in neuropsychology with 
+clinical observations and post-mortem analysis 
+(autopsy). The different primary areas, sensory and 
+motor, were characterized much more precisely. When 
+more complex tasks were analyzed, associative areas 
+were added. 
+Computational neuroscience is the theoretical analysis 
+and modeling of biological neural systems (see Chap.   30    ). 
+Its goal is to propose models of biological neural net
+works in order to relate them to cognitive processes and 
+behavior. They range from simple behavior with indi
+vidual neurons, through models with learning and mem
+ory and short-term/long-term plasticity. Some of the 
+models use architectures of Bayesian neural networks to 
+include predictive capabilities and to use probabilities in 
+order to characterize and process information. 
+Animal models had been employed from the early 
+days of science. Perhaps the  fi rst was the frog by the 
+Dutch biologist Jan Swammerdam (1637–1680) who 
+analyzed the nerve-muscle preparation and demon
+strated that the nervous conduction was not due to the 
+“ animal ’ s spirits ” as it was said by Galen (129–201 
+AD) and René Descartes (1596–1650), an old notion 
+that considered the presence of a  fl uid necessary for 
+muscle contractions. Swammerdam proved that when 
+a muscle contracted, its volume did not change (see 
+Chap.   22    ). Frogs were used routinely thereafter. Their 
+great advantage was that the preparation stays alive for 
+several hours at room temperature, as the animals are 
+poikilotherms. 
+During the nineteenth century, invertebrates were con
+sidered for some of their very particularly large neural 
+structures, such as the giant  fi ber system of the earth
+worm, of the leech, or of the crab. The animal receiving 
+most attention at the time was the cray fi sh that the 
+British biologist T.H. Huxley (1825–1895) described in 
+great detail in his book “The cray fi sh” (1879). In the 
+preface he explained the goal of such models defending 
+comparative anatomy with great emphasis: “I have 
+desired, in fact, to show how the careful study of one of 
+the commonest and most insigni fi cant of animals, leads 
+us, step by step, from every-day knowledge to the wid
+est generalizations and the most dif fi cult problems of 
+zoology; and, indeed, of biological  science in general.” 
+During the twentieth century, invertebrates were 
+used to  fi nd particular neuronal structures that could 
+be analyzed easily in a particular animal. The best 
+example is the famous squid axon that gave Hodgkin, 
+Huxley, and Katz the possibility to understand nervous 
+conduction (1952  [  48  ] ). The discovery of the giant 
+axon has been described by J.S. Young. He had 
+identi fi ed the long  fi ber at the Naples’ marine research 
+station and had initially thought that it was a blood 
+vessel. In 1935, Young came to Woods Hole where 
+squids were kept in very good shape in circular aquari
+ums. He observed that an electrical stimulation of that 
+giant  fi ber did not induce a muscle twitch. Young sug
+gested that the best stimulus could be a chemical stim
+ulus like Na +  citrate. Then, he connected a  fi ber to an 
+ampli fi er and a speaker and put some citrate on the 
+end of it. “Out came – buzzzzzzzz – one of the best 
+sounds I have ever heard” said Young several years 
+later. It was the beginning of intense work on this 
+nerve  fi ber on both sides of the Atlantic with Cole and 
+Curtiss in Woods Hole, and the British in Plymouth 
+and Cambridge. 
+Cray fi sh and the larger crustaceans  Homarus  or  Pali
+nurus  have been excellent models for  characterizing 
+neuromuscular innervation. The Dutch Cornelius 
+Adrianus Gerrit Wiersma (1905–1979) at the University 
+of California (UCLA) analyzed systematically the 
+peripheral nerve-muscle system of crustaceans. 
+Recording after stimulation of the different leg motor 
+nerves, excitatory junction potentials with an Einthoven 
+string galvanometer, he demonstrated the existence of 
+separate excitatory and inhibitory motoneurons (MNs). 
+The opener distal muscle was exceptional with only 
+two motoneurons, one excitatory and one inhibitory. 
+Insects, in particular crickets and cockroaches, pre
+sented the same advantages and were often used. In 
+re fl ex activities it has been possible to characterize the 
+proprioceptive control of each motoneuron of a given 
+muscle (see Fig.  1.7 ).
+They were known to have large nervous cells. This was 
+demonstrated by Angélique Arvanitaki (1901–1983) in 
+Lyon, France, when working on the sea slug  Aplysia . 
+At the marine station of Tamaris (near Toulon) she dis
+covered its very complex nervous system. She pre
+sented a general description of the different ganglia 
+focusing on the visceral ganglion with the largest cells 
+(up to 500  m m in diameter). Several electrical record
+ings were made. She observed spontaneous rhythmic 
+activity in some cells (Arvanitaki and Cardot 1941 
+ [  49  ] ). Her best intracellular recordings were carried out 
+in 1955. L. Tauc at the Marey Institute in Paris  analyzed 
+the different intracellular potentials with two micro
+electrodes. Arvanitaki travelled to the U.S. in 1958 and 
+reported there on her preparation in several leading 
+laboratories. As a result, the procedure was adopted by 
+the scienti fi c community, in particular by Eric Kandel. 
+Aplysia  – as most invertebrate preparations – was 
+studied because neural networks consist of only a 
+small number of neurons. This has several advantages. 
+It is possible to locate cell bodies inside ganglia and 
+to produce an initial form of “neurogeography” ( [  50  ]  
+see Fig.  1.4 ) showing a small number of interneurons 
+able to control selected hierarchical behaviors. Cells 
+were identi fi ed as contributing to restricted circuits 
+supporting a stereotyped behavior through re fl ex 
+modulation. It was “the golden age” for these 
+preparations! 
+Miller and Selverston, studying the stomatogastric 
+ganglion of Crustacea – perhaps the key preparation 
+for neural networks (see Chap.   23    ) –  fi lled identi fi ed 
+neurons with procyon yellow and killed them with 
+blue light (1979  [  51  ] ). This allowed to study the net
+work with and without a single neuron. It appeared 
+around 1960, that a great number of isolated inverte
+brate ganglia presented a central rhythmical activity 
+that was called a  central pattern generator  ( CPG ), 
+a term  fi rst used in 1965 by Wilson and Wyman. 
+The pharmacological differences between inver
+tebrates and vertebrates have also been used. 
+Expression of the insect allatostatin receptor in a 
+population of mouse neurons allows to activate them 
+selectively by applying allatostatin, since there is no 
+mammalian receptor that responds to this peptide 
+(Fig.  1.8 ). The onset and reversal inactivation can be 
+accomplished rapidly. For example, in the mouse 
+spinal cord it was possible to characterize the role of 
+V1 interneurons. The new  fi eld of “optogenetics” 
+now develops several probes that when activated by 
+light open channels or initiate second messenger 
+cascades, increasing the toolbox for manipulative 
+experiments. 
+In the eighteenth century, it was not possible to keep 
+mammals alive for more than 10 min after surgical 
+opening. Once they could be kept alive for several 
+hours they were considered for neurobiological stud
+ies. Cats were employed by Sherrington for spinal cord 
+experiments – his most famous experiment induced 
+decerebrate rigidity after severance at the level of the 
+brain stem: the cat was in complete extension due to 
+the suppression of inhibition coming from the cortex. 
+F. Bremer (1892–1982) proposed in 1935 the “isolated 
+encephalon ( encéphale isolé )” and the “isolated brain 
+stem ( cerveau isolé )” that were considered as key 
+elements in the understanding of sleep. In the former
+case, the cat was awake and sleepy as normal, in the 
+latter it slept all the time (Fig.  1.9 ).  
+The dif fi culty was to stimulate central nuclei or 
+particular pathways. This was only possible with the 
+apparatus proposed by Horsley-Clarke in the early 
+twentieth century. Around 1890, the famous neurosur
+geon Victor Horsley (1857–1916), who was professor 
+in London at Brown Institute, met Robert-Henry 
+Clarke (1853–1931) from Queens College of 
+Cambridge and they became close friends. Around 
+1895, Clarke proposed to build an apparatus that  fi xed 
+the head of the cat at the mouth, ears, and at the base of 
+the orbits. The brain was mapped in a 3D system (three 
+cartesian coordinates were taken, laterolateral ( x ), 
+dorso ventral ( y ), and rostrocaudal ( z )). In 1906, James 
+Swift built the prototype in London. It was published 
+in  Brain  in 1908 and it was quite useful for limited 
+electrolytic lesions. The original apparatus is now in 
+the Museum of the University College Hospital, 
+London. But the two friends had very different charac
+ters, Clarke was a great sportsman, enjoying life but 
+was very shy. Horsley was “very Victorian” and extro
+vert. Clarke did not accept the glory around his col
+league and became paranoiac. The apparatus went to 
+California and seemed abandoned. It was only used 
+again 30 years later around 1940 with the electrical 
+stimulations of the reticular formation. It was then 
+used extensively in all physiological laboratories for 
+more than 40 years.
+The “cat model”-period came to an end in the 1980s; 
+cats were progressively abandoned for ethical reasons 
+but also for their high cost and for the duration of the 
+preparation. The rat appeared as a suitable alternative, 
+it was much easier to explore, the anatomy and 
+the pharmacology were well described. The success of 
+the invertebrates had introduced some “simple 
+vertebrates” like the lamprey,  Xenopus  eggs, or the 
+tortoise. Lower vertebrate preparations were a good 
+solution with even their simplicity, a similar anatomy 
+and functional  properties as they exist in all verte
+brates. For example, S. Grillner analyzed in great detail 
+the anguilliform mode of locomotion of the lamprey, 
+and A. Roberts and K. Sillar the swimming of the 
+developing  Xenopus  tadpole. 
+Two other very popular preparations that can be 
+used today for  in vitro  or  in vivo  chronological record
+ings are the chick and the neonatal rat. The great inter
+est is that both have an embryonic stage of 3 weeks and 
+a postnatal life of similar duration, 3 weeks. Their 
+development is quite different though: the precocial 
+chick is able to walk at birth, while the altricial neo
+natal rat needs to remain in the nest, its development 
+is gradual. A comparison of the two species is 
+very  useful for understanding maturation processses. 
+Pioneering work on chicks was performed by Ham
+burger and Balaban (1963  [  52  ] ) and on rats by Otsuka 
+and Konishi (1974  [  53  ] ). Recently, mice have become 
+the most important laboratory animals because 
+• 
+techniques have been developed to generate transgenic 
+strains. 
+Two other methods have been used in 
+neuroscience:
+ Brain slices: This technique was developed in the 
+• 
+late 1960s to study the hippocampus. Thick sec
+tions of living brain tissue are maintained  in vitro  in 
+a solution of arti fi cial cerebrospinal  fl uid that dif
+fuses into all pieces of tissue. Used extensively and 
+for almost all regions of mammalian central ner
+vous system, slices preserve many circuits that can 
+be  fi nely analyzed.  
+Cell cultures: Slices of CNS tissues that are pre
+pared from young rodents are maintained in cul
+ture with a stable medium for many weeks. Nerve 
+cells continue to differentiate and to develop a tis
+sue organization that closely resembles that 
+observed in situ. Long-term survival is achieved 
+by culturing slices at the air/liquid interface, either 
+by continuously rotating the preparation (roller
+tube cultures, Gahwiler, 1981  [  54  ] ) or by culturing 
+them on semiporous membranes (Stoppini et al. 
+1991  [  55  ] ). 
+Several models are used depending on the behavioral 
+sequences that can be recorded and the facility to 
+obtain and reproduce them. Let us consider birds and 
+their singing behaviors, for instance. They vary among 
+species, and most singing takes place during the breed
+ing season. These songs are learned and not inherited. 
+The avian vocal organ is called the syrinx; it is a bony 
+structure at the bottom of the trachea. The most com
+mon species studied are the zebra  fi nch ( Taeniopygia 
+guttata ), the chaf fi nch ( Fringilla coelebs ), the 
+European starling, and the robin. Studies on singing 
+nervous centers con fi rmed the complexity of its pro
+duction and some correspondences with human 
+speaking. 
+In mammals, most of the behavioral analysis is 
+done on rats or mice. Monkeys are also used: the squir
+rel monkey (S aïmiri sciureus ) is interesting for vision, 
+vocalization, and olfactory communication, the baboon 
+(genus  Papio ) for manual coordination. In  Papio papio
+ light-induced epilepsy was discovered by R. Naquet. 
+With photonic stimulation at 20–25 Hz spontaneous 
+bifrontal discharges (mainly spike and wave) occur. 
+This epilepsy has been found also in humans. 
+The most useful monkeys for electrophysiology 
+have been  Macacus  and  Rhesus mulatta  that survive 
+well in captivity. In 1965, E.V. Evarts (1926–1985) 
+was able to record single cortical neurons from the 
+motor area of monkeys controlling the  fl exion or the 
+extension of their wrist. He found that some units are 
+activated about 100 ms before the movements. This 
+was a start of several studies on these animals to ana
+lyze cortical organization. 
+With this new discipline, new models were created 
+with two opposite considerations. One was to  fi nd the 
+simplest system for particular questions, the second 
+was to be near to humans to examine different 
+pathologies. 
+Sydney Brenner as a molecular biologist created the 
+f
+ i rst computer matrix analysis of nucleic acids. He 
+was then interested to  fi nd the most simple animal to 
+analyze biological activities. He explained his goal in 
+a letter to Max Perutz: (5 June 1963): “The experi
+mental approach I would like to follow is to attempt to 
+de fi ne the unitary steps of development using the 
+techniques of genetic analysis… Our success with 
+bacteria has suggested to me that we could use the 
+same approach to study the speci fi cation and control 
+of more complex processes in cells of higher organ
+isms. As a  fi rst stage, I would like to initiate studies 
+into the control of cell division in higher cells, in par
+ticular to try to  fi nd out what determines meiosis and 
+mitosis. In this work there is a great need to “microbi
+ologize” the material so that one can handle the cells 
+as one handles bacteria and viruses. Hence, like in the 
+case of replication and transcription, one wants a 
+model system.” He then decided to work on a small 
+nematode worm,  Caenorhabditis briggsae  (in fact, it 
+was  C .  elegans  that was selected). Brenner has 
+demonstrated very clearly that a scienti fi c project is 
+exclusively linked with the model used. At his Nobel 
+lecture on December 2002, he proposed the following 
+title to congratulate his modest nematode: “ Nature ’ s 
+Gift to Science ”. 
+Investigations with  Drosophila melanogaster  started 
+even earlier – Thomas Hunt Morgan (1866–1945) 
+had employed it in his genetic studies. He was a 
+highly competent zoologist who had  fi rst worked at 
+Naples marine station in 1894. By 1904, when Morgan 
+took a professorship in experimental zoology at 
+Columbia University, he was becoming increasingly 
+focused on the mechanisms of heredity and evolu
+tion. In 1900 Hugo De Vries (1848–1935), a Dutch 
+botanist,  proposed that new species are created by 
+mutation. Following the American entomologist C.W. 
+Woodworth (1865–1940) and the American geneti
+cist W.E. Castle (1867–1962), Morgan in 1908 started 
+working on the fruit  fly. In 1909, a 
+series of heritable mutants appeared, some of which 
+displaying Mendelian inheritance patterns. In 1910, 
+Morgan found a white-eyed mutant male among 
+the red-eyed wild types. In 1915, he published with 
+his team the seminal book  The Mechanism of 
+Mendelian Heredity  and he was later awarded the 
+Nobel Prize (1933) for his genetic studies of this 
+small  fly. 
+The zebrafish  Danio rerio , a tropical freshwater 
+fish, is an ideal model organism for studies of verte
+brate development and gene function for various rea
+sons: the genetic code is fully sequenced, the  fi sh is 
+easily observable and testable for developmental 
+behavior, the mutants are well-characterized, the 
+embryonic development is rapid, it takes only 3 days 
+from egg to larva. Embryos that develop outside the 
+mother are large and transparent. Drugs may be admin
+istered directly to the tank. 
+Today, the most intensively used animals for genetic 
+studies are mice. Work on this model is so dominant 
+that we have sometimes the impression to only charac
+terize the neuroscience of mice!
+The modern theory of biological evolution, as estab
+lished by Charles Darwin and Alfred Russel Wallace 
+in the middle of the nineteenth century, is based on 
+three interrelated facts: (i)  phylogeny  – the common 
+history of organisms on earth stretching back over 3.5 
+billion years, (ii)  evolution  in a narrow sense – 
+modi fi cations of organisms during phylogeny and 
+underlying mechanisms, and (iii)  speciation  – the 
+process by which new species arise during phylogeny. 
+Regarding the phylogeny, it is now commonly accepted 
+that all organisms on Earth are derived from a com
+mon ancestor or an ancestral gene pool, while contro
+versies have remained since the time of Darwin and 
+Wallace about the major mechanisms underlying the 
+observed modi fi cations during phylogeny (cf   .  [  1  ] ). 
+The prevalent view of  neodarwinism  (or better 
+“new” or “modern evolutionary synthesis”) is charac
+terized by the assumption that evolutionary changes 
+are caused by a combination of two major processes, 
+(i) heritable variation of individual genomes within a 
+population by mutation and recombination, and (ii) 
+natural selection, i.e., selective environmental or 
+genomic forces leading to better adaptation of those 
+bearing the mutation and as a consequence to their 
+greater differential reproductive success. The  modern 
+synthesis  holds that evolutionary changes are gradual 
+in the sense that larger, macro-evolutionary, changes 
+are the sum of smaller, micro-evolutionary, changes. 
+Other experts argue that such a gradualistic view of 
+evolution (including “sexual selection” and “genetic 
+drift”) is incomplete; they point to a number of other 
+and perhaps equally important mechanisms such as 
+(i) neutral gene evolution without natural selection, 
+(ii) mass extinctions wiping out up to 90 % of existing 
+species (such as the Cambrian, Devonian, Permian, and 
+Cretaceous-Tertiary mass extinctions) and (iii) genetic 
+and epigenetic-developmental (“ evo - devo ”) self-canal
+ization of evolutionary processes  [  2  ] . It remains uncer
+tain as to which of these possible processes principally 
+drive the evolution of nervous systems and brains. 
+In most cases, the reconstruction of the evolution of 
+nervous systems and brains cannot be based on fossil
+ized material, since their soft tissues decompose, but 
+has to make use of the distribution of neural traits in 
+extant species. This is usually done by means of the 
+phylogenetic or cladistic method as originally devel
+oped by the German entomologist Willi Hennig  [  3  ] . 
+This method is based on whether a given character (or 
+trait) represents an ancestral,  plesiomorphic , or a 
+derived,  apomorphic  state. The result of such an analy
+sis is a “tree” called  cladogram  re fl ecting shared 
+derived characters called  synapomorphies  or  homolo
+gies . Characters used for the construction of a  clado
+gram  can be of any nature, but mostly are anatomical 
+or biochemical. The standard criterion between com
+peting cladograms is the  principle of parsimony  stat
+ing that the most likely evolutionary hypothesis is that 
+minimizing the number of independent ( convergent  or 
+homoplastic ) steps of modi fi cation of the character 
+under consideration. If different species of animals 
+coincide in the formation of a given character in detail 
+(e.g., the structure of the inner ear or the genetic 
+sequence of a membrane channel), then it appears 
+more likely that these species are related and the coin
+cidence of characters is due to common ancestry, i.e., 
+that they are  homologous . However, there is increasing 
+evidence that convergent-homoplastic evolution is 
+much more common than previously believed, which 
+weakens the principle of parsimony. 
+In the reconstruction of the evolution of nervous 
+systems and brains, however, the primary goal is 
+not the construction of new cladograms, but an answer 
+to the question whether within a group (taxon) of ani
+mals the presence or absence of a given character, e.g., 
+the six-layered isocortex as found in all mammals, rep
+resents an ancestral (plesiomorphic) or derived (apo
+morphic) state. This requires the availability of 
+well-established cladograms, which are based on non
+neural characters in order to avoid circular conclu
+sions. However, such well-established cladograms do 
+not always exist, and therefore one often has to operate 
+with competitive cladograms. 
+ Figure  2.1  illustrates the present knowledge about 
+the major groups of organisms – the “tree of life”. 
+According to most recent evidence, the earth was 
+formed about 4.5 billion years ago (bya). First organ
+isms appeared about 3.5 bya as prokaryotic bacteria 
+and archaea (these are organisms without a cell 
+nucleus). Unicellular eukaryotes (which bear a cell 
+nucleus) originated 2.7–1.6 bya, simple multicellular 
+animals (sponges) about 1 bya, and coelenterates about 
+700 million years ago (mya). First deuterostomes and 
+first arthropods appeared 570 mya, cephalopods as 
+well as  fi rst  fi shlike animals and proto-amphibians 
+about 500 mya, insects about 400 mya, amphibians 
+360 mya, reptiles 300 mya, mammals 200 mya, and 
+birds 150 mya. First human-like animals (australopith
+ecines) appeared 4 mya, and modern humans ( Homo 
+sapiens sapiens ) 200,000–150,000 years ago. 
+Nervous systems and brains have a dual function, i.e., 
+the maintenance of inner “vital” functions of the organ
+ism and the control of behavior of that organism within 
+a given environment  [  4  ] . Unicellular organisms exert 
+the same functions and exhibit remarkably complex 
+behaviors, although they do not possess, by de fi nition, 
+a nervous system. 
+Bacteria  sense nutritive substances (e.g., sugar) or 
+toxins (e.g., heavy metal) in their environments through 
+a large number of chemoreceptors as well as obstacles 
+through mechanoreceptors  [  5  ] . This diverse informa
+tion is integrated and, through a chain of complex 
+chemical reactions, drives their  fl agella for movement. 
+Escherichia coli  has six  fl agella, each possessing a pro
+ton-driven motor, that are combined to one single 
+super fl agellum for forward propulsion (“run”) as soon 
+as receptors detect an increase in nutritive or a decrease 
+in toxic substances. In the opposite case, the 
+super fl agellum disintegrates, and the single  fl agella 
+move independently. As a consequence,  E .  coli  starts 
+“tumbling” and randomly changes its direction of 
+movement until the receptors sense a new gradient, and 
+a new “run” begins. The bacterium has a mini-memory, 
+by which it can compare the incoming information with 
+previous information, and this “knowledge” determines 
+the behavior. Thus, even in these most primitive organ
+isms we  fi nd the three basic components for adaptive 
+control of behavior, i.e., a sensorium, a motorium and in 
+between information storage and processing. Other 
+bacteria or archaea like  Halobacterium  possess light
+sensitive spots that make them swim toward sunlight. 
+Unicellular eukaryotes such as  Paramecium  or 
+Euglena , despite their unicellular organization, exhibit 
+a much more complex control of behavior than bacte
+ria or archaea  [  6  ] . They possess either  fl agella com
+posed of microtubules and attached to their front, 
+which bend to perform a breakstroke, or cilia that 
+cover the entire body and are able to exert coordinated 
+movements, or pseudopodia. They gather information 
+about their environment through voltage-gated, hyper
+polarizing potassium and depolarizing calcium ion 
+channels, while voltage-gated sodium channels are 
+absent and found only from planarians, possibly cni
+darians onwards. The calcium and potassium channels 
+are used, among others, for the release of forward and 
+backward movement. Many protozoans respond to 
+chemical, tactile, temperature and visual stimuli. 
+Euglena  and  Paramecium  and other unicellular 
+eukaryotes possess light-sensitive organelles for pho
+totaxis. It is debated whether they already possess an 
+intracellular system for central movement 
+coordination. 
+ Figure  2.2  illustrates the phylogeny of the Metazoa, 
+i.e., multicellular organisms, which are divided into 
+Nonbilateria and Bilateria. Porifera (sponges, 8,000 
+species, all aquatic) are the simplest metazoans. They 
+possess “independent effectors” or  myocytes , which 
+have sensori-motor functions and directly respond to 
+stimuli, but are not electrically excitable  [  7  ] . Sponges 
+can regulate the water stream through openings (ostia) 
+inside their body by modifying the diameters of these 
+ostia. The inner surface of the ostia is covered with 
+choanocytes carrying one  fl agellum each, and their 
+movement can drive the water through the ostium in a 
+coordinated fashion. The presence of true nerve cells is 
+debated, because there is no convincing evidence for 
+electrical signal conduction.
+Eumetazoans comprise all metazoans except the 
+Porifera. The evolutionary origin of the  fi rst nerve 
+cells among eumetazoans is still a matter of debate 
+(cf.  [  7, 8  ] ). One assumption is that sensory and nerve 
+cells originated from neuromuscular cells, while 
+other authors postulate an independent origin of sen
+sory, nerve, and muscle cells from epithelial cells. 
+The “paraneuron” concept proposes the evolution of 
+nerve cells from secretory cells. Even unicellular 
+eukaryotes, plants, and non-neuronal cells display 
+many features of nerve cells such as membrane poten
+tial, transmitters and other neuroactive substances, 
+membrane receptors, ion channels, many chemical 
+processes relevant for “neuronal information process
+ing”, and even action potentials – all of which being 
+more than 1 billion years old and thus older than 
+nerve cells and nervous systems. One remarkable 
+exception is the voltage-gated sodium channel, which
+is found  fi rst in planarians, perhaps already in 
+cnidarians. 
+Coelenterates are nonbilaterian eumetazoans. Today 
+they are considered two independent phyla, Cnidaria 
+and Ctenophora (together about 11,000 species) and 
+exhibit both the simplest types of nervous system 
+(nerve nets) as well as relatively complex forms, i.e., 
+radially symmetric nervous systems (Fig.  2.3 ). A cen
+tral nervous system is absent  [  7  ] . The phylum Cnidaria 
+comprises the sessile Anthozoa (sea anemones, cor
+als), Scyphozoa (jelly fi sh), Cubozoa (box jellies), and 
+Hydrozoa (hydras). Epidermal nerve nets are found in 
+sessile hydrozoans like the freshwater polyp  Hydra . 
+There is a concentration (nerve rings) around the 
+mouth and the peduncle of this animal. Complex sense 
+organs are absent, but  Hydra  responds to mechanical, 
+chemical, visual, and temperature stimuli. The 
+free-swimming medusa forms of scyphozoans, in con
+trast, possess complex circular nervous systems inside 
+the rim of the umbrella – the inner  subumbrellar  nerve 
+ring contains large bipolar “swim motor neurons” for 
+synchronous umbrella contraction, and the outer 
+exumbrellar  nerve ring consists of small multipolar 
+sensory cells which are in contact with light-sensitive 
+cells in mouth and tentacles. Both nerve rings are 
+interconnected. Sensory organs are the ocelli (pigment 
+spots, cup ocelli, or even “eyes” with biconvex lenses), 
+statocystes (balance organs), and “rhopalia”, i.e., com
+plex clublike balance organs, often combined with 
+photo- and chemoreceptors, which initiate the rhyth
+mic contraction of the medusas. The nervous system of 
+cnidarians is characterized by the dominance of elec
+tric synapses, although chemical synapses are likewise 
+present. Chemical transmission is mostly exerted by a 
+number of neuropeptides (e.g., FMRFamides and 
+RFamides; cf.  [  10  ] ), although there is evidence of 
+cholingergic, serotonergic, dopaminergic, and gluta
+matergic transmissions in different cnidarians species.
+Animals with bilateral symmetry (“Bilateria”) com
+prise the three major groups of phyla, the Acoelomorpha, 
+Protostomia, and Deuterostomia, the latter two together 
+forming the “Coelomata”, i.e., organisms with a sec
+ondary body cavity (see Fig.  2.2 ). However, the phy
+logeny of the Bilateria has not yet been  fi rmly 
+consolidated. 
+Acoelomorpha include very small bilateral animals 
+resembling  fl atworms and were previously assigned to 
+the phylum Platyhelminthes (see below). They possess 
+a diffuse subepidermal nerve net resembling that of 
+Hydra  and representing the simplest form of a bilateral 
+nervous system. Since such diffuse subepidermal nerve 
+nets are likewise found in other  fl atworm-like 
+organisms, it is not certain whether this type has 
+evolved independently, e.g., via secondary simpli fi cation 
+of more complex types  [  11  ]  or represents the ancestral 
+form of all bilaterial nervous systems  [  12  ] . 
+According to molecular phylogeny (cf. Fig.  2.2 ), pro
+tostome phyla are grouped into the Lophotrochozoa – 
+animals carrying a lophophor (a complex feeding 
+organ) or possessing a trochophora larva, and the 
+Ecdysozoa, i.e., with ecdysis (see below). Many phyla 
+of the lophotrochozoans include small and often ses
+sile organisms such as the Bryozoa (also called 
+Ectoprocta), the Brachiopoda, Echiura, Entoprocta, or 
+Nemertini – all with simple to very simple (possibly 
+simpli fi ed) nervous systems consisting of two or more 
+nerve cords extending from a supraesophageal gan
+glion through the elongated body, which are connected 
+by a number of commissures. In the following, only 
+the larger phyla are described. 
+Platyhelminthes ( fl atworms; 25,000–30,000 species), 
+comprise a number of species previously called 
+“Turbellaria” (whereas other “turbellarians” are now 
+included in the Acoela, which are not considered to 
+belong to the Platyhelminthes), and the endoparasitic 
+tapeworm groups Cestoda (tapeworms; 3,500 species) 
+and Trematoda ( fl ukes; about 20,000 species). The 
+phylogeny of platyhelminths remains unresolved, how
+ever. “Turbellarian” platyhelminths may possess very
+simple nervous systems resembling the subepidermal 
+diffuse nerve net found in the Acoela. In other forms, 
+there is a supraesophageal ganglion giving rise to dor
+sal and ventral longitudinal cords connected by com
+missural tracts. The longitudinal cords can either 
+consist entirely of  fi bers or of  fi bers forming regularly 
+arranged ganglia (Fig.  2.4 ). The most complex nervous 
+systems are found in predatory  fl atworms (planarians) 
+such as  Notoplana  and  Stylochoplana  with cerebral 
+ganglia consisting of  fi ve different “brain masses”. 
+Flatworms possess a variety of sense organs such as 
+tactile or chemoreceptors on the head and all over the 
+body, statocysts and inverse or everse pigment pit eyes 
+containing several hundred photoreceptors (Fig.  2.5 ). 
+Some of them are found as a pair of ocelli on the head, 
+other terrestrial  fl atworms have more than 1,000 ocelli. 
+Due to their endoparasitic life style, trematodes and 
+cestodes have a simpli fi ed nervous system consisting 
+of a simple “brain” and a varying number of longitudi
+nal  fi ber tracts. 
+Annelida (segmented worms; about 18,000 species) 
+are another large lophotrochozoan group. They are 
+divided into Polychaeta (with hairs, chetae, and leglike 
+parapodia) and Clitellata, the latter comprising oli
+gochaetes (earthworms) and hirudineans (leeches), 
+both without hairs and parapodia. Annelids possess a 
+paired “ladder-type” central nervous system (Fig.  2.6 ). 
+In its simplest state this structure consists of a cerebral 
+or supraesophageal nerve ring or ganglion giving rise 
+to paired ventral cords with a pair of ganglia per body 
+segment connected by transverse connectives (anasto
+moses). In annelids, the cerebral ganglion has vari
+ously undergone an increase in complexity; in predatory 
+polychaetes it has developed into a three-partite brain 
+resembling the proto-, deuto-, and tritocerebrum of the 
+insect brain (see below). Here, but also in some oligochaetes, the  fi rst segments of the ventral nerve cord 
+are often fused into a subesophageal ganglion. In the 
+oligochaetes, we  fi nd a modest, and in hirudineans a 
+massive simpli fi cation of this basic organization. 
+Within the ventral nerve cord of most oligochaetes and 
+some polychaetes there are giant  fi bers with very fast 
+conduction velocity (three in oligochaetes) separated 
+from the thinner  fi bers. Annelids possess a large vari
+ety of tactile and chemosensory organs, feelers or 
+antennae, palps, and one ciliated “nuchal organ” pos
+sibly involved in light detection. Other light-sensitive 
+organs range from very simple pigment spots and eye 
+pits to compound eyes and lens eyes with accommoda
+tion mechanism in some predatory polychaetes, and 
+have evolved independently of similar eye types in 
+other animal groups (Fig.  2.7 ).   
+Molluska are the largest lophotrochozoan group 
+(100,000 or more species). Their phylogenetic rela
+tionships are still unresolved. Besides several smaller 
+groups, there are three large taxa, i.e., Gastropoda 
+(snails and slugs, about 70,000 species), Bivalvia 
+(clams, oysters, mussels, scallops; 10,000–20,000 spe
+cies), and Cephalopoda (cuttle fi sh, squid, and octo
+pods; about 800 species). 
+The molluskan nervous systems range from rela
+tively simple (or simpli fi ed) forms resembling those 
+found in acoelans to the most complex ones among 
+invertebrates, in the cephalopods. The basic pattern is 
+a  tetraneural  nervous system consisting of a cerebral 
+ganglion, which gives rise to two dorsal pleurovisceral 
+and two ventral pedal nerve cords. In the ancestral 
+state, nerve cell bodies are not concentrated in ganglia, 
+but are dispersed throughout the cords. The formation
+of ganglia in mollusks is a derived state that occurred 
+independently of the formation of ganglia in other 
+forms such as annelids and arthropods.
+The nervous system of snails and slugs consists of four 
+nerve cords – hence the term  tetraneural  nervous sys
+tem – with maximally six pairs of ganglia and mostly 
+one unpaired visceral ganglion (Fig.  2.8a ). The nerve 
+cords are mostly linked by commissures. The paired 
+cerebral ganglia connected by a commissure are 
+located around the esophagus and process information
+to and from the eyes, to statocysts, head tentacles, 
+skin, and muscles of the lip, head, and sometimes 
+penis region. One pair of buccal ganglia with a com
+missure is situated below the esophagus and innervates 
+the pharynx, salivary glands, a nerve plexus of the 
+esophagus and the stomach. One pair of pleural (i.e., 
+lung membrane) ganglia without a commissure is con
+nected by cords with the cerebral, buccal, and parietal
+visceral ganglia. The pedal ganglia innervate feet 
+muscles and skin. The cerebral, pleural, and pedal 
+ganglia together form the “brain”. The supra- and sub
+intestinal ganglia innervate the gills, the “osphradium” 
+(an olfactory organ) and parts of the mantle and skin; 
+one pair of parietal ganglion (not present in all gastro
+pods) innervates the lateral walls of the body. Finally, 
+the unpaired visceral ganglion supplies the caudal 
+region of the gut, anus, and neighboring regions of the 
+skin and body wall, sexual organs, kidney, liver, and 
+heart. It completes the “visceral loop”, i.e., the chain 
+of ganglia and cords from the pleural to the visceral 
+ganglion. 
+A fusion of ganglia, mostly of the “visceral loop”, 
+is observed in many gastropods, e.g., in air-breathing 
+landsnails. The most highly developed gastropod 
+“brain” is found in  Helix pomatia  (the Roman or 
+Burgundy snail). It consists of a protocerebrum with 
+globuli (i.e., globe-like neuronal contact zones) and 
+dense neuropils, a mesocerebrum, and a postcerebrum 
+with pleural and pedal lobes. This organization is 
+remarkably similar to that of other invertebrates 
+with complex brains, but has presumably evolved 
+independently. 
+Gastropods have chemoreceptive and mechanore
+ceptive sense organs distributed all over the body. 
+Complex sense organs comprise statocysts, eyes rang
+ing from widely open pit eyes ( Patella ), pinhole eyes 
+( Trochus ) to lense eyes ( Helix ), and chemosensitive 
+osphradia in the mantle near the gills. 
+Some sea slugs have gained fame in modern neuro
+biology, e.g., the Californian “sea hare”  Aplysia cali
+fornica , which possesses some very large nerve cells 
+that can be detected with the naked eye and are well
+suited for studies of neuronal information processing 
+and learning processes  [  15  ] .
+Bivalves  have a secondarily simpli fi ed nervous system 
+with only three pairs of ganglia with an emphasis on 
+the visceral ganglion, which is often fused with the 
+parietal ganglia. In most species, the rostralmost gan
+glion is a fused cerebral, pleural, and buccal ganglion. 
+Some bivalves, e.g., the scallop  Pecten , have eyes on 
+the rim of the mantle, often with a complex anatomy 
+(e.g., a distal and proximal retina).
+Cephalopods have highly developed nervous systems 
+characterized by fusion of ganglia and subsequent 
+development into lobes forming a complex brain 
+around the esophagus. There are lobes that correspond 
+to the cerebral, buccal, labial, pleural, and visceral 
+ganglia of other mollusks, while innovative structures 
+are the central optic-visual, olfactory, and peduncular 
+ganglia as well as peripheral branchial and stellar gan
+glia (cf.  [  16, 17  ] ). 
+The well-known  Nautilus  possesses a relatively 
+simple brain without bulging supraesophageal lobes 
+and with unfused subesophageal lobes, which  probably 
+represents the ancestral state of cephalopods. Members 
+of the subclass Coleoidea comprising cuttle fi sh, squids, 
+and octopods have much more complex brains. The 
+most complex nervous system and brain of all inverte
+brates is that of the octopus (Fig.  2.8b, c ). Its nervous 
+system contains about 550 million neurons, 350 of 
+which are located inside the eight arms, 120–180 mil
+lion neurons in the giant optic lobes, and 42 million 
+neurons in the brain. The latter encircles the esophagus 
+and is composed of 38 lobes. The supraesophageal part 
+is divided into 16 lobes and contains the mass of neu
+rons. It has a ventral portion involved in the control of 
+feeding and locomotion, and a dorsal portion exerting
+cognitive functions, mostly visual and tactile
+chemosensory. The vertical lobe is considered the most 
+complex part of the octopus brain. It is composed of 
+f
+ i ve lobules and contains about 26 million neurons. 
+The vertical lobe is closely connected to the subverti
+cal lobe containing about 800,000 neurons, and the 
+interaction of both lobes, processed by a spectacularly 
+regular network of millions of  fi bers arranged in a rect
+angular fashion, is regarded as the neural basis of the
+astonishing learning and memory capacity of  Octopus
+ [  18  ] . Likewise complex are the giant optic lobes exhib
+iting a laminar neuropil resembling the cortex of mam
+mals. They process the visual information arriving 
+from the large lens eyes. These eyes are capable of lens 
+accommodation and pupil contraction achieved by 
+muscles, and have a striking similarity to the vertebrate 
+eye, although they are the product of convergent 
+evolution.
+The Ecdysozoa comprise all invertebrate animals that 
+shed their exoskeleton – a process called “ecdysis”. 
+According to present taxonomy they include eight 
+phyla, the largest of them being the Nematoda and the 
+Arthropoda. The smaller groups mostly have relatively 
+simple or simpli fi ed brains and simple sense organs. 
+Nematodes (roundworms; about 28,000 species) are 
+the most numerous multicellular animals on Earth. 
+Probably due to their predominantly parasitic lifestyle, 
+they have very simple nervous systems (Fig.  2.9 ) con
+sisting of a nerve ring around the esophagus and a 
+number of ganglia connected to this ring. Four to 
+twelve ventral cords originate from the ring and are 
+irregularly connected by half-sided commissures. 
+Local ganglia and nerves are found in the caudal gut 
+and anal region. Some nerves extend from the esopha
+geal nerve ring to the sense organs in the “head” region 
+such as sensory papillae and bristles. Other sense 
+organs are chemoreceptive organs called “amphidia”.  
+The tiny nematode  Caenorhabditis elegans  has 
+become a model organism in molecular and develop
+mental neurobiology by the work of the South African 
+molecular neurobiologist Sydney Brenner and col
+leagues  [  19, 20  ] , a reason being the fact that it has a 
+very simple nervous system composed of exactly 302 
+neurons. The basic genetic features and the connectiv
+ity of this nervous system was completely mapped by 
+those authors and subsequent studies explored the neu
+ral and molecular mechanisms responsible for a vari
+ety of behaviors shown by  C.elegans   [  21  ] .
+Arthropods are by far the largest (about 1.2 million 
+species described, more than ten million estimated) 
+and most diverse group of animals. They are divided 
+into protoarthropods (onychophorans, possibly tardi
+grades) and euarthropods (chelicerates, crustaceans, 
+myriapods, and hexapods, the latter three taxa called 
+“mandibulates”). Their taxonomy is not fully 
+established. 
+Like annelids, arthropods have a ventral, regularly 
+segmented, paired “ladder-type” nerve cord. Based on 
+the new taxonomy of protostomes mentioned above, 
+this organization either has evolved independently in 
+the lophotrochozoans and ecdysozoans from an unseg
+mented “ur-bilaterian” nervous system or was ances
+tral and has been lost in many cases  [  11  ] . In all 
+arthropods, the  fi rst ganglia have fused into a complex 
+brain. In mandibulates there are three major brain divi
+sions, i.e., a proto-, deuto-, and tritocerebrum. The pro
+tocerebrum is associated with the paired optic lobes, 
+the deutocerebrum with the  fi rst and the tritocerebrum 
+with the second pair of antennae. Mandibulates display 
+a subesophageal ganglion having formed by fusion of 
+the three  fi rst ventral ganglia. They supply the mouth 
+region and mandibles, in crustaceans the  fi rst and sec
+ond maxillae, in insects the maxillae, mandibles and 
+labium. Caudal ganglia of the ventral cords exhibit a 
+strong tendency to fuse and to form specialized abdo
+minal structures  [  22  ] .
+Extant Chelicerata (about 100,000 species) comprise 
+the Arachnida (spiders, scorpions, mites, and others) 
+and Xiphosura (horseshoe crabs). They all possess 
+specialized feeding appendages called chelicerae (claw 
+horns), while lacking antennae. The CNS of the cheli
+cerates is characterized by the absence of a deutocere
+brum because of lack of antennae; the tritocerebrum 
+supplies the chelicerae. In xiphosurans, scorpions, and 
+araneans (spiders) there is an increasing tendency 
+towards fusion of ganglia during ontogeny. In many 
+species of these groups the entire chain of ventral gan
+glia forms a compact mass around the mouth, in the 
+araneans below the brain. 
+The brain (supraesophageal ganglion) of arachnids 
+consists of a protocerebrum and tritocerebrum. In the 
+anterior median part of the protocerebrum, corpora 
+pedunculata (“mushroom bodies”) are found, which – 
+in contrast to insects – are exclusively visual neuropils 
+associated with the secondary eyes. A central body is 
+found in the posterodorsal part and is probably an inte
+grative center for visual information from the main eyes. 
+The homology of both the corpora pedunculata and the 
+central body of arachnids with those of insects remains 
+uncertain  [  22  ] . The tritocerebrum is the ganglion linked 
+with the chelicerae and is often fused with the subesophageal mass supplying the legs. This mass is found below 
+the brain. It consists of a highly variable number of 
+fused ventral ganglia (16 in araneans) (Fig   .  2.10 ).  
+Arachnids have a large variety of sense organs. 
+There are vibration-sensitive slit-like lyriform organs 
+involved in the detection of vibration and in proprio
+ception and hair sensilla called “trichobothria” on the 
+legs and lateral and dorsal parts of the body, which are 
+involved in the detection of airborne vibration and air 
+currents. Species differ in number of main and second
+ary eyes. The main eyes are considered homologous to 
+the ocelli, and the secondary eyes to the compound 
+eyes of insects. 
+Crustaceans (crabs, lobsters, cray fi sh, shrimp, krill, 
+and barnacles; totaling >50,000 species) with the larg
+est group Malacostraca (crabs, lobsters, cray fi sh) have 
+a typical paired “ladder-type” nerve cord as the ances
+tral form. The brain (supraesophageal ganglion) is 
+linked via two connectives with the ventral nerve 
+cords. The protocerebrum consists of two lateral optic 
+lobes and the median protocerebrum containing the 
+anterior and posterior optic neuropils, the protocere
+bral bridge, and the central body. Neuropils of the optic 
+lobes are highly variable. In decapod crustaceans (e.g., 
+crabs), there are additional visual neuropils within the 
+optic lobes, i.e., a terminal medulla and the so-called 
+hemiellipsoid bodies, which some authors conceive to 
+be homologous to the insect mushroom bodies (see 
+below). Both include a varying number of complex 
+neuropils; most of them contain glomeruli. The hemiel
+lipsoid bodies and some of the other neuropils have 
+connections with the accessory and olfactory lobes of 
+the deutocerebrum. The deutocerebrum contains the 
+medial and lateral neuropils receiving vestibular and 
+mechanosensory input from the  fi rst antennae, the 
+olfactory and parolfactory lobes (the latter with 
+unknown input), and the lateral glomeruli. The tritoce
+rebrum receives information from the second antennae 
+and sends motor nerves to them. There are strong dif
+ferences in the degree of fusion of ventral cord ganglia. 
+A subesophageal ganglion controlling mouth append
+ages is found in many malacostracans, and the fusion 
+of ganglia is maximal in crabs. 
+Crustaceans have a large number of sense organs. 
+These comprise proprioceptive mechanoreceptors of 
+leg joints, the chordotonal organs. The surface includ
+ing distal limbs and antennae is covered with mech
+ano- and chemoreceptors possessing sensilla or setae. 
+Only malacostracans have vestibular organs. An 
+unpaired nauplius eye, frontal simple eyes and com
+pound eyes are found, the latter are located either 
+directly on the head or on eyes elevated on movable 
+stalks. The compound eyes can consist of a few or sev
+eral 1,000 ommatidia.
+Insects are the largest group of arthropods, with an 
+estimated 6–10 million species, most of which are ter
+restrial (as opposed to crustaceans). The nervous sys
+tem of insects consists of a brain (supraesophageal 
+ganglion) and ventral nerve cords (Fig.  2.11 ). The 
+brain, formed by fusion of the  fi rst three ganglia, 
+consists of a large protocerebrum, a smaller deutocer
+ebrum, and a very small tritocerebrum. Fiber tracts 
+connect the brain with the subesophageal ganglion, 
+constituted by fusion of the  fi rst three ventral cord gan
+glia. The protocerebrum consists of two hemispheres, 
+which are continuous with the lateral optic lobes 
+receiving input from the compound eyes. Terminal 
+fields of the nerves from the ocelli are found in the 
+posterior median protocerebrum. The central complex 
+and the  corpora pedunculata  or “mushroom bodies” 
+(MB), are located in the median protocerebrum (see 
+below). The MB receive olfactory input from the 
+antennae via the antennal lobes situated in the deutoce
+rebrum and the antennocerebral tract (ACT). In 
+hymenopterans (bees, wasps, ants) the MB also receive 
+visual projections from the optic lobes, which termi
+nate in the calyces of the MB. The optic tubercle is 
+also found in the median protocerebrum which receives 
+visual input from the optic lobes. These structures are 
+connected with the ventral cords via descending tracts. 
+The smaller deutocerebrum is connected with the pro
+tocerebrum by a supraesophageal commissure. 
+Mechanoreceptive  fi bers terminate in its dorsal lobe. 
+Here, the antennal lobe is found as terminal  fi eld of 
+olfactory afferents from the antennae. Projection neu
+rons of the antennal lobe send axons to the MB and to 
+the protocerebral lobe of the protocerebrum via ACT. 
+The deutocerebrum gives rise to the sensory and motor 
+antennal nerves. The small tritocerebrum is related to 
+taste perception and origin of the frontal connectives 
+and the labral nerves.  
+The chain of ventral cord ganglia consists of 
+subesophageal, thoracic, and abdominal ganglia. The 
+f
+ i rst innervates the mandibles, maxillae, and labium 
+as well as the neck musculature. It is also involved in 
+the innervations of the salivary glands, the corpora 
+allata (endocrine glands producing the juvenile hor
+mone), and the frontal ganglion and is considered a 
+higher motor center for the initiation and control of 
+behavior. Most insects have three thoracic ganglia: a 
+pro-, meso-, and metathoracic ganglion supplying 
+legs and wings, if present, with sensory and motor 
+nerves. Abdominal ganglia (11 in the embryonic 
+stage) are reduced and fused during development. 
+The visual system of insects comprises the retina of 
+the compound eye and three optic neuropils, the lamina, 
+medulla, and lobula complex, which in  fl ies and 
+butter fl ies is divided into a lobula and lobula plate. In 
+addition to the compound eyes, insects have dorsal eyes, 
+so-called ocelli, which are simple lens eyes and thought 
+to exert steering functions during walking and  fl ight. 
+Antennae bear mechanosensitive, olfactory, 
+hygroreceptive, and temperature-sensitive receptors. 
+The neuropil of the antennal lobe in the deutocerebrum 
+contains a species-speci fi c number of glomeruli, in 
+which sensory afferents and interneurons make con
+tacts. Macroglomeruli are found in some male insects 
+related to sexual pheromone processing. 
+The MBs in hymenopterans are composed of one 
+calyx or two calyces (a medial and a  lateral one) and a 
+peduncle consisting of two lobes, alpha and beta. The 
+somata of neurons (“Kenyon cells”, bees having around 
+300,000) together with their axons (“Kenyon  fi bers”) 
+form the peduncle; the neuronal somata are located in 
+the outer rim of the calyx. The Kenyon  fi bers split up – one collateral enters the  a , and another the  b  lobe. In 
+the honeybee, the calyces exhibit three vertically 
+arranged regions, the lip, collar, and basal ring region. 
+Afferents from the antennal lobe terminate in the lip 
+region, afferents from the medulla and lobula of the 
+optic neuropils terminate in the collar region, and the 
+basal ring region receives collaterals from both affer
+ents as well as from the subesophageal ganglion. The 
+a  and  b  lobes send  fi bers to the median protocerebrum 
+between the two MBs, the protocerebral lobe lateral to 
+the MB, the contralateral MB, the optic tubercle and 
+back to their own calyces. In hymenopterans, the MB 
+represents a highly complex multimodal center that 
+forms the neural basis of processing and integrating 
+olfactory/visual and mechanosensory information and 
+enables learning (mostly olfactory and visual), com
+plex cognitive functions, and complex behavior such 
+as navigation  [  26  ] . Their output has sensory, move
+ment-related, and sensorimotor functions. MBs differ 
+substantially across species. For example,  Drosophila
+ only has a single cup, and spatially segregated  a ,  b , 
+and  l  lobes. 
+The central complex of insects consists of four neu
+ropils, i.e., the protocerebral bridge, an upper division 
+(in  Drosophila  called fan-shaped body), a lower divi
+sion (in  Drosophila  called ellipsoid body), and the 
+paired nodules. It receives strong visual as well as 
+mechanosensory input, but only weak input from the 
+MB. Their precise function is still unclear, but the cen
+tral complex has to do with premotor integration, ori
+entation, and control of complex locomotion and path 
+integration. 
+The homology of the MB and the central bodies 
+(CB) or central complexes in arthropods is debated. 
+The CB of insects and crustaceans are probably homol
+ogous, whereas homology with CB of chelicerates is 
+controversial. The same holds for the MB in insects 
+and crustaceans (here called hemiellipsoid body), on 
+the one hand, and of chelicerates, on the other, partly 
+because in the latter, the MB receive only visual input. 
+Some authors place the MB of chelicerates closer to 
+those of onychophorans  [  27  ] . Accordingly, the MB of
+onychophorans and chelicerates would have evolved 
+independently of those of the mandibulates or 
+underwent substantial functional and structural changes 
+in their ancestral organization. 
+As illustrated in Fig.  2.12 , the superphylum 
+Deuterostomia, i.e., animals with a “secondary mouth”, 
+comprise the phyla Echinodermata, Xenoturbellaria 
+(not shown), Hemichordata, and Chordata. The split 
+between protostomes and deuterostomes has happened 
+in Precambrian time about 560 mya.
+The Echinodermata (star fi sh, sea urchins, sand dollars, 
+brittle stars, sea cucumbers, and feather stars, together 
+about 6,300 species) are radially symmetric (pentara
+dial) animals at the adult stage. The radial symmetry of 
+body and nervous system appears to be secondary, 
+since echinoderms most probably derive from bilater
+ally symmetric ancestors, as is re fl ected by their bilat
+eral larva. The nervous system is composed of a 
+sensory ectoneural nerve ring of ectodermal origin sur
+rounding the mouth, and a motor hyponeural system of 
+mesodermal origin, from which radial nerves enter the 
+arms and the rest of the body coordinating the move
+ment of the animal. The connection between the two 
+systems is unclear.
+Hemichordates (with the classes Enteropneusta and 
+Pterobranchia; 100 species) are wormlike or sessile 
+marine animals with a primitive or secondarily 
+simpli fi ed nervous system consisting of a dorsal and 
+ventral nerve cord interpreted by some authors to be 
+homologous to the spinal cord of chordates, while oth
+ers consider it a result of independent evolution. 
+The phylum Chordata consists of the Cephalochordata 
+(lancelets), Urochordata (tunicates), and Craniata (cf. 
+Fig.  2.12 ). They all possess, at least at some point of 
+their life, a chorda dorsalis or notochord, i.e., a  fl exible 
+cartilaginous rod, and a hollow dorsal nerve or “spi
+nal” cord.
+Cephalochordates (21 species, e.g., the lancelet 
+Branchiostoma , previously called  Amphioxus ) possess 
+a neural plate, but no neural crest or placodes and, as a 
+consequence, no head. Recent studies based on neural 
+gene expression patterns  [  28  ]  reveal that the neural 
+tube and its rostral “cerebral vesicle” are homologous 
+with most parts of the vertebrate CNS, i.e., a spinal 
+cord, a rhombencephalon, mesencephalon, and dien
+cephalon and perhaps parts of a telencephalon, which 
+is connected with the unpaired frontal eye. Urochordates 
+(2,200 species) are sessile animals having a free-swim
+ming larva and a very primitive nervous system, prob
+ably as a consequence of secondary simpli fi cation 
+related to their sessile life style.
+The group Craniata (i.e., animals with a skull) com
+prises the Myxinoidea and all members of the subphy
+lum Vertebrata including the group Petromyzontida 
+(lampreys) (cf. Fig.  2.12 ). Myxinoids and petromyzon
+tids have no jaws and are, therefore, often called 
+Agnatha, i.e., jawless  fi shes. 
+Myxinoids (hag fi shes; about 60 species) are eel-like 
+exoparasites with a well-developed olfactory and mech
+anosensory system – no lateral-line system as in all 
+other aquatic vertebrates – and have degenerated eyes.
+As shown in Fig.  2.12 , the subphylum Vertebrata com
+prises the classes Petromyzontida (about 50 species), 
+Chondrichthyes (cartilaginous  fi shes, i.e., sharks, rays, 
+skates and chimaeras, about 1,100 species), 
+Osteichthyes (bony  fi shes, i.e., actinopterygian, bra
+chiopterygian, and sarcopterygian  fi shes, the latter 
+comprising lung fi shes and crossopterygians; together 
+more than 30,000 species), Amphibia (frogs, 
+salamanders, caecilians, about 6,000 species), 
+“Reptilia” (chelonians, i.e., turtles; rhynchocephalians, 
+i.e., the tuatara; squamates, i.e., lizards and snakes; and 
+crocodilians – together about 9,500 species), Aves 
+(birds, about 10,000 species), and Mammalia (about 
+5,700 species). The former class “Reptilia” is now 
+considered a paraphyletic taxon, i.e., one without a 
+common ancestor, because crocodilians (and the 
+extinct dinosaurs) are more closely related to birds 
+than to other “reptiles”. The representatives of the for
+mer class “Reptilia” and birds together form the super
+class Sauropsida. 
+The class Mammalia comprises the three subclasses 
+Prototheria (egg-laying mammals, with the single 
+order Monotremata, 5 species), Metatheria or 
+Marsupialia (i.e., “pouched” mammals, about 340 spe
+cies), and Eutheria or Placentalia (i.e., mammals with 
+a placenta, 5,300 species). According to recent taxon
+omy, the latter comprises the four supraorders 
+Afrotheria (containing elephants, manatees, and spe
+cies previously included in the now obsolete group 
+“insectivores”), Xenarthra (anteaters, armadillos, 
+sloths), Euarchontoglires (e.g., primates, rodents, 
+hares), and Laurasiatheria (including bats, carnivores, 
+ungulates, cetaceans, and certain species previously 
+referred to “insectivores”). 
+The CNS of craniates reveals a highly uniform 
+organization  [  29, 30  ]  (Figs.  2.13  and  2.14a–j ). In its 
+hypothetical ancestral form, it exhibits the “standard” 
+organization into the three: prosencephalon, mesen
+cephalon, and rhombencephalon. Whether such a tri
+partite organization, occurring in lophotrochozoans as 
+well as ecdysozoans, is due to “deep homology” found 
+in all bilaterians  [  11  ]  or to convergent evolution, is 
+debated. All extant craniates have brains consisting of 
+a rhombencephalon composed of a myelencephalon or 
+medulla oblongata, and a metencephalon including a 
+cerebellum, a mesencephalon (midbrain) including an 
+isthmic region, and a prosencephalon composed of a 
+diencephalon (or “primary prosencephalon”) and a tel
+encephalon (or “secondary prosencephalon” – end
+brain). Medulla oblongata and mesencephalon together 
+form the “brainstem”. It is now generally accepted that 
+most parts of the brain like the spinal cord have a  seg
+mental organization  (Fig.  2.15 ). The rhombencepha
+lon consists of rhombomeres R1–7, the mesencephalon 
+is composed of an isthmic neuromer and a mesenceph
+alic neuromer proper, the diencephalon (as “primary 
+prosencephalon”) and at least ventral parts of the
+telencephalon (as “secondary prosencephalon”) are 
+segmented into six prosomeres P1–6. The exact seg
+mentation of the telencephalon dorsal and rostral to P6 
+into pallial and subpallial regions has yet to be 
+determined.    
+ The  medulla spinalis  consists of an inner gray sub
+stance around the central canal consisting mostly of 
+nerve cells covered by white substance containing den
+drites and ascending and descending nerve  fi bers. The 
+gray substance is divided into a dorsal somatosensory 
+and viscerosensory region and a ventral visceromotor 
+and somatomotor region. Nerve cells innervate the 
+various parts of the body via spinal nerves in a seg
+mental fashion. 
+ The  medulla oblongata  reveals the same dorsoven
+tral organization as the medulla spinalis and contains, 
+in all vertebrates, from dorsal to ventral: somatosen
+sory, viscerosensory, visceromotor, and sensorimotor 
+areas and nuclei of the cranial nerves V to X. Tetrapod 
+vertebrates (amphibians, “reptiles”, birds, and mam
+mals) also have the additional cranial nerves XI ( N. 
+accessorius ) and XII ( N. hypoglossus ). The dorsal sen
+sory roots of the cranial nerves include ganglia con
+taining the somata of sensory neurons. The regions of 
+sensory nuclei may undergo strong enlargement and 
+complication, as, for instance, in gold fi sh with the gus
+tatory vagal lobe and its highly evolved gustatory sys
+tem. A mechano- and electroreceptive lateral-line 
+system associated with cranial nerves is present in all 
+vertebrates and was lost in some terrestrial amphibians 
+and in all amniotes, i.e., in “reptiles”, birds, and 
+mammals. 
+ The  reticular formation system  is found inside the 
+medulla oblongata, the pons (only in mammals, though 
+birds have evolved a somewhat similar structure 
+independently), and in the tegmental midbrain. It is 
+relatively uniform among vertebrates and contains
+important neuromodulator-producing centers such as 
+the  noradrenergic  locus coeruleus  and the serotonergic 
+raphe  nuclei. The reticular formation controls centers 
+for breathing and cardiovascular activity and gives rise 
+to an ascending activation system for vigilance, aware
+ness, and consciousness. A  pons  (“bridge”) is found 
+only in mammals and is situated in the rostral medulla 
+oblongata and caudal tegmentum. It contains relay 
+nuclei of  fi ber bundles that connect the cerebral cortex 
+and the cerebellum. However, similar pathways and 
+nuclei are likewise found in birds, but most likely 
+developed independently. 
+ The  cerebellum  is a formation of the dorsal meten
+cephalon and present in all vertebrates, but absent in 
+myxinoids, perhaps due to secondary loss. In all verte
+brates except petromyzontids, it exhibits a uniform 
+three-layered organization, i.e., a deep small-celled 
+granular layer, a large-celled layer of Purkinje cells, 
+and a peripheral molecular layer. The vestibulolateral 
+lobes of the cerebellum processing primary vestibular 
+and – if present – mechano- and electroreceptive lat
+eral-line information are present in all vertebrates. 
+A   corpus cerebelli  is found in cartilaginous and bony 
+f
+ i shes and terrestrial vertebrates and has undergone 
+hypertrophy in some groups of cartilaginous  fi shes, 
+and is strongly reduced in size in amphibians. In some 
+actinopterygian  fi shes, predominantly in electric  fi sh, 
+there is a strong enlargement of parts of the cerebel
+lum, the  valvula   [  34  ] . Mammals have novel lateral cer
+ebellar structures, the  cerebellar hemispheres , receiving 
+telencephalo-pontine input. Besides vestibular, soma
+tosensory, and sensorimotor functions, the cerebellum 
+of mammals, and perhaps of birds, is likewise involved 
+in “higher” cognitive functions such as thinking and 
+action planning as well as language in humans. 
+ The  mesencephalon  consists, from dorsal to ven
+tral, of the:  tectum  (in mammals called “colliculi 
+superiores”), the  torus semicircularis  (in mammals 
+called “colliculi inferiores”), and the  tegmentum . In 
+all craniates, except mammals, the tectum is the major 
+visual processing and integration center. In its ances
+tral state, it exhibits a laminar organization consisting 
+of alternating cellular and  fi ber layers. The absence of 
+such lamination in some vertebrates such as salaman
+ders, caecilians, and South American and African 
+lung fi shes is a consequence of secondary simpli fi cation 
+ [  35  ] . Besides visual input, other sensory information 
+such as auditory and – if present – mechano- and elec
+trosensory information originating in the torus semi
+circularis terminate in deeper layers of the tectum and 
+contribute to a multimodal representation for orienta
+tion in space. Likewise, telencephalic efferents termi
+nate in the tectum of cartilaginous and bony  fi shes and 
+of terrestrial vertebrates. Main tectal efferents descend 
+to the medulla oblongata/pons and medulla spinalis 
+(tectobulbar and tectospinal tracts, respectively). 
+ The  torus semicircularis  is, in its plesiomorphic 
+state, the midbrain relay station for auditory, mech
+ano-, and electrosensitive projections ascending to the 
+diencephalon and telencephalon (cf. Fig.  2.16d ). Like 
+the tectum, it is characterized by a laminar organiza
+tion, which is most spectacular in electric  fi sh  [  29  ]  
+(cf. Fig.  2.17 ).   
+ The  tegmentum  is involved in (pre)motor functions 
+and exhibits a number of specialties. One ancient com
+ponent is the nucleus of the oculomotor nerve (cranial 
+nerve III), which is absent in myxinoids, but present in 
+all vertebrates. In the tegmentum, massive  fi ber tracts 
+descending from the cortex to the pons, medulla oblon
+gata, and medulla spinalis are found (corticopontine 
+tracts and pyramidal tract). The tegmentum contains 
+the dopaminergic  substantia nigra  exhibiting recipro
+cal connections with the telencephalic striatum, and 
+the premotor  nucleus ruber . The latter receives crossed 
+efferents from the cerebellum and gives rise to crossed 
+descending motor tracts to the spinal cord (rubrospinal 
+tracts). 
+ The  diencephalon  is divided from dorsal to ventral 
+into the epithalamus, thalamus, and hypothalamus 
+(Fig.  2.16c ). The  epithalamus  contains the  habenular 
+nuclei , which are important parts of the limbic system 
+and present in all craniates. They project, via the 
+fasciculus retro fl exus, to the midbrain tegmentum. In 
+many craniates, the epithalamus carries the pineal 
+organ or “epiphysis”, a small endocrine gland releasing 
+the hormone melatonin, which affects wake-sleep pat
+terns and seasonal functions. The  thalamus  is com
+posed of a dorsal and a ventral part and the posterior 
+tuberculum. In all craniates, the  dorsal thalamus
+ receives visual, somatosensory, auditory, and gustatory 
+information, either directly (e.g., from the eyes) or 
+indirectly via brainstem relay centers, and sends them 
+to telencephalic regions. Visual pathways terminate in 
+the dorsal pallium of  fi shes, amphibians, “reptiles”, 
+and birds and in the occipital cortex of mammals. 
+In “reptiles” and birds, auditory as well as visual and 
+somatosensory pathways terminate in a special region 
+of the lateral telencephalon called  dorsal ventricular 
+ridge  (DVR) in “reptiles” and  mesonidopallium  in 
+birds. The thalamus has undergone a strong enlarge
+ment in amniotes, particularly mammals and birds, and 
+became parcellated into many nuclei related to sensory, 
+cognitive, and motor as well as limbic functions. In 
+mammals (Fig.  2.18 ), visual functions are relayed by 
+the corpus geniculatum laterale, auditory functions by 
+the corpus geniculatum mediale, both projecting to the 
+primary visual and auditory cortex, respectively. Ray
+f
+ i nned  fi shes have independently developed a projec
+tion from the posterior tuberculum of the diencephalon 
+to the pallium. The  ventral thalamus  and subthalamus 
+(zona incerta) of mammals projects to telencephalic 
+parts of the basal ganglia, i.e., corpus striatum and glo
+bus pallidus, and to the hippocampus. The  hypothala
+mus  and its appendage, the  pituitary  ( hypophysis ), are 
+the main hormone-based control centers for basal 
+homeostatic functions. Cartilaginous and bony  fi shes 
+exhibit a hypertrophy of the lateral hypothalamus 
+( lobus inferior hypothalami ), with unknown 
+functions.  
+The evolution of the  telencephalon  in craniates is 
+not fully understood. In all craniates, it receives olfac
+tory information from the olfactory bulb as the only 
+direct sensory input. Comparative neuroanatomists, 
+therefore, previously believed that in its ancestral state 
+the telencephalon had to be considered the “olfactory 
+brain”. Later it was found that in all craniates the
+telencephalon also receives information from other 
+senses, e.g., visual, auditory, and mechanosensory via 
+pathways ascending from the diencephalon (see above), 
+and the telencephalon was regarded “multimodal” in 
+its ancestral state. Recent studies, however, revealed 
+that in all craniates except birds and mammals these 
+nonolfactory sensory afferents to the telencephalon are 
+either multimodal or do not form topographic repre
+sentations. This would imply that the development of 
+topographic representations of thalamic sensory affer
+ents to pallial/cortical regions has happened indepen
+dently in birds and mammals and would again 
+strengthen the “olfactory brain” interpretation. 
+The telencephalon of all craniates is composed of 
+a pallium and a ventral subpallium (“pallium” means 
+“mantle”) surrounding the paired telencephalic ven
+tricles, which in its ancestral form of tetrapods is 
+clearly visible in the amphibian brain ( [  35  ]  cf. 
+Fig.  2.19 ). With the exception of petromyzontids, the 
+pallium is divided into a medial, dorsal, lateral, and 
+ventral pallium, and the subpallium into a septal and a 
+striato-pallidal region, the latter including parts of the 
+amygdala involved in limbic-autonomic functions (in 
+mammals the “central amygdala”). In “reptiles”, pal
+lial divisions are called medial, dorsal, and lateral 
+cortex and dorsal ventricular ridge (see below). The 
+medial pallium/cortex of amphibians and sauropsids 
+corresponds to the hippocampal formation of mam
+mals, the lateral pallium to the olfactory (in mammals 
+“piriform”) cortex, and the ventral pallium to the 
+vomeronasal pallium. 
+The ontogeny of the telencephalon of actinoptery
+gian (ray- fi nned)  fi shes deviates from that of other cra
+niates  [  34  ] ; Fig.  2.19 . In the latter, the unpaired 
+embryonic telencephalon extends laterally and forms 
+two hemispheres through  evagination  resulting in an 
+arrangement of a medial, dorsal, lateral, and ventral 
+pallium, and a subpallium around the ventricles. 
+In contrast, in actinopterygians two hemispheres are 
+formed by  eversion  in such a way that parts of the brain 
+which in the evagination type are found medially and 
+dorsally, occupy a ventrolateral position. These differ
+ences in ontogeny contribute to the dif fi culty with 
+homologizing parts of the telencephalon of actinop
+terygian  fi shes and other vertebrates.  
+In sauropsids, the lateral parts of the pallium have 
+developed into a large structure, the  dorsal ventricular 
+ridge , DVR, which bulges in medial direction into 
+the ventricles and for a long time was considered part 
+of the corpus striatum as the major telencephalic 
+component of the basal ganglia (Fig.  2.20 ). Accordingly, 
+parts of the DVR of birds were called e ctostriatum ,  
+neostriatum , and  hyperstriatum . Today it is generally 
+accepted that the DVR is not homologous to the stria
+tum, but is of pallial origin  [  37  ] .  
+However, as illustrated in Fig.  2.21 , there is a debate 
+whether the DVR and the mesonidopallium of birds 
+are homologous to the lateral cortex or the claustrum 
+of mammals and ventral pallium of amphibians  [  38, 
+39  ] . In the latter case, different parts of the dorsal tel
+encephalon would give rise to centers involved in intel
+ligence and other mental abilities (see below).  
+The dorsal pallium of myxinoids exhibits a 
+f
+ i ve-layered structure, which has developed inde
+pendently of other lamination patterns found in crani
+ates (see below). The pallium of cartilaginous and 
+actinopterygian  fi shes is unlaminated. The medial and 
+dorsal pallium of lung fi shes (dipnoans) displays some 
+lamination, while the pallium of amphibians is gener
+ally unlaminated despite extensive cell migration in 
+medial and dorsal parts  [  29  ] ; cf. Fig.  2.18a, b . In the 
+medial, dorsomedial, and dorsal cortex of “reptiles” 
+there is a three- to four-fold lamination, which how
+ever, is discontinuous and not comparable in its cyto
+architecture to the laminated cortex of mammals (cf. 
+Fig.  2.20 ). In birds, the dorsally situated hyperpallium 
+is considered homologous to the visual, auditory, and 
+somatosensory cortex of mammals, while the meso-/
+ nidopallium of birds is considered to be homologous 
+either to the lateral (temporal) isocortex or a derivative 
+of the ventral pallium of amphibian-reptilian ances
+tors. In birds, both the hyperpallium and meso-/nidop
+allium are unlaminated (Fig.  2.22 ).  
+Mammals in general possess a six-layered cortex 
+called “isocortex” (Fig.  2.23 ) and a 3- to 5-layered 
+“allocortex” or limbic cortex. The evolution of the 
+mammalian cortex is unclear, but its laminar organiza
+tion appears to have evolved independently of the lam
+ination occurring in the pallia of other craniates and 
+probably evolved from a three-layered olfactory cor
+tex. A common organizational principle of the mam
+malian cortex is the parcellation into functionally 
+different (sensory, motor, integrative) areas. In small 
+mammalian brains, the number of such areas is low, 
+having about 10 primary sensory and motor areas 
+without signs of integrative-associative areas; cf.  [  41  ] . 
+The number of cortical areas increases with cortex vol
+ume in most mammals and all primates. Concurrently, 
+the relative sizes of cortical areas are supposed to 
+decrease. The human cortex is assumed to possess 150 
+areas and 60 connections per area resulting in 9,000 
+area-area connections  [  42  ] .  
+The subpallium/subcortex of vertebrates consists 
+of a large striatopallidum ( nucleus caudatus  and 
+putamen , together forming the “corpus striatum”, 
+and  globus pallidus  in mammals; cf. Fig.  2.17 ) as the 
+main component of the basal ganglia, a subcortical 
+amygdalar complex, and a medially situated septal 
+region. The amygdala of vertebrates consists of a 
+portion exerting autonomic-limbic functions (“cen
+tral amygdala”) as well as olfactory and vomerona
+sal functions (cortical and medial amygdala of 
+mammals, respectively). In addition, in mammals a 
+basolateral amygdala has evolved, with strong recip
+rocal connections to the isocortex and limbic cortex 
+as well as afferents from the sensory nuclei of the 
+thalamus.
+The basic organization of the brain is surprisingly uni
+form across all vertebrate taxa, as described above. 
+Besides the development of structures for the process
+ing of specialized senses such as the vagal and facial 
+lobe (taste) or the valvula cerebelli (electroreception) 
+in teleost  fi shes, major changes are observed in the tel
+encephalic roof, i.e., pallium or cortex. However, one 
+of the most striking differences concerns absolute 
+brain size (ABS), which in vertebrates varies from 
+1 mg (or mm 3 ) in miniaturized  fi shes and amphibians 
+up to 8,000 g in the false killer whale, which is a range 
+of almost seven orders of magnitude (Table  2.1 ).  
+The classes of craniates likewise differ markedly in 
+brain size relative to body size (RBS) (Fig.  2.24 ). The 
+smallest RBS is found in agnathans (myxinoids and 
+petromyzontids), followed by bony  fi shes, amphibians, 
+“reptiles”, and cartilaginous  fi shes, the latter having 
+surprisingly large brains. Mammals and birds, on aver
+age, have brains that are about ten times larger than 
+those of the other groups of craniates of the same body 
+size. In birds, parrots (Psittacidae) and corvids 
+(Corvidae) have 6–10 times larger brains than other 
+birds. Among mammals, primates (with the exception 
+of prosimians) generally have larger brains than the 
+other orders with the same body size. In primates, pro
+simians and tarsiers have relatively small brains with 
+an average of 6.7 g, followed by New World monkeys 
+with an average of 45 g and Old World monkeys at an 
+average of 115 g, with the largest monkey brains found 
+in baboons. Among apes, gibbons have brain sizes 
+(88–105 g) which fall within the range of Old World 
+monkeys, while the large apes (orangutans, gorillas, 
+chimpanzees) have brain weights between 330 and 
+570 g (males)  [  47  ] .  
+Brain size in vertebrates is mostly determined (more 
+than 90 %) by body size  [  48  ] . However, brain size does 
+not increase proportionally with body size, but “lags 
+behind”, i.e., with an exponent (or allometric 
+coef fi cient) of 0.6–0.8, which is due to the fact that 
+with an increase in body size brains become absolutely 
+larger, but relatively smaller – this is called  negative 
+brain allometry   [  44  ] . As a consequence, in small mice 
+or insectivores brain volume may constitute 10 % or 
+more of body volume, while in the blue whale, the 
+largest living animal, the brain makes up only 0.01 % 
+or even less of body mass  [  49  ] ; (Fig.  2.25 ). Primates, 
+in general, have higher RBS than all other groups of 
+mammals.  
+The human brain has a weight of 1,250–1,450 g on 
+average and represents about 2 % of body mass. 
+Although the human brain is neither exceptional in 
+ABS or RBS, it is unusually large in terms of body 
+size. This can be demonstrated using various statistical 
+methods, e.g., the encephalization quotient EQ, which 
+indicates the extent to which the brain size of a given 
+species  Ea
+  deviates from the expected brain size  Ee
+ ;cf. 
+ [  44  ] . Within primates, humans have the highest EQ of 
+7.4–7.8, meaning that the human brain is 7–8 times 
+larger than that of an average mammal of the same 
+body size (Table  2.1 ). They are followed by the mon
+keys  Cebus  and  Saimiri  with EQs of 4.8 and 2.8, 
+respectively, while chimpanzees and orangutans have 
+low (1.7 and 1.9, respectively) and gorillas very low 
+EQs (1.5). Other mammals have EQs between 0.4 (rat) 
+and 1.3 (elephant). 
+During mammalian brain evolution, all parts 
+increased in size relative to the body, except the olfac
+tory system. However, the telencephalon as well as the 
+cerebellum underwent a faster growth than the other 
+parts resulting in  positive allometry  (i.e., with an 
+exponent larger than 1;  [  50  ] ). Inside the telencephalon, 
+the cortex has grown faster both in surface and thick
+ness. However, while the increase in surface was 
+10,000-fold (from 0.8 cm 2  in “insectivore”-like species 
+to 7,400 cm 2  in whales), cortical thickness increased 
+only slightly, from 0.5 mm in mice to 3 mm in  Homo 
+sapiens . Interestingly, mammals with much larger 
+brains and consequently cortical surfaces such as ele
+phants and cetaceans (whales and dolphins) have 
+unusually thin cortices of 1.5 and 1 mm, respectively. 
+ In all mammalian cortices, cortical cell density 
+decreases with increasing cortex volume, but primates 
+in general have higher densities (around 50,000 cells 
+per mm 3 ) than expected compared to other mammals – elephants and cetaceans have the lowest cortical cell 
+densities (6,000–7,000 cells per mm 3 ). Humans com
+bine a relatively large brain, a very thick cortex with a 
+relatively high cortical cellular density (about 30,000 
+cells per mm 3 ) which results in the fact that they have 
+considerably more cortical neurons (about 15 billion) 
+than elephants and cetaceans with their much bigger 
+brains (11 and 10.5 billion, respectively), which is the 
+highest number of cortical neurons found in animals 
+ [  51, 52  ] .
+ The earliest human-like primates, the australopith
+ecines (such as “Lucy”,  Australopithecus afarensis ) 
+existed in East Africa at about 3–4 mya and had a 
+brain volume of 400–450 cm 3 , which is equal to or 
+only slightly larger than that of present chimpanzees 
+(see Fig.  2.26 ). A strong increase in brain volume 
+occurred only with the appearance of  Homo habilis
+ about 2 mya having 700 cm 3 . This means that brain 
+size of our ancestors remained constant for 1.5 mya 
+despite strong environmental changes. The next 
+strong increase in brain size occurred 1.8 mya with 
+the appearance of  Homo erectus , who had a brain 
+volume of 800–1,000 cm 3 . The appearance of early 
+forms of  Homo sapiens  about 400,000 years ago with 
+brain volumes between 1,100 and 1,500 cm 3  repre
+sents the latest step of brain evolution in hominins. 
+Importantly, not  Homo sapiens , but  Homo neander
+thalensis , with 1,400–1,900 cm 3  had the largest brain 
+of all hominins and primates. The reasons for this 
+dramatic increase in brain size in a relatively short 
+evolutionary time are unclear despite a large number 
+of scenarios. 
+In humans, intelligence is commonly de fi ned as men
+tal capacities such as abstract thinking, understand
+ing, communication, reasoning, learning, and memory 
+formation, action planning, and problem solving 
+ [  51  ] . Usually, human intelligence is measured by 
+intelligence tests and expressed in intelligence quo
+tient (IQ) values expressing different contents (e.g., 
+visual-spatial, verbal, numerical). Evidently, such a 
+de fi nition and measurement of intelligence cannot be 
+applied directly to nonhuman animals, because any 
+test depending on verbalization is inapplicable. A 
+number of comparative and evolutionary psycholo
+gists and cognitive ecologists converge on the view 
+that mental or behavioral   fl exibility  is a good measure 
+of intelligence culminating in the appearance of novel 
+solutions not part of the animal’s normal repertoire 
+ [  53, 54  ] . 
+Intelligence de fi ned in such a manner has developed 
+several times independently during evolution, e.g., in 
+cephalopods (e.g.,  Octopus ), social insects (e.g., the 
+honeybee), some teleost  fi shes (e.g., cichlids), some 
+birds (corvids and parrots), and mammals. In all these 
+cases, high intelligence is coupled with ( i ) larger to 
+much larger brains as compared to less intelligent 
+members of the respective taxon, ( ii ) specialized brain
+centers with a high number of densely packed and 
+interconnected neurons, and ( iii ) structures and mecha
+nisms for fast information processing, e.g., the vertical 
+and subvertical lobe of  Octopus , the mushroom bodies 
+in the honeybee, the mesonidopallium of corvids, and 
+the isocortex of primates. Primates are, on average, 
+more intelligent than other mammals and all other ani
+mals, with the great apes and  fi nally humans at the far 
+end. Because of higher relative cortex volume and 
+higher neuron packing density (NPD), primates have 
+considerably more cortical neurons than other mam
+mals of the same brain size. Likewise, information pro
+cessing capacity (IPC) is generally higher in primates 
+due to short interneuronal distance and high axon con
+duction velocity. Finally, primate cortices exhibit 
+extensive parcellation according to the principle of 
+intense local and sparse global connectivity  [  52  ] . 
+Across taxa, differences in intelligence correlates 
+best with differences in number of pallial or cortical 
+neurons and synapses plus processing speed. The 
+human brain combines large cortical volume with 
+reasonable NPD, high conduction velocity, and high 
+cortical parcellation. Cetaceans and elephants have 
+much larger brains than even humans, but less cortical 
+neurons, because of much lower NPD. This could 
+explain why cetaceans and elephants are not as intel
+ligent as one would expect on the basis of brain size. 
+The contrary is the case for corvid birds with very 
+small brains, but high NPD and IPC, which could 
+explain why these animals reveal an intelligence com
+parable to primates with much larger brains. All aspects 
+of human intelligence are present at least in principle 
+in nonhuman primates and in some other mammals 
+and more distant vertebrates – except syntactical lan
+guage. The latter can be regarded as a very potent 
+“intelligence amplifier”.
+An unsolved question in the study of evolution, in gen
+eral, and of nervous systems and brains, in particular, 
+is the question whether the strikingly numerous cases 
+of similar structures found in sense organs and brains 
+are the result of true convergent evolution ( homoplasy ) 
+or of the action of “deep” homologies (see below). 
+Striking examples for convergent evolution in the tra
+ditional sense are the lens eye of  Octopus  and of verte
+brates; the paired “ladder”-type ventral nerve cord of 
+annelids and arthropods; and the tripartite brain in 
+polychetes, arthropods, and (at least embryologically) 
+craniates, among others. 
+The concept of “deep homologies” attempts to 
+describe the role of very ancient genetic mechanisms 
+governing growth and differentiation processes in 
+metazoans  [  11  ] . This includes so-called  homeotic 
+genes  that control the differentiation of organisms 
+along their body axes, of sense organs, and nervous 
+systems and brains. They are found to be the same in 
+very distantly related animals such as the fruit  fl y 
+Drosophila  and the clawed toad  Xenopus . In  Drosophila
+ (and all other insects studied) the formation of the ven
+tral cords and the tritocerebrum, and in  Xenopus  (and 
+all other chordates, including vertebrates) the develop
+ment of the spinal cord and myelencephalon, is con
+trolled by  Hox  genes. On the other hand, non Hox  genes 
+( otd / Otx ) determine the formation of the proto- and 
+deutocerebrum of insects and of the mes-, di-, and met
+encephalon in chordates. The zone in between these 
+regions, the tritocerebrum in insects and the isthmic 
+region in vertebrates, is controlled by so-called  Pax
+ genes in both groups  [  55  ] . These  findings could now 
+ be extended to all bilaterians and even to phyla having 
+lost their bilateral organization in the adult stage (echi
+noderms), which leads to the assumption that all bilat
+erally organized animals possess a common “bauplan” 
+for a tripartite brain since about 600 mya  [  11  ] . 
+Precursors of such genes have been found even in coel
+enterates and sponges. 
+Such a new concept radically simpli fi es many prob
+lems concerning the evolution of nervous systems and 
+brains, e.g., explaining the large number of seemingly 
+“convergent” or “homoplastic” steps in the evolution 
+of neural and sensory structures, because they appear 
+to be based on the same regulatory developmental 
+genes – this, however, leads to new problems, because 
+an uncountable number of cases of secondary 
+simpli fi cation have to be assumed. Even if there is a 
+“deep” homology of such genes, the parts of the ner
+vous systems and brains controlled by them may have 
+developed independently, and the same or very similar 
+developmental genes may have undergone a change in 
+function. Furthermore, it is still unclear how the same 
+regulatory genes can lead to very different structures. 
+Insect and vertebrate brains have hardly any resem
+blance, and the same is true for the insect compound 
+eye and the vertebrate lens eye, despite similar regula
+tory genes. These may represent basic organizational 
+commands such as “form a tripartite brain!” or “develop 
+a light-sensitive organ!”, and it is left up to epigenetic 
+(i.e., gene-expression regulating) mechanisms to form 
+a pigment spot, a compound eye, or a lens eye. 
+At the level of bacteria and unicellular eukaryotes we 
+already  fi nd a fundamental division into sensorium and 
+motorium, with some sort of information processing in 
+between, which involves a short-term memory and rep
+resents the basic organization of “cognitive” functions. 
+In the earliest eumetazoans diffuse “basi-epithelial” 
+nerve nets exist similar to that found in  Hydra . From 
+there, two major evolutionary trends took their course. 
+The  fi rst represents a sidetrack leading to the evolution 
+of ring-shaped nerve systems in cnidarians and cteno
+phorans (“coelenterates”), the other is the main track 
+leading to a bilaterally organized nervous system with 
+a circumesophageal ganglion and ventral cords having 
+originated already in Precambrian times 560 mya or 
+earlier. Even planarians feature such a CNS, and at this 
+level all extant neuronal mechanisms (including ion 
+channels, synaptic mechanisms, and transmitters) were 
+already present. Interestingly, both “coelenterates” and 
+bilateral organisms possess very similar genes control
+ling the body plan – including the brain. 
+From the CNS of the most primitive bilaterally sym
+metric animals (“ur-bilateria”), again two major evolu
+tionary trends originated – one in the protostomes, the 
+other in the deuterostomes. The former split into two 
+evolutionary lineages: the lophotrochozoan and the 
+ecdysozoan schemes – in both lines we  fi nd the  formation 
+of complex sense organs and brains. Among lophotro
+chozoans, this is the case for predatory platyhelminths, 
+polychaetes, and likewise predatory cephalopods. Here 
+we  fi nd complex lens eyes and visual systems as well as 
+a multilobed supraesophageal ganglia, and the brain of 
+Octopus  is regarded the most complex protostome brain. 
+Among ecdysozoans, arthropods likewise exhibit highly 
+complex sense organs and brains, and those of the  fl ies 
+and hymenopterans (wasps, bees, ants) are considered 
+the most complex ones. The deuterostomes, with an 
+unresolved phylogenetic origin, likewise exhibit two 
+major developmental lineages, one leading to the 
+Echinodermata with radially symmetric adult nervous 
+systems super fi cially resembling those of the “coelen
+terates”; the other line leading via hemi-, uro-, and 
+cephalochordates – all with very simple nervous sys
+tems – to the craniates and eventually to the vertebrates. 
+The vertebrate brain evolved very early (about 500 mya) 
+and since then remained relatively uniform in its basic 
+organization. Major evolutionary changes concerned 
+the specialization, complication, and enlargement 
+(sometimes reduction) of the different brain regions and 
+formation of novel sensory systems such as gustatory, 
+electroreceptive, infrared, echolocation, and visual sys
+tems. The most dramatic changes occurred in the dorsal 
+telencephalon (pallium, cortex) together with related 
+changes in the dorsal thalamus projecting to this 
+structure. 
+Birds and, independently, mammals evolved uni
+modal afferents to the pallium-cortex – in birds mostly 
+to the dorsal ventricular ridge and in mammals to the 
+isocortex forming topographically organized sensory 
+and motor areas. In birds as well as in mammals there 
+is a dramatic increase in brain size and in the size of 
+the pallium and isocortex, in particular. Among birds 
+the largest brains are found in psittacids and corvids
+and among mammals the largest brains occur in pri
+mates (in all cases corrected for body size) and this 
+correlates roughly with the degree of cognitive abili
+ties such as learning, problem solving, use and fabrica
+tion of tools, imitation, insight, thinking, action 
+planning, and language. Humans have the largest brain 
+of all animals (corrected for body size) and in addition 
+they have the largest number of cortical neurons as 
+well as the most ef fi cient information-processing 
+capacities among large-brained animals and so far 
+appear to be the only lifeform with a grammatically 
+and syntactically structured language.

@@ -1,0 +1,2203 @@
+Vision is remarkable—it lets us detect things as tiny and close as a mosquito
+on the tip of our nose, or as immense and far away as a galaxy near the
+fringes of the universe. Sensitivity to light enables animals, including humans,
+to detect prey, predators, and mates. Based on the light bounced into our
+eyes from objects around us, we somehow make sense of a complex world.
+While this process seems effortless, it is in reality extremely complicated.
+Indeed, it has proven quite difficult to make computer visual systems with
+even a small fraction of the capabilities of the human visual system.
+Light is electromagnetic energy that is emitted in the form of waves. We
+live in a turbulent sea of electromagnetic radiation. Like any ocean, this sea
+has large waves and small waves, short wavelets and long rollers. The
+waves crash into objects and are absorbed, scattered, reflected, and bent.
+Because of the nature of electromagnetic waves and their interactions with
+the environment, the visual system can extract information about the
+world. This is a big job, and it requires a lot of neural machinery. However,
+the mastery of vision over the course of vertebrate evolution has had
+surprising rewards. It has provided new ways to communicate, given rise
+to brain mechanisms for predicting the trajectory of objects and events in
+time and space, allowed for new forms of mental imagery and abstraction,
+and led to the creation of a world of art. The significance of vision is perhaps
+best demonstrated by the fact that about half of the human cerebral cortex
+is involved with analyzing the visual world.
+The mammalian visual system begins with the eye. At the back of the
+eye is the retina, which contains photoreceptors specialized to convert
+light energy into neural activity. The rest of the eye acts like a camera and
+forms crisp, clear images of the world on the retina. Like a camera, the eye
+automatically adjusts to differences in illumination and automatically focuses
+itself on objects of interest. The eye has some additional features not yet
+available on cameras, such as the ability to track moving objects (by eye
+movement) and the ability to keep its transparent surfaces clean (by tears
+and blinking).
+While much of the eye functions like a camera, the retina is much more
+than film. In fact, as mentioned in Chapter 7, the retina is actually part of
+the brain. (Think about that the next time you look deeply into someone’s
+eyes.) In a sense, each eye has two overlapping retinas: one specialized for
+low light levels that we encounter from dusk to dawn, and another specialized
+for higher light levels and for the detection of color, from sunrise
+to sunset. Regardless of the time of day, however, the output of the retina
+is not a faithful reproduction of the intensity of the light falling on it.
+Rather, the retina is specialized to detect differences in the intensity of light
+falling on different parts of it. Image processing is well under way in the
+retina, before any visual information reaches the rest of the brain.
+Axons of retinal neurons are bundled into optic nerves, which distribute
+visual information (in the form of action potentials) to several brain structures
+that perform different functions. Some targets of the optic nerves are
+involved in regulating biological rhythms, which are synchronized with the
+light-dark daily cycle; others are involved in the control of eye position and
+optics. However, the first synaptic relay in the pathway that serves visual
+perception occurs in a cell group of the dorsal thalamus called the lateral
+geniculate nucleus, or LGN. From the LGN, visual information ascends to the
+cerebral cortex, where it is interpreted and remembered.
+In this chapter, we explore the eye and the retina. We’ll see how light
+carries information to our visual system, how the eye forms images on the
+retina, and how the retina converts light energy into neural signals that canbe used to extract information about luminance and color differences. In
+Chapter 10, we will pick up the visual pathway at the back of the eye and
+take it through the thalamus to the cerebral cortex.
+The visual system uses light to form images of the world around us. Let’s
+briefly review the physical properties of light and its interactions with the
+environment.
+Electromagnetic radiation is all around us. It comes from innumerable
+sources, including radio antennas, mobile phones, X-ray machines, and the
+sun. Light is the electromagnetic radiation that is visible to our eyes. Electromagnetic
+radiation can be described as a wave of energy. Like any wave,
+electromagnetic radiation has a wavelength, the distance between successive
+peaks or troughs; a frequency, the number of waves per second; and an
+amplitude, the difference between wave trough and peak (Figure 9.1).
+The energy content of electromagnetic radiation is proportional to its
+frequency. Radiation emitted at a high frequency (short wavelengths) has
+the highest energy content; examples are gamma radiation emitted by
+some radioactive materials and X-rays used for medical imaging, with
+wavelengths less than 109 m (1 nm). Conversely, radiation emitted at
+lower frequencies (longer wavelengths) has less energy; examples are radar
+and radio waves, with wavelengths greater than 1 mm. Only a small part
+of the electromagnetic spectrum is detectable by our visual system; visible
+light consists of wavelengths of 400–700 nm (Figure 9.2). As first shown
+by Isaac Newton early in the eighteenth century, the mix of wavelengths
+in this range emitted by the sun appears to humans as white, whereas light
+of a single wavelength appears as one of the colors of the rainbow. It is interesting
+to note that a “hot” color like red or orange consists of light with
+a longer wavelength, and hence has less energy, than a “cool” color like
+blue or violet. Clearly, colors are themselves “colored” by the brain, based
+on our subjective experiences.
+In a vacuum, a wave of electromagnetic radiation will travel in a straight
+line and thus can be described as a ray. Light rays in our environment also
+travel in straight lines until they interact with the atoms and molecules of
+the atmosphere and objects on the ground. These interactions include reflection,
+absorption, and refraction (Figure 9.3). The study of light rays and
+their interactions is called optics.
+Reflection is the bouncing of light rays off a surface. The manner in which
+a ray of light is reflected depends on the angle at which it strikes the surface.
+A ray striking a mirror perpendicularly is reflected 180° back upon itself, a
+ray striking the mirror at a 45° angle is reflected 90°, and so on. Most of
+what we see is light that has been reflected off objects in our environment.
+Absorption is the transfer of light energy to a particle or surface. You can
+feel this energy transfer on your skin on a sunny day, as visible light is
+absorbed and warms you up. Surfaces that appear black absorb the energy
+of all visible wavelengths. Some compounds absorb light energy only in a
+limited range of wavelengths, then reflect the remaining wavelengths. This
+property is the basis for the colored pigments of paints. For example, a blue
+pigment absorbs long wavelengths but reflects a range of short wavelengths
+centered on 430 nm that are perceived as blue. As we will see in a moment,
+light-sensitive photoreceptor cells in the retina contain pigments and use the
+energy absorbed from light to generate changes in membrane potential.
+Images are formed in the eye by refraction, the bending of light rays
+that can occur when they travel from one transparent medium to another.
+Consider a ray of light passing from the air into a pool of water. If the ray
+strikes the water surface perpendicularly, it will pass through in a straight
+line. However, if light strikes the surface at an angle, it will bend toward a
+line that is perpendicular to the surface. This bending of light occurs because
+the speed of light differs in the two media; light passes through air more
+rapidly than through water. The greater the difference between the speed
+of light in the two media, the greater the angle of refraction. The transparent
+media in the eye bend light rays to form images on the retina.
+The eye is an organ specialized for the detection, localization, and analysis
+of light. Here we introduce the structure of this remarkable organ in terms
+of its gross anatomy, ophthalmoscopic appearance, and cross-sectional
+anatomy.
+When you look into someone’s eyes, what are you really looking at? The
+main structures are shown in Figure 9.4. The pupil is the opening that
+allows light to enter the eye and reach the retina; it appears dark because
+of the light-absorbing pigments in the retina. The pupil is surrounded by
+the iris, whose pigmentation provides what we call the eye’s color. The iris
+contains two muscles that can vary the size of the pupil; one makes it
+smaller when it contracts, the other makes it larger. The pupil and iris are
+covered by the glassy transparent external surface of the eye, the cornea.
+The cornea is continuous with the sclera, the “white of the eye,” which
+forms the tough wall of the eyeball. The eyeball sits in a bony eye socket
+in the skull, also called the eye’s orbit. Inserted into the sclera are three
+pairs of extraocular muscles, which move the eyeball in the orbit. These
+muscles normally are not visible because they lie behind the conjunctiva,
+a membrane that folds back from the inside of the eyelids and attaches to
+the sclera. The optic nerve, carrying axons from the retina, exits the back
+of the eye, passes through the orbit, and reaches the base of the brain near
+the pituitary gland.
+Another view of the eye is afforded by the ophthalmoscope, a device that
+enables one to peer into the eye through the pupil to the retina (Figure 9.5).
+The most obvious feature of the retina viewed through an ophthalmoscope
+is the blood vessels on its surface. These retinal vessels originate from a pale
+circular region called the optic disk, which is also where the optic nerve
+fibers exit the retina.
+It is interesting to note that the sensation of light cannot occur at the
+optic disk because there are no photoreceptors here, nor can it occur where
+the large blood vessels exist because the vessels cast shadows on the retina.
+And yet, our perception of the visual world appears seamless. We are not
+aware of any holes in our field of vision because the brain fills in our perception
+of these areas. However, there are tricks by which we can demonstrate
+the “blind” retinal regions (Box 9.1).
+At the middle of each retina is a darker-colored region with a yellowish
+hue. This is the macula (from the Latin word for “spot”), the part of the
+retina for central (as opposed to peripheral) vision. Besides its color, the
+macula is distinguished by the relative absence of large blood vessels. Notice
+in Figure 9.5 that the vessels arc from the optic disk to the macula; this
+is also the trajectory of the optic nerve fibers from the macula en route to
+the optic disk. The relative absence of large blood vessels in this region of
+the retina is one of the specializations that improves the quality of central
+vision. Another specialization of the central retina can sometimes be discerned
+with the ophthalmoscope: the fovea, a dark spot about 2 mm in
+diameter. The term is from the Latin for “pit,” and the retina is thinner in
+the fovea than elsewhere. Because it marks the center of the retina, the
+fovea is a convenient anatomical reference point. Thus, the part of the
+retina that lies closer to the nose than the fovea is called nasal, the part that
+lies near the temple is called temporal, the part of the retina above the
+fovea is called superior, and that below it is called inferior.
+A look through an ophthalmoscope reveals that there is
+a sizable hole in the retina. The region where the optic
+nerve axons exit the eye and the retinal blood vessels
+enter the eye, the optic disk, is completely devoid of
+photoreceptors. Moreover, the blood vessels coursing
+across the retina are opaque and block the light from
+falling on photoreceptors beneath them. Although we
+normally don’t notice them, these blind regions can be
+demonstrated. Look at Figure A. Hold the book about
+1.5 ft away, close your right eye, and fixate on the cross
+with your left eye. Move the book (or your head) around
+slightly, and eventually you will find a position where the
+black circle disappears.At this position, the spot is imaged
+on the optic disk of the left eye.This region of visual space
+is called the blind spot for the left eye.
+The blood vessels are a little tricky to demonstrate, but
+give this a try. Get a standard household flashlight. In a
+dark or dimly lit room, close your left eye (it helps to hold
+the eye closed with your finger so you can open your
+right eye further). Look straight ahead with the open right
+eye, and shine the flashlight at an angle into the corner of
+the eye from the side. Jiggle the light back and forth, up and
+down. If you’re lucky, you’ll see an image of your own retinal
+blood vessels.This is possible because the illumination of
+the eye at this oblique angle causes the retinal blood vessels
+to cast long shadows on the adjacent regions of retina.
+For the shadows to be visible, they must be swept back
+and forth on the retina, hence the jiggling of the light.
+If we have all these light-insensitive regions in the retina,
+why does the visual world appear uninterrupted and seamless?
+The answer is that mechanisms in the visual cortex
+appear to “fill in” the missing regions. Perceptual filling-in
+can be demonstrated with the stimulus shown in Figure
+B. Fixate on the cross with your left eye and move the
+book closer and farther from your eye.You’ll find a distance
+at which you will see a continuous uninterrupted
+line. At this point, the space in the line is imaged on the
+blind spot, and your brain fills in the gap.
+A cross-sectional view of the eye shows the path taken by light as it passes
+through the cornea toward the retina (Figure 9.6). The cornea lacks blood
+vessels and is nourished by the fluid behind it, the aqueous humor. This
+view reveals the transparent lens located behind the iris. The lens is suspended
+by ligaments (called zonule fibers) attached to the ciliary muscles,
+which are attached to the sclera and form a ring inside the eye. As we shall
+see, changes in the shape of the lens enable our eyes to adjust their focus
+to different viewing distances.
+The lens also divides the interior of the eye into two compartments containing
+slightly different fluids. The aqueous humor is the watery fluid that
+lies between the cornea and the lens. The more viscous, jellylike vitreous
+humor lies between the lens and the retina; its pressure serves to keep the
+eyeball spherical.
+Although the eyes do a remarkable job of delivering precise visual information
+to the rest of the brain, a variety of disorders can compromise this
+ability (Box 9.2).
+The eye collects the light rays emitted by or reflected off objects in the
+environment, and focuses them onto the retina to form images. Bringing
+objects into focus involves the combined refractive powers of the cornea
+and lens. You may be surprised to learn that the cornea, rather than the
+lens, is the site of most of the refractive power of the eyes.
+Consider the light emitted from a distant source, perhaps a bright star at
+night. We see the star as a point of light because the eye focuses the star’s
+light to a point on the retina. The light rays striking the surface of the eye
+from a distant star are virtually parallel, so they must be bent by the process
+of refraction.
+Recall that as light passes into a medium where its speed is slowed, it will
+bend toward a line that is perpendicular to the border, or interface, between
+the media (see Figure 9.3). This is precisely the situation as light
+strikes the cornea and passes from the air into the aqueous humor. As
+shown in Figure 9.7, the light rays that strike the curved surface of the
+cornea bend so that they converge on the back of the eye; those that enter
+the center of the eye pass straight to the retina. The distance from the
+refractive surface to the point where parallel light rays converge is called
+the focal distance. Focal distance depends on the curvature of the cornea—
+the tighter the curve, the shorter the focal distance. The equation in Figure
+9.7 shows that the reciprocal of the focal distance in meters is a unit of
+measurement called the diopter. The cornea has a refractive power of
+about 42 diopters, which means that parallel light rays striking the corneal
+surface will be focused 0.024 m (2.4 cm) behind it, about the distance from
+cornea to retina. To get a sense of the large amount of refraction produced
+by the cornea, note that many prescription eyeglasses have a power of only
+a few diopters.
+Remember that refractive power depends on the slowing of light at the
+air-cornea interface. If we replace air with a medium that passes light at
+about the same speed as the eye, the refractive power of the cornea will be
+eliminated. This is why things look blurry when you open your eyes underwater;
+the water-cornea interface has very little focusing power. A scuba
+mask restores the air-cornea interface and, consequently, the refractive
+power of the eye.
+Although the cornea performs most of the eye’s refraction, the lens also
+contributes another dozen or so diopters to the formation of a sharp image
+at a distant point. However, the lens is involved more importantly in forming
+crisp images of objects located closer than about 9 m from the eye. As
+objects approach, the light rays originating at a point can no longer be considered
+to be parallel. Rather, these rays diverge, and greater refractive
+power is required to bring them into focus on the retina. This additional
+focusing power is provided by changing the shape of the lens, a process
+called accommodation (Figure 9.8).
+Once you know the basic structure of the eye, you can
+understand how a partial or complete loss of vision results
+from abnormalities in various components. For example,
+if there is an imbalance in the extraocular muscles of the
+two eyes, the eyes will point in different directions. Such
+a misalignment or lack of coordination between the two
+eyes is called strabismus, and there are two varieties. In
+esotropia, the directions of gaze of the two eyes cross, and
+the person is said to be cross-eyed. In exotropia, the directions
+of gaze diverge, and the person is said to be walleyed
+(Figure A). In most cases, strabismus of either type
+is congenital; it can and should be corrected during early
+childhood.Treatment usually involves the use of prismatic
+glasses or surgery to the extraocular muscles to realign
+the eyes.Without treatment, conflicting images are sent to
+the brain from the two eyes, degrading depth perception,
+and, more importantly, causing the person to suppress
+input from one eye.The dominant eye will be normal but
+the suppressed eye will become amblyopic, meaning that
+it has poor visual acuity. If medical intervention is delayed
+until adulthood, the condition cannot be corrected.
+A common eye disorder among older adults is cataract,
+a clouding of the lens (Figure B). Many people over 65
+years of age have some degree of cataract; if it significantly
+impairs vision, surgery is usually required. In a cataract
+operation, the lens is removed and replaced with an artificial
+plastic lens. Although the artificial lens cannot adjust
+its focus like the normal lens, it provides a clear image, and
+glasses can be used for near and far vision (see Box 9.3).
+Glaucoma, a progressive loss of vision associated with
+elevated intraocular pressure, is a leading cause of blindness.
+Pressure in the aqueous humor plays a crucial role
+in maintaining the shape of the eye. As this pressure increases,
+the entire eye is stressed, ultimately damaging the
+relatively weak point where the optic nerve leaves the
+eye. The optic nerve axons are compressed, and vision is
+gradually lost from the periphery inward. Unfortunately,
+by the time a person notices a loss of more central vision,
+the damage is advanced and a significant portion of the
+eye is permanently blind. For this reason, early detection
+and treatment with medication or surgery to reduce
+intraocular pressure are essential.
+The light-sensitive retina at the back of the eye is the
+site of numerous disorders that pose a significant risk of
+blindness.You may have heard of a professional boxer having
+a detached retina. As the name implies, the retina pulls
+away from the underlying wall of the eye from a blow to
+the head or by shrinkage of the vitreous humor. Once the
+retina has started to detach, fluid from the vitreous space
+flows through small tears in the retina resulting from the
+trauma, thereby causing more of the retina to separate.
+Symptoms of retinal detachment include abnormal perception
+of shadows and flashes of light. Treatment often
+involves laser surgery to scar the edge of the retinal tear,
+thereby reattaching the retina to the back of the eye.
+Retinitis pigmentosa is characterized by a progressive degeneration
+of the photoreceptors. The first sign is usually a
+loss of peripheral vision and night vision. Subsequently, total
+blindness may result. The cause of this disease is unknown.
+In some forms, it clearly has a strong genetic component, and
+more than 100 genes have been identified that can contain
+mutations leading to retinitis pigmentosa.There is currently
+no cure, but taking vitamin A may slow its progression.
+In contrast to the tunnel vision typically experienced by
+patients with retinitis pigmentosa, people with macular
+degeneration lose only central vision.The condition is quite
+common, affecting more than 25% of all Americans over
+65 years of age. While peripheral vision usually remains
+normal, the ability to read, watch television, and recognize
+faces is lost as central photoreceptors gradually deteriorate.
+Laser surgery can sometimes minimize further vision
+loss, but the disease currently has no known cure.
+When the ciliary muscles are relaxed and the lens is flat, the
+eye is said to be emmetropic if parallel light rays from a distant
+point source are focused sharply on the back of the
+retina. (The word is from the Greek emmetros, “in proper
+measure,” and ope, “sight.”) Stated another way, the emmetropic
+eye focuses parallel light rays on the retina without
+the need for accommodation (Figure A).
+Now consider what happens when the eyeball is too
+short from front to back (Figure B). The light rays are focused
+at some point behind the retina, and the image of a
+point of light is a blurry spot on the retina. This condition
+is known as hyperopia, or farsightedness, because the eye can
+focus on far objects but the lens cannot accommodate
+enough to form an image on near points. Farsightedness can
+be corrected by placing a convex glass or plastic lens in
+front of the eye (Figure C). The curved front edge of the
+lens, like the cornea, bends light toward the center of the
+retina. Also, as the light passes from glass into air as it exits
+the lens, the back of the lens also increases the refraction
+(light going from glass to air speeds up and is bent away
+from the perpendicular).
+If the eyeball is too long rather than too short, parallel
+rays will converge before the retina, cross, and again be imaged
+on the retina as a blurry circle (Figure D). This condition
+is known as myopia, or nearsightedness.The amount of
+refraction provided by the cornea and lens is too great to
+focus distant objects. Thus, for the nearsighted eye to see
+distant points clearly, artificial concave lenses must be used
+to move the point image back onto the retina (Figure E).
+Some eyes have irregularities such that the curvature and
+refraction in the horizontal and vertical planes is different.
+This condition is called astigmatism, and it can be corrected
+by using an artificial lens that is curved more along one axis
+than others.
+Even if you are fortunate enough to have perfectly shaped
+eyeballs and a symmetrical refractive system, you probably
+will not escape presbyopia (from the Greek meaning “old
+eye”). This condition is a hardening of the lens that accompanies
+the aging process and is thought to be explained by
+the fact that while new lens cells are generated throughout
+life, none are lost. The hardened lens is less elastic, leaving
+it unable to change shape and accommodate sufficiently to
+focus on both near and far objects.The correction for presbyopia,
+first introduced by Benjamin Franklin, is a bifocal
+lens. These lenses are concave on top to assist far vision
+and convex on the bottom to assist near vision.
+In hyperopia and myopia, the amount of refraction provided
+by the cornea is either too little or too great for the
+length of the eyeball. But modern techniques can now change
+the amount of refraction the cornea provides. In radial keratotomy,
+a procedure to correct myopia, tiny incisions
+through the peripheral portion of the cornea relax and flatten
+the central cornea, thus reducing the amount of refraction
+and minimizing the myopia.The most recent techniques
+use lasers to reshape the cornea. In photorefractive keratectomy
+(PRK), a laser is used to reshape the outer surface of
+the cornea by vaporizing thin layers. In laser in situ keratomileusis
+(LASIK), a thin flap of the cornea is lifted so the
+laser can reshape the cornea from the inside. Nonsurgical
+methods are also being used to reshape the cornea. A person
+can be fitted with special retainer contact lenses or plastic
+corneal rings, which alter the shape of the cornea and
+correct refractive errors.
+Recall that the ciliary muscle forms a ring around the lens. During accommodation,
+the ciliary muscle contracts and swells in size, thereby making
+the area inside the muscle smaller and decreasing the tension in the
+suspensory ligaments. Consequently, the lens becomes rounder and thicker
+because of its natural elasticity. This rounding increases the curvature of the
+lens surfaces, thereby increasing their refractive power. Conversely, relaxation
+of the ciliary muscle increases the tension in the suspensory ligaments,
+and the lens is stretched into a flatter shape.
+The ability to accommodate changes with age. An infant’s eyes can focus
+objects just beyond his or her nose, whereas many middle-aged adults cannot
+clearly see objects closer than about arm’s length. Fortunately, artificial
+lenses can compensate for this and other defects of the eye’s optics
+(Box 9.3).
+In addition to the cornea and the lens, the pupil contributes to the optical
+functioning of the eye by continuously adjusting for different ambient light
+levels. To check this for yourself, stand in front of a bathroom mirror with
+the lights out for a few seconds, and then watch your pupils change size
+when you turn the lights on. This pupillary light reflex involves connections
+between the retina and neurons in the brain stem that control the
+muscles that constrict the pupils. An interesting property of this reflex is
+that it is consensual; shining a light into only one eye causes the constriction
+of the pupils of both eyes. It is unusual, indeed, when the pupils are
+not the same size; the lack of a consensual pupillary light reflex is often
+taken as a sign of a serious neurological disorder involving the brain stem.
+Constriction of the pupil has the effect of increasing the depth of focus,
+just like decreasing the aperture size (increasing the f-stop) on a camera
+lens. To understand why this is true, consider two points in space, one close
+and the other far away. When the eye accommodates to the closer point,
+the image of the farther point on the retina no longer forms a point, but
+rather a blurred circle. Decreasing the aperture—constricting the pupil—
+reduces the size of this blurred circle so that its image more closely approximates
+a point. In this way, distant objects appear to be less out of
+focus.
+The structure of the eyes, and where they sit in our head, limits how much
+of the world we can see at any one time. Let’s investigate the extent of the
+space seen by one eye. Holding a pencil in your right hand, close your left
+eye and look at a point straight ahead. Keeping your eye fixated on this
+point, slowly move the pencil to the right (toward your right ear) across
+your field of view until the pencil disappears. Repeat this exercise, moving
+the pencil to the left where it will disappear behind your nose, and then
+up and down. The points where you can no longer see the pencil mark the
+limits of the visual field for your right eye. Now look at the middle of the
+pencil as you hold it horizontally in front of you. Figure 9.9 shows how
+the light reflected off this pencil falls on your retina. Notice that the image
+is inverted; the left visual field is imaged on the right side of the retina, and
+the right visual field is imaged on the left side of the retina.
+The ability of the eye to distinguish two nearby points is called visual
+acuity. Acuity depends on several factors, but especially on the spacing of
+photoreceptors in the retina and the precision of the eye’s refraction.
+Distance across the retina can be described in terms of degrees of visual
+angle. A right angle subtends (spans) 90°, and the moon, for example, subtends
+an angle of about 0.5° (Figure 9.10). We can speak of the eye’s ability
+to resolve points that are separated by a certain number of degrees of
+visual angle. The Snellen eye chart, which we have all read at the doctor’s
+office, tests our ability to discriminate letters and numbers at a viewing distance
+of 20 feet. Your vision is 20/20 when you can recognize a letter that
+subtends an angle of 0.083° (equivalent to 5 minutes of arc, where 1
+minute is 1/60 of a degree).
+Now that we have an image formed on the retina, we can get to the neuroscience
+of vision: the conversion of light energy into neural activity. To begin
+our discussion of image processing in the retina, we must introduce the
+cellular architecture of this bit of brain.
+The basic system of retinal information processing is shown in Figure
+9.11. The most direct pathway for visual information to exit the eye is from
+photoreceptors to bipolar cells to ganglion cells. The ganglion cells fire
+action potentials in response to light, and these impulses propagate down
+the optic nerve to the rest of the brain. Besides the cells in this direct path
+from photoreceptor to brain, retinal processing is influenced by two additional
+cell types. Horizontal cells receive input from the photoreceptors
+and project neurites laterally to influence surrounding bipolar cells and
+photoreceptors. Amacrine cells receive input from bipolar cells and project
+laterally to influence surrounding ganglion cells, bipolar cells, and other
+amacrine cells.
+There are two important points to remember here:
+The only light-sensitive cells in the retina are the photoreceptors. All other cells
+are influenced by light only via direct and indirect synaptic interactions
+with the photoreceptors. (We will see in Chapter 19 that there is one
+exception to this rule involving neurons that control circadian rhythms.
+However, these unusual photoreceptive cells do not appear to be involved
+in visual perception.)
+The ganglion cells are the only source of output from the retina. No other retinal
+cell type projects an axon through the optic nerve.
+Now let’s take a look at how the different cell types are arranged in the
+retina.
+shows that the retina has a laminar organization: Cells are organized
+in layers. Notice that the layers are seemingly inside-out; light must
+pass from the vitreous humor through the ganglion cells and bipolar cells
+before it reaches the photoreceptors. Because the retinal cells above the
+photoreceptors are relatively transparent, image distortion is minimal as
+light passes through them. One reason the inside-out arrangement is advantageous
+is that the pigmented epithelium that lies below the photoreceptors
+plays a critical role in the maintenance of the photoreceptors and photopigments.
+The pigmented epithelium also absorbs any light that passes entirely
+through the retina, thus minimizing the reflection of light within the eye
+that would blur the image.
+The cell layers of the retina are named in reference to the middle of the
+eyeball. Thus, the innermost layer is the ganglion cell layer, which contains
+the cell bodies of the ganglion cells. Next is the inner nuclear layer,
+which contains the cell bodies of the bipolar cells, the horizontal and
+amacrine cells. The next layer is the outer nuclear layer, which contains
+the cell bodies of the photoreceptors. Finally, the layer of photoreceptor
+outer segments contains the light-sensitive elements of the retina. The
+outer segments are embedded in the pigmented epithelium.
+Between the ganglion cell layer and the inner nuclear layer is the inner
+plexiform layer, which contains the synaptic contacts between bipolar
+cells, amacrine cells, and ganglion cells. Between the outer and inner nuclear
+layers is the outer plexiform layer, where the photoreceptors make
+synaptic contact with the bipolar and horizontal cells.
+The conversion of electromagnetic radiation into neural signals occurs in the
+125 million photoreceptors at the back of the retina. Every photoreceptor
+has four regions: an outer segment, an inner segment, a cell body, and a
+synaptic terminal. The outer segment contains a stack of membranous
+disks. Light-sensitive photopigments in the disk membranes absorb light,
+thereby triggering changes in the photoreceptor membrane potential (discussed
+below). Figure 9.13 shows the two types of photoreceptor in the
+retina, easily distinguished by the appearance of their outer segments. Rod
+photoreceptors have a long, cylindrical outer segment, containing many
+disks. Cone photoreceptors have a shorter, tapering outer segment with
+fewer membranous disks.
+The structural differences between rods and cones correlate with important
+functional differences. For example, the greater number of disks and
+higher photopigment concentration in rods makes them over 1000 times
+more sensitive to light than cones. Indeed, under nighttime lighting, or
+scotopic conditions, only rods contribute to vision. Conversely, under daytime
+lighting, or photopic conditions, cones do the bulk of the work. For this
+reason, the retina is said to be duplex—a scotopic retina using only rods, and
+a photopic retina using mainly cones.
+Rods and cones differ in other respects as well. All rods contain the same
+photopigment, but there are three types of cone, each containing a different
+pigment. The variations among pigments make the different cones sensitive
+to different wavelengths of light. As we shall see in a moment, only
+the cones, not the rods, are responsible for our ability to see color.
+Retinal structure varies from the fovea to the retinal periphery. In general,
+the peripheral retina has a higher ratio of rods to cones (Figure 9.14). It
+also has a higher ratio of photoreceptors to ganglion cells. The combined
+effect of this arrangement is that the peripheral retina is more sensitive to
+light, because (1) rods are specialized for low light, and (2) there are more
+photoreceptors feeding information to each ganglion cell. You can prove
+this to yourself on a starry night. (It’s fun; try it with a friend.) First, spend
+about 20 minutes in the dark getting oriented, and then gaze at a bright
+star. Fixating on this star, search your peripheral vision for a dim star. Then
+move your eyes to look at this dim star. You will find that the faint star disappears
+when it is imaged on the central retina (when you look straight at
+it) but reappears when it is imaged on the peripheral retina (when you look
+slightly to the side of it).
+The same characteristics that enable the peripheral retina to detect faint
+stars at night make it relatively poor at resolving fine details in daylight.
+This is because daytime vision requires cones, and because good visual acuity
+requires a low ratio of photoreceptors to ganglion cells. The region of retina
+most highly specialized for high-resolution vision is the fovea. Recall that
+the fovea is a thinning of the retina at the center of the macula. In cross
+section, the fovea appears as a pit in the retina. Its pitlike appearance is due
+to the lateral displacement of the cells above the photoreceptors, allowing
+light to strike the photoreceptors without passing through the other retinal
+cell layers (Figure 9.15). This structural specialization maximizes visual acuity
+at the fovea by pushing aside other cells that might scatter light and blur
+the image. The central fovea also is unique because it contains no rods; all
+the photoreceptors are cones.
+The photoreceptors convert, or transduce, light energy into changes in
+membrane potential. We begin our discussion of phototransduction with
+rods, which outnumber cones in the human retina by 20 to 1. Most of what
+has been learned about phototransduction by rods has proven to be applicable
+to cones as well.
+As we discussed in Part I, one way information is represented in the nervous
+system is as changes in the membrane potential of neurons. Thus, we
+look for a mechanism by which the absorption of light energy can be transduced
+into a change in the photoreceptor membrane potential. In many
+respects, this process is analogous to the transduction of chemical signals
+into electrical signals that occurs during synaptic transmission. At a G-proteincoupled
+neurotransmitter receptor, for example, the binding of transmitter
+to the receptor activates G-proteins in the membrane, which in turn stimulate
+various effector enzymes (Figure 9.16a). These enzymes alter the intracellular
+concentration of cytoplasmic second messenger molecules, which
+(directly or indirectly) change the conductance of membrane ion channels,
+thereby altering membrane potential. Similarly, in the photoreceptor, light
+stimulation of the photopigment activates G-proteins, which in turn activate
+an effector enzyme that changes the cytoplasmic concentration of a
+second messenger molecule. This change causes a membrane ion channel
+to close, and the membrane potential is thereby altered (Figure 9.16b).
+Recall from Chapter 3 that a typical neuron at rest has a membrane
+potential of about 65 mV, close to the equilibrium potential for K. In
+contrast, in complete darkness, the membrane potential of the rod outer
+segment is about 30 mV. This depolarization is caused by the steady influx
+of Na through special channels in the outer segment membrane (Figure
+9.17a). The movement of positive charge across the membrane, which
+occurs in the dark, is called the dark current. Sodium channels are stimulated
+to open—are gated—by an intracellular second messenger called
+cyclic guanosine monophosphate, or cGMP. Evidently, cGMP is continually
+produced in the photoreceptor by the enzyme guanylyl cyclase,
+keeping the Na channels open. Light reduces cGMP, causing the Na
+channels to close, and the membrane potential becomes more negative (Figure
+9.17b). Thus, photoreceptors hyperpolarize in response to light.
+The hyperpolarizing response to light is initiated by the absorption of
+electromagnetic radiation by the photopigment in the membrane of the
+stacked disks in the rod outer segments. In the rods, this pigment is called
+rhodopsin. Rhodopsin can be thought of as a receptor protein with a prebound
+chemical agonist. The receptor protein is called opsin, and it has the
+seven transmembrane alpha helices typical of G-protein-coupled receptors
+throughout the body. The prebound agonist is called retinal, a derivative of
+vitamin A. The absorption of light causes a change in the conformation of
+retinal so that it activates the opsin (Figure 9.18). This process is called
+bleaching because it changes the wavelengths absorbed by the rhodopsin
+(the photopigment literally changes color from purple to yellow). The
+bleaching of rhodopsin stimulates a G-protein called transducin in the
+disk membrane, which in turn activates the effector enzyme phosphodiesterase
+(PDE), which breaks down the cGMP that is normally present in
+the cytoplasm of the rod (in the dark). The reduction in cGMP causes the
+Na channels to close and the membrane to hyperpolarize.
+One of the interesting functional consequences of using a biochemical
+cascade for transduction is signal amplification. Many G-proteins are activated
+by each photopigment molecule, and each PDE enzyme breaks down
+more than one cGMP molecule. This amplification gives our visual system
+the ability to detect as little as a single photon, the elementary unit of light
+energy.
+The complete sequence of events of phototransduction in rods is illustrated
+in.
+In bright sunlight, cGMP levels in rods fall to the point where the response
+to light becomes saturated; additional light causes no more hyperpolarization.
+Thus, vision during the day depends entirely on the cones, whose
+photopigments require more energy to become bleached.
+The process of phototransduction in cones is virtually the same as in
+rods; the only major difference is in the type of opsins in the membranous
+disks of the cone outer segments. The cones in our retinas contain one of
+three opsins that give the photopigments different spectral sensitivities.
+Thus, we can speak of “blue” cones that are maximally activated by light
+with a wavelength of about 430 nm, “green” cones that are maximally
+activated by light with a wavelength of about 530 nm, and “red” cones
+that are maximally activated by light with a wavelength of about 560 nm
+(Figure 9.20).
+Color Detection. The color that we perceive is largely determined by the
+relative contributions of blue, green, and red cones to the retinal signal. The
+fact that our visual system detects colors in this way was actually predicted
+almost 200 years ago by British physicist Thomas Young. Young showed in
+1802 that all the colors of the rainbow, including white, could be created
+by mixing the proper ratio of red, green, and blue light (Figure 9.21). He
+proposed, quite correctly, that at each point in the retina there exists a cluster
+of three receptor types, each type being maximally sensitive to either
+blue, green, or red. Young’s ideas were later championed by Hermann von
+Helmholtz, an influential nineteenth-century German physiologist. (Among
+his accomplishments is the invention of the ophthalmoscope in 1851.) This
+theory of color vision came to be known as the Young-Helmholtz trichromacy
+theory. According to the theory, the brain assigns colors based on a
+comparison of the readout of the three cone types. When all types of cones
+are equally active, as in broad-spectrum light, we perceive “white.” Various
+forms of color blindness result when one or more of the cone photopigment
+types is missing (Box 9.4).
+If cones alone make the perception of color possible, we should be unable
+to perceive color differences when cones are inactive. This inference is
+correct, and you can demonstrate it to yourself. Go outside on a dark night
+and try to distinguish the colors of different objects. It is difficult to detect
+colors at night because only the rods, with a single type of photopigment,
+are activated under dim lighting conditions. (Bright neon signs are still seen
+as colored because they emit sufficient light to affect the cones.) The peak
+sensitivity of the rods is to a wavelength of about 500 nm, perceived as
+blue-green (under photopic conditions). This fact is the basis for two points
+of view about the design of automobile dashboard indicator lights. One
+view is that the lights should be dim blue-green to take advantage of the
+spectral sensitivity of the rods. An alternate view is that the lights should
+be bright red because this wavelength affects mainly cones, leaving the rods
+unsaturated, resulting in better night vision.
+This transition from all-cone daytime vision to all-rod nighttime vision is
+not instantaneous; it takes about 20–25 minutes (hence the time needed to
+get oriented in the star-gazing exercise above). This phenomenon is called
+dark adaptation, or getting used to the dark. Sensitivity to light actually
+increases a millionfold or more during this period. Dark adaptation is explained by a number of factors. Perhaps the most obvious is dilation of the
+pupils, which allows more light to enter the eye. However, the diameter of
+the human pupil only ranges from about 2–8 mm, meaning that changes
+in its size can increase the pupil area by a factor of only 16. The larger component
+of dark adaptation involves the regeneration of unbleached
+rhodopsin and an adjustment of the functional circuitry of the retina so
+that information from more rods is available to each ganglion cell. Because
+of this tremendous increase in sensitivity, when the dark-adapted eye goes
+back into bright light, it is temporarily saturated. This explains what happens
+when you first go outside on a bright day. Over the next 5–10 minutes,
+the eyes undergo light adaptation, reversing the changes in the
+retina that accompanied dark adaptation. This light-dark adaptation in the
+duplex retina gives our visual system the ability to operate in light intensities
+ranging from moonless midnight to bright high noon.
+Calcium’s Role in Light Adaptation. In addition to the factors mentioned
+above, the ability of the eye to adapt to changes in light level relies on
+changes in calcium concentration within the cones. When you step out into
+bright light from a dark theater, initially the cones are hyperpolarized as
+much as possible (i.e., to EK, the equilibrium potential for K). If the cones
+stayed in this state, we would be unable to see changes in light level. As
+we discussed above, the constriction of the pupil helps a bit in reducing the
+light entering the eye. However, the most important change is a gradual
+depolarization of the membrane back to about 35 mV.
+The reason this happens stems from the fact that the cGMP-gated sodium
+channels we discussed previously also admit calcium. In the dark, Ca2 enters
+the cones and has an inhibitory effect on the enzyme (guanylyl cyclase) that
+synthesizes cGMP. When the cGMP-gated channels close, the flow of Ca2
+into the photoreceptor is curtailed; as a result, more cGMP is synthesized
+(because the synthetic enzyme is less inhibited), thereby allowing the
+cGMP-gated channels to open again. Stated more simply, when the channels
+close, a process is initiated that gradually reopens them even if the light level
+does not change. Calcium also appears to affect photopigments and phosphodiesterase
+in ways that decrease their response to light. These calciumbased
+mechanisms ensure that the photoreceptors are always able to register
+relative changes in light level, though information about the absolute
+level is lost.
+The color we perceive is largely determined by the relative
+amounts of light absorbed by the red, green, and blue
+visual pigments in our cones. This means it’s possible to
+perceive any color of the rainbow by mixing different
+amounts of red, green, and blue light. For example, the
+perception of yellow light can be matched by an appropriate
+mixture of red and green light. Because we use a
+“three-color” system, humans are referred to as trichromats.
+However, not all normal trichromats perceive colors
+exactly the same. For example, if a group of people are
+asked to choose the wavelength of light that most appears
+green without being yellowish or bluish, there will
+be small variations in the choices. However, significant abnormalities
+of color vision extend well beyond this range
+of normal trichromatic vision.
+Most abnormalities in color vision are the result of
+small genetic errors that lead to the loss of one visual pigment
+or a shift in the spectral sensitivity of one type of
+pigment. The most common abnormalities involve redgreen
+color vision, and they are much more common in
+men than women.The reason for this pattern is that the
+genes encoding the red and green pigments are on the X
+chromosome, whereas the gene that encodes the blue
+pigment is on chromosome 7. Men will have abnormal
+red-green vision if there is a defect on the single X chromosome
+they inherit from their mother.Women will have
+abnormal red-green vision only if both parents contribute
+abnormal X chromosomes.
+About 6% of men have a red or green pigment that
+absorbs somewhat different wavelengths of light than the
+pigments of the rest of the population. These men are
+referred to as anomalous trichromats because they require
+somewhat different mixtures of red, green, and blue to
+see intermediate colors (and white) than other people
+do. Most anomalous trichromats have normal genes to
+encode the blue pigment and either the red or the green
+pigment, but they also have a hybrid gene that encodes a
+protein with an abnormal absorption spectrum between
+that of normal red and green pigments. For example, a
+person with an anomalous green pigment can match a
+yellow light with a red-green mixture containing less red
+than a normal trichromat. Anomalous trichromats perceive
+the full spectrum of colors that normal trichromats
+perceive, but in rare instances they will disagree about
+the precise color of an object (e.g., blue versus greenish
+blue).
+About 2% of men actually lack either the red or the
+green pigment, making them red-green color-blind. Because
+this leaves them with a “two-color” system, they are referred
+to as dichromats. People lacking the green pigment
+are less sensitive to green, and they confuse certain red
+and green colors that appear different to trichromats. A
+“green dichromat” can match a yellow light with either
+red or green light, no mixture is needed. In contrast to
+the roughly 8% of men that are either missing one pigment
+or have an anomalous pigment, only about 1% of
+women have such color abnormalities.
+People without one color pigment are considered colorblind,
+but they actually perceive quite a colorful world.
+Estimates of the number of people lacking all color vision
+vary, but less than about 0.001% of the population is
+thought to have this condition. In one type, both red and
+green cone pigments are missing, in many cases because
+mutations of the red and green genes make them nonfunctional.
+These people are blue cone monochromats and
+they live in a world that varies only in lightness, like a
+trichromat’s perception of a black-and-white movie.
+Recent research has shown that, precisely speaking,
+there may not be such a thing as normal color vision. In
+a group of males classified as normal trichromats, it was
+found that some require slightly more red than others to
+perceive yellow in a red-green mixture. This difference,
+which is tiny compared to the deficits discussed above,
+results from a single alteration of the red pigment gene.
+The 60% of males who have the amino acid serine at site
+180 in the red pigment gene are more sensitive to longwavelength
+light than the 40% who have the amino acid
+alanine at this site. Imagine what would happen if a woman
+had different red gene varieties on her two X chromosomes.
+Both red genes should be expressed, leading to
+different red pigments in two populations of cones. In
+principle, such women should have a form of tetrachromatic
+color vision, a rarity among all animals.
+Well before the discovery of how photoreceptors work, researchers were
+able to explain some of the ways the retina processes visual images. Since
+about 1950, neuroscientists have studied the action potential discharges of
+retinal ganglion cells as the retina is stimulated with light. The pioneers of
+this approach were neurophysiologists Keffer Hartline, Stephen Kuffler,
+and Horace Barlow, with Hartline and Kuffler working in the United States
+and Barlow working in England. Their research uncovered which aspects
+of a visual image were encoded as ganglion cell output. Early studies of
+horseshoe crabs and frogs gave way to investigations of cats and monkeys.
+Researchers learned that similar principles are involved in retinal processing
+across a wide range of species.
+Progress in understanding how ganglion cell properties are generated by
+synaptic interactions in the retina has been slower. This is because only ganglion
+cells fire action potentials; all other cells in the retina (except some amacrine
+cells) respond to stimulation with graded changes in membrane potential.
+The detection of such graded changes requires technically challenging
+intracellular recording methods, whereas action potentials can be detected
+using simple extracellular recording methods (see Box 4.1). It was not until
+the early 1970s that John Dowling and Frank Werblin at Harvard University
+were able to show how ganglion cell responses are built from the
+interactions of horizontal and bipolar cells (Box 9.5).
+The most direct path for information flow in the retina is from a cone
+photoreceptor to bipolar cell to ganglion cell. At each synaptic relay, the
+responses are modified by the lateral connections of horizontal cells and
+amacrine cells. We first focus on how information is transformed as it
+passes from photoreceptors to bipolar cells and then explore ganglion cell
+output in the last section.
+Photoreceptors, like other neurons, release neurotransmitter when depolarized.
+The transmitter released by photoreceptors is the amino acid glutamate.
+As we have seen, photoreceptors are depolarized in the dark and are
+hyperpolarized by light. We thus have the counterintuitive situation in which
+photoreceptors actually release fewer transmitter molecules in the light
+than in the dark. However, we can reconcile this apparent paradox if we
+take the point of view that dark rather than light is the preferred stimulus
+for a photoreceptor. Thus, when a shadow passes across a photoreceptor, it
+responds by depolarizing and releasing neurotransmitter.
+In the outer plexiform layer, each photoreceptor is in synaptic contact
+with two types of retinal neuron: bipolar cells and horizontal cells. Recall
+that bipolar cells create the direct pathway from photoreceptors to ganglion
+cells; horizontal cells feed information laterally in the outer plexiform layer
+to influence the activity of neighboring bipolar cells and photoreceptors
+(see Figures 9.11 and 9.12).
+Bipolar Cell Receptive Fields. Bipolar cells can be categorized into two
+classes, based on their responses to the glutamate released by photoreceptors.
+In OFF bipolar cells, glutamate-gated cation channels mediate a classical
+depolarizing EPSP from the influx of Na. ON biopolar cells have Gprotein-
+coupled receptors and respond to glutamate by hyperpolarizing.
+Notice that the names OFF and ON refer to whether these cells depolarize
+in response to light off (more glutamate) or to light on (less glutamate).
+Each bipolar cell receives direct synaptic input from a cluster of photoreceptors.
+The number of photoreceptors in this cluster ranges from one at
+the center of the fovea to thousands in the peripheral retina. In addition to
+these direct connections with photoreceptors, bipolar cells also are connected
+via horizontal cells to a circumscribed ring of photoreceptors that
+surrounds this central cluster. The receptive field of a bipolar cell (or any
+other cell in the visual system) is the area of retina that, when stimulated with
+light, changes the cell’s membrane potential. The receptive field of a bipolar cell
+consists of two parts: a circular area of retina providing direct photoreceptor
+input, called the receptive field center, and a surrounding area of retina
+providing input via horizontal cells, called the receptive field surround (Figure
+9.22a). Receptive field dimensions can be measured in millimeters across
+the retina or, more commonly, in degrees of visual angle. One millimeter
+on the retina corresponds to a visual angle of about 3.5°. Bipolar cell receptive
+field diameters range from a fraction of a degree in the central
+retina to several degrees in the peripheral retina.
+The response of a bipolar cell’s membrane potential to light in the receptive
+field center is opposite to that of light in the surround. For example,
+if illumination of the center causes depolarization of the bipolar cell
+(an ON response), then illumination of the surround will cause an antagonistic
+hyperpolarization of the bipolar cell (Figure 9.22b, c). Likewise, if the
+cell is depolarized by a spot turning from light to dark in the center of its
+receptive field (an OFF response), it will be hyperpolarized by the same
+dark stimulus applied to the surround. Thus, these cells are said to have
+antagonistic center-surround receptive fields. The antagonistic surround
+appears to come from a complex interaction of horizontal cells, photoreceptors,
+and bipolar cells at their synapses.
+The center-surround receptive field organization is passed on from bipolar
+cells to ganglion cells via synapses in the inner plexiform layer. The lateral
+connections of the amacrine cells in the inner plexiform layer also contribute
+to the elaboration of ganglion cell receptive fields and the integration
+of rod and cone input to ganglion cells. Numerous types of amacrine
+cells have been identified, and their particular contributions to ganglion cell
+responses are still being investigated.
+The sole source of output from the retina to the rest of the brain is the action
+potentials arising from the million or so ganglion cells. The activity of
+these cells can be recorded electrophysiologically not only in the retina but
+also in the optic nerve where their axons travel.
+Much of my scientific life has been spent studying the
+functional organization of the vertebrate retina—how the
+retinal cells are wired, how they respond when the retina
+is illuminated, and how the retina processes visual information.
+What led me to undertake this research? As both
+an undergraduate and graduate student, I worked in
+George Wald’s laboratory at Harvard.Wald discovered
+the role of vitamin A in vision (for which he won a Nobel
+Prize) and had long been interested in photoreceptor
+mechanisms.With Wald, I studied the effects of vitamin A
+deficiency on photoreceptors, which brought me to the
+question of how visual sensitivity relates to visual pigment
+levels in photoreceptors. In other words, what mechanisms
+underlie the loss of visual sensitivity in vitamin A
+deficiency, and does this relate to the sensitivity changes
+that occur during light and dark adaptation?
+This early work was carried out in the rat, and I found
+there is a relationship between visual pigment (rhodopsin)
+levels and the logarithm of visual sensitivity in both vitamin
+A deficiency and during dark adaptation. Rat retinas,
+however, possess mainly rod photoreceptors, and an
+obvious next question was whether a similar relationship
+between visual pigment levels and light sensitivity holds
+also for cones. I decided to test this by switching to
+ground squirrels, whose retinas possess mainly cones.
+Among other things, I was curious about how cone
+photoreceptors differ from rod photoreceptors, and so I
+examined the ground squirrel photoreceptors by electron
+microscopy. What caught my eye one day were the cone
+synaptic terminals and the realization that I could follow
+an occasional process from a synaptic terminal back to
+its cell of origin. Bipolar cell branches extended to the
+synaptic terminals, as expected, but I could also identify
+horizontal cell processes synapsing with the photoreceptors!
+This was new and exciting. Horizontal cells were
+very much a mystery then; indeed, some investigators
+thought they were glial cells, but the fact that they made
+synapses with the photoreceptors clearly indicated they
+were neurons.
+What, then, is the neuronal circuitry of the retina,
+and what is the role of the retinal interneurons—the
+horizontal and amacrine cells? This became an area of
+intense interest and study. I joined forces with Brian
+Boycott, and we explored the cellular (Brian) and synaptic
+organization (myself) of the outer and inner plexiform
+layers of the retina.We found that the photoreceptor and
+bipolar cell terminals make ribbon synapses onto multiple
+postsynaptic targets, whereas amacrine cells and at least
+some horizontal cell processes make conventional
+synapses on single postsynaptic elements. In addition to
+ground squirrel retinas, we examined monkey, human,
+cat, frog, and goldfish retinas, and they all showed basic
+similarities in retinal wiring.
+The next step was to record from the various retinal
+cells, and that work was undertaken in my laboratory by
+Frank Werblin, a graduate student with training in electrical
+engineering. We chose the mudpuppy retina as our
+animal because of its large cells, and soon Frank had
+recordings from all the retinal cell types. He confirmed
+the identity of the recorded cells by staining them intracellularly
+after the recording—a routine technique today,
+but then very difficult and on occasion messy. More than
+once, Frank emerged from the darkroom where the experiments
+were carried out covered with the blue dye we
+then used. What those experiments told us was that
+there are both ON-center and OFF-center bipolar cells
+in the retina and that bipolar cells have a center-surround
+receptive field organization, with the horizontal cells accounting
+for the antagonistic surround response. Further,
+many amacrine cells respond transiently to illumination,
+giving ON-OFF responses, and appear to be involved in
+detecting movement.
+These recordings, along with electron microscopic observations
+on the mudpuppy retina I made, enabled us to
+suggest the main pathways of information flow through
+the retina and the roles of the various cells and synapses.
+Many questions remained, many of which are being explored
+even today. However, being able to draw a diagram of the
+functional organization of the retina at that time, however
+imperfect and incomplete, was immensely satisfying, and it
+has encouraged, I like to believe, numerous additional
+studies on retinal mechanisms in the 35 years since.
+Most retinal ganglion cells have the concentric center-surround receptive
+field organization discussed above for bipolar cells. ON-center and OFFcenter
+ganglion cells receive input from the corresponding type of bipolar
+cell. Thus, an ON-center ganglion cell will be depolarized and respond with
+a barrage of action potentials when a small spot of light is projected onto
+the middle of its receptive field. Likewise, an OFF-center cell will respond
+to a small dark spot presented to the middle of its receptive field. However,
+in both types of cell, the response to stimulation of the center is canceled
+by the response to stimulation of the surround (Figure 9.23). The surprising
+implication is that most retinal ganglion cells are not particularly responsive
+to changes in illumination that include both the receptive field
+center and the receptive field surround. Rather, it appears that the ganglion
+cells are mainly responsive to differences in illumination that occur within
+their receptive fields.
+To illustrate this point, consider the response generated by an OFF-center
+cell as a light-dark edge crosses its receptive field (Figure 9.24). Remember
+that in such a cell, dark in the center of the receptive field causes the cell
+to depolarize, whereas dark in the surround causes the cell to hyperpolarize.
+In uniform illumination, the center and surround cancel to yield some
+low level of response (Figure 9.24a). When the edge enters the surround
+region of the receptive field without encroaching on the center, the dark
+area has the effect of hyperpolarizing the neuron, leading to a decrease in
+the cell’s firing rate (Figure 9.24b). As the dark area begins to include the
+center, however, the partial inhibition by the surround is overcome, and
+the cell response increases (Figure 9.24c). But when the dark area finally
+fills the entire surround, the center response is again canceled (Figure
+9.24d). Notice that the cell response in this example is only slightly different
+in uniform light and in uniform dark; the response is modulated mainly
+by the presence of the light-dark edge in its receptive field.
+Now let’s consider the output of all the OFF-center ganglion cells that are
+stimulated by a stationary light-dark edge imaged on the retina. The responses
+will fall into the same four categories illustrated in Figure 9.24. Thus, the
+cells that will register the presence of the edge are those with receptive field
+centers and surrounds that are differentially affected by the light and dark
+areas. The population of cells with receptive field centers “viewing” the
+light side of the edge will be inhibited (Figure 9.24b). The population of cells
+with centers “viewing” the dark side of the edge will be excited (Figure 9.24c). In this way, the difference in illumination at a light-dark edge is not
+faithfully represented by the difference in the output of ganglion cells on
+either side of the edge. Instead, the center-surround organization of the receptive
+fields leads to a neural response that emphasizes the contrast at light-dark edges.
+There are many visual illusions involving the perception of light level.
+The organization of ganglion cell receptive fields suggests an explanation
+for the illusion shown in Figure 9.25. Even though the two central squares
+are the same shade of gray, the square on the left background appears
+darker. Consider the two ON-center receptive fields shown on the gray
+squares. In both cases, the same gray light hits the receptive field center.
+However, the receptive field on the left has more light in its surround than
+the receptive field on the right. This will lead to a lower response and may
+be related to the darker appearance of the left gray square.
+Most ganglion cells in the mammalian retina have a center-surround receptive
+field with either an ON or an OFF center. They can be further categorized
+based on their appearance, connectivity, and electrophysiological
+properties. In the macaque monkey retina and human retina, two major
+types of ganglion cells are distinguished: large M-type ganglion cells and
+smaller P-type ganglion cells. (M stands for magno, from the Latin for “large”; P stands for parvo, from the Latin for “small.”) Figure 9.26 shows
+the relative sizes of M and P ganglion cells at the same location on the
+retina. P cells constitute about 90% of the ganglion cell population, M cells
+constitute about 5%, and the remaining 5% is made up of a variety of
+nonM-nonP ganglion cell types that are less well characterized.
+The visual response properties of M cells differ from those of P cells in
+several ways. They have larger receptive fields, they conduct action potentials
+more rapidly in the optic nerve, and they are more sensitive to lowcontrast
+stimuli. In addition, M cells respond to stimulation of their receptive
+field centers with a transient burst of action potentials, while P cells
+respond with a sustained discharge as long as the stimulus is on (Figure
+9.27). We will see in Chapter 10 that the different types of ganglion cells
+appear to play different roles in visual perception.
+Color-Opponent Ganglion Cells. Another important distinction between
+ganglion cell types is that some P cells and nonM-nonP cells are sensitive
+to differences in the wavelength of light. The majority of these color-sensitive
+neurons are called color-opponent cells, reflecting the fact that the response
+to one wavelength in the receptive field center is canceled by showing
+another wavelength in the receptive field surround. Two types of opponency
+are found, red versus green and blue versus yellow. Consider, for
+example, a cell with a red ON center and a green OFF surround (Figure
+9.28). The center of the receptive field is fed mainly by red cones; therefore,
+the cell responds to red light by firing action potentials. Note that even
+a red light that bathes the entire receptive field is an effective stimulus.
+However, the response is reduced because red light has some effect on
+green cones (recall the overlap of the red and green sensitivity curves in
+Figure 9.20) that feed into the green OFF surround. The response to red is
+only canceled by green light on the surround. Shorthand notation for such
+a cell is RG, meaning simply that it is excited by red in the receptive field
+center, and this response is inhibited by green in the surround. What would
+be the response to white light on the entire receptive field? Because white
+light contains all visible wavelengths, both center and surround would be
+equally activated, thereby canceling the response of the cell.
+Blue-yellow color opponency works the same way. Consider a cell with
+a blue ON center and a yellow OFF surround (BY). Blue light drives blue
+cones that feed the receptive field center, while yellow light activates both red and green cones that feed the surround. Again, diffuse blue light would
+be an effective stimulus for this cell, but yellow on the surround would
+cancel the response, as would diffuse white light. The lack of color opponency
+in M cells is accounted for by the fact that both the center and surround
+of the receptive field receive input from more than one type of cone.
+Perceived color is based on the relative activity of ganglion cells whose
+receptive field centers receive input from red, green, and blue cones.
+Demonstrate this to yourself by fixating on the cross in the middle of the
+red box in Figure 9.29 for a minute or so. This will have the effect of lightadapting
+some of your red cones. Then look at the white box. The activation
+of the green cones by the white light is unopposed, and you see a
+green square. Similarly, if you fixate on the blue box, you will see yellow
+when you shift your gaze to the white box. Thus, it appears that the
+ganglion cells provide a stream of information to the brain that is involved
+in the spatial comparison of three different opposing processes: light versus
+dark, red versus green, and blue versus yellow.
+One of the important concepts that emerges from our discussion of the
+retina is the idea of parallel processing in the visual system. Here’s why.
+First, we view the world with not one but two eyes that provide two parallel
+streams of information. In the central visual system, these streams are
+compared to give information about depth, the distance of an object from
+the observer. Second, there appear to be independent streams of information
+about light and dark that arise from the ON-center and OFF-center
+ganglion cells in each retina. Third, ganglion cells of both ON and OFF varieties
+have different types of receptive fields and response properties. M
+cells can detect subtle contrasts over their large receptive fields and are
+likely to contribute to low-resolution vision. P cells have small receptive
+fields that are well suited for the discrimination of fine detail. P cells and
+nonM-nonP cells are specialized for the separate processing of red-green
+and blue-yellow information.
+In this chapter, we have seen how light emitted by or reflected off objects
+in space can be imaged by the eye onto the retina. Light energy is first converted
+into membrane potential changes in the mosaic of photoreceptors.
+It is interesting to note that the transduction mechanism in photoreceptors
+is very similar to that in olfactory receptor cells, both of which involve
+cyclic nucleotide-gated ion channels. Photoreceptor membrane potential is
+converted into a chemical signal (the neurotransmitter glutamate), which
+is again converted into membrane potential changes in the postsynaptic
+bipolar and horizontal cells. This process of electrical-to-chemical-to-electrical
+signaling repeats again and again, until the presence of light or dark or
+color is finally converted to a change in the action potential firing frequency
+of the ganglion cells.
+The information from the 125 million photoreceptors is funneled into
+1 million ganglion cells. In the central retina, particularly the fovea, relatively
+few photoreceptors feed each ganglion cell, whereas in the peripheral
+retina, thousands of receptors do. Thus, the mapping of visual space onto
+the array of optic nerve fibers is not uniform. Rather, in “neural space,”
+there is an overrepresentation of the central few degrees of visual space,
+and signals from individual cones are more important. This specialization
+ensures high acuity in central vision but also requires that the eye move to
+bring the images of objects of interest onto the fovea.
+As we shall see in the next chapter, there is good reason to believe that
+the different types of information that arise from different types of ganglion
+cells are, at least in the early stages, processed independently. Parallel
+streams of information—for example, from the right and left eyes—remain
+segregated at the first synaptic relay in the lateral geniculate nucleus of the
+thalamus. The same can be said for the M-cell and P-cell synaptic relays in
+the LGN. In the visual cortex, it appears that parallel paths may process
+different visual attributes. For example, the distinction in the retina between
+neurons that do and do not convey information about color is preserved
+in the visual cortex. In general, each of the more than two-dozen
+visual cortical areas may be specialized for the analysis of different types of
+retinal output.
+Although our visual system provides us with a unified picture of the world
+around us, this picture has multiple facets. Objects we see have shape and
+color. They have position in space, and sometimes they move. For us to see
+each of these properties, neurons somewhere in the visual system must be
+sensitive to them. Moreover, because we have two eyes, we actually have
+two visual images in our head, and somehow they must be merged.
+In Chapter 9, we saw that in many ways the eye acts like a camera. But
+starting with the retina, the rest of the visual system is far more elaborate,
+far more interesting, and capable of doing far more than any camera. For example,
+we saw that the retina does not simply pass along information about
+the patterns of light and dark that fall on it. Rather, the retina extracts information
+about different facets of the visual image. There are more than 100
+million photoreceptors in the retina but only 1 million axons leaving the eye
+carrying information to the rest of the brain. What we perceive about the
+world around us, therefore, depends on what information is extracted by the
+retina and how this information is analyzed and interpreted by the rest of
+the central nervous system (CNS). An example is color. There is no such
+thing as color in the physical world; there is simply a spectrum of visible
+wavelengths of light that are reflected by objects around us. Based on the information
+extracted by the three types of cone photoreceptors, however, our
+brain somehow synthesizes a rainbow of colors and fills our world with it.
+In this chapter, we explore how the information extracted by the retina
+is analyzed by the central visual system. The pathway serving conscious
+visual perception includes the lateral geniculate nucleus (LGN) of the thalamus
+and the primary visual cortex, also called area 17, V1, or striate cortex.
+We will see that the information funneled through this geniculocortical
+pathway is processed in parallel by neurons specialized for the analysis of
+different stimulus attributes. The striate cortex then feeds this information
+to more than two dozen different extrastriate cortical areas in the temporal
+and parietal lobes, and many of these appear to be specialized for different
+types of analysis.
+Much of what we know about the central visual system was first worked
+out in the domestic cat and then extended to the rhesus monkey, Macaca
+mulatta. The macaque monkey, as it is also called, relies heavily on vision
+for survival in its habitat, as do we humans. In fact, tests of the performance
+of this primate’s visual system show that in virtually all respects, it
+rivals that of humans. Thus, although most of this chapter concerns the
+organization of the macaque visual system, most neuroscientists agree that
+it approximates very closely the situation in our own brain.
+Although visual neuroscience cannot yet explain many aspects of visual
+perception (some interesting examples are shown in Figure 10.1), significant
+progress has been made in answering a more basic question: How do
+neurons represent the different facets of the visual world? By examining
+those stimuli that make different neurons in the visual cortex respond, and
+how these response properties arise, we begin to see how the brain portrays
+the visual world around us.
+The neural pathway that leaves the eye, beginning with the optic nerve, is
+often referred to as the retinofugal projection. The suffix -fugal is from
+the Latin word meaning “to flee” and is commonly used in neuroanatomy
+to describe a pathway that is directed away from a structure. Thus, a centrifugal
+projection goes away from the center, a corticofugal projection goes
+away from the cortex, and the retinofugal projection goes away from the
+retina.
+We begin our tour of the central visual system by looking at how the
+retinofugal projection courses from each eye to the brain stem on each side,
+and how the task of analyzing the visual world initially is divided among,
+and organized within, certain structures of the brain stem. Then we focus
+on the major arm of the retinofugal projection that mediates conscious visual
+perception.
+The ganglion cell axons “fleeing” the retina pass through three structures
+before they form synapses in the brain stem. The components of this
+retinofugal projection are, in order, the optic nerve, the optic chiasm, and
+the optic tract (Figure 10.2). The optic nerves exit the left and right eyes
+at the optic disks, travel through the fatty tissue behind the eyes in their
+bony orbits, then pass through holes in the floor of the skull. The optic
+nerves from both eyes combine to form the optic chiasm (named for the
+X shape of the Greek letter chi), which lies at the base of the brain, just
+anterior to where the pituitary gland dangles down. At the optic chiasm,
+the axons originating in the nasal retinas cross from one side to the other.
+The crossing of a fiber bundle from one side of the brain to the other is
+called a decussation. Because only the axons originating in the nasal
+retinas cross, we say that a partial decussation of the retinofugal projection
+occurs at the optic chiasm. Following the partial decussation at the optic
+chiasm, the axons of the retinofugal projections form the optic tracts,
+which run just under the pia along the lateral surfaces of the diencephalon.
+To understand the significance of the partial decussation of the retinofugal
+projection at the optic chiasm, let’s review the concept of the visual field
+introduced in Chapter 9. The full visual field is the entire region of space
+(measured in degrees of visual angle) that can be seen with both eyes looking
+straight ahead. Fix your gaze on a point straight ahead. Now imagine a
+vertical line passing through the fixation point, dividing the visual field into
+left and right halves. By definition, objects appearing to the left of the midline
+are in the left visual hemifield, and objects appearing to the right of
+the midline are in the right visual hemifield (Figure 10.3).
+By looking straight ahead with both eyes open and then alternately closing
+one eye and then the other, you will see that the central portion of both
+visual hemifields is viewed by both retinas. This region of space is therefore
+called the binocular visual field. Notice that objects in the binocular region
+of the left visual hemifield will be imaged on the nasal retina of the left eye
+and on the temporal retina of the right eye. Because the fibers from the
+nasal portion of the left retina cross to the right side at the optic chiasm,
+all the information about the left visual hemifield is directed to the right
+side of the brain. Remember this rule of thumb: Optic nerve fibers cross in
+the optic chiasm so that the left visual hemifield is “viewed” by the right hemisphere
+and the right visual hemifield is “viewed” by the left hemisphere.
+A small number of optic tract axons peel off to form synaptic connections
+with cells in the hypothalamus, and another 10% or so continue past the
+thalamus to innervate the midbrain. But most of them innervate the lateral
+geniculate nucleus (LGN) of the dorsal thalamus. The neurons in the
+LGN give rise to axons that project to the primary visual cortex. This projection
+from LGN to cortex is called the optic radiation. Lesions anywhere
+in the retinofugal projection from eye to LGN to visual cortex cause blindness
+in humans. Therefore, we know that it is this pathway that mediates
+conscious visual perception (Figure 10.4).
+From our knowledge of how the visual world is represented in the
+retinofugal projection, we can predict the types of perceptual deficits that
+would result from its destruction at different levels, as might occur from a
+traumatic injury to the head, a tumor, or an interruption of the blood supply.
+As shown in Figure 10.5, while a transection of the left optic nerve
+would render a person blind in the left eye only, a transection of the left
+optic tract would lead to blindness in the right visual field as viewed through
+either eye. A midline transection of the optic chiasm would affect only the
+fibers that cross the midline. Because these fibers originate in the nasal
+portions of both retinas, blindness would result in the regions of the visual
+field viewed by the nasal retinas, that is, the peripheral visual fields on both
+sides (Box 10.1). Because unique deficits result from lesions at different
+sites, neurologists and neuro-ophthalmologists can locate sites of damage
+by assessing visual field deficits.
+Nonthalamic Targets of the Optic Tract. As we have said, some retinal
+ganglion cells send axons to innervate structures other than the LGN. Direct
+projections to part of the hypothalamus play an important role in synchronizing
+a variety of biological rhythms, including sleep and wakefulness,
+with the daily dark-light cycle (see Chapter 19). Direct projections to part
+of the midbrain, called the pretectum, control the size of the pupil and certain
+types of eye movement. And about 10% of the ganglion cells in the
+retina project to a part of the midbrain tectum called the superior colliculus
+(Latin for “little hill”) (Figure 10.6).
+While 10% may not sound like much of a projection, bear in mind that
+in primates, this is about 150,000 neurons, which is equivalent to the total
+number of retinal ganglion cells in a cat! In fact, the tectum of the midbrain
+is the major target of the retinofugal projection in all nonmammalian
+vertebrates (fish, amphibians, birds, and reptiles). In these vertebrate groups,
+the superior colliculus is called the optic tectum. This is why the projection
+from the retina to the superior colliculus is often called the retinotectal
+projection, even in mammals.
+In the superior colliculus, a patch of neurons activated by a point of light,
+via indirect connections with motor neurons in the brain stem, commands
+eye and head movements to bring the image of this point in space onto the
+fovea. This branch of the retinofugal projection is thereby involved in orienting
+the eyes in response to new stimuli in the visual periphery. We will return
+to the superior colliculus when we discuss motor systems in Chapter 14.
+Many of you are familiar with the famous story of David
+and Goliath, which appears in the Hebrew scriptures (Old
+Testament).The armies of the Philistines and the Israelites
+were gathered for battle when Goliath, a Philistine, came
+forth and challenged the Israelites to settle the dispute by
+sending out their best man to face him in a fight to the
+death. Goliath, it seems, was a man of great proportions,
+measuring more than “six cubits” in height. If you consider
+that a cubit is the distance from the elbow to the tip of
+the middle finger, about 20 inches, this guy was more than
+10 feet tall! Goliath was armed to the teeth with body armor,
+a javelin, and a sword.To face this giant, the Israelites
+sent David, a young and diminutive shepherd, armed only
+with a sling and five smooth stones. Here’s how the action
+is described in the Revised Standard Version of the
+Bible (1 Samuel 17: 48):
+When the Philistine arose and came and drew near to
+meet David, David ran quickly toward the battle line to
+meet the Philistine. And David put his hand in his bag
+and took out a stone, and slung it, and struck the Philistine
+on his forehead; the stone sank into his forehead,
+and he fell on his face to the ground.
+Now why, you might ask, are we giving a theology lesson
+in a neuroscience textbook? The answer is that our understanding
+of the visual pathway offers an explanation, in
+addition to divine intervention, for why Goliath was at a
+disadvantage in this battle. Body size is regulated by the
+secretion of growth hormone from the anterior lobe of
+the pituitary gland. In some cases, the anterior lobe becomes
+hypertrophied (swollen) and produces excessive
+amounts of the hormone, resulting in body growth to unusually
+large proportions. Such individuals are called pituitary
+giants and can measure well over 8 feet tall.
+Pituitary hypertrophy also disrupts normal vision. Recall
+that the optic nerve fibers from the nasal retinas cross in
+the optic chiasm, which butts up against the stalk of the
+pituitary. Any enlargement of the pituitary compresses
+these crossing fibers and results in a loss of peripheral
+vision called bitemporal hemianopia, or tunnel vision. (See if
+you can figure out why this is true from what you know
+about the visual pathway.) We can speculate that David
+was able to draw close and smite Goliath, because when
+David raced to the battle line, the pituitary giant had
+completely lost sight of him. 
+The right and left lateral geniculate nuclei, located in the dorsal thalamus,
+are the major targets of the two optic tracts. Viewed in cross section, each
+LGN appears to be arranged in six distinct layers of cells (Figure 10.7). By
+convention, the layers are numbered 1 through 6, starting with the most
+ventral layer, layer 1. In three dimensions, the layers of the LGN are
+arranged like a stack of six pancakes, one on top of the other. The pancakes
+do not lie flat, however; they are bent around the optic tract like a knee
+joint. This shape explains the name geniculate, from the Latin geniculatus,
+meaning “like a little knee.” The LGN is the gateway to the visual cortex and, therefore, to conscious
+visual perception. Let’s explore the structure and function of this thalamic
+nucleus.LGN neurons receive synaptic input from the retinal ganglion cells, and
+most geniculate neurons project an axon to primary visual cortex via the
+optic radiation. The segregation of LGN neurons into layers suggests that
+different types of retinal information are being kept separate at this synaptic
+relay, and indeed this is the case: Axons arising from M-type, P-type,
+and nonM-nonP ganglion cells in the two retinas synapse on cells in different
+LGN layers.
+Recall from our rule of thumb that the right LGN receives information
+about the left visual field. The left visual field is viewed by both the nasal
+left retina and the temporal right retina. At the LGN, input from the two
+eyes is kept separate. In the right LGN, the right eye (ipsilateral) axons
+synapse on LGN cells in layers 2, 3, and 5. The left eye (contralateral) axons
+synapse on cells in layers 1, 4, and 6 (Figure 10.8).
+A closer look at the LGN in Figure 10.7 reveals that the two ventral layers,
+1 and 2, contain larger neurons, and the four more dorsal layers, 3
+through 6, contain smaller cells. The ventral layers are therefore called
+magnocellular LGN layers, and the dorsal layers are called parvocellular
+LGN layers. Recall from Chapter 9 that ganglion cells in the retina may
+also be classified into magnocellular and parvocellular groups. As it turns
+out, P-type ganglion cells in the retina project exclusively to the parvocellular
+LGN, and M-type ganglion cells in the retina project entirely to the
+magnocellular LGN.
+In addition to the neurons in the six principal layers of the LGN, numerous
+tiny neurons also lie just ventral to each layer. Cells in these koniocellular layers (konio is from the Greek for “dust”) receive input from the
+nonM-nonP types of retinal ganglion cells and also project to visual cortex.
+Note that the koniocellular layers are not uniquely numbered, because
+historically, the six thick layers were numbered before cells in the koniocellular
+layers were discovered. In Chapter 9, we saw that in the retina,
+M-type, P-type, and nonM-nonP ganglion cells respond differently to light
+and color. In the LGN, the different information derived from the three
+categories of retinal ganglion cells from the two eyes remains segregated.
+The anatomical organization of the LGN supports the idea that the retina
+gives rise to streams of information that are processed in parallel. This organization
+is summarized in.
+By inserting a microelectrode into the LGN, it is possible to study the action
+potential discharges of geniculate neurons in response to visual stimuli, just
+as was done in the retina. The surprising conclusion of such studies is that
+the visual receptive fields of LGN neurons are almost identical to those of
+the ganglion cells that feed them. For example, magnocellular LGN neurons
+have relatively large center-surround receptive fields, respond to stimulation
+of their receptive field centers with a transient burst of action potentials,
+and are insensitive to differences in wavelength. All in all, they are just like
+M-type ganglion cells. Likewise, parvocellular LGN cells, like P-type retinal
+ganglion cells, have relatively small center-surround receptive fields and respond
+to stimulation of their receptive field centers with a sustained increase
+in the frequency of action potentials; many of them exhibit color
+opponency. Receptive fields of cells in the koniocellular layers are centersurround
+and have either light/dark or color opponency. Within all layers
+of the LGN, the neurons are activated by only one eye (i.e., they are
+monocular) and ON-center and OFF-center cells are intermixed.
+What makes the similarity of LGN and ganglion cell receptive fields so surprising
+is that the retina is not the main source of synaptic input to the
+LGN. The major input, constituting about 80% of the excitatory synapses,
+comes from primary visual cortex. Thus, one might reasonably expect that
+this corticofugal feedback pathway would significantly alter the qualities of
+the visual responses recorded in the LGN. So far, however, a role for this
+massive input has not been clearly identified.
+The LGN also receives synaptic inputs from neurons in the brain stem
+whose activity is related to alertness and attentiveness (see Chapters 15 and
+19). Have you ever “seen” a flash of light when you are startled in a dark
+room? This perceived flash might be a result of the direct activation of LGN
+neurons by this pathway. Usually, however, this input does not directly
+evoke action potentials in LGN neurons. But it can powerfully modulate
+the magnitude of LGN responses to visual stimuli. (Recall modulation from
+Chapters 5 and 6.) Thus, the LGN is more than a simple relay from retina
+to cortex; it is the first site in the ascending visual pathway where what we
+see is influenced by how we feel.
+The LGN has a single major synaptic target: primary visual cortex. Recall
+from Chapter 7 that the cortex may be divided into a number of distinct
+areas based on their connections and cytoarchitecture. Primary visual
+cortex is Brodmann’s area 17 and is located in the occipital lobe of the
+primate brain. Much of area 17 lies on the medial surface of the hemisphere,
+surrounding the calcarine fissure (Figure 10.10). Other terms used
+interchangeably to describe the primary visual cortex are V1 and striate
+cortex. (The term striate refers to the fact that area V1 has an unusually
+dense stripe of myelinated axons running parallel to the surface that appears
+white in unstained sections.)
+We have seen that the axons of different types of retinal ganglion cells
+synapse on anatomically segregated neurons in the LGN. In this section, we
+look at the anatomy of the striate cortex and trace the connections different
+LGN cells make with cortical neurons. In a later section, we explore
+how this information is analyzed by cortical neurons. As we did in the LGN,
+in striate cortex we’ll see a close correlation between structure and function.
+The projection starting in the retina and extending to LGN and V1 illustrates
+a general organizational feature of the central visual system called retinotopy.
+Retinotopy is an organization whereby neighboring cells in the
+retina feed information to neighboring places in their target structures—in
+this case, the LGN and striate cortex. In this way, the two-dimensional
+surface of the retina is mapped onto the two-dimensional surface of the
+subsequent structures (Figure 10.11a).
+There are three important points to remember about retinotopy. First, the
+mapping of the visual field onto a retinotopically organized structure is
+often distorted, because visual space is not sampled uniformly by the cells
+in the retina. Recall from Chapter 9 that there are many more ganglion
+cells with receptive fields in or near the fovea than in the periphery. Thus,
+the representation of the visual field is distorted in striate cortex: The central
+few degrees of the visual field are overrepresented, or magnified, in the
+retinotopic map (Figure 10.11b).
+The second point to remember is that a discrete point of light can activate
+many cells in the retina, and often many more cells in the target structure,
+due to the overlap of receptive fields. The image of a point of light on
+the retina actually activates a large population of cortical neurons; every
+neuron that contains that point in its receptive field is potentially activated.
+Thus, when the retina is stimulated by a point of light, the activity in striate
+cortex is a broad distribution with a peak at the corresponding retinotopic
+location.
+Finally, don’t be misled by the word “map.” There are no pictures in the
+primary visual cortex for a little person in our brain to look at. While it’s
+true that the arrangement of connections establishes a mapping between
+the retina and V1, perception is based on the brain’s interpretation of distributed
+patterns of activity, not literal snapshots of the world. (We discuss
+visual perception later in this chapter.)
+The neocortex in general, and striate cortex in particular, have neuronal
+cell bodies arranged into about a half-dozen layers. These layers can be seen
+clearly in a Nissl stain of the cortex, which, as described Chapter 2, leaves
+a deposit of dye (usually blue or violet) in the soma of each neuron. Starting
+at the white matter (containing the cortical input and output fibers),
+the cell layers are named by Roman numerals VI, V, IV, III, and II. Layer I,
+just under the pia mater, is largely devoid of neurons and consists almost
+entirely of axons and dendrites of cells in other layers (Figure 10.12). The
+full thickness of the striate cortex from white matter to pia is about 2 mm,
+the height of the lowercase letter m.
+As Figure 10.12 shows, describing the lamination of striate cortex as a
+six-layer scheme is somewhat misleading. There are actually at least nine
+distinct layers of neurons. To maintain Brodmann’s convention that neocortex
+has six layers, however, neuroanatomists combine three sublayers
+into layer IV, labeled IVA, IVB, and IVC. Layer IVC is further divided into
+two tiers called IVC and IVC. The anatomical segregation of neurons into
+layers suggests that there is a division of labor in the cortex, similar to
+what we saw in the LGN. We can learn a lot about how the cortex handles
+visual information by examining the structure and connections of its different
+layers.
+The Cells of Different Layers. Many different neuronal shapes have been
+identified in striate cortex, but here we focus on two principal types, defined
+by the appearance of their dendritic trees (Figure 10.13). Spiny stellate cells
+are small neurons with spine-covered dendrites that radiate out from the
+cell body (recall dendritic spines from Chapter 2). They are seen primarily
+in the two tiers of layer IVC. Outside layer IVC are many pyramidal cells.
+These neurons are also covered with spines and are characterized by a single
+thick apical dendrite that branches as it ascends toward the pia mater and
+by multiple basal dendrites that extend horizontally.
+Notice that a pyramidal cell in one layer may have dendrites extending
+into other layers. It is important to remember that only pyramidal cells send
+axons out of striate cortex to form connections with other parts of the brain.
+The axons of stellate cells make local connections only within the cortex.
+In addition to the spiny neurons, inhibitory neurons, which lack spines,
+are sprinkled in all cortical layers as well. These neurons form only local
+connections.
+The distinct lamination of the striate cortex is reminiscent of the layers we
+saw in the LGN. In the LGN, every layer receives retinal afferents and sends
+efferents to the visual cortex. In the visual cortex, the situation is different;
+only a subset of the layers receives input from the LGN or sends output to
+a different cortical or subcortical area.
+Axons from the LGN terminate in several different cortical layers, with
+the largest number going to layer IVC. We’ve seen that the output of the
+LGN is divided into streams of information, for example, from the magnocellular
+and parvocellular layers serving the right and left eyes. These
+streams remain anatomically segregated in layer IVC.
+Magnocellular LGN neurons project to layer IVC, and parvocellular LGN
+neurons project to layer IVC. Imagine that the two tiers of layer IVC are
+pancakes, stacked one () on top of the other (). Because the input from
+the LGN to the cortex is arranged topographically, we see that layer IVC
+contains two overlapping retinotopic maps, one from the magnocellular
+LGN (IVC) and the other from the parvocellular LGN (IVC). Koniocellular
+LGN axons follow a different path, bypassing layer IV to make synapses in
+layers II and III.
+Ocular Dominance Columns. How are the left eye and right eye LGN
+inputs segregated when they reach layer IVC of striate cortex? The answer
+was provided by a ground-breaking experiment performed in the early
+1970s at Harvard Medical School by neuroscientists David Hubel and Torsten
+Wiesel. They injected a radioactive amino acid into one eye of a monkey
+(Figure 10.14). This amino acid was incorporated into proteins by the
+ganglion cells, and the proteins were transported down the ganglion cell
+axons into the LGN (recall anterograde transport from Chapter 2). Here,
+the radioactive proteins spilled out of the ganglion cell axon terminals and
+were taken up by nearby LGN neurons. But not all LGN cells took up the
+radioactive material; only those cells that were postsynaptic to the inputs
+from the injected eye incorporated the labeled protein. These cells then
+transported the radioactive proteins to their axon terminals in layer IVC of
+striate cortex. The location of the radioactive axon terminals was visualized
+by first placing a film of emulsion over thin sections of striate cortex and later
+developing the emulsion like a photograph, a process called autoradiography
+(introduced in Chapter 6). The resulting collection of silver grains on the
+film marked the location of the radioactive LGN inputs.
+In sections cut perpendicular to the cortical surface, Hubel and Wiesel
+observed that the distribution of axon terminals relaying information
+from the injected eye was not continuous in layer IVC, but rather was
+split up into a series of equally spaced patches, each about 0.5 mm wide
+(Figure 10.15a). These patches were termed ocular dominance columns.
+In later experiments, the cortex was sectioned tangentially, parallel to
+layer IV. This revealed that the left eye and right eye inputs to layer IV
+are laid out as a series of alternating bands, like the stripes of a zebra (Figure
+10.15b).
+Innervation of Other Cortical Layers from Layer IVC. Most intracortical
+connections extend perpendicular to the cortical surface along radial
+lines that run across the layers, from white matter to layer I. This pattern
+of radial connections maintains the retinotopic organization established in
+layer IV. Therefore, a cell in layer VI, for example, receives information
+from the same part of the retina as does a cell above it in layer IV (Figure
+10.16a). However, the axons of some layer III pyramidal cells extend collateral
+branches that make horizontal connections within layer III (Figure
+10.16b). Radial and horizontal connections play different roles in the analysis
+of the visual world, as we’ll see later in the chapter.
+Layer IVC stellate cells project axons radially up mainly to layers IVB and
+III where, for the first time, information from the left eye and right eye
+begins to mix (Figure 10.17). Whereas all layer IVC neurons receive only
+monocular input, most neurons in layers II and III receive binocular input
+coming from both eyes. Even so, there continues to be considerable anatomical
+segregation of the magnocellular and parvocellular processing streams.
+Layer IVC, which receives magnocellular LGN input, projects mainly to
+cells in layer IVB. Layer IVC, which receives parvocellular LGN input,
+projects mainly to layer III. In layers III and IVB, an axon may form synapses
+with the dendrites of pyramidal cells of all layers.
+Striate Cortex Outputs. As previously mentioned, the pyramidal cells send
+axons out of striate cortex into the white matter. The pyramidal cells in different
+layers innervate different structures. Layer II, III, and IVB pyramidal
+cells send their axons to other cortical areas. Layer V pyramidal cells send
+axons all the way down to the superior colliculus and pons. Layer VI
+pyramidal cells give rise to the massive axonal projection back to the LGN
+(Figure 10.18). Pyramidal cell axons in all layers also branch and form local
+connections in the cortex.
+As we have seen, layers II and III play a key role in visual processing, providing
+most of the information that leaves V1 for other cortical areas.
+Anatomical studies suggest that the V1 output comes from two distinct
+populations of neurons in the superficial layers. When striate cortex is
+stained to reveal the presence of cytochrome oxidase, a mitochondrial
+enzyme used for cell metabolism, the stain is not uniformly distributed in
+layers II and III. Rather, the cytochrome oxidase staining in cross sections
+of striate cortex appears as a colonnade, a series of pillars at regular intervals,
+running the full thickness of layers II and III and also in layers V
+and VI (Figure 10.19a). When the cortex is sliced tangentially through
+layer III, these pillars appear like the spots of a leopard (Figure 10.19b).
+These pillars of cytochrome oxidase-rich neurons have come to be called
+blobs. The blobs are in rows, each blob centered on an ocular dominance
+stripe in layer IV. Between the blobs are “interblob” regions. The blobs
+receive direct LGN input from the koniocellular layers, as well as parvocellular
+and magnocellular input from layer IVC of striate cortex.
+Beginning in the early 1960s, Hubel and Wiesel were the first to systematically
+explore the physiology of striate cortex with microelectrodes. They
+were students of Stephen Kuffler, who was then at Johns Hopkins University
+and later moved with them to Harvard. They extended Kuffler’s innovative
+methods of receptive field mapping to the central visual pathways.
+After showing that LGN neurons behave much like retinal ganglion cells,
+they turned their attention to striate cortex, initially in cats and later in
+monkeys. (Here we focus on the monkey cortex.) The work that continues
+today on the physiology of striate cortex is built on the solid foundation
+provided by Hubel and Wiesel’s pioneering studies. Their contributions to
+our understanding of the cerebral cortex were recognized with the Nobel
+Prize in 1981.
+By and large, the receptive fields of neurons in layer IVC are similar to the
+magnocellular and parvocellular LGN neurons providing their input. This
+means they are generally small monocular center-surround receptive fields.
+In layer IVC the neurons are insensitive to the wavelength of light,
+whereas in layer IVC the neurons exhibit center-surround color opponency.
+Outside layer IVC, new receptive field characteristics, not observed
+in the retina or LGN, are found. We will explore these in some depth, because
+they provide clues about the role V1 plays in visual processing and
+perception.
+Binocularity. Each neuron in layers IVC and IVC receives afferents
+from a layer of the LGN representing either eye. Monocular neurons from
+either eye are also clumped together in V1 rather than randomly intermixed.
+This accounts for ocular dominance columns that can be visualized
+in layer IVC with autoradiography. As we have already seen, the axons
+leaving layer IVC diverge and innervate more superficial cortical layers. As
+a consequence of the divergence, there is a mixing of inputs from the two
+eyes (see Figure 10.17). Microelectrode recordings confirm this anatomical
+fact; most neurons in layers superficial to IVC are binocular, responding to
+light in either eye. We say that the neurons have binocular receptive
+fields, meaning that they actually have two receptive fields, one in the
+ipsilateral and one in the contralateral eye.
+The construction of binocular receptive fields is essential in binocular
+animals, such as humans. Without binocular neurons, we would probably
+be unable to use the inputs from both eyes to form a single image of the
+world around us. Retinotopy is preserved because the two receptive fields
+of a binocular neuron are precisely placed on the retinas such that they are
+“looking” at the same point in space. We still speak of ocular dominance
+columns in superficial cortical layers. However, now instead of the sharp
+monocular columns of layer IVC, there are patches of neurons that are
+more strongly driven by one eye than the other (i.e., they are dominated
+by one eye), even though they are binocular.
+Orientation Selectivity. Most of the receptive fields in the retina, LGN,
+and layer IVC are circular and give their greatest response to a spot of
+light matched in size to the receptive field center. Outside layer IVC, we
+encounter cells that no longer follow this pattern. While small spots can
+elicit a response from many cortical neurons, it is usually possible to produce
+a much greater response with other stimuli. Rather by accident, Hubel
+and Wiesel found that many neurons in V1 respond best to an elongated
+bar of light moving across their receptive fields. But the orientation of the
+bar is critical. The greatest response is given to a bar with a particular
+orientation; perpendicular bars generally elicit much weaker responses
+(Figure 10.20). Neurons having this type of response are said to exhibit
+orientation selectivity. Most of the V1 neurons outside layer IVC (and some within) are orientation selective. The optimal orientation for a neuron
+can be any angle around the clock.
+If V1 neurons can have any optimal orientation, you might wonder
+whether the orientation selectivity of nearby neurons is related. From the
+earliest work of Hubel and Wiesel, the answer to this question was an emphatic
+yes. As a microelectrode is advanced radially (perpendicular to the
+surface) from one layer to the next, the preferred orientation remains the
+same for all the selective neurons encountered from layer II down through
+layer VI. Hubel and Wiesel called such a radial column of cells an orientation
+column.
+As an electrode passes tangentially (parallel to the surface) through the
+cortex in a single layer, the preferred orientation progressively shifts. We
+now know, from the use of a technique called optical imaging, that there
+is a mosaiclike pattern of optimal orientations in striate cortex (Box 10.2).
+If an electrode is passed at certain angles through this mosaic, the preferred
+orientation rotates like the sweep of the minute hand of a clock, from the
+top of the hour to ten past to twenty past, and so on (Figure 10.21). If the
+electrode is moved at other angles, more sudden shifts in preferred orientation
+occur. Hubel and Wiesel found that a complete 180° shift in preferred
+orientation required a traverse of about 1 mm, on average, within layer III.
+The analysis of stimulus orientation appears to be one of the most important
+functions of striate cortex. Orientation-selective neurons are
+thought to be specialized for the analysis of object shape.
+Direction Selectivity. Many V1 receptive fields exhibit direction selectivity;
+they respond when a bar of light at the optimal orientation moves
+perpendicular to the orientation in one direction but not in the opposite
+direction. Direction-selective cells in V1 are a subset of the cells that are
+orientation selective. Figure 10.22 shows how a direction-selective cell responds
+to a moving stimulus. Notice that the cell responds to an elongated
+stimulus swept across the receptive field, but only in a particular direction
+of movement. Sensitivity to the direction of stimulus motion is a hallmark
+of neurons receiving input from the magnocellular layers of the LGN.
+Direction-selective neurons are thought to be specialized for the analysis of
+object motion.
+Simple and Complex Receptive Fields. Neurons in the LGN have antagonistic
+center-surround receptive fields, and this organization accounts
+for the responses of neurons to visual stimuli. For example, a small spot in
+the center of the receptive field may yield a much stronger response than
+a larger spot also covering the antagonistic surround. What do we know
+about the inputs to V1 neurons that might account for binocularity, orientation
+selectivity, and direction selectivity in their receptive fields? Binocularity
+is easy; we have seen that binocular neurons receive afferents from
+both eyes. The mechanisms underlying orientation and direction selectivity
+have proven more difficult to elucidate.
+Many orientation-selective neurons have a receptive field elongated
+along a particular axis, with an ON-center or OFF-center region flanked on
+one or both sides by an antagonistic surround (Figure 10.23a). This linear
+arrangement of ON and OFF areas is analogous to the concentric antagonistic
+areas seen in retinal and LGN receptive fields. One gets the impression
+that the cortical neurons receive a converging input from three or
+more LGN cells with receptive fields that are aligned along one axis (Figure
+10.23b). Hubel and Wiesel called neurons of this type simple cells.
+The segregation of ON and OFF regions is a defining property of simple
+cells, and it is because of this receptive field structure that they are orientation
+selective.
+Other orientation selective neurons in V1 do not have distinct ON and
+OFF regions and are therefore not considered simple cells. Hubel and Wiesel
+called most of these complex cells, because their receptive fields appeared
+to be more complex than those of simple cells. Complex cells give ON and
+OFF responses to stimuli throughout the receptive field (Figure 10.24).
+Hubel and Wiesel proposed that complex cells are constructed from the
+input of several like-oriented simple cells. However, this remains a matter
+of debate.
+Simple and complex cells are typically binocular and sensitive to stimulus
+orientation. While less is known about the mechanism, many are also
+direction selective. In general, they are relatively insensitive to the wavelength
+of light, although color sensitivity is sometimes observed.
+Blob Receptive Fields. The old adage says, where there’s smoke, there’s
+fire. This idea appropriately describes the connection between structure and
+function in the brain. We have seen repeatedly in the visual system that
+when two nearby structures label differently with some anatomical technique,
+there is good reason to suspect the neurons in the structures are
+functionally different. For example, we have seen how the distinctive layers
+of the LGN segregate different types of input. Similarly, the lamination of
+striate cortex correlates with differences in the receptive fields of the neurons.
+The presence of the distinct cytochrome oxidase blobs outside layer IV of
+striate cortex immediately raises the question of whether the neurons in
+the blobs respond differently from interblob neurons. The answer is clearly
+yes. The neurons in the interblob areas have some or all of the properties
+we discussed above: binocularity, orientation selectivity, and direction selectivity.
+They are both simple cells and complex cells and generally are not
+wavelength sensitive. Most blob cells, on the other hand, are wavelength
+sensitive and monocular, and they lack orientation and direction selectivity.
+The blobs receive input directly from the koniocellular layers of the
+LGN and magnocellular and parvocellular input via layer IVC. The visual
+responses of blob cells most resemble those of the koniocellular and parvocellular
+input.
+The receptive fields of most blob neurons are circular. Some have the
+color-opponent center-surround organization observed in the parvocellular
+and koniocellular layers of the LGN. Other blob cell receptive fields have
+red-green or blue-yellow color opponency in the center of their receptive
+fields, with no surround regions at all. Still other cells have both a coloropponent
+center and a color-opponent surround; they are called doubleopponent
+cells. For present purposes, the most important thing to remember
+about blobs is that they contain the great majority of color-sensitive
+neurons outside layer IVC. Thus, the blob channels appear to be specialized
+for the analysis of object color. Without them, we might be color-blind.
+Most of what we know about the response properties of
+neurons in the visual system, and every other system in
+the brain, has been learned from intracellular and extracellular
+recordings with microelectrodes.These recordings
+give precise information about the activity of one or a few
+cells.However, unless one inserts thousands of electrodes,
+it is not possible to observe patterns of activity across
+large populations of neurons.
+What if we could simultaneously record signals from
+thousands of neurons simply by aiming a camera at the
+brain’s surface? Incredibly, one can observe brain activity
+with this optical recording approach, and the resulting images
+have yielded new insight about the organization of
+the cerebral cortex. In one version of optical recording, a
+voltage-sensitive dye is applied to the surface of the brain.
+The molecules in the dye bind to cell membranes, and
+they change their optical properties in proportion to variations
+in membrane potential.The change is detected with
+either an array of photodetectors or a video camera. If
+this technique is used to record from a single neuron, the
+output of the optical detector is similar to an intracellular
+recording. In recordings from the cerebral cortex, the
+activity of individual neurons cannot be resolved, and the
+optical signal represents a summation of the changes in
+membrane potential of the neurons and glial cells in an
+area about 100 μm across.
+A second way to optically study cortical activity is to
+image intrinsic signals. When neurons are active, numerous
+changes occur in the neurons themselves and in the
+surrounding tissue. Examples of such changes are ion
+movement, neurotransmitter release, and alterations in
+blood volume and oxygenation. Because these factors are
+correlated with the level of neural activity and they have
+(very small) effects on the reflection of light from the
+brain, they are called intrinsic signals for optical recording.
+Thus, when intrinsic signals are used to study brain activity,
+membrane potentials or action potentials are not directly
+measured. To record intrinsic signals, light is projected
+onto the brain, and a video camera records the reflected
+light. With the wavelengths of light usually used for illumination,
+the intrinsic signal is dominated by changes associated
+with activity-dependent increases in blood volume
+or blood oxygen saturation. One disadvantage of this
+technique is that its reliance on slow vascular changes
+makes it incapable of the millisecond temporal resolution
+possible with voltage-sensitive dyes.
+Figure A shows the vasculature in a portion of primary
+visual cortex. Figure B shows ocular dominance columns
+in the same patch of striate cortex obtained by imaging
+areas in which blood flow changes occurred during visual
+stimulation.This figure is actually a subtraction of two images—
+one made when only the right eye was visually
+stimulated, minus another when only the left eye was
+stimulated. Consequently, the dark bands represent cells
+dominated by the left eye, and the light bands represent
+cells dominated by the right eye.
+Figure C is a color-coded representation of preferred
+orientation in the same patch of striate cortex. Four different
+optical images were recorded while bars of light at
+four different orientations were swept across the visual
+field. Each location in the figure is colored according to
+the orientation that produced the greatest response at
+each location on the brain (blue  horizontal; red  45°;
+yellow  vertical; turquoise  135°). Consistent with earlier
+results obtained with electrodes (see Figure 10.21), in
+some regions, the orientation changes progressively along
+a straight line. However, the optical recording technique
+reveals that cortical organization based on orientation is
+much more complex than an idealized pattern of parallel
+“columns.”
+The anatomy and physiology of the central visual pathways, from retina to
+striate cortex, are consistent with the idea that there are several channels
+that process visual input in parallel. Each one appears to be specialized for
+the analysis of different facets of the visual scene. Dr. Margaret Livingstone
+and her colleagues at Harvard University have explored the fascinating
+correspondence between the organization of visual pathways and the receptive
+field properties of neurons (Box 10.3). On the basis of anatomy and
+physiology, we can distinguish a magnocellular pathway, a parvo-interblob
+pathway, and a blob pathway. These pathways are summarized in Figure
+10.25. In addition to this segregation into parallel pathways, there appears
+to be modular processing in V1 based on retinotopy and the organization
+into ocular dominance columns, orientation columns, and blobs.
+Parallel Pathways. The magnocellular pathway begins with M-type
+ganglion cells of the retina. These cells project axons to the magnocellular
+layers of the LGN. These layers project to layer IVC of striate cortex, which
+in turn projects to layer IVB. The pyramidal cells in layer IVB have binocular
+receptive fields of the simple and complex types. They are orientation
+selective, and many are direction selective. They are generally not wavelength
+sensitive. Because this pathway contains neurons with transient responses,
+relatively large receptive fields, and the highest percentage of direction-
+selective neurons, it is thought to be involved in the analysis of
+object motion and the guidance of motor actions.
+The parvo-interblob pathway originates with P-type ganglion cells of the
+retina, which project to the parvocellular layers of the LGN. The parvocellular
+LGN sends axons to layer IVC of striate cortex, which project to layer II
+and III interblob regions. These neurons are not generally direction selective
+or wavelength sensitive. The binocular receptive fields are orientation selective
+and simple or complex. Neurons in this pathway have the smallest orientation-selective receptive fields, suggesting that they are involved in
+the analysis of fine object shape.
+The origin of the blob pathway is more mixed than that of the magnocellular
+and parvo-interblob pathways. Unique input to the blob pathway
+arises from the subset of ganglion cells that are neither M-type cells nor
+P-type cells. These nonM-nonP cells project to the koniocellular layers of the
+LGN. The koniocellular LGN projects directly to the cytochrome oxidase blobs
+in layers II and III. The blobs are a site of convergence of parvocellular, magnocellular,
+and koniocellular inputs. Typical receptive fields in the blobs are
+center-surround and color-opponent. They are often monocular and lack
+orientation selectivity. The uniquely high incidence of wavelength sensitivity
+in the blobs suggests that the neurons are involved in the analysis of object color.
+While parallel pathways are a compelling feature of the visual system, it
+is important to note that they are not “pure.” There is some mixing both
+within V1 and beyond, resulting in the interaction of signals from the magnocellular,
+parvo-interblob, and blob pathways. At present, we do not
+know whether this mixing is useless “contamination” that degrades information
+transmission within pathways or the source of valuable integration
+of different visual attributes.
+Cortical Modules. Each point in the visual world is analyzed by thousands
+of cortical neurons. The retinotopic organization of the projections from
+retina to LGN to the primary visual cortex ensures that all the neurons analyzing
+a point in visual space are within a circumscribed patch of the cortex.
+Hubel and Wiesel showed that the image of a point in space falls within the
+receptive fields of neurons within a 2  2 mm region of layer III. For a
+complete analysis, this 2  2 mm patch of active neurons must include representatives
+from each of the processing channels from right and left eyes.
+Fortunately, a 2  2 mm chunk of cortex would contain two complete
+sets of ocular dominance columns, 16 blobs, and, in the cells between
+blobs, a complete sampling (twice over) of all 180° of possible orientations.
+Thus, Hubel and Wiesel argued that a 2  2 mm chunk of striate cortex is
+both necessary and sufficient to analyze the image of a point in space,
+necessary because its removal would leave a blind spot for this point in the
+visual field and sufficient because it contains all the neural machinery required
+to analyze the participation of this point in oriented and/or colored
+contours viewed through either eye. Such a unit of brain tissue has come
+to be called a cortical module.
+Striate cortex is constructed from perhaps a thousand cortical modules,
+and one is shown in Figure 10.26. We can think of a visual scene being simultaneously processed by these modules, each “looking” at a portion of
+the scene. Just remember that the modules are an idealization. Optical images
+of V1 activity reveal that the regions of striate cortex responding to different
+eyes and orientations are not nearly as regular as the “icecube model”
+in Figure 10 suggests.
+In thinking about what factors led to my favorite discoveries,
+I recall that there always seemed to be a combination
+of luck and having the right question percolating
+around in my mind. David Hubel and I worked out the
+interlacing connectivity between the different subdivisions
+of V1 and V2 because we had been recording from the
+V1 blobs and were very curious about their connectivity.
+The lucky part was that a colleague gave us a very large
+number of squirrel monkeys—otherwise, we would not
+have had enough money to do the study.
+We started looking at the roles of the magno and parvo
+systems in perception after seeing Patrick Cavanagh’s
+astonishing demonstration of the slowing down of motion
+perception at equiluminance (i.e., when the differently
+colored object and background are equally bright). On
+seeing the demo, I immediately said, “That’s because the
+magno system is color-blind.” David Hubel replied,“That’s
+ridiculous; if that were the case, then stereopsis (depth
+perception from binocular vision) should be color-blind.”
+So we looked at some stereograms at equiluminance, and
+sure enough, we couldn’t see stereopsis at equiluminance.
+Each time I thought we had settled the hypothesis that
+magno functions should be diminished at equiluminance,
+David would object, saying that some other visual task
+should be similarly affected. After 2 years of arguing, and
+doing every experiment he could think up, we finally convinced
+ourselves that it was the case, and published a very
+long paper on the parallel processing of form, color, motion,
+and depth.
+We looked at all kinds of visual functions to see which
+ones were diminished at equiluminance, to see whether
+they might be carried selectively by the magno system, and
+one of the things we found that was adversely affected at
+equiluminance was reading.This got me interested in looking
+at dyslexia. People with dyslexia often complain that
+ordinary text seems jittery, just like what non-dyslexics
+experience when reading equiluminant text. I got lucky in
+telling this idea to Al Galaburda because he turned out to
+have an entire collection of dyslexic and control brains,
+and this collaboration led to our developing a theory (still
+disputed) about the etiology of dyslexia.
+Whenever I would give scientific talks about the parallel
+processing of form, color, motion, and depth, I would
+use works of art to illustrate the points about how various
+visual functions would disappear at equiluminance, because
+a lot of op art uses just this principle. I found that people
+in the audience were often more interested in the art
+than the science, so I started putting more art and less
+science in my lectures. I also started collecting the best
+examples I could find of works of art that illustrated
+various points in my lectures. After a while, I had so many
+of them that I started writing an article, thinking I would
+publish it in Scientific American, but I had collected so many
+examples that it turned into a book.
+An editor I was working with on the book told me that
+although it was obvious I knew a lot about art, it was
+equally obvious that I knew nothing about art history, and
+he recommended I read an art history book. So I did, and
+when I got to the Renaissance, the author urged the
+reader to look carefully at the Mona Lisa and observe
+how lifelike she seemed, and how her expression seemed
+to change. I noticed that her expression did change, but
+it changed systematically with my gaze direction. I realized
+this was because her smile was blurry and therefore more
+visible to my low-resolution peripheral vision than to my
+high-acuity central vision.
+From my work on dyslexics, I got interested in the possibility
+that artistic talent might have some biological basis.
+An astonishing number of talented artists, musicians, actors,
+and computer programmers contacted me and told
+me that they were dyslexic. It became clear that some of
+them were so talented that their success couldn’t be simply
+compensation for being bad at reading, and the idea
+that something that might be a disability in one realm of
+life might be an asset in another was forced upon me.
+I began thinking that one small component of artistic
+talent in dyslexics might be poor depth perception, because
+a painter’s job is to flatten the 3-D world onto a
+flat canvas, and I started looking for evidence of poor
+depth perception in artists. Mostly I looked at photographs
+of famous artists, because you can legitimately diagnose
+strabismus, which would result in stereoblindness,
+from photographs. During vacation, I noticed that all four
+of the Rembrandt self-portraits in the Louvre look walleyed.
+I looked at a very large number of Rembrandt selfportraits,
+but I couldn’t see any pattern as to which eye
+deviated outward, which you would expect if Rembrandt
+had had one bad eye. One of my students, Bevil Conway,
+is himself a stereoblind artist, and he pointed out that we
+should look at etchings and paintings separately, because
+etchings are mirror image reversed from the plate. Then
+we saw the pattern!
+So for me, Pasteur’s maxim that luck favors the prepared
+mind has repeatedly been true.
+Striate cortex is called V1, for “visual area one,” because it is the first cortical
+area to receive information from the LGN. Beyond V1 lie another two
+dozen distinct areas of cortex, each of which contains a representation of
+the visual world. The contributions to vision of these extrastriate areas are
+still being vigorously debated. However, the emerging picture is that there
+are two large-scale cortical streams of visual processing, one stretching dorsally
+from striate cortex toward the parietal lobe and the other projecting
+ventrally toward the temporal lobe (Figure 10.27).
+The dorsal stream appears to serve the analysis of visual motion and the
+visual control of action. The ventral stream is thought to be involved in
+the perception of the visual world and the recognition of objects. These
+processing streams have primarily been studied in the macaque monkey
+brain, where recordings from single neurons can be made. However,
+functional magnetic resonance imaging (fMRI) research has begun to
+identify areas in the human brain that have properties analogous to brain
+areas in the macaque (Figure 10.28).
+The dorsal and ventral streams in extrastriate cortex are related to the
+magnocellular, parvo-interblob, and blob pathways in V1. As we will see
+below, the properties of dorsal stream neurons are most similar to magnocellular
+neurons in V1, and ventral stream neurons have properties combining
+features of parvo-interblob and blob cells in V1. It appears to be a
+reasonable approximation to view the dorsal stream as an extension of the
+V1 magnocellular pathway and the ventral stream as an extension of V1
+parvo-interblob and blob pathways. However, each extrastriate stream receives some amount of input from all the pathways that are segregated in the
+primary visual cortex. Thus, the extrastriate streams appear to be dominated by
+input from particular V1 pathways rather than exclusive extensions of them.
+The cortical areas composing the dorsal stream are not arranged in a strict
+serial hierarchy, but there does appear to be a progression of areas in which
+more complex or specialized visual representations develop. Projections
+from V1 extend to areas designated V2 and V3, but we will skip farther
+ahead in the dorsal stream.
+Area MT. In an area known as V5 or MT (because of its location in the
+middle temporal lobe in some monkeys), strong evidence indicates that
+specialized processing of object motion takes place. Area MT receives
+retinotopically organized input from a number of other cortical areas, such
+as V2 and V3, and it also is directly innervated by cells in layer IVB of striate
+cortex. Recall that in layer IVB the cells have relatively large receptive
+fields, transient responses to light, and direction selectivity. Neurons in area
+MT have large receptive fields that respond to stimulus movement in a narrow
+range of directions. Area MT is most notable for the fact that almost
+all the cells are direction-selective, unlike areas earlier in the dorsal stream,
+or anywhere in the ventral stream.
+The neurons in MT also respond to types of motion, such as drifting spots
+of light, that are not good stimuli for cells in other areas—it appears that
+the motion of the objects is more important than their structure. Further
+specialization for motion processing is evident in the organization of MT.
+This cortical area is arranged into direction-of-motion columns analogous
+to the orientation columns in V1. Presumably, the perception of movement
+at any point in space depends on a comparison of the activity across columns
+spanning a full 360º range of preferred directions.
+William Newsome and his colleagues at Stanford University have shown
+that weak electrical stimulation in area MT of the macaque monkey appears to alter the perceived direction in which small dots of light move. For example,
+if electrical stimulation is applied to cells in a direction column preferring
+rightward movement, the monkey makes behavioral decisions suggesting
+that it has perceived motion in that direction. The artificial motion signal
+from electrical stimulation in MT appears to combine with visual motion
+input. The fact that the monkey behaviorally reports a perceived direction
+of motion based on the combination suggests that MT activity plays an
+important role in motion perception.
+Dorsal Areas and Motion Processing. Beyond area MT, in the parietal
+lobe, are areas with additional types of specialized movement sensitivity.
+For example, in an area known as MST, there are cells selective for linear
+motion (as in MT), radial motion (either inward or outward from a central
+point), and circular motion (either clockwise or counterclockwise). We do
+not know how the visual system makes use of neurons with complex
+motion-sensitive properties in MST or of the “simpler” direction-selective
+cells in V1, MT, and other areas. However, three roles have been proposed: Navigation: As we move through our environment, objects stream past
+our eyes, and the direction and speed of objects in our peripheral vision
+provide valuable information that can be used for navigation.
+Directing eye movements: Our ability to sense and analyze motion must also
+be used when we follow objects with our eyes and when we quickly move
+our eyes to objects in our peripheral vision that catch our attention.
+Motion perception: We live in a world filled with motion, and survival
+sometimes depends on our interpretation of moving objects.
+Striking evidence that cortical areas in the vicinity of MT and MST are
+critical for motion perception in humans comes from extremely rare cases
+in which brain lesions selectively disrupt the perception of motion. The
+clearest case was reported in 1983 by Josef Zihl and his colleagues at the
+Max Planck Institute for Psychiatry in Munich, Germany. Zihl studied a
+woman who experienced a stroke at the age of 43, bilaterally damaging
+portions of extrastriate visual cortex known to be particularly responsive to
+motion (Figure 10.29). Although some ill effects of the stroke were evident,
+such as difficulty naming objects, neuropsychological testing showed the
+patient to be generally normal and to have relatively normal vision, except
+for one serious deficit: She appeared to be incapable of visually perceiving
+motion. Before you decide that not seeing motion would be a minor
+impairment, imagine what it would be like to see the world in snapshots.
+Zihl’s patient complained that when she poured coffee into a cup, it appeared
+at one moment to be frozen at the bottom of the cup and then suddenly
+it had filled the cup and covered the table. More ominously, she had
+trouble crossing the street—one moment she would perceive cars to be
+in the distance, and the next moment they would be right next to her.
+Clearly, this seemingly minor loss of motion perception had profound ramifications
+for the woman’s lifestyle. The implication of this case is that motion
+perception may be based on specialized mechanisms located beyond
+striate cortex in the dorsal stream.
+In parallel with the dorsal stream, a progression of areas from V1, V2, and
+V3 running ventrally toward the temporal lobes appears specialized for the
+analysis of visual attributes other than motion.
+Area V4. One of the most-studied areas in the ventral stream is area V4
+(see Figures 10.27 and 10.28). V4 receives input from the blob and interblob
+regions of striate cortex via a relay in V2. Neurons in area V4 have larger
+receptive fields than cells in striate cortex, and many of the cells are both
+orientation selective and color selective. Although there is a good deal of
+ongoing speculation concerning the function of V4, this area appears to be
+important for both shape perception and color perception. If this area is
+damaged in monkeys, perceptual deficits involving both shape and color
+result.
+A rare clinical syndrome in humans known as achromatopsia is characterized
+by a partial or complete loss of color vision despite the presence of
+normal functional cones in the retina. People with this condition describe
+their world as drab, consisting of only shades of gray. Imagine how unappetizing
+a gray banana would be! Because achromatopsia is associated with
+cortical damage in the occipital and temporal lobes, without damage to V1,
+the LGN, or the retina, the syndrome suggests that there is specialized color
+processing in the ventral stream. Consistent with the coexistence of colorsensitive
+and shape-sensitive cells in the ventral stream, achromatopsia is
+usually accompanied by deficits in form perception. Some researchers have
+proposed that V4 is a particularly critical area for color and form perception,
+but whether the lesions associated with achromatopsia correspond to
+a human V4 area is controversial.
+Area IT. Beyond V4 in the ventral stream are cortical areas that contain
+neurons with complicated spatial receptive fields. A major output of V4 is
+an area in the inferior temporal lobe known as area IT. A wide variety of
+colors and abstract shapes have been found to be good stimuli for cells in
+IT. As we will see in Chapter 24, this area appears to be important for both
+visual perception and visual memory. One of the most intriguing findings
+concerning IT is that a small percentage of the neurons responds strongly
+to pictures of faces. These cells may also respond to stimuli other than faces,
+but faces produce a particularly vigorous response, and some faces are more
+effective stimuli than others. This finding in monkeys appears consistent
+with images made using fMRI in humans, which indicate that there is a
+small area in the human brain that is more responsive to faces than to other
+stimuli (Figure 10.30). The finding of face-selective cells has sparked much
+interest, in part because of a syndrome called prosopagnosia—difficulty recognizing
+faces even though vision is otherwise normal. This rare syndrome
+usually results from a stroke and is associated with damage to extrastriate
+visual cortex.
+Could it be that our brains contain a group of cells highly specialized for
+face recognition? The answer is not known. While most scientists agree
+that faces are particularly good stimuli for a small percentage of cells, this
+does not mean that these cells are not involved in processing other types
+of information.
+Visual perception—the task of identifying and assigning meaning to objects
+in space—obviously requires the concerted action of many cortical neurons.
+But which neurons in which cortical areas determine what we perceive?
+How is the simultaneous activity of widely separated cortical neurons integrated,
+and where does this integration take place? Neuroscience research
+is only just beginning to tackle these challenging questions. However, sometimes
+basic observations about receptive fields can give us insight into how
+we perceive (Box 10.4).
+Comparing the receptive field properties of neurons at different points in
+the visual system might provide insight about the basis of perception. The
+receptive fields of photoreceptors are simply small patches on the retina,
+whereas those of retinal ganglion cells have a center-surround structure.
+The ganglion cells are sensitive to variables such as contrast and the wavelength
+of light. In striate cortex, we encounter simple and complex receptive
+fields that have several new properties, including orientation selectivity and
+binocularity. We have seen that in extrastriate cortical areas, cells are selectively
+responsive to more complex shapes, object motion, and even faces.
+It appears that the visual system consists of a hierarchy of areas in which
+receptive fields become increasingly more complex, moving away from V1.
+Perhaps our perception of specific objects is based on the excitation of a
+small number of specialized neurons in some ultimate perceptual area that
+has not yet been identified. Is our recognition of our grandmother based
+on the responses of 5 or 10 cells with receptive field properties so highly
+refined that the cells respond only to one person? The closest approximation
+to this is the face-selective neurons in area IT. However, even these
+fascinating cells do not respond to only one face.
+While it is by no means settled, there are several arguments against the
+idea that perception is based on extremely selective receptive fields such as
+those of “grandmother cells.” First, recordings have been made from most
+parts of the monkey brain, but there is no evidence that a portion of cortex
+has cells tuned to each of the millions of objects that we all recognize.
+Second, such great selectivity appears to be counter to the general principle
+of broad tuning that exists throughout the nervous system. Photoreceptors
+respond to a range of wavelengths, simple cells respond to many
+orientations, cells in MT respond to motion in a range of directions, and
+face cells usually respond to many faces. Moreover, cells that are selective
+for one property—orientation, color, or whatever—are always sensitive to
+other properties. For example, we can focus on the orientation selectivity
+of V1 neurons and the way in which this might relate to the perception of
+form, neglecting the fact that the same cells might selectively respond to
+size, direction of motion, and so on. Finally, it might be too “risky” for the
+nervous system to rely on extreme selectivity. A blow to the head might
+kill all five grandmother cells, and in an instant, we would lose our ability
+to recognize her.
+You have probably seen books or posters showing patterns
+of dots or splotches of color that supposedly contain pictures
+in 3D, if you contort your eyes just the right way.
+But how is it possible to see three dimensions on a twodimensional
+piece of paper? The answer is based on the fact
+that our two eyes always see slightly different images of the
+world because of the distance between them in the head.
+The closer objects are to the head, the greater the difference
+in the two images.You can easily demonstrate this to
+yourself by holding a finger up in front of your eyes and alternately
+viewing it, at different distances, with the left or
+right eye closed.
+Long before anything was known about binocular neurons
+in visual cortex, stereograms were a popular form of
+recreation. Two photographs were taken with lenses separated
+by a distance roughly the same as that of human eyes.
+By looking at the left photograph with the left eye and the
+right photograph with the right eye (by relaxing the eye
+muscles or with a stereoscope), the brain combines the images
+and interprets the different views as cues for distance
+(Figure A).
+In 1960, Bela Julesz, working at the Bell Telephone Laboratories,
+invented random-dot stereograms (Figure B).These
+paired images of random dots are, in principle, the same as
+the nineteenth-century stereograms. The big difference is
+that no image can be seen with normal binocular viewing.
+To see the image in 3D, you must direct your left and right
+eyes to left and right images. The principle in constructing
+the stereo images is to create a background of randomly
+spaced dots, and wherever an area should be closer or farther
+away in the fused image, the dots shown to one eye
+are horizontally shifted relative to those in the other eye.
+Imagine looking at a white index card covered with random
+black dots while you hold it in front of a large piece of white
+paper covered with similar dots. By alternately closing your
+eyes, the dots on the index card will shift horizontally more
+than those on the more distant piece of paper. The pair of
+stereo images captures this difference in viewpoint and
+erases any other indication that there is a square in front,
+such as the edge of the index card. Random-dot stereograms
+shocked many scientists, because in 1960, it was
+commonly thought that depth was perceived only after the
+images in each eye were separately recognized.
+In the 1970s, Christopher Tyler at the Smith-Kettlewell Eye
+Research Institute created autostereograms. An autostereogram
+is a single image that, when properly viewed, gives the
+perception of objects in 3D (Figure C). The colorful, and
+sometimes frustrating, autostereograms you see in books
+are based on an old illusion called the wallpaper effect. If
+you look at wallpaper that contains a repeating pattern, you
+can cross (or diverge) your eyes and view one piece of the
+pattern with one eye and the next cycle of the pattern with
+the other eye. The effect makes the wallpaper appear to
+be closer (or farther away). In an autostereogram, the wallpaper
+effect is combined with random-dot stereograms.To
+see the 3D skull in Figure C, you need to relax your eye
+muscles so that the left eye looks at the left dot on top and
+the right eye the right dot.You will know you are getting close
+when you see three dots at the top of the image. Relax and
+keep looking, and the picture will become visible.
+One of the fascinating things about stereograms is that
+you often must look at them for tens of seconds or even
+minutes, while your eyes become “properly” misaligned and
+your visual cortex “figures out” the correspondence between
+the left and right eye views.We do not know what
+is going on in the brain during this period, but presumably
+it involves the activation of binocular neurons in the visual
+cortex.
+If we do not rely on grandmother cells, how does perception work? One
+alternative hypothesis is formulated around the observation that parallel
+processing is used throughout the visual system (and other brain systems).
+We encountered parallel processing in Chapter 9 when we discussed ON
+and OFF and M and P ganglion cells. In this chapter, we saw three parallel
+channels in V1. Extending away from V1 are dorsal and ventral streams
+of processing, and the different areas in these two streams are biased, or
+specialized, for various stimulus properties. Perhaps the brain uses a “division
+of labor” principle for perception. Within a given cortical area, many broadly
+tuned cells may serve to represent features of objects. At a bigger scale, a
+relatively large group of cortical areas may contribute to perception, some
+dealing more with color or form, others more with motion. In other words,
+perception may be more like the sound produced by an orchestra of visual
+areas than the end product of an assembly line.
+In this chapter, we have outlined the organization of the sensory pathway
+from eye to thalamus to cortex. We saw that vision actually involves the
+perception of numerous different properties of objects—color, form, movement—
+and these properties are processed in parallel by different cells of the
+visual system. This processing of information evidently requires a strict
+segregation of inputs at the thalamus, some limited convergence of information
+in striate cortex, and finally a massive divergence of information as
+it is passed on to higher cortical areas. The distributed nature of the cortical
+processing of visual information is underscored when you consider that
+the output of a million ganglion cells can recruit the activity of well over a
+billion cortical neurons throughout the occipital, parietal, and temporal
+lobes! Somehow, this widespread cortical activity is combined to form a
+single, seamless perception of the visual world.
+Heed the lessons learned from the visual system. As we shall see in later
+chapters, the basic principles of organization in this system—parallel processing,
+topographic mappings of sensory surfaces, synaptic relays in the
+dorsal thalamus, cortical modules, and multiple cortical representations—
+are also features of the sensory systems devoted to hearing and touch.

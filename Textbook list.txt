@@ -1,0 +1,11 @@
+Textbook list
+https://dl.mehrsys.ir/pdf-books/a_Textbook_Neuroanatomy%20(www.myuptodate.com).pdf
+https://brain.mcmaster.ca/BrainBee/Neuroscience.Science.of.the.Brain.pdf
+https://openbooks.lib.msu.edu/introneuroscience1/front-matter/introduction/
+http://web.stanford.edu/~shenoy/GroupPublications/PNS-6thEdition-SectionV-Motor-Chapter39-BMIs.pdf
+https://nba.uth.tmc.edu/neuroscience/m/index.htm
+
+
+This is done till Chapter 2. If more data needed, could add starting from Chapter 3.
+// https://link.springer.com/book/10.1007/978-3-642-10769-6
+

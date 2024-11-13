@@ -1,0 +1,2137 @@
+From time immemorial, the more philosophical among us have
+pondered: “What is the essence of who I am? What is it that has made
+me who I am?” Behavioral biology is the science of trying to figure
+this out, with the guiding assumption that an understanding of who and why
+we are cannot be achieved without considering our biology.
+Now, a human asking these sorts of questions is more complicated, for a
+myriad of reasons, than a wildebeest asking, “Why is it in my essence to
+ovulate during one short period of time each year?” or a migratory bird
+wondering, “Why is it that each year I wish to fly from Tierra del Fuego
+to Alaska?” Tackling the biology of behavior is particularly daunting when
+considering humans and their social behaviors.
+These challenges are even more extreme when considering an aspect of our
+behavior that is often the most interesting and important to study: What is
+the behavioral biology of our abnormal human behaviors? Because of the
+intrinsic intellectual challenge of a subject such as this, and because of its
+implication, when we ask a question about the biology of abnormal human
+behavior, we are often, de facto, asking: Whose fault is it that this has
+occurred; who should be held accountable? Multiple murderer: damaged
+frontal cortex or tainted soul? Spouse unable to get out of bed or go to work:
+victim of the neurochemistry of depression or self-indulgent slacker? Child
+failing at school: learning disabled or lazy?
+This course is an introduction to the biology of human behavior, often of
+abnormal human behavior, with an emphasis on the brain. The purpose of
+the course is twofold: first, to teach the contemporary science of how our
+brains regulate our thoughts, emotions, and feelings—how our brains make
+us the individuals that we are—and second, to teach how our brains are
+regulated—sculpted by evolution, constrained or freed by genes, shaped 
+by early experience, modulated by hormones. In this framework, the view
+is not of the brain as the be-all and end-all of what makes us individuals
+but, rather, the brain as the final common pathway, the conduit by which
+our individuality is shaped by biology that started anywhere from seconds to
+millions of years ago.
+After an introductory lecture presenting this framework, a quarter of the
+course (Modules I and II) will be devoted to the functions of the nervous
+system. These lectures are updated versions of those in the first edition of this
+Teaching Company course and will start at the level of how a single neuron
+functions, building upward until we examine how millions of neurons in a
+particular region of the brain operate. The focus will be on the regions of the
+brain most pertinent to emotion and behavior, rather than, say, to regulation
+of kidney function.
+The middle portion of the course (Modules III, IV, and V) will explore
+how the brain and behavior are regulated. First, we will cover how the
+brain regulates hormones and how hormones influence brain function and
+behavior. Then, we will examine how both the brain and behavior evolved,
+covering contemporary thinking about how natural selection has sculpted
+and optimized behavior and how that optimization is mediated by brain
+function. We will then focus on a bridge between evolution and the brain,
+namely, what genes at the molecular level have to do with brain function and
+how those genes have evolved.
+Hormones, evolution, genes, and behavior, however, do not work in vacuo
+but, instead, are extremely sensitive to environment. The next section
+of the course (Module VI) examines ethology, which is the study of the
+behavior of animals in their natural habitats (rather than, for example, in a
+laboratory cage).
+With these various approaches in hand, the final quarter of the course
+(Module VII) will examine how each approach helps explain an actual set of
+behaviors. Among a number of possible topics, we will focus on aggression,
+both because of the extensive information available and the importance of
+the subject. The facts of this subject are not intrinsically difficult, even for the nonscientist.
+The implications, however, should seem far from simple. Yet this is a subject
+that each of us must master, because all of us are, de facto, behavioral
+biologists. We serve on juries, deciding whom to incarcerate, whom to put to
+death. We vote for elected officials who have stances regarding gun control
+and whether violence is inevitable, who determine whether certain types of
+love between consenting adults should be consecrated by the government
+imprimatur of marriage, who help decide whether a certain social problem
+can be fixed by government expenditures or is biologically irrevocable. And
+many of us will have to be behavioral biologists when confronting loved
+ones whose behaviors have changed them to an unrecognizable extent and
+deciding whether it is “them” or “their disease.”
+The final lecture of this course will consider issues such as these: What
+are the societal and philosophical consequences of knowledge about the
+biology of our behaviors, the biology of what makes us the individuals that
+we are?
+What do we do about the fact that recently scientists have figured out
+a way to change the brain chemistry of a male rodent and turn him
+from being polygamous into monogamous? It’s not clear if this counts
+as an intervention, or if this counts as a therapeutic sort of issue that we
+should be trying in our human males.
+The purpose of this course is to explain the biology of what makes us
+who we are, the biology of our individual differences, the biology of
+our behaviors. This introductory lecture presents the framework of
+the course: that there is a neurobiology of who we are, that it is vital to learn
+about it, and that it can best be understood with the interdisciplinary approach
+of this course. Throughout the subsequent sections, the constant themes will
+be the interactions of the various disciplines in their effects upon the brain
+and how all this helps us to understand individual behavioral differences.
+Biology must be considered as a possible factor in human behavior and
+individuality. Examples of changes of behavior in two adult males illustrate
+this factor. Chuck has always been an extrovert—charismatic, confident, and
+flirtatious. Recently, though, he has been getting more introverted and more
+withdrawn. Arthur, on the other hand, has always been obsessive, rigidly
+ethical, and extremely reliable at work. But recently, he has started to tell
+inappropriate sexual jokes, and he has even taken to stalking women. Could
+such changes of behavior, often explained as a midlife crisis, actually be the
+result of a mutation in a single gene? In these two cases, the answer is yes.
+There is a biology to our sexual choices, the extent and type of our religiosity,
+and everything else about us.
+How do we tend to approach the challenge of understanding our behavior?
+Typically, we think categorically, as with colors, coming up with labels
+and explanations, but categorical thinking has its advantages and its
+limits. (Figure 1a) Categorical thinking helps our memory, but categorical
+boundaries distort our ability to see the differences and similarities between
+two different facts. If you pay too much attention to the boundaries, you
+have trouble seeing the big picture.
+This course’s goal of noncategorical thinking about behavior is critical.
+Little can be explained by merely thinking about genes alone, or brain 
+chemicals, or hormones, or early experience, or any other single factor. Our
+blueprint for the entire course is to start off looking at what a behavior is in
+a particular category and a particular class, then to begin to ask biologically,
+where did that behavior come from? (Figure 1b) We start off by studying
+the brain and the nervous system. Beginning to work back in time, we then
+try to understand further the things that modulate the nervous system, such
+as environmental triggers, hormones, and perinatal and fetal development.
+Then working further back, we look at the genetic attributes of the population
+that an individual comes from. This approach pushes us all the way back to
+examine what the pressures are of natural selection that sculpted that species.
+Isn’t this approach obvious to everyone? Perhaps it is now, but in the nottoo-distant past, many prominent scientists in this field were unable to think
+of the biology of our behavior in such a subtle way and, thus, often became
+damaging ideologues.
+What are the special challenges of thinking about the biology of behavior in
+humans versus behavior in other animals? In some ways, human behave just
+like any other animal, as with the synchronization of female reproductive
+cycles. In other ways, humans have a physiology very similar to that of other
+animals, but they utilize the physiology in unique ways. In still other ways,
+human behavior is utterly unique in the animal world, as with aspects of
+human sexual behavior for nonreproductive purposes.
+The general strategy for this course is to see how behavior can be understood
+in the context of everything from milliseconds of brain activity to millions
+of years of evolution. We start with how the brain works and how the brain
+produces behavior. We first study a single brain cell, a neuron, and then move
+on to understand how one neuron communicates with another. We work our
+way up to large networks of neurons, then to how the nervous system can
+regulate how all of our cells work.
+In the section on neurobiology, we will focus on two themes: first,
+understanding why one individual’s nervous system works differently from
+another’s and, second, understanding how this function can change over
+time (plasticity). The subsequent lectures explore what it is that changes
+how the nervous system works, whether the environment, hormones, early
+experience, fetal life, genetics, or evolution. Finally, we approach a set of
+human behaviors with this set of strategic ideas, focusing on a contentious
+and important area of human behavior: aggression.
+This module, which covers the next three lectures, begins with an
+overview of how a single neuron works. This study will then be
+expanded to see how two neurons communicate with each other
+through the use of neurotransmitters—chemical messengers in the brain.
+Finally, there is an overview of the critical topic of how such intercellular
+communication can change over time, that is, how the brain, at the level of
+pairs of neurons, learns and changes in response to the environment. 
+We want to understand behavior; we want to understand human
+behavior, where it’s coming from; we want to understand the
+biological basis of it and where all of those influences, starting with
+evolution a gazillion years ago are going to funnel eventually into the
+nervous system.
+This lecture covers the basic building blocks of neurobiology,
+beginning with an overview of the neuron, its various parts, and how
+each part functions and communicates with other neurons. The basic
+constituent of the nervous system is the brain cell. (Figure 2a) The main
+brain cell is the neuron. The other type of brain cell is the glial cell, which
+we will discuss later in this lecture.
+All neurons go from left to right, at least in diagrams. On the far left, we
+have the dendrites, the ears of the neuron, which create chemical excitation
+in the neuron. To the right of the dendrite is the cell body, the centerpiece
+of the cell, where energy is produced. A wave of chemical excitation passes
+from the dendritic end through the cell body down a long cable called the
+axon. Axons are very long projections of neurons. The axon hillock is the
+transitional point between the end of the cell body and the start of the axon.
+At the end of the axon is the axon terminal that connects to the dendrites of
+the next neuron.
+Neuronal communication includes both resting potentials and action
+potentials. To be prepared to communicate clearly, neurons must concentrate
+on contrasts during resting potentials. (Figure 2b) In a state of equilibrium,
+neurons create chemical contrasts. Neurons expend a great deal of energy
+redistributing ions during the resting potentials.
+When new information is transmitted by a single dendritic spine, channels
+open and ions begin to move, causing a change in the electrical state of
+the neuron. No single neuronal input triggers an action potential; there is 
+not enough power for
+the flow of electrical
+information to continue.
+Integration at the
+neuronal level occurs
+because of a process
+called summation.
+Temporal summation
+occurs when the same
+input is triggered over
+and over so that it finally
+moves down the axon.
+Spatial summation
+occurs when enough
+different dendritic spines
+are being stimulated at
+once so that information
+moves down the axon.
+A neuron cell body is an
+integrator of the inputs
+of all the different
+neurons around it.
+When there is enough of
+a wave of depolarization
+to reach the axon
+hillock, the axon hillock
+integrates the various
+inputs and decides
+whether or not to act. When the axon hillock is triggered to act, neurons
+are in action potential. Action potential does not decrement over space and
+time; it regenerates and continues passing information through the axon
+terminals to the next neurons. The axon hillock is a critical feature of the
+nervous system.
+11
+Glial cells, which were once thought to be unimportant, can wrap around
+the axon and form a myelin sheath. Myelin sheaths create an insulation
+that increases the speed with which electrical waves move down the axon.
+People are not born with myelin sheaths but develop them after birth. As
+myelin sheaths form, new skills are possible, including comprehension and
+production of language and regulation of behavior.
+Neurons are a complex, integrated network with interesting implications.
+The numbers of dendrites, neurons, and connectors vary from individual to
+individual and can change at different points of the life cycle because of
+environmental stimulation. Axon hillocks can also change over time and
+under different circumstances. These neurological differences and changes
+affect individuality. 
+We are back and ready to resume our quest to understand the nervous
+system and how it produces behavior, and how everything on earth that
+came before that nervous system can regulate its function.
+This lecture moves from how the brain works on the level of a single
+neuron to how information moves across the synapse from one neuron
+to the next. Exploring how electrical signals are changed to chemical
+messages in the brain provides a critical foundation for understanding how
+the brain works, the effects of certain drugs on the brain, and the neurological
+origins of individuality.
+In order for information to move from one neuron to the next, information
+must cross the synapse. (Figure 3a) An electrical signal cannot pass through
+the synapse; thus, a neuron must translate its excitation into a different
+“language.” The release of neurotransmitters translates an electrical signal to
+a chemical signal. Neurotransmitters are packaged in vesicles attached to the
+membrane wall. During action potential, vesicles release neurotransmitters
+into the synapse. The neurotransmitters bind to their receptors.
+The shape of the neurotransmitter and its receptor must be complementary—
+the classic notion of key and lock. The binding of the neurotransmitter to its
+receptor changes the excitability of the next neuron in line. Multiple receptor
+types exist for the same neurotransmitter.
+Upon deactivation, neurotransmitters either are recycled back into the next
+vesicle being formed or they float into the synapse, where they are eventually
+broken down by enzymes.
+There are multiple types of neurotransmitters and not all are excitatory.
+How many types of neurotransmitters exist? A limited number, but we have
+multiple uses of the same messenger. Inhibitory transmitters cause a decrease
+in excitability of the postsynaptic neuron. Not all neurotransmitters are
+equal; there are subtle graduations of the effects among both the excitatory
+and inhibitory transmitters.
+The construction of neurotransmitters is less intimidating than you might
+think. They are constructed from cheap and plentiful precursors—simple
+amino acids that you get in your diet in huge amounts. A small number of
+biosynthetic steps are required in their construction; thus, they are produced
+quickly. Multiple messengers can be squeezed out of a single synthetic
+pathway. Neurotransmitters are also easily recycled.
+What criteria are used to determine what constitutes a neurotransmitter?
+(Figure 3b) It is located in the axon terminal. It is released during the
+action potential. It floats across the synapse and binds with receptors on the
+postsynaptic neuron. Any interference with the neurotransmitter will alter
+the neurochemical events in a predictable manner.
+Changes in the amount of neurotransmitter released can change the strength
+of signaling across a synapse. Changes in the number and sensitivity of
+receptors can change the strength of signaling across a synapse.
+Neuropharmacology manipulates the neurochemistry of the synapse to
+better understand the workings of the neurotransmission process. Research
+with drugs that alter brain function is an important tool for studying normal
+and diseased states. Some drugs so closely resemble a naturally occurring
+neurotransmitter that the receptors are fooled by it. An ingested drug can get
+into the bloodstream, enter the brain, get into a synapse, and very effectively
+bind to the receptor because that drug has a chemical structure almost
+identical to that of an actual neurotransmitter. For example, hallucinogens,
+such as LSD, mescaline, and psilocybin, are able to artificially stimulate the
+serotonin receptor.
+Other drugs block the access of a neurotransmitter to its receptor, halting
+communication across the synapse. Curare can block the acetylcholine
+receptor in the diaphragm, causing breathing to cease. Antipsychotic drugs
+can block the dopamine receptor, lessening symptoms of schizophrenia.
+Some drugs cause the inappropriate release of neurotransmitters.
+Amphetamines and cocaine trigger the premature release of dopamine
+transmitters. Because the release of dopamine makes a person feel pleasure
+in at least one part of the brain, artificially releasing more of it makes such
+drugs as cocaine highly addictive. Drugs that release dopamine can trigger
+schizophrenic behavior, while drugs that block dopamine are used to halt
+schizophrenic behavior.
+Drugs can also alter the breakdown and recycling of neurotransmitters
+or can be used to destroy particular neurotransmitters completely. 
+The neurotransmitter norepinephrine can be destroyed to lower blood
+pressure. Antidepressants, including Prozac, cause amplification in the
+neurotransmitter’s signal by blocking its degradation.
+Another manipulation is to increase the amount of precursors for certain
+neurotransmitters, for example, increasing the L-DOPA level for patients
+with Parkinson’s disease. Manipulation of chemicals always has the risk of
+side effects, primarily because each neurotransmitter has multiple jobs in
+different parts of the brain.
+An example of how neurochemistry influences individuality can be seen
+in the neurotransmitter endogenous benzodiazepine, which is a compound
+similar to the drugs Valium and Librium. Endogenous benzodiazepine
+receptors influence anxiety levels. How much benzodiazepine an individual
+makes, releases, and breaks down will determine his or her anxiety level.
+Tranquilizers, such as Valium and Librium, are used to decrease a person’s
+anxiety level. 
+Now our theme has been at the end of each lecture, twofold: one is looking
+at plasticity, how things change over time, individual differences, and
+when it comes to plasticity in the synapse, how it functions differently
+in response to experience. That’s such an important topic that gets an
+entire lecture today.
+Changing the strength of synaptic communication is the basis for
+learning. The dominant paradigm is that learning is the process of
+making certain pathways work more readily than they did before.
+In earlier times, it was believed that whenever something new was learned,
+a new neuron or a new synapse was formed; this may actually be true. The
+cortex and hippocampus are the main regions of the brain responsible for
+learning and memory. Problems in the
+hippocampus may result in such diseases
+as Alzheimer’s disease. The famous case of
+H.M., who had his hippocampus removed,
+shows the importance of the hippocampus
+to memory.
+Long-term potentiation (LTP), a synaptic
+model for learning, is the process of
+stimulating a dendritic spine in a dense
+cluster of rapid action potentials, resulting
+in that synapse becoming hyperresponsive
+or potentiated. (Figure 4a) After potentiation
+has occurred, the pathway is stronger. Potentiation increases the likelihood
+that a single neuron can cause an action potential. These changes are
+long lasting.
+How does the initial phase of LTP work? LTP is the result of glutamate being
+released into synapses throughout the hippocampus. Glutamate is a simple
+neurotransmitter made from an amino acid. Glutamate is the most excitatory
+neuron with two receptor systems, each of which is differentially excitable.
+The workings of the two receptors explain the “Ah ha!” of learning. With
+repeated stimulation, enough glutamate is dumped into the synapses to open
+the second receptor, which allows a wave of excitatory calcium to pour in,
+causing great potentiation.
+How does LTP become long term? (Figure 4b) As LTP occurs, calcium
+enters the neuron. Calcium triggers an increase in the number of glutamate
+receptors in the relevant dendritic spine. Calcium causes the receptors
+to stay open and activated longer once they are excited. Calcium changes
+how readily the electrical wave spreads once there is some excitation. Once
+calcium rushes in, it causes the synthesis of a neurotransmitter that floats
+back to the presynaptic neuron. These retrograde neurotransmitters increase
+the amount of glutamate being synthesized by the presynaptic neuron.
+Some of these new transmitters are made from gases and, therefore, do not
+need vesicles.
+The vulnerability of glutamatergic pathways to neurological insults is
+relevant to a number of neurological diseases and disorders. If glutamate
+levels get too high (a condition called excitotoxicity), the postsynaptic neuron
+can be excited to death. This condition can occur in stroke, seizure, and
+cardiac arrest. Monosodium glutamate (MSG) and other dietary constituents
+that resemble glutamate may be worth worrying about.
+How do you forget anything? This is an important topic in the field of
+neurobiology, and it is still under study. In some manner, however, forgetting
+is thought to be a reversal of all the steps that we have just covered regarding
+LTP. Several factors influence how readily LTP occurs. Some factors are
+known to enhance LTP. Abundant energy—lots of glucose in your blood that
+translates into neurons with more energy—facilitates LTP. Short-term stress
+(stimulation) causes stress hormones to be released on a short-term basis,
+and these hormones enhance memory. Some factors are known to disrupt
+LTP. Energy depletion makes LTP less likely to occur. When you run out of
+energy, the whole transport of neurotransmitters is disrupted. Chronic stress,
+unlike short-term stress, disturbs many types of memory consolidation and
+memory retrieval. Alcohol in sufficient amounts dramatically disrupts LTP.
+Individual differences in the area of LTP can manifest themselves in a number
+of ways. The amount and functions of neurotransmitters, receptors, and so on
+can vary greatly from person to person. An experiment at Princeton provides
+an interesting view on this subject. Scientists at Princeton developed Doogie
+mice, genetically engineered rodents that had better than average LTP and
+demonstrated better than average learning. Then, the scientists developed
+their less heralded cousins, mice with an impaired capacity for LTP and
+learning. They then raised the impaired mice in an extremely stimulating
+environment, which overcame their deficit. This experiment shows that even
+something as seemingly deterministic as a major genetic defect can still be
+subject to important environmental modulation. 
+Module Scope:
+This portion of the course expands the scale beyond that of cellular
+neurobiology to look at the functioning of networks of neurons.
+Lecture 5 is an introduction to the computational potential of neuronal
+networks. Lecture 6 is an examination of how millions of neurons—entire
+subregions of the brain—function. That lecture will specifically focus on the
+part of the brain called the limbic system, which is vitally concerned with
+emotion. Finally, Lecture 7 examines how the limbic system regulates the
+function of the body by way of the autonomic nervous system. 
+We are now accomplishing this ever-expanding view of how the nervous
+system works.
+The brain consists of networks of neurons. It has far more than patterns
+of single neurons in line, instead, neurons send axons to many other
+neurons, sending
+branches off, even back
+to themselves, forming
+networks. Neurons
+sharpen the detection
+of signals by inhibiting
+themselves and other
+neurons. Neurons
+communicate with
+themselves. (Figure 5a)
+The ability of neurons to
+have projections coming
+off the axon and sending
+projections back onto
+themselves allows them
+to inhibit themselves and
+sharpen their signals over
+time. This communication
+creates individual action
+potentials, followed
+by resting potentials.
+Recurrent collateral
+projections are seen in
+many neurons. Through
+lateral inhibition, neurons
+sharpen their signals over
+space. (Figure 5b) The
+excitation of one neuron leads to the delayed inhibition of other neurons. This
+lateral inhibition helps to enhance the precise localization of information.
+The work of Hubel and Wiesel helped to explain the wiring of neural
+networks. (Figures 5c, 5d, and 5e) By studying how each section of the
+cortex processed visual information, they were able to show that each layer
+of the cortex became increasingly sophisticated. Point-for-point mapping at
+the first layer indicated that these neurons “know” about dots of light. The
+neurons in the second layer of the cortex “know” about straight lines of light.
+The neurons in the third layer of the cortex “know” about moving lines,
+while the neurons in the fourth layer “know” about angles.
+Following this logic, it was believed that one could continue through the
+layers and find more super-specialized neurons that recognize more specific
+information. This finding was not possible because there could not possibly
+be enough neurons for each to contain a single piece of information. It is not
+single neurons that contain information but patterns of neuronal excitation.
+A neural network is a series of neurons that interact among themselves and
+with neurons from other networks. Neurons from different networks can
+overlap and be used
+in different settings.
+Memory retrieval is the
+result of tapping into
+many networks and
+integrating all those
+inputs. Mild neuron
+loss, including that
+associated with earlystage dementia and
+Alzheimer’s disease,
+does not destroy
+memories as much as
+it makes it harder to
+retrieve memory.
+Neural networks
+also influence how
+the human body
+feels and responds to
+pain. (Figure 5f) In
+instances of sharp pain,
+the neurons directly
+affected “turn on” pain,
+and through inhibition,
+the pain is “turned off.”
+In instances of dull
+pain, those neurons
+directly affected
+“turn on” pain; however, the lack of self-inhibition causes the throbbing
+to continue. It is the individual differences that exist in the overlapping
+projections of networks that cause people to know different information and
+to make different connections with that information. That is what creativity
+is about. On a simplistic level, creative people have broader networks than
+most other people, resulting in their ability to make unique associations.
+Increasing the scale beyond that of single neural networks, this lecture
+examines the limbic system—the part of the brain most centrally
+involved in emotion and in generation of emotionally related behavior.
+The brain is not one homogenous mass of undifferentiated neurons.
+Instead, there is structure and organization to it. Clusters of neuronal
+cell bodies, called gray matter, are the nuclei of cell bodies. Cables
+of axons are projections from those cell bodies. They are called white matter
+because they are wrapped in white myelin sheaths. Now, we expand one
+step further to the neuroanatomy
+of the brain. First, we see the
+broad features of the mammalian
+brain. (Figure 6a) Heading down
+from the brain are the spinal
+cord, sensory afferents, and
+motor efferents, all of which
+carry sensory information and
+messages to all parts of the
+body. At the back of the brain
+are the hindbrain and brainstem,
+which control such activities
+as breathing and the beating of
+the heart. Sitting on top of the
+hindbrain and brainstem is the
+limbic system, which deals with
+regulation of emotions. Higher up
+is the cortex, involved in memory,
+learning, judgment, decision
+making, conscious commands to
+muscles, and complex processing
+of sensory information. 
+Species differences
+in neuroanatomical
+organization must
+be noted. The
+limbic system is a
+mammalian specialty;
+only mammals have
+complex emotions.
+The cortex, which
+is involved in social
+intelligence, is a
+primate specialty.
+What is the limbic
+system? (Figure 6b)
+Historically, people
+used to think that the
+limbic system was the
+rhinencephalon, or
+“nose-brain,” because
+it was studied first
+in laboratory rats,
+for which olfaction
+and emotion are
+utterly intertwined.
+The limbic system
+comprises many
+different subareas.
+These subareas send
+projections to one
+another and to other parts of the brain, particularly to the hypothalamus. All
+of the brain nuclei in the limbic system want to influence the hypothalamus.
+Conversely, these nuclei want to inhibit other limbic sites from influencing
+the hypothalamus. The hypothalamus controls all manner of autonomic
+(automatic) functions in your body. Future lectures will address the
+hypothalamus in more detail.
+The best way to determine which limbic structure influences the hypothalamus
+most readily is to count synapse numbers. The fewer synapses it takes to
+get from one limbic structure to the hypothalamus, the more influential that
+structure is over the hypothalamus.
+Components of the limbic system include major structures, as well as major
+connections within the system. (Figures 6c and 6d) Major structures within
+the limbic system include the amygdala, the hippocampus, the septum, the
+cingulate cortex and gyrus, the hypothalamus, the mammillary bodies, the
+thalamic nuclei, and the frontal cortex. Major connections within the limbic
+system include the amygdalofugal pathway (amygdala to hippocampus);
+the fimbria/fornix (hippocampus to septum); the striae terminalis (amygdala
+to hypothalamus); the medial forebrain bundle (the highway between the
+mammillary bodies and the septum, passing through the hypothalamus); and
+the mammillothalamic tract (mammillaries to thalamus).
+How do we know what the limbic system does? Scientists come to understand
+what the limbic system does in the same ways that they discover how any
+brain region works. One way is to experimentally damage the part of the brain
+to be studied in research animals. Accidental wounds to the human brain can 
+provide similar information. Other strategies are to stimulate certain parts
+of the brain or to record the electrical activity of certain clusters of neurons.
+A relatively new method is brain imaging. A more classical approach is
+neuroanatomy: determining which region talks to which. Some pitfalls of
+these approaches include redundancy, compensation, and mistaking the
+function of a nucleus for the function of the fibers passing through it.
+Studying limbic function poses special challenges because this area of the
+brain deals with complex, subtle, interactive emotions; therefore, many
+factors must be kept in mind. What sort of sensory information is relevant
+in a particular species? For example, sexual arousal in one species can be
+about smell and in another, about sight. What does a behavior look like in a
+particular species? For example, maternal behavior in a rat is very different
+from that in a monkey. Who is the individual under study? Do dominant and
+subordinate animals express emotions in the same way?
+Simplified explanations of some functions for limbic structures are helpful
+to further understand the brain and behavior. The amygdala and septum
+have roles in aggression. The hippocampus is important in certain types
+of learning, memory, and stress-responsiveness. Mammillary bodies are
+associated with maternal behavior. The frontal cortex controls inhibition of
+socially inappropriate behaviors and inhibition of perseverative cognitions.
+The medial preoptic region of the hypothalamus is associated with sexual
+behavior. The lateral and ventromedial hypothalamus affect hunger and
+satiation. The suprachiasmatic nucleus of the hypothalamus is involved in
+circadian rhythmicity. 
+Although the heart is able to beat on its own, the brain tells it whether
+to speed up or slow down.
+Let’s start with the basics of the Autonomic Nervous System (ANS).
+The voluntary nervous system controls the rapid regulation of
+skeletal muscles. In contrast, the ANS regulates involuntary function
+throughout the body. The
+ANS has two components.
+The sympathetic nervous
+system (SNS), which
+releases epinephrine and
+norepinephrine (adrenalin
+and noradrenalin), is used
+for emergencies. The
+parasympathetic nervous
+system (PNS) releases
+acetylcholine, which triggers
+a calm, vegetative state.
+The SNS and PNS work in
+choreographed opposition in
+all parts of the body. (Figure
+7a) Although the heart is able
+to beat on its own, the brain
+tells it whether to speed up or
+slow down. The SNS causes
+the heart to beat faster and
+blood pressure to increase,
+all as a strategy to deliver
+energy to exercising muscle.
+The PNS does the opposite,
+slowing down the heart. SNS
+31
+and PNS also interact during digestion. Under normal circumstances, the
+PNS stimulates the digestive tract. During an emergency, the SNS has the
+opposite effects. It shuts down digestion and blood flow to the gastrointestinal
+tract to ensure that energy is not wasted there.
+The SNS and PNS work in a more coordinated fashion when a male
+becomes aroused. In order for the penis of a male to become erect, the PNS
+must be activated and, thus, requires that he be in a calm state. The SNS,
+however, slowly takes over, and when the PNS is turned off, ejaculation
+occurs. Syndromes of erectile dysfunction include stress-induced erectile
+dysfunction, during which stress prevents a man from attaining a state of
+calm and, thus, an erection, and premature ejaculation, during which the
+transition from PNS to SNS occurs more quickly than desired. Both are
+disorders of the choreography between the PNS and SNS.
+The ANS is activated and regulated differently in three layers of the brain.
+(Figure 7b) The first regulation of the ANS is directly influenced by the
+hypothalamus. For example, if a person is injured and his or her blood pressure
+is dropping, a blood pressure sensor sends a message up the spinal cord to
+the hypothalamus, which stimulates the SNS, increasing blood pressure and 
+heart rate. In the second layer, the ANS is regulated by the limbic system.
+For example, the scent or the sight of a threatening rival is detected, causing
+an emotional response and sending a message to the hypothalamus, which in
+turn, activates the ANS.
+In the third layer, we have cortical regulation of the ANS in a way that is
+fairly unique to primates. Cortical projections are sent to the limbic system,
+including the hypothalamus, to activate the ANS. Thought and memory
+serve as stimulants of the ANS. This method of activation gives us insight
+into the cause of clinical depression. On a certain level, depression can be
+thought of as the cortex sending abstractly depressive thoughts into limbic
+and hypothalamic regions, resulting in the affect of depression (as well as
+overactivity of the stress response). A clinically depressed person feels grief,
+exhaustion, and an absence of pleasure, called anhedonia.
+Plasticity in ANS function over time manifests itself in three ways.
+Habituation is the process whereby the same stimulus will not have the same
+effect on the ANS. Sensitization is the process whereby a stimulus that once
+did not have an effect on the ANS now does. Biofeedback is a conscious tool
+for controlling the unconscious workings of the ANS; for example, thinking
+relaxing thoughts can reduce the SNS response. Individual differences in
+ANS function explain why some of us are more vulnerable to depression or
+anxiety disorders than others.
+The lectures on the brain ended with an overview of how the brain (via
+the limbic system) regulates the body by way of the ANS. Starting
+with Lecture 8, this module first examines how the limbic system
+also regulates the body through the release of hormones. Following that is
+a review of the different types of hormones and what sort of effects they
+have. Lecture 9 considers the converse of the brain’s regulation of hormones,
+namely, the hormones’ regulation of the brain. How can hormones change
+the function and even the very structure of the brain? The main point of these
+lectures is to refute the notion that hormones “cause” behaviors to occur
+(for example, the notion that testosterone “causes” aggression) and, instead,
+to explain how hormones interact with the nervous system to change the
+likelihood of behaviors occurring in certain environments.
+I’ve changed my shirt since the last lecture and thus feel wildly
+invigorated, and that’s a great thing because we are talking
+hormones today.
+What is the difference between a neurotransmitter and a hormone?
+Neurotransmitters travel across synapses and influence the next
+neuron in line, while hormones travel in the bloodstream. There
+are three other major differences between neurons and hormones. Hormones
+work more slowly than neurotransmitters. Neurons communicate only with
+neurons; hormones influence
+every cell in the body and can
+be secreted from various parts
+of the body. Hormones have a
+broader effect on cells. The brain
+plays a critical role in regulating
+the endocrine systems.
+The hypothalamus is the center
+of the endocrine world, and
+the limbic system tries to tell
+the hypothalamus what to do.
+(Figure 8a) The earlier view
+was that peripheral glands were
+autonomous and self-regulating.
+This notion then gave way to the
+equally incorrect idea that the
+pituitary was the “master gland.”
+It is understood now that the
+brain is an endocrine gland and
+that the hypothalamus secretes
+an array of hormones, which in
+turn, regulate the pituitary gland.
+35
+The anterior pituitary is a hormonal system that is entirely under the control
+of the brain. The hypothalamus releases hormones to stimulate or inhibit
+the pituitary gland cells. The anterior pituitary, in turn, regulates hormonal
+release from peripheral glands. The posterior pituitary is another hormonal
+system that is entirely under the control of the brain. The posterior pituitary
+can be considered an outpost of the brain. The posterior pituitary releases
+oxytocin and vasopressin, hormones that play roles in birth and lactation.
+The body also has hormonal systems that are under partial control by the
+brain. One example is the pancreas, which produces a number of hormones,
+the most recognized of which is insulin. Insulin secretion is triggered by
+blood glucose, and it is also triggered through the PNS by the expectation
+of food. Hormonal systems in the body that The body also has hormonal
+systems that are independent
+of the brain. In such cases,
+hormones are derived from all
+sorts of unlikely sources, such
+as the heart and the immune
+system. (Figure 8b) When the
+heart senses high blood pressure,
+it releases a hormone, ANF, to
+the kidneys to tell them to make
+more urine, thereby reducing the
+amount of fluid in circulation;
+as a result, blood volume is
+reduced and blood pressure is
+lowered. The immune system
+also has messengers that act
+as hormones. One of them,
+Interleukin 1, triggers white
+blood cells to proliferate and
+mount an immune defense
+against a pathogen that the
+system has detected. Interleukin
+1 can also affect brain function,
+bringing about fatigue or fever
+and making one’s body ache by sensitizing pain pathways, and it can trigger
+a stress response. All these events are ways to make a person decrease
+activity during illness.
+There are two broad classes of hormones. Steroid hormones include
+estrogens, androgens, progestins, glucocorticoids, and mineralocorticoids.
+The other class of hormones is made from amino acids; that is, they are
+protein based. They include insulin, follicle-stimulating hormone (FSH), and
+growth hormone. For both classes, we see
+the themes of cheap and plentiful starting
+material, short synthetic pathways, and
+multiple messengers derived from the same
+precursors. But cheap messengers require
+very fancy and expensive receptors to tell
+apart these structurally similar hormones.
+Hormone receptors are as critical to the
+endocrine system as the hormones they
+receive. Hormones bind to receptors and,
+thereby, activate events in cells. Amino
+acid-derived hormones tend to influence the activity of proteins that already
+exist in the cell (for example, epinephrine mobilizing energy from storage
+sites during an emergency). Steroid hormones tend to alter the synthesis of
+new proteins. The amount of a hormone in the bloodstream is important, but
+so are the amount and function and possible mutation of hormone receptors.
+A great deal of crosstalk exists between different endocrine systems.
+An example of such crosstalk is seen in the effects of stress on female
+reproduction. (Figure 8c) The ovarian axis illustrates the pathway. The
+hypothalamus releases the luteinizing hormone releasing hormone (LHRH).
+The LHRH causes the anterior pituitary to release the luteinizing hormone.
+The ovaries are then triggered to release estrogen, causing the uterine
+wall to mature. If you add any major form of stress, such as starvation or
+psychological trauma, stress hormones will influence every step in that
+pathway. Stress and its effects on hormone release from fat cells show that
+starvation is an antireproductive form of stress. Likewise, excessive amounts
+Hormone receptors
+are as critical to the
+endocrine system as the
+hormones they receive.
+Hormones bind to
+receptors and, thereby,
+activate events in cells.
+37
+of exercise can cause the release of beta-endorphins, which, along with other
+stress hormones, can also have antireproductive effects. Stress-induced
+release of prolactin disrupts uterine maturation.
+What we do in this lecture is one of the things that science often does,
+which is to complete a loop, show a big, old regulatory loop. Now
+looking at not how the brain regulates hormones, but how hormones in
+the circulation get back into the brain and regulate brain function.
+Hormones have effects on cells, including cells in the brain. Both
+neurons and glial cells have hormone receptors. Hormones can
+alter protein function and synthesis in the brain, just as they do
+throughout the rest of the body. Hormones can alter neurotransmitter actions
+in the brain. (Figure 9a) Dopamine is a neurotransmitter of pleasure in the
+brain. Steroid hormones called glucocorticoids are released during stress,
+and these hormones have an effect on dopamine release. During short-term
+stress (stimulation), a transient rise in glucocorticoid levels occurs, resulting
+in increased synaptic release of dopamine. This can produce pleasurable
+effects. LTP is enhanced as well. During
+long-term stress, however, a chronic rise
+in glucocorticoid levels occurs; thus, the
+dopamine neurons are depleted, leading to
+anhedonia, or the inability to feel pleasure.
+Hormones can also alter the plasticity of
+synapses. Glucocorticoid levels affect the
+hippocampus and the amygdala differently.
+A transient rise in glucocorticoid levels
+in the hippocampus brought on by shortterm stress enhances LTP, while sustained glucocorticoid exposure in the
+hippocampus can disrupt LTP. On the other hand, chronic stress enhances
+LTP in the amygdala, thereby enhancing the ability of the amygdala to “file
+away” memories of trauma. This factor might explain free-floating anxiety, in
+which the hippocampus does not recall an explicit traumatic memory, but the
+amygdala recognizes the source of the trauma and activates the sympathetic 
+nervous system. Estrogen is another hormone that enhances LTP in
+the hippocampus.
+Hormones can change the structure of neural networks, causing neurons to
+grow more elaborate dendritic branches or to shrivel up. Chronic stress and
+the resulting chronic glucocorticoid exposure cause atrophy of hippocampal
+neurons, thus inhibiting learning. Chronic stress and the resulting chronic
+glucocorticoid exposure cause expansion of dendritic branches in the
+amygdala, thus increasing anxiety. Higher estrogen levels cause the growth
+of new dendritic branches in hippocampal neurons, thus enhancing learning
+and memory.
+Hormones can also affect the birth and death of neurons. The discovery of
+adult neurogenesis is an exciting new finding in neurobiology. Estrogen
+enhances the birth of new neurons in the adult brain, while glucocorticoids
+inhibit such neurogenesis. Estrogen makes neurons more likely to survive
+a neurological insult, while glucocorticoids do the opposite in response to
+such an insult.
+Hormones can influence how the brain regulates the body and behavior. For
+example, it used to be thought that glucose levels in the bloodstream alone
+controlled our appetites. Now it is known that an array of hormones released
+by the gastrointestinal tract, fat cells, liver, and pancreas regulate appetite.
+A theme that runs through behavioral neuroendocrinology is that hormones
+may “cause” some behaviors, such as aggression, to occur. Instead, however,
+hormones alter a preexisting tendency for the behavior to occur in the
+context of interaction with the environment. This notion will be studied more
+in depth in the lectures on aggression.
+This module is the first of a series that expands the focus of the course,
+examining how the brain is shaped and regulated. It considers the
+evolution of the brain and behavior. First, we review the mechanisms
+of evolution, then we look at how those mechanisms might be relevant
+to the evolution of behavior. In Lecture 11, we then consider a variety of
+initially puzzling examples of social behavior in the light of evolutionary
+principles. Finally, in Lecture 12, we review the evolution of competition
+and how the brain functions under different settings of competition. 
+We all understand the evolutionary biology of how, for example, the
+giraffe evolved its long neck as an adaptive trait. This lecture introduces
+the idea that behavior and the brain that produces behavior have also
+evolved, sculpted toward adaptive features by natural selection. Then,
+the lecture provides an overview of the various ways in which species
+can maximize the number of copies of their genes passed on to the next
+generation through behavioral means.
+The evolutionary biology taught in high school was built around certain
+key points that help to explain such phenomena as how giraffes
+evolved long necks. The first key point is the inheritance of traits
+across generations; that is, traits can be passed on from one generation to the
+next. The second key point is the variability in those heritable traits among
+individuals. In modern genetic molecular terms, mutations in genes can be
+passed from one generation to the next. The third key point is known as
+differential fitness; that is, some versions of those genetic variants are more
+adaptive, more fit, than others. (Figure 10a) Organisms with maladaptive
+mutations do not reproduce; they do not survive, and therefore, they do
+not pass on copies of their genes. Organisms having beneficial mutations,
+however, do reproduce; thus, the new version of a trait becomes more
+plentiful. Intrinsic to this key point is the debunking of a great urban legend
+of evolution, which is survival of the fittest. Instead, the key is reproduction
+of the fittest.
+How did behavior evolve? The notion exists that behavior is sculpted by
+evolution, by the same forces of nature that influenced the length of our necks
+and the functioning of our hearts and kidneys. That notion leads, however,
+to the inflammatory issue of heritability of behavior: the issue of whether a
+certain behavior has a genetic component.
+Building block #1 in considering the evolution of behavior is individual
+selection. The old notion of group selection, that is, the idea that animals
+behave “for the good of the species” and that behaviors are driven by ways
+to increase the likelihood of the species surviving and multiplying, has been
+proven wildly incorrect.
+Instead, by the early 1960s, the concept of individual selection was accepted.
+This idea proposed that evolution is not about animals behaving for the good
+of the species but, rather, behaving to optimize the number of copies of their
+own genes to pass on to the next generation. This idea brought about the
+oversimplified and somewhat erroneous notion of the selfish gene: the idea
+that a gene’s purpose is to maximize one’s own ability to reproduce and to
+pass on copies of one’s own genes. Another way to illustrate this idea is a
+quote from an early evolutionist, Samuel Butler: “A chicken is just an egg’s
+way of making another egg.” A rather grim example of the logic of individual
+selection is competitive infanticide, as seen in a number of species, even
+those as endangered as the gorilla.
+Building block #2 in considering the evolution of behavior is kin selection
+(inclusive fitness). What does it mean to be related to someone? It means
+you share genes with that individual. Kin selection is a way to help your
+relatives reproduce as much as they can—passing on copies of your genes
+by helping relatives. Degrees of relatedness on a genetic level come into
+play here because we are “more related” to some individuals than others.
+For example, full siblings are closer genetically than half siblings; a parent
+is closer genetically to a child than is a grandparent. In short, the more steps
+away relatives are from one another, the fewer genes they share in common.
+One of the implications of kin selection is an obsession with kinship. For
+the most part, data support the logic that we
+are cooperative with relatives as a function of
+how related they are to us; hence the quote
+of evolutionary geneticist J. B. S. Haldane:
+“I will lay down my life for two brothers or
+eight cousins.”
+Some examples of kin selection in the
+animal world include adelphic polyandry,
+food sharing in inbred species, and parentoffspring conflict. Polyandry, in which a
+single female mates with more than one male, occurs fairly rarely in the
+animal kingdom and among humans. However, when it does occur, it is
+often adelphic polyandry, in which the males are brothers. Many studies
+show that the degree of relatedness is an accurate predictor of how much
+one animal shares food with another. Parent-offspring conflict stems from
+the idea that whereas a parent wants to balance the survival of current
+offspring with that of future offspring, those current offspring want more
+care than the parent cares to offer. For example, conflict may occur between
+a mother baboon who wishes to wean her year-old offspring so that she can
+ovulate and possibly produce another, while that young baboon wants to
+continue nursing.
+Building block #3 in considering the evolution of behavior is reciprocal
+altruism. This notion is based on the concept that many hands make the task
+light. Such cooperation ensures the distribution of risk- and food-sharing
+among hunters. Reciprocity is very common in all sorts of social species,
+even among nonrelatives. However, species that exhibit such patterns of
+cooperation must possess certain characteristics. Reciprocity will work only
+in a species with stable social groups. The species involved must live long
+How the nervous
+system regulates the
+body and how the
+body in turn, by way of
+hormones can regulate
+the nervous system.
+45
+enough to benefit from the cooperation. The members of the species must
+have enough social intelligence to recognize other members of their species.
+In games of reciprocal altruism, which we will discuss in Lecture 12,
+individuals will try to cheat whenever they can; thus, another requirement is
+vigilance against cheaters. Potential examples of reciprocal altruism include
+blood-sharing among vampire bats and coalitions among male baboons.
+How can we successfully predict the social structure of an entire
+species (tournament versus pair-bonding) based on just one fact?
+Imprinted genes and intersexual competition also play roles in
+evolutionary biology. (Figure 11b) Mendel theorized that a gene is a gene,
+regardless of which parent you inherited it from. Imprinted genes—genes
+that produce different outcomes in offspring depending on which parent
+they come from—have been discovered to be an exception to the laws of
+Mendelian heredity. For example, during fetal life, some male-derived genes
+push for more fetal growth, while female-derived genes favor the opposite.
+The logic of imprinted genesis is that in polygamous species, males and
+females have different investments
+in any given pregnancy. The male
+would like the female to expend all her
+energy raising his offspring, even at
+the expense of her ability to reproduce
+again. The female, however, wishes
+to balance her investment in her
+current offspring with her investment
+in her future reproductive potential.
+The effects of imprinted genes in the
+brain on behavior after birth provide
+a marked contrast, with male-derived
+genes favoring more feeding and growth and female-derived genes the
+opposite, trying to slow the growth down. Generally, polygamous species
+have large numbers of imprinted genes, whereas monogamous species have
+virtually none. Humans are neither a classic pair-bonding species nor a
+classic tournament species; we are somewhere in between. Therefore, we
+have some imprinted genes.
+Fruit flies and sperm competition also illustrate this intersexual competition.
+Numerous male fruit flies mate with the female; thus, sperm from many
+different males is inside the female fruit fly’s body. The male sperm
+release toxins in an effort to kill its competitors’ sperm. These toxins are
+damaging to the female fruit fly. However, female fruit flies’ bodies have
+evolved so that they now produce detoxifying defenses. Kin-based defense
+systems also illustrate the notion of kin selection. When female vervet
+monkey A attacks female vervet monkey B for “no reason,” the underlying
+cause for the attack can actually be that the child of monkey B had attacked
+the child of monkey A. Patterns of aggression that closely follow the lines of
+kin selection are another way to ensure that the maximum number of copies
+of one’s genes is passed on to the next generation.
+Last lecture was incredibly depressing. All I did was tell you that the
+modern viewpoint of evolutionary biology just selects for competition
+and National Enquirer headlines; that fruit fly poisons lover and nature
+is just bloody and tooth and claw. Where we pick up with today is the
+fact that that’s absolutely not the case.
+One of the three building blocks of evolutionary biology is reciprocal
+altruism or cooperation, which was covered in Lecture 10.
+Cooperation is evolutionarily desirable, improving conditions in
+many settings. The bigger advantage is gained, however, when the other
+individual cooperates while you cheat. However, if you both cheat, the
+outcome can be really bad. Thus, the question
+arises: When do you cooperate and when do you
+cheat? This question is at the heart of a relatively
+new field called game theory, which originated
+in the area of economics.
+Game theory applications to evolutionary
+biology are manifested in a game called the
+Prisoner’s Dilemma. (Figure 12a) Its basic
+design is one of cooperation or defection:
+Successfully cheating is more rewarding
+than mutually cooperating, which is more
+rewarding than no one cooperating, which is
+more rewarding than cooperating with a cheater.
+Economist Robert Axelrod’s famous roundrobin Prisoner’s Dilemma tournament led to the emergence of the tit-for-tat
+strategy: losing the battles but winning the war by being cooperative, clear,
+retributive, and forgiving. The vulnerability of the tit-for-tat strategy lies in
+signal errors, in other words, if communication between two sides is unclear.
+Forgiving tit-for-tat is a derived strategy that comes about when a mistake
+in communication is introduced into the system. After the wrong signal
+is given, a few rounds of cheating ensue, then one player “forgives,” and
+cooperation is reestablished.
+Establishing cooperation in such games as the Prisoner’s Dilemma can prove
+challenging. The problem exists of the disadvantage for the first player to
+make an altruistic gesture; that player will always be one step behind. One
+solution is kin selection in isolated, inbred populations. (Figure 12b) A small
+group that has become separated from a greater group tends to inbreed, with
+members becoming more related to each other; in this way, cooperation
+begins, initially driven mostly by kin selection. When that small group,
+called the founder population, later rejoins the main population, that nucleus
+of cooperators influences the rest of the population to cooperate. Another
+solution lies in repeated interactions with the same player and the shadow
+of the future. In this case, players realize that, although cheating may offer
+a short-term advantage, it is better to cooperate in view of future rounds
+because the tit-for-tat strategy is about losing battles but winning the war.
+Another variable to consider is open-book play and reputation; that is, the
+ability for players to see what another’s strategy has been in other games.
+Still another variable is the interspersing of multiple games, in which the
+level of cooperation in one game can influence the level of cooperation 
+in another, resulting in an equilibrium state of cooperation in both
+games. (Figure 12c)
+Punishment is another great impetus for cooperation. Cooperation emerges
+when punishment is allowed in single-round, closed-book games. Cooperation
+also flourishes when there is the potential for “altruistic punishment.” That
+is, A does something bad to B, and C, as a disinterested outsider, punishes
+A for doing so. Taken one step further, secondary punishment is introduced,
+wherein both cheaters and anyone who knowingly fails to punish a cheater
+are punished. Honor codes at military schools and universities engender
+cooperation through the threat of such secondary punishment. Choice as to
+whom to play with out of a pool of potential partners enables players to select
+for cooperation. Choice as to whether you play or not is another option.
+Other games in the repertoire of game theory include Chicken, the Ultimatum
+Game, and the Battle of the Sexes. Intrinsic to all this behavior in games is
+something obvious to just about anyone: Humans do not always make rational
+economic choices; we are not rational in reciprocal altruistic interactions.
+Studying the evolution of reciprocity has culminated in the development
+of the field of neuroeconomics: imaging the brain during game playing and
+decision making. Some classic findings have come about from this imaging.
+The outcome in a Prisoner’s Dilemma game that is revealed through brain
+imaging to be the most powerful stimulus of the dopamine-releasing pleasure
+pathway is a surprise, to some, at least: cooperation between both players. In
+another scenario, when a choice must be made between a cheap, fast payoff
+and a much greater reward later, the frontal cortex, which plays a central role
+in gratification postponement and resistance of the temptation of a quick,
+small payoff, is shown to be more activated.
+The Runaway Trolley quandary in philosophy is another classic problem.
+You have two choices to save lives on a runaway trolley that is racing down
+a track about to hit and kill five people: Either you can pull a lever that will 
+divert the trolley to another track where it will kill only one person or you
+can push one large person onto the track and that will stop the trolley before it
+hits the five people. With either choice, you will kill one person to save five.
+We tend to make completely different decisions depending on the emotional
+salience of how a problem is presented. In this quandary, most people choose
+to pull the lever. When a person is contemplating pulling the lever, the frontal
+cortex activates. But when the person is contemplating pushing someone off
+the trolley to his death, the limbic system activates. Cortical versus limbic
+activation is identified, depending on the emotionality with which a problem
+is framed. 
+Evolution is about changing frequencies of genes over time, and the
+first two lectures of this module focus on what genes actually are and
+what they do. Key points will be how genes evolve and what genes
+have to do with the brain and behavior. The latter two lectures will focus
+on what initially seems to be a simple question: How can you tell when a
+behavior has a genetic component? As will be seen, this question is vastly
+difficult to answer. The main intellectual thrust of this section will be to
+teach how pointless the nature/nurture debate is when considering genes and
+the brain. 
+The basic theme of the last three lectures has been understanding how
+this or that behavior has “evolved.” “Evolved” really implies changes
+in genes over time. And what do genes have to do with behavior?
+In studying what genes actually do, we must begin with the function and
+structure of proteins. (Figure 13a) Things we have encountered so far in
+the course that are made of protein include receptors for hormones and
+neurotransmitters, many neurotransmitters and hormones themselves, and
+the enzymes that make them and break them down.
+Proteins are made of a 20-letter alphabet of amino acids. Each of the 20
+different amino acids has a different shape. When you string the amino
+acids together to form a protein, each protein has its own unique shape. The
+shape of a protein determines its function. Just think of the protein key (of a 
+hormone, for example) fitting into a protein lock (its receptor). Genes specify
+the amino acid sequence that determines the function of a protein.
+In the next step in studying what genes actually do, we must look at how
+the synthesis of proteins is directed. (Figure 13b) DNA is composed of long
+strings of a four-letter alphabet of molecules. A combination of three of
+those DNA letters in a row codes for one of the amino acids. A string of
+those three-letter DNA codes in a row instructs the string of amino acids
+that are stuck together to form a particular protein. There are unique threeletter DNA codes that indicate the beginning and end of the DNA stretch that
+codes for a specific protein. The stretch of DNA that makes up the complete
+code for a single type of protein is called a gene. The human genome (the
+totality of DNA codes) contains about 30,000 genes. This 30,000-gene-long
+book of DNA can get cumbersome; for this reason, it is broken into separate
+volumes, called chromosomes.
+Finally, in studying what genes actually do, we come to the intervening step
+of RNA. A single copy of each book of DNA exists in each cell, stored in
+the nucleus. However, protein synthesis occurs in every far-flung corner of a
+cell. For convenience, when a gene is activated to direct the construction of
+57
+its cognate protein, an RNA “photocopy” of that gene is made and shipped to
+the part of the cell where that protein is needed.
+How do genes evolve? When a cell divides, a copy of all the DNA is made
+for the new cell. A mutation is an error in that copying, and when such an
+error occurs in an egg or sperm, it can be inherited. Deletion and insertion
+mutations are typically disasters,
+producing a nonfunctional
+protein. Point mutations can
+produce subtle changes in
+protein shape and, thus, protein
+function. This is the grist of
+evolution. A receptor for some
+neurotransmitter becomes a little
+bit more or less responsive to the
+messenger than it used to be. An
+enzyme that synthesizes some
+hormone is a little more or less
+active than it used to be. And as we saw back in Lecture 3, one’s level of
+anxiety can be influenced by how well one’s benzodiazepine receptors work.
+From there, we can go back to Darwin and ask if a genetic change makes the
+organism more or less likely to reproduce.
+I assume you spent the break looking for your receipt to get reimbursed
+for this course; after all, the last lecture was nothing but shameless lies
+to you. What we need to do is see what is actually going on.
+What do we know at this point? Continuous stretches of genes
+contain coding for different proteins. Mutations within genes
+change the function of the protein they produce. Genes, however,
+are not continuous in DNA. (Figures 14a, 14b, and 14c) Introns are
+intervening sequences of DNA that break up genes into parts called exons.
+We can temporarily consider the intervening DNA, which accounts for
+95 percent of all DNA, to be “junk.” A whole protein is made out of this
+fragmented DNA code with splicing enzymes, that is, enzymes that cut out
+the intervening sequences and pull the protein together.
+Now we can explore the potential for macroevolutionary change. (Figure
+14d) Previously, we saw evolution producing changes in function of 
+preexisting genes. Now, we come to evolution producing entirely new genes.
+If there is a mutation in a gene coding for a splicing enzyme, the result may
+be the generation of two different proteins, two different messengers from
+the same precursor. Another route for macro-evolutionary change can be
+found in transposable genetic elements. The heresy and ultimate triumph
+of Barbara McClintock’s theory of “jumping genes” is an epic story. What
+sorts of species have lots of transposable genetic events? Species that can’t
+run away from stressors, such as plants. Parasites that are trying to evade
+an immune system. Immune systems that are trying to get those parasites.
+The consequence of a transposable genetic event in an egg or sperm is the
+potential for the inheritance of an entirely new gene.
+One last major complexity entails promoters and transcription factors that are
+the instructions for when genes are activated, when gene transcription should
+begin, and when the gene should start making an RNA copy and splicing.
+(Figure 14e) Now we need to revisit that noncoding (intronic) DNA that we
+temporarily called “junk.” Instead of being junk, that noncoding DNA often
+decides when a gene is turned on or off. Regulation of gene transcription
+requires promoters and transcription factors. Promoters are the switches that
+turn gene transcription on and off. Transcription factors are proteins that
+throw those switches.
+What regulates transcription factors? (Figure 14f) The world within the
+cell but outside the nucleus can determine when a gene is turned on. The
+world within the organism but outside the cell can activate a gene. The
+outside environment can trigger internal reactions that turn a gene on. The
+introduction of “if-then” clauses adds another dimension into gene regulation.
+Hypothetically, if you start with an established if-then clause (If it is the dry
+season, then retain water.) and add one mutational event, you have a new
+genetic if-then clause (If it is the dry season, then ovulate.). Punctuated
+equilibrium is a theory that evolution actually involves long periods of stasis
+interspersed with periods of relatively rapid and dramatic changes.
+We must place genes in the context of environment. Genes no more give
+commands than do telephone books. You cannot understand genes without
+understanding their regulation by the environment, which makes “gene
+versus environment” or “nature versus nurture” debates meaningless. We also
+have to consider macroevolutionary changes in gene regulation. What if you
+have a mutation in a promoter sequence? What if you have a transposable
+event in a promoter sequence? Evolution works faster on introns than on
+exons. Therefore, evolution is more about changes in the regulation of genes
+by the environment than about changes in genes themselves and the proteins 
+hey code for. A final point is that there are more genes whose expression is
+unique to the brain than to any other part of the body. 
+First, let’s look at behavior genetics as a discipline. In Lectures 10–
+12, we saw how an evolutionary biologist infers that something
+is “genetic.” In Lectures 13 and 14, we learned how a molecular
+biologist infers that something is “genetic.” In this lecture, we will see that a
+behavior geneticist infers that something is “genetic” by comparing patterns
+of shared behaviors and shared genes in a population. For starters, let’s look
+at everything we have learned so far
+and determine what it does not mean
+to say that a behavior is “genetic”:
+Genes are not deterministic; they do
+not inevitably cause some behavior;
+and they are not impervious to
+environment. Instead, genes can only
+support propensities or tendencies to
+a particular behavior.
+An initial simplistic approach is to
+say that genes run in families; thus, if
+a behavior runs in a family, it must be genetic. The flaw in that approach
+is that environment runs in families as well. A slightly less simplistic
+approach theorizes that close relatives share more genes in common than
+distant relatives; thus, if a behavior is shared more among close than distant
+relatives, it must be genetic. One example of this approach, which we will
+examine more deeply later in this lecture, is the covariance of relatedness
+and the incidence of depression. The flaw here, however, is that environment
+is shared more among close relatives than distant ones.
+One sophisticated contemporary
+approach states: “If two
+individuals raised in an identical
+environment but with different
+genes differ in a behavior,
+then that behavioral difference
+can’t be due to environment.”
+(Figure 15a) This brings us to
+the gold mine of comparing
+identical and fraternal twins.
+The general approach is to
+study identical twins raised
+in the same household and
+fraternal twins raised in the
+same household. If the study
+of fraternal twins reveals
+differences, the assumption
+is that those differences must
+reflect genetics, given the shared
+environment. An example of
+findings with this approach is
+the study of the heritability of
+obsessive-compulsive disorder.
+One problem with the twin
+approach is that environment is not identical, particularly for fraternal twins
+and especially if fraternal twins are of different genders.
+A study of the influence of gender and math skills underscores the potential
+importance of environmental factors. A small difference in average
+performance and a big difference in the extremes of math achievement
+between boys and girls were discovered. Differences were demonstrable
+among early adolescents, at a level when all students took the same classes.
+Hence, we have the claim by the authors of the study that the educational
+environment was identical. But were the students’ educational environments
+identical? Not when boys are praised by teachers in that environment more
+than girls and girls underestimate their math abilities even when those
+abilities show the same level of performance as that of boys. Another study
+looked at the differences in activity in newborns as a function of gender and
+ethnicity, but environmental differences can be shown to exist even within
+minutes of birth.
+Another contemporary approach states, “If two individuals share many
+genes but live in different environments and if they share a behavior, then
+that behavior must be genetic.” This leads to the classic adoption approach,
+an example of which is the Kety studies and the genetic contribution to
+schizophrenia. (Figure 15b) There are problems with this approach as well.
+Are environments really different? No, not with nonrandom placement by
+adoption agencies trying to place children with parents of the same race
+and ethnicity and other factors. Another flaw with this approach is the
+reality that an adopted child shared a great deal with its mother in the fetal
+environment.
+Another contemporary approach states, “If two individuals with identical
+genes but raised in different environments share a behavior, then that
+behavior must be genetic.” Identical twins separated at birth are the holy
+grail of behavior genetics. The sorts of findings involving such individuals 
+include the extent of heritability for IQ, introversion/extroversion, and degree
+of aggression. There are some drawbacks with this approach as well because
+environment and genetics are so closely intertwined.
+Another contemporary approach states, “If a behavior is demonstrable
+before there are any relevant environmental influences, then it must
+be genetic.” Some animal examples support that approach. Rhesus
+monkeys raised in isolation express subordinate gestures when confronted
+with a threatening rhesus face. Rodents raised in a lab have an aversion to
+cat smell. Some human examples support that approach as well. Babies who
+are blind smile at the same age socially as infants who can see. Likewise,
+congenitally deaf babies begin babbling at the same time as hearing babies.
+The major problem with this approach is that environment does not begin
+at birth. A fetus shares an intimate circulatory environment with its mother
+and her environment. What outside influences reach a fetus? Hormones:
+Whatever hormonal events are going on in the mother’s body can influence
+the offspring. Nutrients: Glucose and other nutrients are delivered to the
+baby through the mother’s bloodstream. Sounds: After developing a working
+auditory system, a fetus can hear sounds.
+The endocrine environment for a fetus is affected in many ways. Hormones
+can reach the fetal circulation transplacentally. Mechanisms at the placental
+boundary prevent some hormones from reaching the fetus, but many get
+through. Because a rodent fetus is getting bathed in the hormones of its
+closest sibling, hormonal events may depend on whether the sibling next to
+it in the uterus is the same sex. If female rodents are exposed to a lot of male
+sex hormones during development, they will start ovulating at a later age than
+the average female, and they will become infertile at an earlier age. Likewise,
+they will show more characteristics of rough-and-tumble play as rat pups.
+The amount of stress hormones a mother secretes during pregnancy can
+affect a fetus’s development as well. In rodents, long-lasting effects can be
+seen in brain development, cognition, and emotion. Stress during pregnancy
+can also lead to
+the “nongenetic”
+inheritance of traits
+across generations.
+Prenatal maternal
+stress during the
+third trimester has
+been found to lead
+to smaller head
+circumference in
+human babies.
+The nutritional environment for a fetus is equally important. Food availability
+in the outside world gets translated into nutrient levels in the fetal circulation.
+An astonishing example is metabolic programming and the Dutch Hunger
+Winter of 1944−1945. Prenatal malnutrition led to development of the thrifty
+metabolism in fetuses. Later in life, individuals who developed such thrifty
+metabolisms were found to develop long-term disease consequences, such as
+increased risk of hypertension, obesity, adult-onset diabetes, and metabolic
+syndrome. The multigenerational consequences of such deprivation have
+also been identified, including subtle malnutrition of fetuses born of women
+who developed the thrifty metabolism.
+A third area of interest is the auditory environment for a fetus. The body is
+a great resonating chamber; thus, when a mother reads to her unborn baby,
+her voice resonates internally, and the fetus senses the rhythm and meter of
+the sound of books being read. Studies of prenatal learning show that babies
+recognize the difference between new books and books read to them by their
+mothers during the last trimester of their development. Studies of fathers’ or
+other outsiders’ readings do not show the same results.
+The implications of prenatal environmental effects are extraordinary. Traits
+can be inherited multigenerationally and have nothing to do with genetics.
+Some final critical points still must be covered: What does it mean when
+a behavior in a plant or animal is found to be, say, 60 percent “heritable”?
+69
+(Figures 16a and
+16b) Everyone thinks
+this term means that
+some gene(s) is 60
+percent responsible
+for controlling some
+behavior. What
+heritability actually
+means is the degree to
+which genes account
+for the variance of
+some trait, not the
+average amounts of some trait. You cannot determine what percentage of
+a behavior is under the control of genetics. Gene-environment interactions
+must be considered, not just genes or environment. An amazing example:
+A certain type of serotonin transporter gene increases your risk of clinical
+depression if and only if you are raised in a stressful environment.
+The lectures in this module focus on how insights about the human
+brain and behavior can be derived from the study of animals in their
+natural habitat. This approach, termed ethology, developed as a
+counter to behaviorist psychology, which basically had the view that a rat
+equals a pigeon equals a monkey equals a human and that rules of behavior
+are universal, transcending particular species. Ethology counters this view,
+and the purpose of these lectures will be to examine the neurobiology of
+human behavior in the context of our being only one of many social species. 
+A huge percentage of what we know about the brain bases of behavior
+comes from the study of laboratory animals. The field of ethology
+was founded on the utterly correct idea that an animal in captivity
+rarely behaves normally. The rationale for studying ethology is that if you
+really want to understand an animal’s behavior, you have to study it in the
+context of that animal’s natural setting. Back to the limbic system: How do
+you understand how a brain region influences a particular behavior if you
+do not understand the behavior? And how normal is an animal’s behavior in
+a cage? Thus developed the field of ethology: the study of animals in their
+natural setting.
+The historical context of ethology is interesting because it developed as a
+counterbalance to behaviorism. In the mid-20th century, psychology in
+America was dominated by behaviorism. B. F. Skinner, the most famous
+adherent to behaviorism, believed, “Pigeon, rat, monkey, boy. It doesn’t
+matter.” He believed that all behavior could be shaped by reward and
+punishment. Meanwhile, out in the marshes and woods of Europe, ethology
+was being founded. One of the founders, Niko Tinbergen, summed up his
+philosophy in this sentence: “An experiment should be like a conversation
+with an animal…but in the animal’s own language.” Tinbergen, Karl von
+Frisch, and Konrad Lorenz won a Nobel Prize for founding ethology. They
+believed that the behavior of any given species is a unique set of solutions to
+a unique history of environmental challenges.
+We need to look at the approach of ethology. The first question Tinbergen,
+von Frisch, and Lorenz asked was always: “What’s the behavior?” They 
+looked for the fixed action patterns (FAPs) and strived to objectively
+describe the behavior. The second question they asked was: “What is the
+behavior good for?” They studied the adaptive value of the behavior. The
+third question they asked was: “What triggers this behavior? What were the
+releasing stimuli for the FAP? Finally, they asked: “How is the behavior
+mediated physiologically?” What were the innate releasing mechanisms that
+led to the behavior? They also looked at what role learning plays in behavior,
+including imprinting and prepared learning, which will be covered in
+Lecture 18.
+FAPs merit more detailed study. Is talking about FAPs just a fancy way of
+talking about “instincts”? Ethologists tried to tame the notions of instincts
+for aggression or maternal behavior or xenophobia
+and break them down into FAPs—more manageable
+packages for narrow, explicit behaviors. Ethologists
+observed that FAPs are expressed in the absence
+of learning and experience but are subsequently
+shaped by experience.
+We have several examples of FAPs. Baby squirrels
+know how to crack nuts the first time they see one.
+They do not need to learn by trial and error or by
+mimicking an adult squirrel. However, the more
+they do it, the better and faster they get. As we have
+seen, isolation-reared vervet monkeys recognize
+and react appropriately to a threatening vervet
+monkey face. With more social experience, the
+isolation-reared monkey learns more appropriate behavior. Vervet monkeys
+also have two different alarm calls, one signaling others to get up a tree
+because a snake is approaching and one signaling others to get down because
+a raptor bird is coming. The proof that adult vervets understand the principles
+of ethology comes in discovering that adults ignore these vocalizations when
+they are emitted by young monkeys because the young are likely to give
+incorrect signals; they do not react until an adult vervet confirms the alarm
+call. Human infants smile even in utero, but we learn to smile in appropriate
+Baby squirrels
+know how to
+crack nuts the
+first time they see
+one. They do not
+need to learn by
+trial and error or
+by mimicking an
+adult squirrel.
+73
+contexts. Perfect pitch in humans has a significant genetic component, but it
+also requires a musical environment early in life for it to develop.
+The adaptive value of FAPs is also worth examining more closely. The
+ethologists’ view of the adaptive value of FAPs differs from the justso stories of many evolutionary biologists. Some examples of adaptive
+behavior prove the point. Tinbergen discovered that gulls turn the eggshells
+of their chicks to show the outer speckled side after the chick has hatched
+to protect the chicks from predators. This works, because the pure white
+inner-shell fragments more readily attract the attention of a predator. Von
+Frisch studied bee dances, which bees use to communicate to other bees the
+location of a food source. Sick lizards give themselves a fever, aiding their
+immune systems.
+We start with the basic questions of ethology and its intersection
+with neurobiology. After studying FAPs and adaptive value,
+ethologists look at releasing stimuli. This intersection of sensory
+systems and the limbic system explains why scientists used to call the limbic
+system the “nose brain” (rhinencephalon). The experimental approach
+includes substitution, replication, and superstimulation. Examples of releasing
+stimuli reveal that there are all different types of sensory communication
+and that they differ dramatically from species
+to species.A male deer attracts a mate by
+vocalizing; an electric fish, in contrast, courts
+through emitting electric “songs.” Turkey
+mating requires visual stimuli. Olfaction and
+mating among rodents involves pheromones.
+Through pheromonal information alone, these
+animals can tell what the gender of another
+rodent is, what that individual’s health status
+is, whether it is stressed or scared, and whether
+it is ovulating or has testes.
+What releasing stimulus makes an infant
+monkey become attached to its mother? The
+brilliant, disturbing studies of Harry Harlow showed that, when given a choice
+between an artificial mother that was made of chicken wire and gave milk
+and a similar chicken-wire mother who gave no milk but was covered with
+soft felt, the baby monkeys chose the felt-covered mothers. This experiment
+marked the defeat of simplistic behaviorism. Threatening faces and activation
+of the amygdala in humans serve as another example. Is the face of someone
+of another race a releasing stimulus for amygdala activation? It depends on
+the setting and context. Experiments have shown that if a viewer is forced to
+think of the person of another race as an individual (through a subtly worded
+question, for example), the amygdala does not activate when that person’s
+picture is viewed.
+Ethologists also study innate releasing mechanisms. This used to be an area
+where ethologists just speculated. The blending of the techniques of ethology
+and of neurobiology has led to some striking discoveries. Scientists now
+understand the neurobiology of seasonal bird song dialects. The circuitry
+diagram of the lordosis reflex has been charted with a neuroethological
+map. Trauma produces a hyperreactive amygdala, and scientists are close to
+constructing a circuitry map for posttraumatic stress disorder.
+Learning is an area that ethologists have studied as well. To a behaviorist,
+learning is related to the world of punishment and rewards. One depressing
+example that runs counter to the behaviorist view, while supporting that of
+ethology, concerns cases of abuse: Why do some of us love individuals who
+treat us poorly? What learning means to an ethologist is different from what
+learning is to behaviorists. Traditional learning: Ethologists have found
+that traditional learning occurs in unlikely places. For example, they have
+found that primate maternal competence is not an instinct; it is learned over
+time. Imprinting: In working with ducklings, Lorenz studied imprinting and
+saw how baby ducks learned to identify their mother. Prepared learning:
+Ethologists found that certain behaviors are learned more easily than others.
+Naïve birds exposed to songs from their own species and those of a related
+species are more likely to learn songs of their own species. Monkeys are
+predisposed to be terrified of snakes. The sauce béarnaise syndrome shows
+that humans who are nauseated associate their sickness with tastes more
+readily than with sounds. Babies can learn the phonemes of any language
+but are better at recognizing language than nonlanguage sounds.
+The place of ethology is critically important. Studying behavior in its natural
+setting is truly helpful. We cannot understand the brain and how it works
+without understanding the special evolutionary and ecological settings, the 
+solutions, and the language of behavior that each species has developed.But
+what is the natural setting of a human? 
+The previous modules have examined how the brain produces individual
+differences in behavior and how such brain function is regulated.
+With this interdisciplinary approach in hand, this final module applies
+this framework to an actual example of behavior. To do so, we will focus
+on the neurobiology of aggression. This subject has been chosen for two
+reasons. First, an enormous amount is known about the subject (far more
+than, say, parental behavior, attachment, or language use), and the subject is
+particularly amenable to an integration of the various approaches introduced
+in this course. Second, there are few subjects more important for people to
+understand—a dire threat to our future is the human capacity for violence.
+The structure of these lectures will be to first present an extensive overview
+of the neurobiology of aggression, including the relevant parts of the brain
+and the neurotransmitters involved. Following that, we will examine how
+that neurobiology has been influenced by the other factors in the course,
+beginning with the hormones that may have altered the functioning of
+neurons one second before the aggressive act occurred, through the other
+factors, and ending with the evolution of aggression.
+What have we accomplished so far? We have studied the biological
+components of behavior from a single neuron to neuronal
+networks to the many parts of the brain, and we have studied
+other disciplines that help us better understand human behavior. We have
+emphasized, throughout the course, the importance of the interaction and
+interdependency of these disciplines. Next, we move to an attempt at further
+integration in studying the neurobiology of aggression.
+What do we mean by aggression? If we look at human aggression in the
+context of other animals, we need to ask if we are the only species that: Kills?
+Kills infants? Has organized group violence?
+The answer to all of these questions is no.
+Animal reins on aggression include hierarchies
+(including bottom-up ones) and reconciliation.
+We do see some human specialties when it
+comes to aggression. We can communicate
+aggression with abstraction over space and
+time. Some people display sexual aggression.
+We have created a technology of aggression,
+going beyond muscle and teeth to intentional invention of tools of destruction.
+We have developed organized aggression above the level of a local band. We
+exhibit passive aggression. This is a difficult subject because we all know the
+pleasures of a well-timed act of aggression.
+We continue by implicating the limbic system in aggression. The KluverBucy syndrome was an experimental technique that was done on laboratory 
+animals in the 1930s, whereby a region of the limbic system was removed.
+Such animals displayed abnormal sexual behavior and odd levels of
+aggression. The amygdala is highly relevant and highly implicated in studying
+aggression. Some of the experimental techniques that have implicated
+the amygdala include creation of brain lesions, stimulation, recording,
+and functional brain imaging. Another implication of the amygdala in 
+aggression is the study of Charles Whitman, a mass murderer in the 1960s.
+When he was autopsied after he killed himself, he was found to have an
+amygdaloid tumor.
+What are the inputs to and outputs from the amgydala? (Figure 19a) Inputs
+include stress hormones, pain, and filtered and unfiltered sensory information.
+Outputs include projections to the brain regions that regulate the sympathetic
+nervous system, stress hormone release, and motoric output. Is the amygdala
+about aggression or about fear and anxiety? (Figure 19b) Fear conditioning
+and the amygdala show that you can learn fearful responses. Stress can lead
+to amygdaloid expansion and posttraumatic stress disorder. As we saw in
+Lecture 18, amygdaloid activation when we see a person of another race is
+not a hard-wired fear but can be conditioned. exual arousal and amygdaloid
+activation in males may provide a link to sexual violence.
+Other brain structures are relevant in our study of aggression. The septum
+puts the metaphorical brake on aggression, working in opposition to the
+amygdala. The lateral hypothalamus was thought for decades to be tied to
+aggression. More recently, however, this part of the brain has been found to
+be related to feeding (including predatory hunting) rather than to aggression.
+Hindbrain and brainstem structures become metabolically active and cause
+arousal during both extremely violent states and greatly euphoric states,
+hence the famous quote from Nobel Laureate Elie Weisel: “The opposite of
+love is not hate. The opposite of love is indifference.” 
+The critical role of the frontal cortex is to get you to do the harder
+thing. (Figure 20a) First, we look at doing the harder thing in the
+cognitive realm. Executive function helps you strategize what to
+do with facts. It is your working memory. Reversal tasks, such as reciting
+months and numbers backwards, reveal how difficult it is to overcome
+ingrained patterns. Neurons of the frontal cortex activate in response to rules
+rather than in response to specific examples.
+Next, we look at doing the harder thing in the realm of emotional regulation
+and emotional disinhibition. Phineas Gage, a railroad worker in the 1840s,
+suffered a frontal cortical lesion in a serious accident. Overnight, he changed
+from a sober man to a profane, aggressive, socially inappropriate man who
+could never work again. The loss of his frontal cortex meant he lost his
+emotional regulation; he had no means to do the “harder thing.” Frontotemporal
+dementia and
+stroke damage
+to the frontal
+cortex may cause
+inappropriate,
+d i s i n h i b i t e d
+behaviors. The
+frontal cortex
+goes offline
+during rapid
+eye movement
+(REM) sleep,
+which explains
+why dreams are often wild and unrepressed. Frontal hyperactivity can result
+in repressive personalities—individuals with tightly regulated emotions.
+Finally, we look at doing the harder thing in the realm of behavior. We saw
+in Lecture 12 the role of frontal cortical activation during decision making
+and gratification postponement. (Figure 20b) The study of frontal function
+in violent sociopaths reveals two very interesting results. These individuals
+often exhibit abnormally low basal activity or histories of frontal damage.
+They also often exhibit abnormally high activity when engaged in an
+executive task—in other words, they need to activate more of the frontal
+cortex than other people in order to regulate their behavior appropriately.
+The frontal cortex among primates is fairly large and well developed, but
+humans have a uniquely large frontal cortex. The study of the frontal cortex
+and development in humans has also been revelatory. Children are frontally
+disinhibited beings. Adolescents still are frontally disinhibited beings because
+of the remarkably late maturation of the frontal cortex. With this in mind, we
+need to ask if a 16-year-old violent criminal is, by definition, organically
+impaired in frontal cortical function.
+The frontal cortex and its interactions with other brain regions are important
+to our understanding of aggression. The frontal cortex is an inhibitor of the
+amygdala. Conversely, the amygdala sends inputs to the frontal cortex to do
+the easier thing. Serotonergic projections are also sent into the frontal cortex
+and play a role in inhibiting impulsive behavior. Therefore, low serotonin
+levels are associated with impulsive aggression. The dopamine projection
+is sent from the ventral tegmentum into the frontal cortex. Dopamine is
+the neurotransmitter of pleasure or, more correctly, of the anticipation of
+pleasure. Dopamine, metaphorically, fuels the ability of the frontal cortex to
+hold out for the harder thing.
+A subtlety of frontal cortical function during aggression merits discussion.
+Sometimes inhibiting aggression is a case of doing the harder thing, as when
+you are angry and wish to lash out but control yourself. On the other hand,
+there are situations in which being aggressive is a case of doing the harder
+thing, as in wartime when you must choose to fight amid a strong incentive
+to flee.
+What releasing stimuli bias the nervous system toward aggression? Fear, pain,
+stress, and frustration are all routes for decreased dopamine transmission.
+The role of alcohol in violence has been overrated; alcohol causes violence
+in individuals already prone to violence. Likewise, the role of crowding
+85
+has been overrated. Like alcohol, crowding causes violence in individuals
+already prone to violence.
+We also need to look at acute hormonal effects on the neurobiology of
+aggression, particularly the key role of testosterone in male aggression.
+Correlative evidence gives us the first clues. Testosterone levels and levels
+of aggression are a function of gender, age, and season. There are a lot
+of testosterone receptors in the amygdala. Causal evidence includes the
+euphemistically termed subtraction and replacement approaches. With
+subtraction, the testes are removed from a male, and his aggression levels are
+found to go down. With replacement, after removal of the testes, the male’s
+testosterone is replaced by synthetic testosterone, and his aggressive behavior
+returns. We now have evidence that shows the limited role of testosterone
+in aggression. (Figure 20c) Castration reduces but does not eliminate
+aggression. The more precastration aggressive experience an individual has,
+the greater the amounts of his postcastration aggression.
+Does testosterone cause aggression? The answer relates to the metaphor
+of increasing the volume of the radio playing martial music, rather
+than turning on the radio in the first place. Neurobiological evidence
+states that testosterone does not activate amygdaloid neurons (turn on the
+radio) but, rather, makes amygdaloid neurons that are already excited more
+excitable (turn up the volume). Do individual differences in testosterone
+levels explain individual differences in levels of aggression? (Figure 21a)
+Fluctuation in testosterone levels within the physiological range does not
+generally cause changes in aggression. But there is a consistent correlation
+between the two, with aggression elevating testosterone levels, rather than
+the other way around. Testosterone levels above the normal range may result
+when someone takes anabolic steroids. The conclusion is that one hormone
+cannot explain aggression. A striking example of proof comes from studying
+murder rates in London, Toronto, and Detroit. In men in all three cities,
+the highest levels of aggression were found to occur at the same ages (late
+adolescence/ young adulthood). However, amid that similarity, there were
+enormous differences in the absolute number of murders among the three
+cities, showing the importance of environment in aggression. (Figure 21b)
+We also need to look at hormones and female aggression. Testosteronerelated (androgenic) hormones come from the adrenal gland. Estrogen and
+progesterone are also relevant for female aggression. The ratio of the two is
+more important than the levels. Fluctuating ratios around menstruation have
+been tied to patterns of criminal behavior in women during the perimenstrual
+period. Fluctuating ratios around parturition explain why you do not pick up
+cute newborn kittens when their mother is nearby.
+We must also consider stress hormones and aggression in both genders.
+Sympathetic nervous system activity is a nonspecific marker in aggression.
+Glucocorticoids can have two interesting yet disturbing effects.
+Glucocorticoids can cause enhancement of amygdaloid function, leading to
+posttraumatic stress disorder. Glucocorticoids can cause disruption of frontal
+cortical function, causing us to make imprudent decisions in moments
+of stress.
+Some major theories about environmental factors in aggression are worthy of
+consideration. The Lorenzian notion that aggression is universal, inevitable,
+and self-depleting is not tenable. Marxist models of aggression are based on
+fear and resource inequity, but many types of animal aggression have been
+identified when resources are plentiful. The behaviorist view was that the
+right reinforcement schedule can make aggression disappear, but a 225-yearlong experiment partially refutes this view: The death penalty tends to drive
+down instances of premeditated
+violence, but it has little effect on
+impulsive violent behavior.
+We now turn to child development,
+aggression, and empathy. The
+differentiation of the self in toddlers
+is key. Ego boundary issues exist
+because a toddler is distinguishing
+where his mother ends and he
+begins as an individual. Studies
+have shown that other species have
+a self-concept as well. The emergence of theory of mind is the recognition
+that other individuals have other thoughts and knowledge than you. Human
+versions display a recognition that others have different feelings, needs, and
+capacities for pain than oneself. Nonhuman primate versions have shown
+that a chimpanzee can understand what information another chimpanzee has
+and can shape its behavior accordingly. The emergence of empathy begs the
+question as to whether theory of mind is necessary and/or sufficient to give
+rise to that quality. What appears to be empathy in toddlers, who do not yet
+demonstrate theory of mind, may instead be an expression of ego boundary
+problems or distress reduction.
+The learning of rules about the appropriate context for aggression often
+drives development. We have seen the Harlow studies of social isolation
+in young primates in Lecture 18. Learning your rank as a social primate is
+part of growing up. Primates who grow up without a mother to show them
+the rules may be inappropriately aggressive. Scientists have also studied
+whether early exposure to violence begets later violence, thus legitimizing
+its rationales and habituating to its harmful consequences. Childhood abuse
+studies show that adults who are child abusers tend to have been abused
+as children, but most children who are abused do not grow up to be child
+abusers. Television violence increases violence in those children who are
+already prone toward it. Being raised in cultures with credos of victimization
+and justified revenge is more likely to lead to socially inappropriate behavior.
+Being raised in authoritarian cultures, with emphases on externalizing of
+blame, on conforming, and on rigid, unreflective cognitive styles is also
+more likely to lead to socially inappropriate behavior.
+We now look at moral development in children. (Figure 22a)
+Kohlberg’s three stages of moral development were based on the
+immediacy of punishment. In the Pre-Conventional stage, moral
+behavior is about the immediate consequences. In the Conventional stage, the
+individual leaps into the realm of societal rules and conventions. Individuals
+see the consequences of their actions down the road (“I’ll eventually get
+caught” or “What if everybody did this?”). In the Post-Conventional stage,
+the sense of morality is that the right thing is independent of contracts and
+rules and convention. Actions are based more on simply deciding to do the
+right thing, no matter what the laws or consequences are. Some people never
+attain that stage. Critiques of Kohlberg say that the stages fit males more
+than females and are culturally biased as well, being quite Eurocentric.
+Does one’s Kohlberg stage actually predict anything about behavior? Not
+especially. Does it help us predict who will step out of a crowd to do the hard
+but right thing? Not particularly. A better predictor is doing moral acts as a
+frequent childhood imperative.
+How do we frame the possible neurobiological underpinnings of moral
+developmental stages? Is climbing up the Kohlberg ladder merely a function
+of getting a more mature frontal cortex that has more and more potentiated
+pathways and is more adept at gratification postponement? Yet most
+advanced stages of moral development seem
+outside the purview of the frontal cortex. This
+is the realm where no degree of gratification
+postponement can explain doing the harder
+thing; this is because there is no gratification,
+and instead, you may be punished for doing
+the harder but right thing. Reflexive moral acts
+and implicit neural pathways outside the frontal
+cortex are still a mystery.
+Another issue is development and adolescent
+male aggression. We know by now to be wary
+of the correlation between a peak in aggression
+during adolescence in males and a peak in
+testosterone levels. Remember the study of
+aggression in young males in London, Toronto,
+and Detroit in Lecture 21. A peak in alcoholrelated aggression has been studied in alcoholics. Cross-cultural differences
+in aggression dwarf developmental patterns. Again, remember the study of
+aggression in young males in London, Toronto, and Detroit. A nonhuman
+primate example of this idea is the cultural transmission of a baboon troop’s
+social tradition of low aggression. Another predictor of adult antisocial
+behavior is being an unwanted child.
+We now shift to study long-term physiological effects in the form of
+perinatal hormones. We look first at organizational effects of hormones
+during perinatal life as opposed to activational effects during adulthood. The
+organizational effects of androgens on subsequent aggression are of great
+interest. Rodent studies (such as fetal positioning), as we saw in Lecture
+16, show that prenatal testosterone masculinizes patterns of aggression and
+makes for individuals, including females, who are more aggressive and
+more easily provoked toward aggression. Primate studies show the same
+results. Congenital adrenal hyperplasia in human females is the result of
+being exposed to a lot of testosterone prenatally. These girls grow up to
+display higher than expected levels of aggression and less interest in genderspecific toys. However, they also have been exposed to multiple painful and
+embarrassing surgeries and often are treated differently by parents because
+of their ambiguous gender, all of which may affect behavior.
+Now we shift one step further back and look at the long-term physiological
+effects of genes. This is a dirty concept in many quarters, implying the
+shadows of eugenics and of washing one’s hands of unappealing behaviors.
+Yet there must be a genetic component to aggression. Otherwise, why you
+would trust your baby to a beagle more readily than to a pit bull? What genes
+are likely to be relevant to aggression? The answer is those genes related
+to pain thresholds, frustration thresholds, impulsivity, sensation-seeking,
+and emotional regulation. In that context, a number of genes that have been
+implicated in aggressive behavior relate to neurotransmitter systems—genes
+that are relevant to many other realms of behavior as well.
+We can consider a model for how genetic influences might work. As a
+review, we saw in Lecture 16 a study of a large population of children
+that showed a correlation between serotonin and depression in certain
+environments. Further study was done of different versions of genes
+relevant to serotonin synthesis, degradation, transport, and so on. It
+was found that a certain gene variant or monoamine oxidase (MAO) is
+predictive of antisocial behavior in humans but only when coupled with a
+childhood history of abuse. (Figure 22b)
+Let’s end the lecture by debunking an urban myth about genes and aggression.
+While in prison, Richard Speck, a mass murderer from the 1960s, was
+discovered to be an XYY male instead of a normal XY male. This prompted
+the idea that XYY males were genetically prone toward violence, an idea not
+supported by evidence. 
+Let’s begin by looking at some ecological correlates of aggression.
+Warrior classes and high levels of aggression are more common
+among pastoralists than among agriculturalists. Organized aggression
+is also more common among desert dwellers than among rainforest dwellers.
+Why ever be aggressive? Let’s rethink Marlin Perkins’s claim that animals
+behave for the good of the species. Individual selection and its propagation
+of aggression disprove Perkins’s notion and provide the first bad news
+about evolutionary biology. Male-male
+aggression for reproductive access to
+females is a common form of violence
+in primate species, including humans.
+Competitive infanticide offers the
+most heartbreaking evidence against
+group selection.
+Kin selection helps explain us/them
+dichotomies and the roots of xenophobia.
+We have seen the results of kinship and cooperative aggression among male
+chimpanzees. We also see kinship and organized aggression in patrilocal
+human societies.
+Humans, pseudokinship, and pseudospeciation merit examination as
+well. Lots of species recognize a relative through innate recognition of
+sensory information. Humans recognize relatives through cognitive routes.
+An implication of this fact is that a human’s sense of relatedness can be 
+manipulated. An example of such manipulation is the sociological concept of
+pseudokinship and the idea of “bands of brothers.” Military rituals throughout
+human cultures build such a bond. The unprecedented pseudokinship of
+American troops in World War II underscores the strength of this bond. The
+flip side of pseudokinship is pseudospeciation, where enemies are portrayed
+as hardly counting as human.
+Let’s now look at the first piece of good news that arises from kin selection. If
+you can pseudospeciate someone into being an enemy, you can pseudokinship
+back from that state. Rituals of pseudokinship among ex-enemies prove that
+this change is possible. We saw another example of this transformation in
+Lectures 18 and 19, where we found that viewing strangers as individuals
+rather than categorically helped tame the amygdala.
+More good news is found in studies of alternative strategies among males in
+the primate world. Studies were done of groups of baboons in which malefemale affiliation, rather than male-male competition, drives who females
+choose to mate with. Reproductive success among such male baboons has
+shown that this is a successful evolutionary alternative.
+More good news is evident in reciprocal altruism and cooperation. Back
+in Lecture 12, we learned about the Prisoner’s Dilemma and the strategic
+advantages of cooperation. We also discussed how to jumpstart cooperation
+in game theory settings, looking at the effects of inbred populations, multiple
+rounds of games, reputation, punishment of cheaters, and choice of partners
+as circumstances that increase the likelihood of increasing cooperation.
+Whatever the route, reciprocal altruism and cooperation can emerge, even
+in the most inauspicious of circumstances. A vivid example occurred during
+World War I, with the Christmas truce and spontaneous mutual restraint in
+trench warfare. Maybe, just maybe, there is hope. 
+How are we to understand this emerging biology of what makes us
+who we are? We must draw a distinction between the essence of
+who a person is and the biology that can constrain and distort that
+essence. We must be careful in deciding when that distinction is readily made
+and when it is not. An examination of some subtle neuropsychiatric disorders
+underscores the difficulty of such a distinction. We have discussed the
+effects of frontal cortical damage numerous times. In 20, we heard about the
+effects of damage to the frontal cortex in Phineas Gage. We have learned that
+frontotemporal dementia may cause inappropriate, disinhibited behaviors.
+Obsessive-compulsive disorder is a debilitating neuropsychiatric disorder. Its
+features include ritualistic counting, obsessive hand-washing, and constant
+and repeated checking to ensure that one has completed common activities,
+such as locking the door or turning off the gas. We see here an emerging
+neurobiology of elevated metabolism in motoric parts of the brain. Tourette’s
+syndrome is a disorder with symptoms that
+include uncontrollable cursing, facial ticks,
+yelps, and inappropriate gestures. It has
+received a lot of attention in neuropsychiatric
+circles lately. This is not a disinhibition of
+the self. It has been termed “hiccups of the
+id.” Here we see emerging neurogenetics of
+the disease. Schizotypal personality disorder
+is a mild version of schizophrenia. It is on
+a genetic and symptomatic continuum with
+schizophrenia. Its symptoms include social
+withdrawal, concreteness in interpretation of events, and metamagical
+thinking. Is it a mental illness to consult astrologers? No, these traits are
+the extremes of normative thinking. Temporal lobe personality disorder is a
+subtype of epilepsy. In temporal lobe epilepsy, seizures start in the temporal
+lobe, which is part of the limbic system. Among the disorder’s symptoms is
+an obsession with religious and philosophical subjects.
+Then comes the challenge of this new information. What happens when we
+each have a few of these labels? What happens when this science stops being
+about the biology of “them and their diseases” and becomes the biology of
+“us and our individuality”? Some societal implications are inevitable. The
+downside may be devastating. If you get one of these labels and you are poor
+or poorly connected, there are great precedents for you now being treated
+poorly by society. The temptation to “fix what ain’t broken” is a historical
+force of evil in biology. The important questions are: What counts as being
+ill? Who is biologically impaired, and who is just different?
+But there is an optimistic side as well. We can strive to reach new realms of
+compassion in dealing with debilitating psychiatric diseases and disorders.
+We can work to develop pseudokinship through neurobiology, including the
+recognition of continua of disorder symptoms and a reality of “There but for
+the grace of God go I.” Finally, perhaps we will someday acknowledge that
+being healthy consists of having the same diseases as everyone else and the
+same values as to what is a disease and what is healthy, what is normal and
+what is abnormal.
+Some philosophical implications are equally important. What will these
+biological insights do to our treasured sense of uniqueness? As science
+explains more and more about less and less, will we all be explained as no
+more than a mass of neurons and hormones, no longer special and different?
+As in the story Nine Billion Names of God, will the stars in the heavens
+be extinguished because science will have explained everything in our
+universe? Such scientific explanations and progress should not be feared.
+To explain something is not to destroy the capacity to be moved by it. And
+certainly, we can never explain everything, because every answer opens up
+a dozen new questions. To paraphrase Haldane, “Life is not only stranger
+than we imagine, life is stranger than we can imagine.” Thus, in the end, the 
+purpose of science is not to cure us of our sense of mystery and wonder but
+to constantly reinvent and reinvigorate it. 
+acetylcholine: A neurotransmitter whose functions include release from the
+ends of the final neurons in the parasympathetic nervous system.
+action potential: The burst of electrical excitation that shoots down the axon
+when a neuron is sufficiently stimulated via its dendrites. (Contrast with
+resting potential.)
+activational effects of hormones: A hormonal effect (typically in adults)
+that has an immediate consequence. (Contrast with organizational effects.)
+amino acids: The building blocks of proteins; about 20 different kinds, akin
+to letters, exist. Unique sequences of amino acids are strung together to
+form a particular protein. That sequence determines the folded shape of that
+protein and, thus, its function.
+amygdala: A limbic structure with a key role in aggression and fear, as well
+as sexual arousal in males.
+anabolic hormones: A rather imprecise term typically denoting androgenic
+(testosterone-related) hormones.
+androgens: A class of steroid hormones, including testosterone, with roles in
+aggression and sexual behavior in both sexes but most notably in males. (See
+also anabolic hormones.)
+autonomic nervous system (ANS): A series of neural pathways originating
+in the hypothalamus, hindbrain, and brainstem and projecting throughout
+the body; it regulates all sorts of nonconscious, automatic physiological
+changes throughout the body. The ANS consists of the sympathetic and
+parasympathetic nervous systems.
+axon: The part of the neuron that sends signals to other neurons. (Contrast
+with dendrite.)
+axon hillock: The beginning of the axon; this is the point where small
+excitatory inputs from various dendrites are summated and, if of a sufficient
+magnitude, trigger an action potential.
+axon terminal: The part of the neuron from which neurotransmitters
+are released.
+behaviorism: The school of American psychology that posited that the
+incidence of all behaviors can be shaped by reward and punishment and
+that these patterns are sufficiently universal that virtually any vertebrate
+species can be a stand-in for learning principles in humans. (Contrast
+with ethology.)
+benzodiazepines: Compounds that reduce anxiety. Synthetic versions
+include Valium and Librium; naturally occurring versions are found within
+the brain, but their chemical structure is poorly understood.
+central nervous system: The brain and spinal cord. (Contrast with
+peripheral nervous system.)
+chromosome: A long, continuous sequence of genes. Metaphorically, the
+genome is like a massive phone book of information, with each message
+being a single gene made up of DNA letters. Because of its size, it is broken
+into separate volumes—each volume being a chromosome.
+compulsion: See obsessive-compulsive disorder.
+congenital adrenal hyperplasia: A disorder in which female fetuses are
+exposed to high levels of androgens (male sex hormones).
+dendrite: The part of the neuron that receives signals from other neurons.
+Dendrites tend to come in the form of highly branched cables coming from
+the cell body of a neuron. (Contrast with axon.)
+deoxyribonucleic acid (DNA): the nucleic acid that carries the genetic
+information of the cell.
+dopamine: A neurotransmitter whose functions include a role in sequential
+thought (such that abnormal dopamine levels are associated with the
+disordered thought of schizophrenia), the anticipation of pleasure, and
+aspects of fine motor control.
+endocrinology: The study of hormones.
+epinephrine (a.k.a. adrenaline): Both a neurotransmitter throughout the
+brain and a hormone released in the adrenal gland during stress as a result of
+activation of the sympathetic nervous system.
+estrogen: A class of female reproductive hormones.
+ethology: The study of the behavior of animals in their natural environments.
+(Contrast with behaviorism.)
+excitatory neurotransmitter: See neurotransmitter.
+exon: The stretch of DNA coding for a gene can occasionally be broken into
+separate parts, called exons. The intervening stretches of DNA, which do not
+code for anything, are called introns.
+fixed action pattern: A term in ethology referring to a behavior that occurs
+in a fairly intact form even in the absence of experience or learning but can
+be further refined by experience.
+frontal cortex: A recently evolved region of the brain that plays a central role
+in executive cognitive function, decision making, gratification postponement,
+and regulation of the limbic system.
+frontotemporal dementia: A neurological disorder (most often due to a
+specific mutation) in which disintegration of the frontal cortex occurs.
+game theory: A field of mathematics formalizing strategies used in games of
+cooperation and/or competition.
+gene: A stretch of DNA that designates the construction of one protein.
+gene-environment interaction: The virtually universal phenomenon in
+which the effect of a gene varies as a function of the environment in which
+it is transcribed.
+gene transcription: The process of a gene being “read” and transcribed
+into RNA.
+glial cells: An accessory type of cell found in the nervous system. Glial
+cells support neuronal function by insulating the axons of neurons,
+indirectly supplying neurons with energy, scavenging dead neurons, and
+removing toxins from the extracellular space around neurons. (Contrast
+with neurons.)
+glucocorticoids: A class of steroid hormones secreted during stress. They
+include cortisol (a.k.a. hydrocortisone) and synthetic versions, such as
+prednisone and dexamethasone.
+glutamate: An excitatory neurotransmitter with critical roles in learning and
+memory. An excess of glutamate induces excitotoxicity, a route by which
+neurons are killed during various neurological insults.
+gradualism: The theory that evolutionary changes occur constantly, in small,
+incremental steps. (Contrast with punctuated equilibrium.) Gradualism
+produces microevolutionary changes.
+group selection: The mostly discredited notion that evolution works on
+groups rather than individuals and, thus, that the evolution of behavior can be
+understood in the context of animals behaving “for the good of the species.”
+(Contrast with individual selection.)
+hippocampus: A brain region within the limbic system that plays a central
+role in learning and memory.
+hormones: Blood-borne chemical messengers between cells.
+hypothalamus: A limbic structure that receives heavy inputs from other parts
+of the limbic system; plays a central role in regulating both the autonomic
+nervous system and hormone release.
+imprinted genes: Genes whose function differs depending on whether they
+are inherited from the father or mother. Imprinting of genes in this context
+should not be mistaken with the ethological notion of imprinting.
+imprinting: An ethological concept in which a permanent change in behavior
+occurs rapidly, in the absence of experience (for example, the imprinting of
+newborn birds onto their mother).
+individual selection: A contemporary notion in evolutionary biology that
+natural selection works mostly at the level of the individual and, thus,
+that the evolution of behavior can be understood in the context of animals
+behaving to maximize the number of copies of their genes passed on to the
+next generation. (Contrast with group selection.)
+inhibitory neurotransmitter: See neurotransmitter.
+innate releasing mechanism (IRM): An ethological term referring to the
+physiological mechanisms by which a stimulus (for example, a releasing
+stimulus) triggers a behavior (for example, a fixed action pattern).
+intron: A stretch of DNA that does not actually code for a gene but, instead,
+breaks up a gene into separate parts (called exons).
+jumping genes: See transposable genetic elements.
+kin selection: A contemporary notion in evolutionary biology that an
+individual can maximize the number of copies of his or her genes that are
+passed on by aiding the reproduction of relatives.
+Kluver-Bucy syndrome: A set of behavioral changes, including elevated
+levels of aggression, resulting from removal of large parts of the limbic
+system, including the amygdala. 
+limbic system: A part of the brain most strikingly involved in emotion. Some
+major parts include the hippocampus, amygdala, hypothalamus, and septum.
+long-term potentiation (LTP): A phenomenon in which the strength of
+synaptic communication between two neurons is enhanced in a persistent
+manner; thought to be a cellular analog of learning.
+mutation: An error in the copying of a gene. Classically, mutations can take
+three forms: In point mutations, a letter in the DNA code is misread as a
+different letter. In deletion mutations, a letter is entirely lost. In insertion
+mutations, an extra letter is inserted.
+myelin sheath: The insulation, made from glial cells, that wraps around the
+axons of neurons. Myelin allows action potentials to travel down the axon
+more quickly.
+neurobiology: The study of the nervous system.
+neuroeconomics: A new field examining the brain bases of economic
+decision making.
+neuroendocrinology: The study of the interactions between the nervous
+system and hormones.
+neuroethology: The study of the neural mechanisms mediating the
+naturalistic behavior of animals.
+neurons: The primary cells of the nervous system. (Contrast with glial cells.)
+neurotransmitter: Chemical messengers released from axon terminals as
+a result of an action potential; these travel across the synapse and bind to
+specific receptors on the postsynaptic side, thereby changing the electrical
+excitation of the second neuron. Excitatory neurotransmitters increase
+the likelihood that the next neuron will have an action potential, whereas
+inhibitory neurotransmitters decrease the likelihood.
+nongenetic inheritance: A phenomenon in which some event in the fetus
+changes the function of that individual when she is an adult, and that change
+produces a similar change in her own eventual fetus. Thus, a trait can be
+passed on for generations but in a way that does not involve genes and
+classic inheritance.
+norepinephrine (a.k.a. noradrenaline): A neurotransmitter whose functions
+include release from the ends of the final neurons in the sympathetic nervous
+system, as well as a role in depression (with, most likely, a depletion occurring).
+obsession: See obsessive-compulsive disorder.
+obsessive-compulsive disorder: A neuropsychiatric disorder categorized
+by virtually ceaseless intrusions of distracting, disturbing, and repetitive
+thoughts (obsessions) and by irresistible urges to carry out pointless,
+ritualistic behaviors (compulsions).
+organizational effects of hormones: Hormonal effects early in life (for
+example, in the fetus) that do not have an immediate consequence but that
+cause changes in the body’s response to some hormone during adult life.
+(Contrast with activational effects.)
+pair-bonding species: Species in which mating tends to be monogamous.
+(Contrast with tournament species.)
+parasympathetic nervous system (PNS): The half of the autonomic
+nervous system associated with calm, vegetative function. (Contrast with
+sympathetic nervous system.)
+peptide hormones: A class of hormones made from amino acids. They
+predominately work by changing the activity of preexisting proteins.
+peripheral nervous system: Neurons and associated glial cells that occur
+outside the brain or spinal cord. (Contrast with central nervous system.)
+pituitary: The gland underneath the hypothalamus that releases an array of
+hormones under the control of the brain.
+plasticity: The general notion of aspects of neural function changing
+over time.
+Prisoner’s Dilemma: A classic game theory scenario.
+progesterone: A class of female reproductive hormones.
+promoters: Stretches of DNA that do not code for a gene but serve as the
+on-off switch for a gene to be transcribed.
+protein: Long strings of amino acids. Unique sequences of amino acids are
+strung together to form a particular protein. That sequence determines the
+folded shape of that protein and, thus, its function.
+pseudokinship: A form of cultural manipulation by which people are led to
+view other individuals as more related to them than they actually are.
+pseudospeciation: A form of cultural manipulation by which people are led
+to view other individuals as less related to them than they actually are.
+punctuated equilibrium: The theory that evolution consists of long periods
+of stasis, when there are no evolutionary changes, interspersed with periods
+of rapid and dramatic change. (Contrast with gradualism.) Punctuated
+equilibrium produces macroevolutionary changes.
+releasing stimulus: An ethological term referring to the sensory stimulus in
+an environment that triggers a behavior.
+resting potential: The state of electrical excitation in a neuron when it is
+quiescent. (Contrast with action potential.)
+ribonucleic acid (RNA): An intermediate form of information. A strand of
+RNA is made under the direction of a single gene; that stretch of RNA, in
+109
+turn, contains the information for the stringing together of amino acids into
+a protein.
+RNA translation: The process of RNA being “read” and translated
+into protein.
+schizotypal personality disorder: A neuropsychiatric disorder, on a genetic
+continuum with schizophrenia, characterized by social withdrawal, overly
+concrete thought, and metamagical beliefs.
+selective serotonin reuptake inhibitors (SSRIs): Drugs such as Prozac that
+block the removal of serotonin from the synapse. Insofar as they lessen the
+symptoms of depression, this implies that depression involves a shortage
+of dopamine.
+septum: Limbic structure with a key role in inhibiting aggression.
+serotonin: A neurotransmitter whose functions include a role in aggression,
+sleep onset, depression, and impulsivity.
+spatial summation: When an action potential is triggered thanks to enough
+separate dendritic inputs being stimulated all at once. (Contrast with
+temporal summation.)
+steroid hormones: A class of hormones made from steroid precursor
+molecules that include estrogens, progestins, androgens, glucocorticoids,
+and mineralocorticoids. They predominately work by changing genomic
+events in cells.
+sympathetic nervous system (SNS): The half of the autonomic nervous
+system associated with arousal and emergency physiological responses.
+(Contrast with parasympathetic nervous system.)
+synapse: The space between an axon terminal and the dendritic spine of the
+next neuron.
+synaptic plasticity: The concept of the strength of communication between
+two neurons changing over time.
+temporal personality disorder: A neuropsychiatric disorder associated with
+temporal lobe epilepsy, characterized by perseverative behavioral patterns,
+aversion to novelty, obsessive writing (hypergraphia), and an intense interest
+in religious and philosophical subjects.
+temporal summation: When an action potential is triggered thanks to the
+same subthreshold dendritic input being stimulated over and over. (Contrast
+with spatial summation.)
+testosterone: A subtype of androgen.
+theory of mind: The understanding that other individuals have different
+thoughts and knowledge than you; most frequently used as a term in child
+development.
+thrifty metabolism: The idea that malnutrition during the prenatal
+environment causes metabolic “programming” so that for the rest of the
+individual’s life, there is more efficient storage of nutrients.
+Tourette’s syndrome: A neuropsychiatric disorder categorized by
+uncontrolled outbursts of scatology, tics, and utterances.
+tournament species: Species in which mating tends to be highly polygamous
+and involves high levels of male-male aggression and competition. (Contrast
+with pair-bonding species.)
+transcription factors: Messengers (often proteins) that bind to promoters
+and turn genes on or off.
+transposable genetic elements: Stretches of DNA that can be moved
+around; also called jumping genes.
+111
+ventral tegmentum: A brain region that sends dopamine-releasing axons to
+the frontal cortex and limbic system, where that dopamine plays a central
+role in reward and anticipation of rewards.

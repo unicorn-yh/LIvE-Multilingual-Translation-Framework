@@ -1,0 +1,558 @@
+Walking is a complex motor programme involving coordinated and distributed
+activity across the brain and the spinal cord. Halting appropriately at the correct time
+is a critical component of walking control. Despite progress in identifying neurons
+driving halting1–6, the underlying neural circuit mechanisms responsible for
+overruling the competing walking state remain unclear. Here, using connectomeinformed
+models7–9 and functional studies, we explain two fundamental mechanisms
+by which Drosophila implement context-appropriate halting. The first mechanism
+(‘walk-OFF’) relies on GABAergic neurons that inhibit specific descending walking
+commands in the brain, whereas the second mechanism (‘brake’) relies on excitatory
+cholinergic neurons in the nerve cord that lead to an active arrest of stepping
+movements. We show that two neurons that deploy the walk-OFF mechanism inhibit
+distinct populations of walking-promotion neurons, leading to differential halting of
+forward walking or turning. The brake neurons, by constrast, override all walking
+commands by simultaneously inhibiting descending walking-promotion neurons and
+increasing the resistance at the leg joints. We characterized two behavioural contexts
+in which the distinct halting mechanisms were used by the animal in a mutually
+exclusive manner: the walk-OFF mechanism was engaged for halting during feeding
+and the brake mechanism was engaged for halting and stability during grooming.
+Walking recruits distributed neural activity across the brain6,10–12 and
+spinal cord13,14 or nerve cord15,16. When an animal halts, the net output of
+this distributed neural activity notably changes to arrest leg stepping
+movements. Moreover, depending on the behavioural context, animals
+halt in different context-appropriate ways. Whereas a few specific neuronal
+types driving halting have been recently described1,2,4–6,17,18, how
+walking-related neural activity changes to allow halting in a manner
+that is both mechanically stable and appropriate to the behavioural
+context is at present unclear.
+Identification of halt neurons
+To identify neurons involved in halting in Drosophila, we optogenetically
+activated specific neurons that innervate the suboesophageal
+zone (SEZ) of the fly brain19,20, a region that houses the neurons close to
+and including the descending output of the brain21 (analogous to mammalian
+brainstem22). Through this neural-activation screen (Methods),
+we identified 11 genetic drivers that were both relatively sparse and
+caused halting without gross motor deficits (Extended Data Fig. 1a).
+Among these lines, we could unambiguously pinpoint three causal
+neurons for halting, which we refer to as Foxglove (FG), Bluebell (BB)
+and Brake (BRK) (Fig. 1). We identified split-Gal4 reagents that targeted
+FG, BB and BRK with little to no ectopic expression and drove
+robust halting as reflected by decrease in walking velocity, distance
+and rotation (Fig. 1a–d and Supplementary Tables 1 and 2 for all genotypes).
+Using connectome parsing tools23–26 (Methods), we identified
+these neurons in the brain8,9 and nerve-cord27–29 connectomes (Fig. 1e,f
+and Supplementary Table 3). Both FG and BB (anatomy described in
+ref. 20) are SEZ neurons that stochastically descend until the anterior
+tip of the nerve cord. The FG line has weak ectopic expression in
+the mushroom body neuropil that does not contribute to the halting
+phenotype (Extended Data Fig. 1b,c). The BB line also labels (often
+unilaterally) an additional neuron previously described as ‘bluebird’20
+(Fig. 1d). BRK is a new neuronal type discovered in this work and drives
+the strongest halting phenotype (Fig. 1a–c and Extended Data Fig. 1d).
+BRK comprises six ascending neurons with their somata in each of the
+six leg-segment-specific neuromeres of the ventral nerve cord (VNC)
+and axonal projections to the brain SEZ region (Fig. 1d–f and Extended
+Data Fig. 2a,b). By activating subsets of BRK neurons, we found that activating
+any of the BRK neurons is sufficient to drive halting (Extended
+Data Fig. 2c–g). Consistent with this, in the connectome, we found that
+although each BRK gets distinct inputs, all the six BRK share common
+major outputs in their two output zones, the tectulum30 of the VNC
+and the SEZ of the brain (Extended Data Fig. 2a,b).
+Analysis of walking velocities on FG, BB or BRK stimulation
+(Fig. 1a–c) hinted at potential differences in the halting phenotypes.
+To precisely quantify such differences, we performed, high-resolution
+three-dimensional (3D) leg kinematics analysis (Methods, Extended
+Data Fig. 3a,b and Supplementary Video 1). BRK drove low-latency,
+long-duration halting bouts (Extended Data Fig. 3c) with joint angles
+locked in a specific position for the entire halt duration (Fig. 1g and
+Extended Data Fig. 3e). By contrast, FG and BB induced halts were interspersed
+with leg movements. FG drove long halting bouts like BRK
+but still allowed brief repositioning of legs (Fig. 1g and Extended Data
+Fig. 3e). BB drove stationary periods interspersed with slow walking
+and allowed more leg movements (Fig. 1g and Supplementary Video 1).
+Unlike BRK, both FG and BB stimulated flies often took a few steps
+before halting (Extended Data Fig. 3d).
+Defining the genetic drivers and connectome identities of ‘halt’ neurons
+driving distinct types of halting, allowed us to next address their
+interaction with the walking-promoting circuits.
+Diversity in walk–halt interactions
+To address if and how the newly identified halt neurons interact with
+walking-promoting pathways, we leveraged genetic tools targeting
+walking-promoting (‘walk’) neurons characterized in our previous
+work, namely P9 (DNp09) that drives forward turning19,21, BPN (bolt
+protocerebral neuron) that drives straight forward walking19 and MDN
+(moonwalker descending neuron) that drives backward walking31. We
+combined split-Gal4 reagents for the walk and halt neurons and confirmed
+opsin expression in the desired neurons (Extended Data Fig. 4a).
+Here, in addition to the three halt neuron driver lines, and to confirm
+the role of BB, we used another driver line (SS31328, Extended Data
+Fig. 1b,c) that targets FG + BB without any ectopic expression. Using
+these tools, we performed all possible combinations of ‘walk + halt’
+coactivations.
+BRK stimulation completely suppressed all walking commands
+(forward, backward and turning), suggesting that it drives a dominant
+halting mechanism (Fig. 2). By contrast, FG and BB activation affected
+the walk neuron phenotypes with varying degrees and specificity, suggesting
+distinct halting mechanisms being deployed in these cases.
+During coactivation with MDN, unlike BRK, FG and BB did not
+suppress backward walking (Fig. 2a,d,g,j). However, the intermittent
+switches to forward walking observed during continuous MDN
+stimulation (Methods) were absent (FG + MDN) or markedly reduced
+(BB + MDN) as seen in the individual trial velocity traces (Extended
+Data Fig. 4b and Supplementary Video 2). This suggests that FG and
+BB predominantly suppress forward walking.
+Consistent with this, when FG or BB were coactivated with P9, the flies
+showed a marked reduction in forward velocity (Fig. 2b,h). BB + P9 or
+FG + BB + P9 coactivated flies also showed a corresponding decrease in
+angular velocity compared to P9-stimulated flies (Fig. 2e,k). However,
+FG + P9 coactivated flies still showed a large increase in angular velocity
+at stimulation onset. We found that while the BB + P9 or FG + BB + P9
+flies were predominantly halting during the optogenetic stimulation,
+FG + P9 flies were pivoting on the spot (Extended Data Fig. 4c and Supplementary
+Video 3). These observations revealed an unexpected
+modularity in the P9 downstream pathway into two components: a
+forward walking component that is suppressed by both FG and BB
+and a turning component that is suppressed by BB. As the FG + BB line
+(targets FG and BB) has a similar phenotype as the BB line (targets BB
+and ‘bluebird’), we conclude that BB and not bluebird is responsible
+for the forward turning suppression.
+When FG or BB was coactivated with BPN, the flies still increased
+forward walking during optogenetic stimulation (Fig. 2c). Whereas
+this increase in forward walking tended to be smaller than that of activation
+of BPN alone, only in the case of FG could we see a statistically
+significant difference in the distance quantification (Fig. 2i). Although
+BPN + FG + BB coactivated flies decreased forward walking it was interspersed
+with intermittent jumps possibly due to ectopic expression in
+the VNC (Extended Data Fig. 4a) rendering the distance quantification
+unreliable (Fig. 2i). On the basis of these results, we conclude that FG
+can partially suppress the BPN driven forward walking.
+To summarize, we found that (1) BRK suppresses all walking commands,
+(2) FG specifically suppresses forward walking components of
+P9 and BPN (partially) and (3) BB predominantly suppresses forward
+turning induced by P9. The diversity in these walk–halt interactions
+suggests that the neural targets and mechanisms deployed by the three
+halting pathways (FG, BB, BRK) are at least partially distinct.
+The walk-OFF mechanism
+Guided by the whole fly brain connectome and the FlyWire toolkit26,
+we asked if and where the halting and walking pathways might converge.
+We identified, annotated and proofread all the walk and halt
+neuronal types and their downstream partners in the connectome8,9
+(Extended Data Fig. 5a and Supplementary Table 3). We found no direct
+connections between the walk and halt neurons. However, all the walk
+and halt neurons share a common output zone, the SEZ, where they
+could converge on same output neurons. Even though MDN and P9
+are descending neurons (DNs) that project from the brain to the VNC,
+they have collaterals in the SEZ through which they recruit other neurons
+including DNs. Decapitated MDN flies, in which these SEZ collaterals
+are eliminated, show backward walking on optogenetic stimulation32
+indicating that the VNC circuit recruited by MDNs is sufficient for driving
+the phenotype. However, decapitated P9-activated flies do not show
+the phenotypic forward turning (Extended Data Fig. 6e). This implies
+that the other DNs recruited by P9 SEZ collaterals (Extended Data
+Fig. 6a) are critical for the phenotype. Indeed, some P9 downstream
+DNs (DNa02 and DNb02) were previously implicated in turning15,33,34.
+BPN is a higher brain neuron19 that directly recruits other DNs through
+SEZ outputs. We therefore focused on identifying whether halting pathway
+projections to the SEZ impinge on DNs recruited by P9 and BPN.
+To comprehensively analyse interaction between halting and
+walking pathways, we used a connectome-constrained whole-brain
+spiking-network model to reproduce the behavioural coactivation
+experiments in silico. The model (ref. 7 and Methods), uses the entire
+connectivity matrix from the FlyWire data8, and assigns positive or negative
+weight to the connection based on synapse number and predicted
+neurotransmitter35. We validated the neurotransmitter predictions
+for the halt neurons and confirmed that FG and BB are γ-aminobutyric
+acid (GABA)ergic (inhibitory) neurons, whereas BRK is an excitatory
+(potential cholinergic) neuronal type (Extended Data Fig. 5b–f).
+Comparing responses across top 100 responding neurons in each in
+silico coactivation experiment (heatmaps in Fig. 3a–h, top) show that all
+three halt neurons inhibit different, partially overlapping subsets of neurons
+recruited by the walk pathways. Although the P9 pathway is more
+broadly and strongly inhibited by BB, the BPN pathway is more broadly
+and strongly inhibited by FG (Fig. 3a–h, top, and Extended Data Fig. 6b,c).
+This aligns with the corresponding behavioural phenotypes (Fig. 2).
+We next focused on DNs strongly recruited by the walk pathways and
+generated synapse-weighted graphs to simultaneously visualize the
+connectivity and predicted firing rate (Methods and Fig. 3a–h, bottom).
+In the case of P9 coactivation with halt neurons, BB suppressed the
+firing rate of most of the DNs whereas FG specifically inhibited a single
+DN named oDN1 (Fig. 3b,c, bottom). The BB result is consistent with
+the complete suppression of P9 phenotype in behavioural experiments
+(Fig. 2b,e,h,k). Given that FG only suppressed the forward walking component
+of P9 phenotype (Fig. 2b,e,h,k), we infer that oDN1 is mainly
+relevant for driving forward velocity but not rotational velocity.
+In the case of DNs recruited by BPN, neither FG nor BB inhibits the
+whole population (Fig. 3e–g, bottom). This could explain why we never
+saw a complete suppression of walking in corresponding behavioural
+experiments (Fig. 2c,f,i). To probe why FG has a stronger effect in behavioural
+experiments, we compared the neurons that are differentially
+affected by FG versus BB. BDN2 stood apart as a DN specifically and
+strongly inhibited by FG (Fig. 3g, bottom, and Extended Data Fig. 6b).
+Taken together, the modelling and behavioural data show that FG and
+BB are positioned to directly inhibit critical nodes in the P9 and BPN
+walking-promotion pathways and decrease forward and/or rotational
+walking velocity. We term this the walk-OFF mechanism. Furthermore,
+oDN1 and BDN2 (Fig. 3i) stood apart as important nodes to mediate
+differences in BB and FG effects on the walking pathways (Fig. 3a–h
+and Extended Data Fig. 6b,c). We therefore generated split-Gal4 drivers
+(Extended Data Fig. 6d) to specifically target these neurons. Optogenetically
+activating oDN1 and BDN2 drove walking initiation, with BDN2
+showing a much stronger phenotype (Fig. 3j). Even decapitated oDN1
+and BDN2 activated flies initiated robust forward walking (Extended
+Data Fig. 6e) suggesting that unlike P9, the VNC outputs of these DNs are
+sufficient for forward walking. However, on optogenetic silencing, only
+BDN2-silenced flies showed a reduction in forward velocity (Fig. 3k).
+This suggests that BDN2 might be critical during spontaneous walking,
+whereas oDN1 could be redundant or recruited only in specific contexts.
+Indeed, on in vivo imaging, we found that BDN2 activity is strongly
+correlated to forward (but not angular) velocity of the fly (Fig. 3l and
+Supplementary Video 4). Given that BDN2 is strongly inhibited by FG
+and not by BB (Fig. 3f,g), this could explain why FG drives stronger
+halting in spontaneously walking flies (Fig. 1a–c).
+In silico coactivating BRK ascending projections, along with P9
+(Fig. 3d) and BPN (Fig. 3h) showed that while BRK is excitatory, it
+recruits other predicted inhibitory neurons in the SEZ to suppress
+walking-promotion DNs. When coactivated with P9, BRK inhibits many
+of the critical walking-promotion DNs, including oDN1. However, when
+coactivated with BPN, BRK inhibits only a subset of DNs, with BDN2
+being weakly inhibited. This is in contrast to the strong walking suppression
+observed in the corresponding behavioural experiments (Fig. 2).
+Crucially, BRK activation suppressed backward walking driven by MDN,
+whose descending output in the VNC is sufficient to drive backward
+walking (Fig. 2a,d,g,j). This suggests that, in addition to inhibiting some
+walking-promoting pathways in the brain (walk-OFF mechanism), BRK
+probably acts in the VNC to drive halting.
+The ‘brake’ mechanism
+The stepping cycle consists of a swing phase (leg in air) and stance
+phase (leg on ground). Given the strong ‘freezing-like’, BRK phenotype
+(Fig. 1g), we wondered whether BRK could cause the legs to ‘freeze’ at
+any point during a stepping cycle similar to a recent report in mice2.
+We found that in case of BRK mid-swing stimulation, the leg finishes
+the swing phase in an unaltered manner, but freezes as soon as it
+lands on the ground (Fig. 4a) when the femur–tibia (Fe–Ti) joint is
+in an extended position (Fig. 4c). Indeed, in these cases, swing duration
+is not altered when compared to prestimulus swing duration
+(Fig. 4d). However, for BRK mid-stance stimulation, the leg stays
+locked in place at the onset of the stimulation (Fig. 4a) leading to a
+broad Fe–Ti joint distribution across flies and trials (Fig. 4c). This is in
+contrast to FG stimulation in which the leg always assumes a relaxed
+stance position, regardless of when the optogenetic stimulus started
+(Fig. 4b,c). A similar result was obtained for other leg joints, suggesting
+it is not a Fe–Ti joint-specific phenomenon (Extended Data Fig. 6f
+and Methods).
+This locking of joints during stance phase shows that the BRK phenotype
+is probably due to an active mechanism. We proposed that
+this could be driven by BRK VNC outputs upregulating the postural
+resistance reflex to lock the leg joints. The term ‘resistance reflex’
+is used to describe postural reflexes in all legged animals that allow
+maintenance of posture while in a stationary state36. Upregulating
+such reflexes could lead to locking of leg joints while in stance phase
+as seen on BRK stimulation.
+To test this hypothesis, we activated either MDN or MDN + BRK in
+decapitated flies and analysed their leg kinematics. As reported earlier32,
+decapitated flies showed backward walking on MDN activation. However,
+decapitated MDN + BRK stimulated flies remained stationary
+(Fig. 4e). This confirms that a VNC-specific circuit is recruited by BRK
+to arrest leg movements. During backward walking, the Fe–Ti joint
+of the front leg is extended before a swing is initiated (Fig. 4f,g). We
+therefore refer to Fe–Ti angles above 107° (Methods) as the ‘swing initiation
+zone’ (SIZ). On MDN + BRK stimulation, the Fe–Ti angle remained
+locked in place, and in most cases never reached the SIZ (Fig. 4h). In the
+few cases when it reached the SIZ (Fig. 4f), this rarely led to levation
+of the leg. The leg, despite being in an extended Fe–Ti position still
+remained firmly perched on the substrate as indicated by increased
+dwell time in SIZ (Fig. 4i) and decreased swing events in SIZ (Fig. 4j and
+Supplementary Video 5).
+We performed a complementary analysis for forward walking while
+activating BDN2 or BDN2 + BRK in decapitated flies. In contrast to
+backward walking, during forward walking the SIZ for front-leg Fe–Ti
+lies in flexed angle values (Fig. 4g, SIZ is Fe–Ti less than 68°, Methods).
+Despite this difference, coactivation with BRK interrupted forward
+walking (Fig. 4e and Extended Data Fig. 6g,h) in a similar manner to
+that seen for backward walking (Fig. 4f–j and Supplementary Video 5).
+Taken together, this showed that BRK activation led the flies to resist
+both flexion and extension at the Fe–Ti joint.
+Resisting such movements, would require actively engaging specific
+leg muscles. We, therefore activated BRK and monitored front-leg
+femoral muscle activity with the Fe–Ti joint restrained in a flexed
+or extended position (Methods). In a flexed Fe–Ti position, activating
+BRK recruited accessory flexor-a and extensor. However, in an
+extended Fe–Ti position, BRK stimulation recruited accessory flexor-a
+and accessory flexor-b (Fig. 4k–n and Supplementary Video 6). Based
+on the literature37,38, we inferred that accessory flexor-a corresponds
+to the muscles innervated by slow motor neurons (also referred to as
+‘reductors’) and is also implicated in maintaining joint position38,39.
+The position of accessory flexor-b indicates they are probably innervated
+by intermediate and/or fast flexor motor neurons that drive flexion
+movement that would resist forced extension. Extensors on the
+other hand, drive Fe–Ti extension and would therefore resist forced
+flexion. Thus, the muscle activity profile driven by BRK resembles a
+resistance-like state in each Fe–Ti position. Even in cases when there
+was spontaneous, prestimulus muscle activity, BRK drove a concerted
+change including inhibition of highly active muscles and activation
+of specific muscles to reach this same resistance state-like activity
+profile (Extended Data Fig. 7a,b and Supplementary Video 7).
+To confirm this represents a resistance reflex-like activity, we passively
+flexed or extended the Fe–Ti joint and induced resistance reflex
+while monitoring muscle activity (Methods). Here, both control flies
+and BRK stimulated flies resisted these passive movements and showed
+a similar recruitment of muscles to that described above, with BRK stimulated
+flies showing a more robust response (Extended Data Fig. 7c).
+Taken together, this suggests that BRK drives a resistance-like state in
+the femoral muscles.
+FG or BB activation did not induce any robust muscle activity in similar
+experiments (Extended Data Fig. 7d). Only in cases where there was
+prestimulus spontaneous muscle activity did FG lead to gradual inhibition
+of this activity (Extended Data Fig. 7e,f). We reasoned this could be
+because FG inhibits DNs driving the prestimulus spontaneous activity.
+Combining the kinematics and muscle-imaging results, we conclude
+that BRK drives a stance phase-specific resistance state at the leg joints
+by means of a VNC-specific neural circuit.
+FG and BB are required during foraging
+We next addressed if and when the animals use the FG, BB and BRK
+halting pathways. Mining the connectome for inputs to the halting
+neurons revealed that FG and BB are downstream to the sugar sensory
+pathway, and directly connected to Fdg neurons previously shown to
+drive halting and proboscis extension for feeding40,41 (Fig. 5a). We therefore
+activated sugar gustatory receptor neurons (GRNs) both in silico
+and in vivo. In both cases, FG was strongly recruited whereas BB showed
+weak and variable activity. (Fig. 5a,b). Moreover, in vivo, FG showed
+stronger responses in starved flies compared to fed flies (Extended
+Data Fig. 8a,b), whereas BB only responded (weakly) in starved flies
+(Extended Data Fig. 8c,d). These state-dependent responses could
+be driven by differences in the feeding drive due to hunger signals
+impinging on the sugar sensory pathway41. To understand how different
+feeding and walking drives might converge on the previously
+implicated walking-promotion nodes (oDN1 and BDN2), we coactivated
+sugar GRNs with either P9 or BPN walk neurons at varying activity levels,
+and monitored oDN1 and BDN2 firing rates, respectively. Both oDN1
+and BDN2 were tightly regulated as a function of walking and feeding
+pathway stimulation, showing that there is an excitation–inhibition
+balance at these nodes (Fig. 5c,d). To test whether FG is critical for relaying
+the inhibition from sugar GRNs to the walking nodes, we repeated
+the above simulation, but while silencing FG in the model. This clearly
+shifted the excitation–inhibition balance at the walking nodes, such
+that we could now see release of inhibition on oDN1 and BDN2 when
+compared to the results in the FG intact model (Fig. 5c,d). This suggests
+that FG may be relevant for halting in the context of foraging and feeding.
+Because BB is only weakly recruited in our model, we did not see
+big changes at BDN2 or oDN1 when we repeated the simulation with
+BB silenced (Extended Data Fig. 8e).
+To confirm the role of halt neurons during feeding, we optogenetically
+silenced these neurons, while providing starved flies with
+a choice between blank substrate (dried filter paper) versus sucrose
+substrate (dried filter paper + sucrose, where flies can sense the
+sucrose but cannot consume it42). Control flies or flies with BRK or
+BB silenced spent most of their time on the sucrose side, whereas FG
+silenced flies were unable to preferentially stay on the sucrose side
+(Fig. 5e and Extended Data Fig. 8k), confirming the importance of FG
+for stopping on sugar detection. At the start of this assay, flies were
+randomly distributed on the sucrose and blank side making it difficult
+to analyse locomotor changes when the fly first encountered the
+sucrose. To analyse these first encounters, we quantified interaction
+of flies with a small food-blob, placed at the centre of a large circular
+arena (Fig. 5f). All flies slowed down when they first encountered the
+food-blob, probably because, unlike the previous assay, here they could
+detect the food-blob by textural changes and consume it. However,
+FG- and BB-silenced flies showed shorter stopping bouts and increased
+velocities near the blob compared to controls (Fig. 5g–h and Extended
+Data Fig. 8f–i). Specifically, BB-silenced flies were indistinguishable
+from controls before food encounter, but showed prolonged increase
+in both translational and angular velocities after food encounter
+(Extended Data Fig. 8f–i). This could show a potential role for BB in
+constraining forward and angular velocities during foraging-type
+behaviours that involve a local search following food encounter43,44.
+Such post food-encounter behavioural state transitions have been
+well described in flies43,44. However, these are not accounted for in
+our computational model, or in the functional imaging experiments
+(fly tethered vertically and cannot walk, Methods). This could explain
+the weaker BB responses observed on in vivo or in silico sugar-GRN
+stimulation.
+Taken together, this confirms that FG and BB are recruited for halting
+and locomotor control in the context of feeding and foraging. Notably,
+connectomics revealed that this halting pathway diverges from
+the previously described proboscis extension pathway7,41 (Fig. 5a). In
+agreement with this, FG or BB silencing had no effect on the proboscis
+extension response (PER) when tethered flies were presented with
+sucrose (Extended Data Fig. 8j).
+BRK is required during grooming
+To understand when flies recruit BRK neurons, we monitored in vivo
+BRK activity in spontaneous walking and halting flies (Methods and
+Fig. 6a). We imaged a region of the VNC that permits identification of the
+axons belonging to each of the six BRK neurons (Fig. 6b,c). We noticed
+that BRK is recruited only during a subset of halting events. By annotating
+synchronously recorded behaviour we found that BRK activity
+correlated with either ‘ball-pushing’ or ‘grooming’ events (Fig. 6d–f).
+As ball-pushing is probably a special behaviour that only happens in a
+tethered fly walking on an air-supported ball, we focused on the grooming
+events. BRK activity correlated in a segment-specific manner to the
+respective grooming events (Fig. 6f). Most prominent among these
+were front-leg rubs and hind-leg rubs that coincided with large correlated
+activity bumps in front and hind BRK, respectively (Fig. 6d–f and
+Supplementary Video 9). Aligning BRK activity profile across multiple
+flies and grooming events, showed that the segment-specific BRK activity
+starts ramping up before the grooming event and synchronized with
+a coincident dip in walking velocity (Fig. 6g,h).
+Fittingly, in the connectome, we found that DNg12, a command
+neuron that drives head-grooming with front legs45 provides most
+input to front BRK (BRK1-2), whereas wPN1, a command neuron that
+drives wing grooming with hind legs46 provides most input to hind BRK
+(BRK5-6, Extended Data Figs. 5a and 9a–c). We also identified potential
+leg-grooming sensory-motor pathways from each leg to corresponding
+segment BRK neurons (Extended Data Fig. 9b). Thus, BRK neurons
+receive distinct segment-specific grooming command inputs. However,
+all BRK share common outputs (Extended Data Fig. 2b) that lead to
+halting with upregulation of postural reflexes (Fig. 4). What could be
+the role of the BRK outputs during grooming?
+During grooming, flies halt and lift a subset of legs (usually two
+legs) while supporting their body weight on the remaining stationary
+legs. We wondered whether BRK was necessary for both halting and
+stability during grooming. We therefore optogenetically silenced BRK
+in flies that were induced to groom by powdering them47,48. BRK silencing
+did not abolish grooming, but led to interruption of continuous
+grooming by intermittent walking events (Fig. 6i–k) confirming BRK’s
+role for halting during grooming. Control flies or flies with FG or BB
+silenced showed prolonged uninterrupted grooming (Fig. 6i–k). Moreover,
+we found that BRK silenced flies become destabilized during
+grooming (Supplementary Video 10). To address if this destabilization
+was due to the VNC outputs of BRK, we repeated this experiment in
+decapitated flies. Consistent with the literature48, control decapitated
+flies showed robust grooming when covered with powder. Because
+decapitated flies do not have an inherent forward walking drive like
+intact flies, it was unsurprising that we did not see any walking on
+BRK silencing. However, we saw that powdered, decapitated BRK
+silenced flies often lost their balance and tripped while grooming,
+confirming BRK’s role in stabilization during grooming (Fig. 6l and
+Supplementary Video 10).
+On the basis of the above observations, and given that BRK output
+only affects legs in stance, we proposed that BRK is recruited
+by segment-specific grooming commands to halt and stabilize the
+posture of the stationary (non-grooming) legs used for balancing the
+body weight. For instance, during front grooming, command neurons
+(DNg12s) would recruit the front BRKs that in turn stabilize mid and
+hind legs (Fig. 6m), whereas during hind grooming, the corresponding
+grooming commands (wPN1) would recruit hind-BRKs that in turn
+stabilize the front and mid-legs (Fig. 6p).
+To test this segment-specific role of BRK, we designed an assay
+in which we silenced BRK subsets, while inducing segment-specific
+grooming. We generated split-Gal4 lines that targeted front BRK
+(BRK1-2), front + mid-BRK (BRK1-4) or front + hind BRK (BRK1-2,
+BRK-5-6), and confirmed that activating these BRK subsets drives
+halting in all cases (Extended Data Fig. 9d,e). Next, we optogenetically
+silenced these BRK subsets and induced front or hind grooming
+using a powdered brush in tethered decapitated flies placed on
+an air-supported ball (Supplementary Video 11). We performed leg
+kinematics analysis of front and hind legs (Methods). As expected,
+control flies were stable during the grooming events as indicated by
+low ball movement and low Fe–Ti movement of the non-grooming legs
+(Fig. 6n–r and Extended Data Fig. 9g–h). Conversely, when front-BRK
+silenced flies were induced to perform front grooming, they were
+destabilized as shown by increased ball movement (Fig. 6n) and
+hind-leg movements (Fig. 6o and Extended Data Fig. 9g). However,
+if flies with silenced front BRK but intact hind BRK (front-BRK>GtACR1
+or front + mid-BRK>GtACR1), were induced to perform hind grooming,
+they showed control-like behaviour and groomed hind legs while
+stabilizing the front legs (Fig. 6n–o and Extended Data Fig. 9h). On the
+other hand, flies with hind BRK silenced (front + hind BRK>GtACR1
+or all-BRK>GtACR1), were destabilized during hind grooming bouts
+(Fig. 6q,r and Extended Data Fig. 9h).
+Taken together, this shows that BRK is recruited in a segment-specific
+manner for halting and stability in the context of grooming. We thus
+explain distinct contexts in which each halting pathway is recruited.
+Consistent with this, activating head-bristle sensory projections
+(grooming context) in the brain connectome model, drove strong
+activity in DNg12s (BRK inputs) but not in FG or BB, whereas activating
+sugar GRNs (feeding context) recruited FG and BB but not DNg12s
+(BRK inputs) (Extended Data Fig. 9c).
+Connectomics predicts halt neurons
+Having identified the critical nodes in the walking pathways that are
+targeted by halt neurons, we aimed to gain insight into other halting
+pathways that could be relevant in other contexts. Although we could
+not identify some previously described slowing4 or halting5 neurons
+in the connectome, we could locate two neurons that were implicated
+indirectly in promoting halting, namely MAN (assists backward walking
+by inhibiting forward walking31) and oviDN (command neuron for
+egg-laying49 that also induces halting50). In similar simulations as in
+Fig. 3, both MAN and oviDN, through predicted GABAergic neurons
+(G129, CB283), suppressed walking-promotion neurons including oDN1
+and BDN2 (Extended Data Fig. 10a,b). This showed other routes in addition
+to FG, BB, BRK that could inhibit walking-promotion nodes. To find
+all such routes, we generated a list of predicted halt neurons (Extended
+Data Fig. 10c,d) as those with strong inhibitory inputs to oDN1 and
+BDN2, most of which also inhibit other potential walking-promotion
+DNs (for example, cDN1, BDN4). As these neurons will ultimately control
+the excitation–inhibition balance at the walking-promotion nodes,
+these could also be involved in velocity control (‘slowing down’) and not
+just halting. These predicted halt neurons receive input from different
+upstream neurons, and could underlie halting in other behavioural
+contexts (fear, sleep, courtship and so on).
+Discussion
+Our work explains two fundamental halting mechanisms in Drosophila.
+The first mechanism, categorized as the walk-OFF mechanism
+causes halting by inhibition of walking-promotion neurons. This
+could be compared to taking one’s foot off the gas pedal of a car,
+and is analogous to action-suppression mechanisms proposed in
+different behaviours including walking, across organisms11,51–56. In
+this connectomics-driven work, we could go beyond identification of
+this mechanism and gain major insights into the organization of the
+halting and walking-control circuits in flies. We found that (1) walking
+initiation neurons (P9, BPN, MDN) recruit populations of heterogeneous
+DNs by means of SEZ outputs that are poised to recruit multiple
+downstream VNC circuits for initiating specific walking patterns,
+(2) halting and walking pathways converge at specific nodes in these DN
+populations (for example, oDN1, BDN2) whose excitation–inhibition
+balance probably dictates the walking state and (3) different halting
+pathways inhibit different subsets of walking-promotion DNs.
+Specifically, turning and forward-walking-promoting DNs could be
+differentially inhibited by BB and FG, respectively. This shows a modularity
+in the descending control of turning and forward walking that
+is consistent with recent results from neuronal population imaging
+and modelling work in Drosophila12,34,57. This also aligns with modularity
+at the level of brainstem spinal projection neurons observed
+in vertebrates (zebrafish58, mice6,18,59), indicating that vertebrates
+could also have halting pathways that differentially inhibit forward
+locomotion and turning.
+The second mechanism, categorized as the brake mechanism, drives
+active resistance at the leg joints in the legs that are on the ground
+(stance phase), much like the brakes of a car resisting motion of the
+wheels. Also, similarly to how one releases the accelerator pedal while
+pressing on the brakes to avoid skidding, the newly identified BRK
+neurons inhibit the walking-promotion DNs through their brain outputs
+while simultaneously promoting resistance in the legs through
+their VNC outputs. The pathway from BRK to leg muscles is probably
+gated by proprioceptive inputs that confer the stance phase-specific
+behavioural response (Extended Data Fig. 9f). This BRK mechanism is
+consistent with their recruitment during grooming when the fly needs
+to both inhibit walking and balance its body on a subset of stationary
+legs. A similar mechanism could be relevant in other halting contexts
+in flies (for example, when flies lift their legs for lunging during aggression)
+or other animals for execution of halting with increased stability.
+Recent work in mice has uncovered a brainstem neuronal population
+(Chx10-Gi) that drives halting with legs in stance1,59. However, these
+neurons were not shown to drive upregulation of postural reflexes
+as seen for BRK. Moreover, recent work shows subsets of Chx10-Gi
+neurons being relevant in different aspects of walking, stopping, turning
+or grooming18,59,60. Our results encourage the search for BRK-like
+mechanism in these Chx10-Gi subsets or other BRK-analogous spinal
+ascending pathways in vertebrates.
+Comparing across connectome-informed circuits of all verified or
+predicted halting pathways in this study, we isolated a generic neural circuit
+motif for halting. For promoting halting to allow stationary behaviours
+such as feeding, egg-laying or grooming, the halting pathway
+branches off from the behaviour-specific sensory-motor pathway and
+impinges on walking-promoting circuits (Extended Data Fig. 10f). The
+halt neurons themselves need not encode for the behavioural-specific
+motor output (for example, proboscis extension, ovipositor extrusion
+or grooming movements) but rather drive the initiation and maintenance
+of a halted state during the behaviour. This halting branch
+is typically located downstream to command-like neurons in the
+sensory-motor circuit (note that predicted halt neurons also receive
+their inputs primarily in the SEZ region, which is closer to the output
+of the brain, Extended Data Fig. 10e,f). This emergence of modularity
+downstream in the circuit could be an efficient circuit-design for targeting
+similar population of walking-promotion neurons in different
+contexts.
+Despite this conserved motif shared across all halting pathways,
+the specific targets and mechanisms deployed by the halt neurons
+are distinct. This distinction may confer the specificity to how halting
+versus walking decisions are executed in a context-appropriate manner.

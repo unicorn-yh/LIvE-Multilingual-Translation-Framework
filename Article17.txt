@@ -1,0 +1,1069 @@
+As in previous editions, the goal of this sixth edition
+of Principles of Neural Science is to provide readers with
+insight into how genes, molecules, neurons, and the
+circuits they form give rise to behavior. With the exponential growth in neuroscience research over the 40 years
+since the first edition of this book, an increasing challenge is to provide a comprehensive overview of the field
+while remaining true to the original goal of the first
+edition, which is to elevate imparting basic principles
+over detailed encyclopedic knowledge.
+Some of the greatest successes in brain science over
+the past 75 years have been the elucidation of the cell
+biological and electrophysiological functions of nerve
+cells, from the initial studies of Hodgkin, Huxley, and
+Katz on the action potential and synaptic transmission to our modern understanding of the genetic and
+molecular biophysical bases of these fundamental processes. The first three parts of this book delineate these
+remarkable achievements.
+The first six chapters in Part I provide an overview
+of the broad themes of neural science, including the
+basic anatomical organization of the nervous system
+and the genetic bases of nervous system function and
+behavior. We have added a new chapter (Chapter 5) to
+introduce the principles by which neurons participate
+in neural circuits that perform specific computations
+of behavioral relevance. We conclude by considering
+how application of modern imaging techniques to the
+human brain provides a bridge between neuroscience
+and psychology. The next two parts of the book focus
+on the basic properties of nerve cells, including the
+generation and conduction of the action potential
+(Part II) and the electrophysiological and molecular
+mechanisms of synaptic transmission (Part III).
+We then consider how the activity of neurons in
+the peripheral and central nervous systems gives rise
+to sensation and movement. In Part IV, we discuss the
+various aspects of sensory perception, including how
+information from the primary organs of sensation is
+transmitted to the central nervous system and how it
+Preface
+is processed there by successive brain regions to generate a sensory percept. In Part V, we consider the neural
+mechanisms underlying movement, beginning with
+an overview of the field that is followed by a treatment
+ranging from the properties of skeletal muscle fibers
+to an analysis of how motor commands issued by the
+spinal cord are derived from activity in motor cortex and cerebellum. We include a new treatment that
+addresses how the basal ganglia regulate the selection
+of motor actions and instantiate reinforcement learning (Chapter 38).
+In the latter parts of the book, we turn to higherlevel cognitive processes, beginning in Part VI with a
+discussion of the neural mechanisms by which subcortical areas mediate homeostatic control mechanisms, emotions, and motivation, and the influence of
+these processes on cortical cognitive operations, such
+as feelings, decision-making, and attention. We then
+consider the development of the nervous system in
+Part VII, from early embryonic differentiation and the
+initial establishment of synaptic connections, to their
+experience-dependent refinement, to the replacement
+of neurons lost to injury or disease. Because learning
+and memory can be seen as a continuation of synaptic development, we next consider memory, together
+with language, and include a new chapter on decisionmaking and consciousness (Chapter 56) in Part VIII.
+Finally, in Part IX, we consider the neural mechanisms
+underlying diseases of the nervous system.
+Since the last edition of this book, the field of
+neuroscience has continued to rapidly evolve, which
+is reflected in changes in this edition. The continued
+development of new electrophysiological and light
+microscopic–based imaging technologies has enabled
+the simultaneous recording of the activity of large populations of neurons in awake behaving animals. These
+large data sets have given rise to new computational
+and theoretical approaches to gain insight into how
+the activity of populations of neurons produce specific behaviors. Light microscopic imaging techniques 
+using genetically encoded calcium sensors allow us to
+record the activity of hundreds or thousands of defined
+classes of neurons with subcellular resolution as an
+animal engages in defined behaviors. At the same time,
+the development of genetically encoded light-activated
+ion channels and ion pumps (termed optogenetics) or
+genetically engineered receptors activated by synthetic
+ligands (termed chemogenetics or pharmacogenetics)
+can be used to selectively activate or silence genetically defined populations of neurons to examine their
+causal role in such behaviors. In addition to including such material in chapters throughout the book,
+we introduce some of these developments in the new
+Chapter 5, which considers both the new experimental technologies as well as computational principles by
+which neural circuits give rise to behavior.
+Over the past 20 years, there has also been an expansion of new technologies that enable noninvasive and
+invasive recordings from the human brain. These studies
+have narrowed the gap between neuroscience and psychology, as exemplified in the expanded discussion of
+different forms of human memory in Chapter 52. Noninvasive brain imaging methods have allowed scientists
+to identify brain areas in humans that are activated during cognitive acts. As discussed in a new chapter on the
+brain–machine interface (Chapter 39), the implantation
+of electrodes in the brains of patients permits both electrophysiological recordings and local neural stimulation,
+offering the promise of restoring some function to individuals with damage to the central or peripheral nervous system.
+An understanding of basic and higher-order
+neural mechanisms is critical not only for our understanding of the normal function of the brain, but also
+for the insights they afford into a range of inherited
+and acquired neurological and psychiatric disorders.
+With modern genetic sequencing, it is now clear that
+inherited or spontaneous mutations in neuronally
+expressed genes contribute to brain disease. At the
+same time, it is also clear that environmental factors
+interact with basic genetic mechanisms to influence
+disease progression. We now end the book with a new
+section, Part IX, which presents the neuroscientific
+principles underlying disorders of the nervous system.
+In previous editions, many of these chapters were dispersed throughout the book. However, we now group
+these chapters in their own part based on the increasing appreciation that the underlying causes of what
+appear to be separate diseases, including neurodegenerative diseases, such as Parkinson and Alzheimer
+disease, and neurodevelopmental disorders, such as
+schizophrenia and autism, share certain common principles. Finally, these chapters emphasize the historical
+tradition of how studies of brain disease provide deep
+insights into normal brain function, including memory
+and consciousness.
+In writing this latest edition, it is our hope and
+goal that readers will emerge with an appreciation
+of the achievements of modern neuroscience and the
+challenges facing future generations of neuroscientists. By emphasizing how neuroscientists in the past
+have devised experimental approaches to resolve
+fundamental questions and controversies in the field,
+we hope that this textbook will also encourage readers to think critically and not shy away from questioning received wisdom, for every hard-won truth
+likely will lead to new and perhaps more profound
+questions in brain science. Thus, it is our hope that
+this sixth edition of Principles of Neural Science will
+provide the foundation and motivation for the next
+generation of neuroscientists to formulate and investigate these questions.
+The capacity for movement, as many dictionaries remind us,
+is a defining feature of animal life. As Sherrington, who pioneered the study of the motor system pointed out, “to move
+things is all that mankind can do, for such the sole executant is muscle, whether in whispering a syllable or in felling a forest.”*
+The immense repertoire of motions that humans are capable
+of stems from the activity of some 640 skeletal muscles—all under
+the control of the central nervous system. After processing sensory
+information about the body and its surroundings, the motor centers
+of the brain and spinal cord issue neural commands that effect coordinated, purposeful movements.
+The task of the motor systems is the reverse of the task of the
+sensory systems. Sensory processing generates an internal representation in the brain of the outside world or of the state of the body.
+Motor processing begins with an internal representation: the desired
+purpose of movement. Critically, however, this internal representation needs to be continuously updated by internally generated
+information (efference copy) and external sensory information to
+maintain accuracy as the movement unfolds.
+Just as psychophysical analysis of sensory processing tells us
+about the capabilities and limitations of the sensory systems, psychophysical analyses of motor performance reveal the control rules
+used by the motor system.
+Because many of the motor acts of daily life are unconscious,
+we are often unaware of their complexity. Simply standing upright,
+for example, requires continual adjustments of numerous postural
+muscles in response to the vestibular signals evoked by miniscule
+swaying. Walking, running, and other forms of locomotion involve
+the combined action of central pattern generators, gated sensory
+information, and descending commands, which together generate
+the complex patterns of alternating excitation and inhibition to the
+appropriate sets of muscles. Many actions, such as serving a tennis
+ball or executing an arpeggio on a piano, occur far too quickly to be
+shaped by sensory feedback. Instead, centers, such as the cerebellum, make use of predictive models that simulate the consequences
+of the outgoing commands and allow very short latency corrections.
+Motor learning provides one of the most fruitful subjects for studies
+of neural plasticity.
+Motor systems are organized in a functional hierarchy, with
+each level concerned with a different decision. The highest and most
+abstract level, likely requiring the prefrontal cortex, deals with the
+purpose of a movement or series of motor actions. The next level,
+which is concerned with the formation of a motor plan, involves
+interactions between the posterior parietal and premotor areas of
+the cerebral cortex. The premotor cortex specifies the spatiotemporal
+characteristics of a movement based on sensory information from
+the posterior parietal cortex about the environment and about the
+position of the body in space. The lowest level of the hierarchy coordinates the spatiotemporal details of the muscle contractions needed
+to execute the planned movement. This coordination is executed by
+the primary motor cortex, brain stem, and spinal cord. This serial
+view has heuristic value, but evidence suggests that many of these
+processes can occur in parallel.
+Some functions of the motor systems and their disturbance by
+disease have now been described at the level of the biochemistry of
+specific transmitter systems. In fact, the discovery that neurons in
+the basal ganglia of parkinsonian patients are deficient in dopamine
+was the first important clue that neurological disorders in the central
+nervous system can result from altered chemical transmission. Neurophysiological studies have provided information as to how such
+transmitters play a critical role in action selection and the reinforcement of successful movements.
+Understanding the functional properties of the motor system is
+not only fundamental in its own right, but it is of further importance
+in helping us to understand disorders of this system and explore the
+possibilities for treatment and recovery. As would be expected for
+such a complex apparatus, the motor system is subject to various
+malfunctions. Disruptions at different levels in the motor hierarchy
+produce distinctive symptoms, including the movement-slowing
+characteristic of disorders of the basal ganglia, such as Parkinson
+disease, the incoordination seen with cerebellar disease, and the
+spasticity and weakness typical of spinal cord damage. For this reason, the neurological examination of a patient inevitably includes
+tests of reflexes, gait, and dexterity, all of which provide information
+about the status of the nervous system. In addition to pharmacological therapies, the treatment of motor system disorders has been augmented by two new approaches. First, focal stimulation of the basal
+ganglia has been shown to restore motility to certain patients with
+Parkinson disease; such deep-brain stimulation is also being tested
+in the context of other neurological and psychiatric conditions. And
+second, the motor systems have become a target for the application
+of neural prosthetics; neural signals are decoded and used to drive
+devices that aid patients with paralysis caused by spinal cord injury
+and stroke.
+Understanding the normal function of
+the nervous system is central to understanding dysfunction caused by disease or injury
+and designing therapies. Such treatments include
+pharmacological agents, surgical interventions, and,
+increasingly, electronic medical devices. These medical devices fill an important gap between largely
+molecularly targeted and systemic medications and
+largely anatomically targeted and focal surgical
+lesions.
+In this chapter, we focus on medical devices that
+measure or alter electrophysiological activity at the
+level of populations of neurons. These devices are
+referred to as brain–machine interfaces (BMIs), brain–
+computer interfaces, or neural prostheses. We use the
+term BMI to refer to all such devices because there
+is no standard distinction among them. BMIs can
+be organized into four broad categories: those that
+restore lost sensory capabilities, those that restore lost
+motor capabilities, those that regulate pathological
+neural activity, and those that restore lost brain processing capabilities.
+BMIs can help people perform “activities of daily
+living,” such as feeding oneself, physically dressing
+and grooming oneself, maintaining continence, and
+walking. A type of BMI that we will discuss extensively
+in this chapter converts electrical activity from neurons
+in the brain into signals that control prosthetic devices
+to help people with paralysis. By understanding how
+neuroscience and neuroengineering work together to
+create current BMIs, we can more clearly envision how
+many neurological diseases and injuries can be treated
+with medical devices.
+One of the earliest and most widely used BMIs is the
+cochlear implant. People with profound deafness can
+benefit from restoration of even some audition. Since
+the 1970s, several hundred thousand people who
+have a peripheral cause of deafness that leaves the
+cochlear nerve and central auditory pathways intact
+have received cochlear implants. These systems have
+restored considerable hearing and spoken language,
+even to children with congenital deafness who have
+learned to perceive speech using cochlear implants.
+Cochlear implants operate by capturing sounds
+with a microphone that resides outside the skin and
+sending these signals to a receiver surgically implanted
+under the skin near the ear. After conversion (encoding) to appropriate spatial-temporal signal patterns,
+these signals electrically stimulate spiral ganglion cells
+in the cochlear modiolus (Chapter 26). In turn, signals from the activated cochlear cells are transmitted
+through the auditory nerve to the brain stem and higher
+auditory areas where, ideally, the neural signals are
+interpreted as the sounds captured by the microphone.
+Another example of a BMI is a retinal prosthesis.
+Blindness can be caused by diseases such as retinitis
+pigmentosa, an inherited retinal degenerative disease.
+At present, there is no cure and no approved medical
+therapy to slow or reverse the disease. Retinal prostheses currently enable patients to recognize large letters
+and locate the position of objects. They operate by capturing images with a camera and sending these signals
+to a receiver positioned within the eye. After conversion to appropriate spatial-temporal patterns, these
+electrical signals stimulate retinal ganglion cells in the
+retina through dozens of electrodes. In turn, these cells
+send their signals through the optic nerve to the thalamus and higher visual areas where, ideally, the afferent
+signals are interpreted as the image captured by the
+camera.
+BMIs are also being developed to assist paralyzed people and amputees by restoring lost motor and communication function. This is the central topic of this
+chapter. First, electrical neural activity in one or more
+brain areas is measured using penetrating multielectrode arrays placed, for example, in the arm and
+hand region of the primary motor cortex, dorsal and
+ventral premotor cortex, and/or intraparietal cortex
+(particularly the parietal reach region and medial
+intraparietal area) (Figure 39–1).
+Second, an arm movement is attempted but cannot
+be made in the case of people with paralysis. Action
+potentials and local field potentials are measured during these attempts. With 100 electrodes placed in the
+primary motor cortex and another 100 in the dorsal
+premotor cortex, for example, action potentials from
+approximately 200 neurons and local field potentials
+from 200 electrodes are measured. Local field potentials are lower-frequency signals recorded on the same
+electrodes as the action potentials and believed to arise
+from local synaptic currents of many neurons near
+the electrode tips. Together, these neural signals contain considerable information about how the person
+wishes to move her arm.
+Third, the relationship between neural activity and
+attempted movements is characterized. This relationship makes it possible to predict the desired movement
+from new neural activity, a statistical procedure we
+refer to as neural decoding. Fourth, the BMI is then operated in its normal mode where neural activity is measured in real time and desired movements are decoded
+from the neural activity by a computer. The decoded
+movements can be used to guide prosthetic devices,
+such as a cursor on a computer screen or a robotic arm.
+It is also possible to electrically stimulate muscles in
+a paralyzed limb to enact the decoded movements,
+a procedure known as functional electrical stimulation.
+Many other prosthetic devices can be envisioned as we
+increasingly interact with the world around us electronically (eg, smart phones, automobiles, and everyday objects that are embedded with electronics so that
+they can send and receive data—known as the “internet
+of things”).
+Finally, because the person can see the prosthetic
+device, she can alter her neural activity by thinking
+different thoughts on a moment-by-moment basis
+so as to guide the prosthetic device more accurately.
+This closed-loop feedback control system can make
+use of nonvisual sensory modalities as well, including delivering pressure and position information from
+electronic sensors wrapped on or embedded in a prosthetic arm. Such surrogate sensory information can be
+transformed into electrical stimulation patterns that
+are delivered to proprioceptive and somatosensory
+cortex.
+The BMIs described above include motor and
+communication BMIs. Motor BMIs aim to provide
+natural control of a robotic limb or a paralyzed limb.
+In the case of upper-limb prostheses, this involves the 
+precise movement of the arm along a desired path and
+with a desired speed profile. Such control is indeed
+an ambitious ultimate goal, but even intermediate
+steps toward this goal could improve quality of life by
+restoring some lost motor function and improving the
+patient’s ability to carry out “activities of daily living.”
+For example, numerous people with tetraplegia could
+benefit from being able to feed themselves.
+Communication BMIs are designed to provide
+a fast and accurate interface with a plethora of electronic devices. The ability to move a computer cursor
+around an on-screen keyboard allows a patient to type
+commands for computers, smart phones, voice synthesizers, smart homes, and the “internet of things.”
+Ideally, communication BMIs would allow for a communication rate at which most people speak or type.
+Such BMIs would benefit people with amyotrophic
+lateral sclerosis (ALS), who often become “locked in”
+and unable to communicate with the outside world
+through any movements. Communication BMIs would
+also benefit people with other neurodegenerative diseases that severely compromise the quality of movement and speech, as well as those with upper spinal
+cord injury. The ability to reliably type several words
+per minute is a meaningful improvement in quality of
+life for many patients.
+Motor and communication BMIs build on basic
+neuroscientific research in voluntary movement
+(Chapter 34). The design and development of BMIs have
+so far depended on laboratory animal research, largely
+with nonhuman primates; recently, however, pilot clinical trials with humans with paralysis have begun.
+BMIs have been developed to help people with disorders involving pathological neural activity in the
+brain, such as Parkinson disease and epilepsy. People
+with Parkinson disease benefit by having hand and
+arm tremor reduced. At present, there is no cure for
+Parkinson disease, and many people become resistant
+to pharmacological treatments. A deep brain stimulator (DBS) can help these people by delivering electrical
+pulses to targeted areas in the brain to disrupt the aberrant neural activity.
+DBS is controlled by a neurostimulator implanted
+in the chest, with wires to stimulating electrodes in
+deep brain nuclei (eg, the subthalamic nucleus). The
+nuclei are continuously stimulated with these electrodes in order to alter the aberrant neural activity.
+This method can often greatly reduce Parkinson disease–
+related tremor for years. A DBS applied to different
+brain areas can also help people with essential tremor,
+dystonia, chronic pain, major depression, and obsessivecompulsive disorder.
+Millions of people experiencing epileptic seizures
+are currently treated with antiseizure medications or
+neurosurgery, both of which often result in incomplete
+or impermanent seizure reduction. Antiseizure BMIs
+have shown considerable promise for further improving quality of life. These fully implanted BMIs operate
+by continuously monitoring neural activity in a brain
+region determined to be involved with seizures. They
+identify unusual activity that is predictive of seizure
+onset and then respond within milliseconds to disrupt
+this activity by electrically stimulating the same or a
+different brain region. This closed-loop response can
+be fast enough that seizure symptoms are not felt and
+seizures do not occur.
+BMIs are capable of restoring more than lost sensory
+or motor capabilities. They are, in principle, capable of
+restoring internal brain processing. Of the four categories of BMIs, this is the most futuristic. An example is
+a “replacement part” BMI. The central idea is that if
+enough is known about the function of a brain region,
+and if this region is damaged by disease or injury, then
+it may be possible to replace this brain region.
+Once the normal input activity to a brain region
+is measured (see next section), the function of the lost
+brain region could then be modeled in electronic hardware and software, and the output from this substitute
+processing center would then be delivered to the next
+brain region as though no injury had occurred. This
+would involve, for example, reading out neural activity with electrodes, mimicking the brain region’s computational functions with low-power microelectronic
+circuits, and then writing in electrical neural activity
+with stimulating electrodes.
+This procedure might also be used to initiate and
+guide neural plasticity. A replacement part BMI that
+is currently being investigated focuses on restoring
+memory by replacing parts of the hippocampus that
+are damaged due to injury or disease. Another potential application would be to restore the lost functionality of a brain region damaged by stroke.
+These systems represent the natural evolution of
+the BMI concept, a so-called “platform technology”
+because a large number of systems can be envisioned
+by mixing and matching various write-in, computational, and read-out components. The number of neurological diseases and injuries that BMIs should be able
+to help address ought to increase as our understanding
+of the functions of the nervous system and the sophistication of the technology continue to grow.
+Measuring and modulating neural activity involves
+four broad areas of electronic technologies applied to
+the nervous system (so-called neurotechnology). The
+first area is the type of neural sensor; artificial neural
+sensors are designed with different levels of invasiveness and spatial resolution (Figure 39–2). Sensors that
+are external to the body, such as an electroencephalogram
+(EEG) cap, have been used extensively in recent decades. The EEG measures signals from many small metal
+disks (electrodes) applied to the surface of the scalp
+across the head. Each electrode detects average activity from a large number of neurons beneath it.
+More recently, implantable electrode-array techniques, such as subdural electrocorticography (ECoG)
+and finely spaced micro-ECoG electrodes, have been
+used. Since ECoG electrodes are on the surface of the
+brain and are thus much closer to neurons than EEG
+electrodes, ECoG has higher spatial and temporal resolution and thus provides more information with which
+to control BMIs.
+Most recently, arrays of penetrating intracortical
+electrodes, which we focus on in this chapter, have been
+used. The intracortical electrode arrays are made of silicon or other materials and coated with biocompatible
+materials. The arrays are implanted on the surface of
+the brain, with the electrode tips penetrating 1 to 2 mm
+into the cortex. They have the ability to record action
+potentials from individual neurons, as well as local
+field potentials from small clusters of neurons near
+each electrode tip. The electrodes are able to record
+high-fidelity signals because they are inserted into the
+brain, bringing the electrode tips within micrometers
+of neurons. This is beneficial for BMI performance
+because individual neurons are the fundamental
+information-encoding units in the nervous system,
+and action potentials are the fundamental units of the
+digital code that carries information from the input to
+the output region of a neuron. Moreover, intracortical
+electrodes can deliver electrical microstimulation to
+either disrupt neural activity (eg, DBS) or write in surrogate information (eg, proprioceptive or somatosensory information).
+The second area of neurotechnology is scaling up
+the number of neurons measured at the same time.
+While one neuron contains some information about a
+person’s intended movement, tens to hundreds of neurons are needed to move a BMI more naturally, and
+even more neurons are needed to approach naturalistic levels of motor function. Although it is possible to
+place electrode arrays in many areas across the brain,
+thereby gaining more information from multiple areas,
+a key challenge is to measure activity from thousands
+of neurons within each individual brain area. Many
+efforts are underway to achieve this goal, including use
+of electrode arrays with many tiny shafts, each with
+hundreds of electrode contacts along its length; many
+tiny electrodes that are not physically wired together,
+but are instead inserted into the brain as stand-alone
+islands that transmit data outside of the head and
+receive power wirelessly; and optical imaging technologies that can capture the activity of hundreds or more
+neurons by detecting how each neuron’s fluorescence
+changes over time.
+The third area is low-power electronics for signal acquisition, wireless data communications, and
+wireless powering. In contrast to the BMI systems
+described above, which implant a passive electrode
+array in which each electrode is wired to the outside world by a connector passing through the skin,
+future BMIs will be fully implanted like DBS systems.
+Electronic circuits are needed to amplify neural signals, digitize them, process them (eg, to detect when 
+an action potential occurred or to estimate local field
+potential power), and transmit this information to a
+nearby receiver incorporated into a prosthetic arm,
+for example. Power consumption must be minimized
+for two reasons. First, the more power is consumed,
+the more power a battery or a wireless charging system would need to provide. Batteries would therefore
+need to be larger and replaced more often, and delivering power wirelessly is challenging. Second, using
+power generates heat, and the brain can only tolerate a
+small temperature increase before there are deleterious
+effects. These trade-offs are similar to those of smart
+phones, which represent the current best technology
+available for low-power electronics.
+The final area is so-called supervisory systems.
+Software running on electronic hardware is at the
+heart of BMIs. Some software implements the mathematical operations of the neural decoding, while
+other software must tend to aspects of the BMI’s overall operation. For example, the supervisory software
+should monitor whether or not a person wishes to use
+the prosthesis (eg, if the person is sleeping); if neural
+signals have changed, thereby requiring recalibration
+of the decoder; and overall BMI performance and
+safety.
+Having discussed the range of different BMIs and
+neurotechnologies being developed, in the rest of this
+chapter we focus on motor and communication BMIs.
+We first describe different types of decoding algorithms and how they work. We then describe recent
+progress in BMI development toward assisting paralyzed people and amputees. Next, we consider how
+sensory feedback can improve BMI performance and
+how BMIs can be used as an experimental paradigm to
+address basic scientific questions about brain function.
+Finally, we conclude with a cautionary note about ethical issues that can arise with BMIs.
+Various aspects of movement—including position,
+velocity, acceleration, and force—are encoded in the
+activity of neurons throughout the motor system
+(Chapter 34). Even though our understanding of
+movement encoding in the motor system is incomplete, there is usually a reliable relationship between
+aspects of movement and neural activity. This reliable relationship allows us to estimate the desired
+movement from neural activity, a key component of
+a BMI.
+To study movement encoding, one typically considers the activity of an individual neuron across
+repeated movements (referred to as “trials”) to the
+same target. The activity of the neuron can be averaged
+across many trials to create a spike histogram for each
+target (Figure 39–3A). By comparing the spike histograms for different targets, one can characterize how
+the neuron’s activity varies with the movement produced. One can also assess using the spike histograms
+whether the neuron is more involved in movement
+preparation or movement execution.
+In contrast, estimating a subject’s desired movement from neural activity (referred to as movement
+decoding) needs to be performed on an individual
+trial while the neural activity is being recorded. The
+activity of a single neuron cannot unambiguously
+provide such information. Thus, the BMI must monitor the activity of many neurons on a single trial
+(Figure 39–3B) rather than one neuron on many trials.
+A desired movement can be decoded from the neural
+activity associated with either preparation or execution of the movement. Whereas preparation activity
+is related to the movement goal execution activity is
+related to the moment-by-moment details of movement (Chapter 34).
+Millions of neurons across multiple brain areas
+work together to produce a movement as simple as
+reaching for a cup. Yet in many BMIs, desired movements can be decoded reasonably accurately from the
+activity of dozens of neurons recorded from a single brain
+area. Although this may seem surprising, the fact is that
+the motor system has a great deal of redundancy—many
+neurons carry similar information about a desired
+movement (Chapter 34). This is reasonable because
+millions of neurons are involved in controlling the contractions of dozens of muscles. Thus, most of the neurons in regions of dorsal premotor cortex and primary
+motor cortex controlling arm movement are informative about most arm movements.
+When decoding a movement, the activity of one
+neuron provides only incomplete information about
+the movement, whereas the activity of many neurons
+can provide substantially more accurate information
+about the movement. This is true for activity associated with both movement preparation and execution.
+There are two reasons why using multiple neurons is
+helpful for decoding. First, a typical neuron alone cannot unambiguously determine the intended movement
+direction. Consider a neuron whose activity (during
+either preparation or execution) is related to movement direction via a cosine function, known as a tuning
+curve (Figure 39–4A). If this neuron fires at 30 spikes
+per second, the intended movement direction could
+be either 120° or 240°. However, by recording from a
+second neuron whose tuning curve is different from
+that of the first neuron, the movement direction can be 
+more accurately determined. If the second neuron fires
+at 5 spikes per second, corresponding to a movement
+in either the 60° or 120° direction, the only movement
+direction that is consistent between the two neurons is
+120° (Figure 39–4B). Thus, by recording from these two
+neurons simultaneously, the intended reach direction
+can be determined more accurately than by recording from one neuron. (However, two neurons do not
+necessarily provide a perfect estimate of the intended
+reach direction due to noise, as described next.)
+The second reason why decoding a movement
+from the activity of several neurons gives greater accuracy is because a neuron’s activity level usually varies
+across repeated movements in the same direction. This
+variability is typically referred to as spiking “noise.”
+Let us say that due to spiking noise the first neuron
+fires at slightly less than 30 spikes per second and the
+second neuron fires at slightly more than 5 spikes per
+second (Figure 39–4C). Under these conditions, no single movement direction is consistent with the activity
+level of both neurons. Instead, a compromise must be
+made between the two neurons to determine a movement direction that is as consistent as possible with their
+activities. By extending this concept to more than two
+neurons, the movement direction can be decoded even
+more accurately as the number of neurons increases.
+Movement decoders are a central component of
+BMIs. There are two types of BMI decoders: discrete
+and continuous (Figure 39–3C). A discrete decoder estimates one of several possible movement goals. Each
+of these movement goals could correspond to a letter
+on a keyboard. A discrete decoder solves a classification problem in statistics and can be applied to either
+preparation activity or execution activity. A continuous
+decoder estimates the moment-by-moment details of
+a movement trajectory. This is important, for example, for reaching around obstacles or turning a steering wheel. A continuous decoder solves a regression
+problem in statistics and is usually applied to execution activity rather than preparation activity because
+the moment-by-moment details of a movement can
+be more accurately estimated from execution activity
+(Chapter 34).
+Motor BMIs must produce movement trajectories as accurately as possible to achieve the desired
+movement and typically use a continuous decoder
+to do this. In contrast, communication BMIs are concerned with enabling the individual to transmit information as rapidly as possible. Thus, the speed and
+accuracy with which movement goals (or keys on a
+keyboard) can be selected are of primary importance.
+Communication BMIs can use a discrete decoder to
+directly select a desired key on a keyboard or a continuous decoder to continuously guide the cursor to
+the desired key, where only the key eventually struck
+actually contributes to information conveyance. This
+seemingly subtle distinction has implications that
+influence the type of neural activity required and
+therefore the brain area that is targeted, as well as the
+type of decoder that is used.
+Neural decoding involves two phases: calibration and ongoing use. In the calibration phase, the
+relationship between neural activity and movement
+is characterized by a statistical model. This can be
+achieved by recording neural activity while a paralyzed person attempts to move, imagines moving, or
+passively observes movements of a computer cursor or
+robotic limb. Once the relationship has been defined,
+the statistical model can then be used to decode new
+observed neural activity (ongoing use phase). The goal
+during the ongoing use phase is to find the movement
+that is most consistent with the observed neural activity
+(Figure 39–4B,C).
+We first define a population activity space, where each
+axis represents the firing rate of one neuron. On each
+trial (ie, movement repetition), we can measure the firing rate of each neuron during a specified period, and
+together they yield one point in the population activity
+space. Across many trials, involving multiple movement goals, there will be a scatter of points in the population activity space. If the neural activity is related
+to the movement goal, then the points will be separated in the population activity space according to the
+movement goal (Figure 39–5A). During the calibration
+phase, decision boundaries that partition the population
+activity space into different regions are determined
+by a statistical model. Each region corresponds to one
+movement goal.
+During the ongoing use phase, we measure
+new neural activity for which the movement goal is
+unknown (Figure 39–5B). The decoded movement goal
+is determined by the region in which the neural activity
+lies. For example, if the neural activity lies within the
+region corresponding to the leftward target, then the
+discrete decoder would guess that the subject intended
+to move to the leftward target on that trial. It is possible that the subject intended to move to the rightward
+target, even though the recorded activity lies within
+the region corresponding to the leftward target. In this
+case, the discrete decoder would incorrectly estimate
+the subject’s intended movement goal. Decoding accuracy typically increases with an increasing number of
+simultaneously recorded neurons.
+Arm position, velocity, acceleration, force, and other
+aspects of arm movement can be decoded using the
+methods described here with varying levels of accuracy. For concreteness, we will discuss decoding movement velocity because it is one of the quantities most
+strongly reflected in the activity of motor cortical 
+neurons and is the starting point for the design of most
+BMI systems.
+Consider a population of neurons whose level of
+activity indicates the movement velocity (ie, speed and
+direction). During the calibration phase, a “pushing
+vector” is determined for each neuron (Figure 39–6A). A
+pushing vector indicates how a neuron’s activity influences movement velocity. Various continuous decoding
+algorithms differ in how they determine the pushing vectors. One of the earliest decoding algorithms,
+the population vector algorithm (PVA), assigns each
+neuron’s pushing vector to point along the neuron’s
+preferred direction (see Figure 34–22A). A neuron’s
+preferred direction is defined as the direction of movement for which the neuron shows the highest level of
+activity (ie, peak of curves in Figure 39–4). Much of
+the pioneering work on BMIs used the PVA. However,
+the PVA does not take into account the properties of the
+spiking noise (ie, its variance and covariance across
+neurons), which influences the accuracy of the decoded
+movements. A more accurate decoder, the optimal linear estimator (OLE), incorporates the properties of the
+spiking noise to determine the pushing vectors.
+During the ongoing use phase, the pushing vectors are each scaled by the number of spikes emitted
+by the corresponding neuron at each time step (Figure
+39–6B). At each time step, the decoded movement is
+the vector sum of the scaled pushing vectors across all
+neurons. The decoded movement represents a change
+in position during one time step (ie, velocity). The
+BMI cursor (or limb) position (Figure 39–6C) is then
+updated according to the decoded movement.
+To further improve decoding accuracy, the estimation of velocity at each time step should take into
+account not only current neural activity (as illustrated
+in Figure 39–6), but also neural activity in the recent
+past. The rationale is that movement velocity (and
+other kinematic variables) changes gradually over
+time, and so neural activity in the recent past should
+be informative about the movement velocity. This
+can be achieved by temporally smoothing the neural
+activity before applying a PVA or OLE or by using a
+Kalman filter to define a statistical model describing
+how movement velocity (or other kinematic variables)
+changes smoothly over time. With a Kalman filter, the
+estimated velocity is a combination of the scaled pushing vectors at the current time step (as in Figure 39–6B)
+and the estimated velocity at the previous time step.
+Indeed, continuous decoding algorithms that take into
+account neural activity in the recent past have been
+shown to provide higher decoding accuracy than those
+that do not. The Kalman filter and its extensions are
+widely used in BMIs and among the most accurate
+continuous decoding algorithms available.
+Patients with paralysis wish to perform activities of
+daily living. For people with ALS or upper spinal cord
+injury who are unable to speak or to move their arms,
+the most desired tasks are often the ability to communicate, to move a prosthetic (robotic) arm, or to move
+the paralyzed arm by stimulating the musculature.
+Having described how neural signals can be read out
+from motor areas of the brain and how these electrical
+signals can be decoded to arrive at BMI control signals,
+we now describe recent progress toward restoring
+these abilities.
+The majority of laboratory studies are carried out
+in able-bodied nonhuman primates, although paralysis
+is sometimes transiently induced in important control
+experiments. Three types of experimental paradigms
+are in broad use, differing in the exact way in which
+arm behavior is instructed and visual feedback is provided during BMI calibration and ongoing use. Setting
+these differences aside, we focus below on how BMIs
+function and perform. We also highlight recent pilot
+clinical trials with people with paralysis.
+To investigate how quickly and accurately a communication BMI employing a discrete decoder and preparation activity can operate, monkeys were trained to
+fixate and touch central targets and prepare to reach to
+a peripheral target that could appear at one of several
+different locations on a computer screen. Spikes were
+recorded using electrodes implanted in the premotor
+cortex. The number of spikes occurring during a particular time window during the preparation epoch was
+used to predict where the monkey was preparing to
+reach (Figure 39–7A). If the decoded target matched
+the peripheral target, a liquid reward was provided to
+indicate a successful trial.
+By varying the duration of the period in which
+spike counts are taken and the number of possible targets, it was possible to assess the speed and accuracy
+of target selections (Figure 39–7B). Decoding accuracy
+tended to increase with the period in which spike
+counts are taken because spiking noise is more easily
+averaged out in longer periods.
+An important metric for efficient communication
+is information transfer rate (ITR), which measures
+how much information can be conveyed per unit time.
+A basic unit of information is a bit, which is specified
+by a binary value (0 or 1). For example, with three
+bits of information, one can specify which of 23
+ = 8
+possible targets or keys to press. Thus, the metric for
+ITR is bits per second (bps). ITR increases with the
+period in which spike counts are taken, then declines.
+The reason is that ITR takes into account both how accurately and how quickly each target is selected. Beyond
+some point of diminishing returns of a longer period,
+accuracy fails to increase rapidly enough to overcome
+the slowdown in target-selection rate accompanying a
+longer period.
+Overall performance (ITR) increases with the number of possible targets, despite a decrease in decoding
+accuracy, because each correct target selection conveys
+more information. Fast and accurate communication 
+has been demonstrated in BMIs with this design based
+on a discrete decoder applied to preparatory activity.
+The ITR of this BMI is approximately 6.5 bps, which
+corresponds to approximately two to three targets per
+second with greater than 90% accuracy.
+Recent studies have also investigated how quickly
+and accurately a communication BMI employing a
+continuous decoder and execution activity can operate. Two different types of continuous decoders were
+evaluated: a standard Kalman filter decoding movement velocity (V-KF) and a recalibrated feedback
+intention-trained Kalman filter (ReFIT-KF). The V-KF
+was calibrated using the neural activity recorded during actual arm movements (ie, open-loop control). The
+ReFIT-KF incorporated the closed-loop nature of BMIs
+into decoder calibration by assuming that the user
+desired to move the cursor straight to the target at each
+time step.
+To assess performance, both types of decoders
+were used in closed-loop BMI control (Figure 39–8A).
+Monkeys were required to move a computer cursor
+from a central location to eight peripheral locations
+and back. A gold standard for performance evaluation
+was established by having the monkeys also perform
+the same task using arm movements. The ReFIT-KF
+outperformed the V-KF in several ways: Cursor movements using ReFIT-KF were straighter, producing less
+movement away from a straight line to the target; cursor movements were faster, approaching the speed of
+arm movements (Figure 39–8B); and there were fewer
+(potentially frustrating) long trials.
+Given its performance benefits, the ReFIT-KF is
+being used in clinical trials by people with paralysis
+(Figure 39–8C). Spiking activity was recorded using
+a 96-channel electrode array implanted in the hand
+control area of the left motor cortex. Signals were filtered to extract action potentials and high-frequency
+local field potentials, which were decoded to provide
+“point-and-click” control of the BMI-controlled cursor.
+The subject was seated in front of a computer monitor
+and was asked, “How did you encourage your sons
+to practice music?” By attempting to move her right
+hand, the computer cursor moved across the screen
+and stopped over the desired letter. By attempting to
+squeeze her left hand, the letter beneath the cursor was
+selected, much like clicking a mouse button.
+BMI performance in the clinical trials was assessed
+by measuring the number of intended characters subjects were able to type (Figure 39–8D). Subjects were
+able to demonstrate that the letters they typed were
+intended by using the delete key to erase occasional
+mistakes. These clinical tests showed that it is possible
+to type at a rate of many words per minute using a BMI.
+Patients with paralysis would like to pick up objects,
+feed themselves, and generally interact physically
+with the world. Motor BMIs with prosthetic limbs
+aim to restore this lost motor functionality. As before,
+neural activity is decoded from the brain but is now
+routed to a robotic arm where the wrist is moved in
+three dimensions (x, y, and z) and the hand is moved in
+an additional dimension (grip angle, ranging from an
+open hand to a closed hand).
+In one test of a robotic arm, a patient with paralysis
+was able to use her neural activity to direct the robotic
+arm to reach out, grab a bottle of liquid, and bring it
+to her mouth (Figure 39–9). The three-dimensional
+reaches and gripping were slower and less accurate
+than natural arm and hand movements. Importantly,
+this demonstrated that the same BMI paradigm originally developed with animals, including measuring
+and decoding signals from motor cortex, works in people even years after the onset of neural degeneration or
+the time of neural injury.
+BMI devices directing prosthetic arms and hands
+are now able to do more than just control threedimensional movement or open and close the hand.
+They can also orient the hand and grasp, manipulate,
+and carry objects. A person with paralysis was able to
+move a prosthetic limb with 10 degrees of freedom to
+grasp objects of different shapes and sizes and move
+them from one place to another (Figure 39–10). Completion times for grasping and moving objects were
+considerably slower than natural arm movements, but
+the results are encouraging. These studies illustrate
+the existing capabilities of prosthetic arms and also the
+potential for even greater capabilities in the future.
+An alternative to using a robotic arm is to restore lost
+motor function to the biological arm. Arm paralysis
+results from the loss of neural signaling from the spinal
+cord and brain, but the muscles themselves are often
+still intact and can be made to contract by electrical
+stimulation. This capacity underlies functional electrical stimulation (FES), which sends electrical signals via
+internal or external electrodes to a set of muscle groups.
+By shaping and timing the electrical signals sent to the
+different muscle groups, FES is able to move the arm
+and hand in a coordinated fashion to pick up objects.
+Laboratory studies in monkeys have demonstrated that this basic approach is viable in principle. 
+It is implemented by calibrating a continuous decoder
+to predict the intended activity of each of several of
+the muscles, transiently paralyzed with a nerve block.
+These predictions are then used to control the intensity
+of stimulation of the same paralyzed muscles, which
+in turn controls motor outputs such as a grip angle
+and force. This process in effect bypasses the spinal
+cord and restores some semblance of voluntary control
+of the paralyzed arm and hand. Similar results have
+recently been demonstrated in patients with paralysis using either externally applied or fully implanted
+state-of-the-art FES electrodes. Intracortically recorded
+signals from motor cortex were decoded to restore
+movement via FES in a person with upper spinal cord
+injury (Figure 39–11). The subject was able to achieve
+control of different wrist and hand motions, including
+finger movements, and perform various activities of
+daily living.
+During arm movements, we rely on multiple sources of
+sensory feedback to guide the arm along a desired path
+or to a desired goal. These sources include visual, proprioceptive, and somatosensory feedback. However, in
+most current BMI systems, the user receives only visual
+feedback about the movements of the computer cursor
+or robotic limb. In patients with normal motor output pathways but lacking proprioception, arm movements are substantially less accurate than in healthy
+individuals, both in terms of movement direction and
+extent. Furthermore, in tests of BMI cursor control in
+healthy nonhuman primate subjects, the arm continues to provide proprioceptive feedback even though
+arm movements are not required to move the cursor.
+BMI cursor control is more accurate when the arm is
+passively moved together with the BMI cursor along
+the same path, rather than along a different path. This
+demonstrates the importance of “correct” proprioceptive feedback. Based on these two lines of evidence, it is
+perhaps not surprising that BMI-directed movements
+relying solely on visual feedback are slower and less
+accurate than normal arm movements. This has motivated recent attempts to demonstrate how providing
+surrogate (ie, artificial) proprioceptive or somatosensory feedback can improve BMI performance.
+Several studies have attempted to write in sensory information by stimulating the brain using cortical electrical microstimulation. Laboratory animals
+can discriminate current pulses of different frequencies and amplitudes, and this ability can be utilized to
+provide proprioceptive or somatosensory information
+in BMIs by using different pulse frequencies to encode
+different physical locations (akin to proprioception) or
+different textures (akin to somatic sensation). Electrical
+microstimulation in the primary somatosensory cortex
+can be used by nonhuman primates to control a cursor on a moment-by-moment basis without vision. In
+these subjects, the use of electrical microstimulation 
+and visual feedback together led to more accurate
+movements than either type of sensory feedback alone.
+Furthermore, electrical microstimulation in the primary somatosensory cortex can also be used to provide
+tactile information. Nonhuman primates moved a BMIdirected cursor under visual feedback to hit different
+visual targets, each of which elicited a different stimulation frequency. Subjects learned to use differences in the
+stimulation feedback to distinguish the rewarded target
+from the unrewarded targets. This demonstrates that
+electrical microstimulation can also be used to provide
+somatosensory feedback during BMI control.
+Finally, surrogate somatosensory information was
+delivered via electrical microstimulation to a person
+with paralysis and compromised sensory afferents.
+The person reported naturalistic sensations at different locations of his hand and fingers corresponding to
+different locations of stimulation in the primary somatosensory cortex.
+BMIs are becoming an increasingly important experimental tool for addressing basic scientific questions
+about brain function. For example, cochlear implants
+have provided insight into how the brain processes
+sounds and speech, how the development of these
+mechanisms is shaped by language acquisition, and
+how neural plasticity allows the brain to interpret a
+few channels of stimulation carrying impoverished
+auditory information. Similarly, motor and communication BMIs are helping to elucidate the neural mechanisms underlying sensorimotor control. Such scientific
+findings can then be used to refine the design of BMIs.
+The key benefit of BMIs for basic science is that
+they can simplify the brain’s input and output interface
+with the outside world, without simplifying the complexities of brain processing that one wishes to study. 
+To illustrate this point, consider the output interface of
+the brain for controlling arm movements. Thousands
+of neurons from the motor cortex and other brain areas
+send signals down the spinal cord and to the arm, where
+they activate muscles that move the arm. Understanding how the brain controls arm movement is challenging because one can typically record from only a small
+fraction of the output neurons that send signals down
+the spinal cord, the relationship between the activity of
+the output neurons and arm movements is unknown,
+and the arm has nonlinear dynamics that are difficult
+to measure. Furthermore, it is usually difficult to determine which recorded neurons are output neurons.
+One way to ease this difficulty is to use a BMI.
+Because of the way a BMI is constructed, only those
+neurons that are recorded can directly affect the movement of the cursor or robotic limb. Neurons throughout the brain are still involved, but they can influence
+the cursor movements only indirectly through the
+recorded neurons. Thus, in contrast to arm and eye
+movement studies, one can record from the entire set
+of output neurons in a BMI, and BMI-directed movements can be causally attributed to specific changes in
+the activity of the recorded neurons. Furthermore, the
+mapping between the activity of the recorded neurons
+and cursor movement is defined by the experimenter,
+so it is fully known. This mapping can be defined to be
+simple and can be easily altered by the experimenter
+during an experiment. In essence, a BMI defines a
+simplified sensorimotor loop, whose components are
+more concretely defined and more easily manipulated
+than for arm or eye movements.
+These advantages of BMIs allow for studies of
+brain function that are currently difficult to perform
+using arm or eye movements. For example, one class
+of studies involves using BMIs to study how the brain
+learns. The BMI mapping defines which population
+activity patterns will allow the subject to successfully
+move the BMI-directed cursor to hit visual targets. By
+defining the BMI mapping appropriately, the experimenter can challenge the subject’s brain to produce
+novel neural activity patterns.
+A recent study explored what types of activity
+patterns are easier and more difficult for the brain to
+generate. They found that it was easier for subjects to
+learn new associations between existing activity patterns and cursor movements than to generate novel
+activity patterns. This finding has implications for
+our ability to learn everyday skills. A second class of
+studies involves asking how the activity of neurons
+that directly control movement differ from those that
+do not directly control movement. In a BMI, one can
+choose to use only a subset of the recorded neurons
+(the output neurons) for controlling movements. At
+the same time, other neurons (the nonoutput neurons)
+can be passively monitored without being used for
+controlling movements. Comparing the activity of output and nonoutput neurons can provide insight into
+how a network of neurons internally processes information and relays only some of that information to
+other networks.
+Using this paradigm, a recent study recorded
+neural activity simultaneously in the primary cortex
+and striatum and designated a subset of the M1 neurons as the output neurons for controlling the BMI.
+They found that, during BMI learning, M1 neurons
+that were most relevant for behavior (the output
+neurons) preferentially increased their coordination
+with the striatum, which is known to play an important role during natural behavior (Chapter 38).
+Identifying output versus nonoutput neurons in
+a study using arm or eye movements would be
+challenging.
+A growing number of biomedical ethics considerations
+centered on the brain have arisen from the dramatic
+expansion in our understanding of neuroscience and
+our capabilities with neurotechnology. These advances
+are driven by society’s curiosity about the functioning of the brain, the least-well understood organ in
+the body, as well as the desire to address the massive
+unmet need of those suffering from neurological disease and injury. The use of BMIs raises new ethical
+questions for four principal reasons.
+First, recording high-fidelity signals (ie, spike
+trains) involves risk, including the risks associated
+with initial implantation of the electrodes as well
+as possible biological (immunological or infectious)
+responses during the lifetime of the electrodes and the
+associated implanted electronics. Electrodes implanted
+for long periods currently have functional lifetimes on
+the order of many months to a few years, during which
+time glial scar tissue can form around the electrodes
+and electrode materials can fail. Efforts to increase the
+functional lifetime of electrodes range from nanoscale
+flexible electrodes made with new materials to mitigating immunological responses, as is done with cardiac
+stents.
+For these reasons, patients considering receiving
+implanted recording technologies will need to evaluate the risks and benefits of a BMI, as is the case for
+all medical interventions. It is important for patients to
+have options, as each person has personal preferences
+involving willingness to undergo surgery, desire for
+functional restoration and outcome, and cosmesis—be
+it while deliberating cancer treatment or BMI treatment. BMIs based on different neural sensors (Figure
+39–2) have different risks and benefits.
+Second, because BMIs can read out movement
+information from the brain at fine temporal resolution, it seems plausible that they will be able to read
+out more personal and private types of information as
+well. Future neuroethics questions that may arise as
+the technology becomes more sophisticated include
+whether it is acceptable, even with patient consent,
+to read out memories that may otherwise be lost to
+Alzheimer disease; promote long-term memory consolidation by recording fleeting short-term memories
+and playing them back directly into the brain; read
+out subconscious fears or emotional states to assist
+desensitization psychotherapy; or read out potential
+intended movements, including speech, that would
+not naturally be enacted.
+Third, intracortical write-in BMIs, similar to DBS
+systems currently used to reduce tremor, may one day
+evoke naturalistic spatial-temporal activity patterns
+across large populations of neurons. In the extreme
+it may not be possible for a person to distinguish
+self-produced and volitional neural activity patterns
+from artificial or surrogate patterns. Although there
+are numerous therapeutic and beneficial reasons for
+embracing this technology, such as reducing tremor
+or averting an epileptic seizure, more dubious uses
+can be envisioned such as commandeering a person’s
+motor, sensory, decision making, or emotional valence
+circuits.
+Finally, ethical questions also involve the limits
+within which BMIs should operate. Current BMIs
+focus on restoring lost function, but it is possible for
+BMIs to be made to enhance function beyond natural levels. This is as familiar as prescribing a pair
+of glasses that confer better than normal vision, or
+overprescribing a pain medication, which can cause
+euphoria that is often addictive. Should BMIs be
+allowed, if and when it becomes technically possible, 
+to move a robotic arm faster and more accurately
+than a native arm? Should continuous neural recordings from BMIs, covering hours, days, or weeks, be
+saved for future analysis, and are the security and
+privacy issues the same or different from personal
+genomics data? Should BMIs with preset content be
+available for purchase, for example, to skip a grade
+of mathematics in high school? Should an able-bodied
+person be able to elect to receive an implanted motor
+BMI? While the safe and ethical limits of such sensory, motor, and cognitive BMI treatments might
+seem readily apparent, society continues to wrestle
+with these same questions concerning other currently
+available medical treatments. These include steroids
+that enhance musculature, energy drinks (eg, caffeine)
+that enhance alertness, and elective plastic surgery that
+alters appearance.
+Although many of these ideas and questions may
+appear far-fetched at present, as mechanisms of brain
+function and dysfunction continue to be revealed, BMI
+systems could build on these discoveries and create
+even more daunting ethical quandaries. But equally
+important is the immediate need to help people suffering from profound neurological disease and injury
+through restorative BMIs. In order to achieve the right
+balance, it is imperative that physicians, scientists, and
+engineers proceed in close conversation and partnership with ethicists, government oversight agencies,
+and patient advocacy groups.
+1. Brain–machine interfaces (BMIs) are medical
+devices that read out and/or alter electrophysiological activity at the level of populations of
+neurons. BMIs can help to restore lost sensory,
+motor, or brain processing capabilities, as well as
+regulate pathological neural activity.
+ 2. BMIs can help to restore lost sensory capabilities
+by stimulating neurons to convey sensory information to the brain. Examples include cochlear
+implants to restore audition or retinal prostheses
+to restore vision.
+ 3. BMIs can help to restore lost motor capabilities
+by measuring the activity from many individual
+neurons, converting this neural information into
+control signals, and guiding a paralyzed limb,
+robotic limb, or computer cursor.
+ 4. Whereas motor BMIs aim to provide control of a
+robotic limb or paralyzed limb, communication
+BMIs aim to provide a fast and accurate interface
+with a computer or other electronic devices.
+ 5. BMIs can help to regulate pathological neural
+activity by measuring neural activity, processing
+the neural activity, and subsequently stimulating
+neurons. Examples include deep brain stimulators and antiseizure systems.
+ 6. Neural signals can be measured using different
+technologies, including electroencephalography, electrocorticography, and intracortical electrodes. Intracortical electrodes record the activity
+of neurons near the electrode tip and can also be
+used to deliver electrical stimulation.
+ 7. To study movement encoding, one usually
+considers the activity of an individual neuron
+across many experimental trials. In contrast, for
+movement decoding, one needs to consider the
+activity of many neurons across an individual
+experimental trial.
+ 8. A discrete decoder estimates one of several possible movement goals from neural population
+activity. In contrast, a continuous decoder estimates the moment-by-moment details of a movement from neural population activity.
+ 9. The field is making substantial progress in
+increasing the performance of BMIs, measured in
+terms of the speed and accuracy of the estimated
+movements. It is now possible to move a computer cursor in a way that approaches the speed
+and accuracy of arm movements.
+10. In addition to controlling computer cursors, BMIs
+can also guide a robotic limb or a paralyzed limb
+using functional electrical stimulation. Developments from preclinical experiments with ablebodied, nonhuman primates have subsequently
+been tested in clinical trials with paralyzed people.
+11. Future advances of BMI will depend, in part, on
+developments in neurotechnology. These include
+advances in hardware (eg, neural sensors and
+low-power electronics), software (eg, supervisory
+systems), and statistical methods (eg, decoding
+algorithms).
+12. An important direction for improving BMI performance is to provide the user with additional
+forms of sensory feedback in addition to visual
+feedback. An area of current investigation uses
+stimulation of neurons to provide surrogate sensory feedback, representing somatosensation and
+proprioception, during ongoing use.
+13. Beyond helping paralyzed patients and amputees, BMI is being increasingly used as a tool for
+understanding brain function. BMIs simplify the
+brain’s input and output interfaces and allow
+the experimenter to define a causal relationship
+between neural activity and movement.
+14. BMIs raise new neuroethics questions, which
+need to be considered together with the benefits provided by BMIs to people with injury or
+disease.

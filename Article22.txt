@@ -1,0 +1,109 @@
+Extensive synaptic connectivity is a hallmark of neural circuitry. For example,
+a typical neuron in themammalian neocortex receives thousands of
+synaptic inputs. Network models allow us to explore the computational
+potential of such connectivity, using both analysis and simulations. As
+illustrations, we study in this chapter how networks can perform the following
+tasks: coordinate transformations needed in visually guided reaching,
+selective ampliÞcation leading to models of simple and complex cells
+in primary visual cortex, integration as a model of short-term memory,
+noise reduction, input selection, gain modulation, and associative memory.
+Networks that undergo oscillations are also analyzed, with application
+to the olfactory bulb. Finally, we discuss network models based on
+stochastic rather than deterministic dynamics, using the Boltzmann machine
+as an example.
+Neocortical circuits are a major focus of our discussion. In the neocortex,
+which forms the convoluted outer surface of the (for example) human
+brain, neurons lie in six vertical layers highly coupled within cylindrical
+columns. Such columns have been suggested as basic functional units, 
+and stereotypical patterns of connections both within a column and between
+columns are repeated across cortex. There are three main classes
+of interconnections within cortex, and in other areas of the brain as well.
+Feedforward connections bring input to a given region from another re- f
+gion located at an earlier stage along a particular processing pathway. Recurrent
+synapses interconnect neurons within a particular region that are
+considered to be at the same stage along the processing pathway. These
+may include connections within a cortical column as well as connections
+between both nearby and distant cortical columns within a region. Topdown
+connections carry signals back from areas located at later stages.
+These deÞnitions depend on the how the region being studied is speciÞed
+and on the hierarchical assignment of regions along a pathway. In general,
+neurons within a given region send top-down projections back to the
+areas from which they receive feedforward input, and receive top-down
+input from the areas to which they project feedforward output. The numbers,
+though not necessarily the strengths, of feedforward and top-down
+Þbers between connected regions are typically comparable, and recurrent
+synapses typically outnumber feedforward or top-down inputs. We begin
+this chapter by studying networks with purely feedforward input and
+then study the effects of recurrent connections. The analysis of top-down
+connections, for which it is more difÞcult to establish clear computational
+roles, is left until chapter 10.
+Themost direct way to simulate neural networks is to use themethods discussed
+in chapters 5 and 6 to synaptically connect model spiking neurons.
+This is a worthwhile and instructive enterprise, but it presents signiÞcant
+computational, calculational, and interpretational challenges. In this chapter,
+we follow a simpler approach and construct networks of neuron-like
+units with outputs consisting of Þring rates rather than action potentials.
+Spiking models involve dynamics over time scales ranging from channel
+openings that can take less than a millisecond, to collective network processes
+that may be several orders of magnitude slower. Firing-rate models
+avoid the short time scale dynamics required to simulate action potentials
+and thus are much easier to simulate on computers. Firing-rate models
+also allow us to present analytic calculations of some aspects of network
+dynamics that could not be treated in the case of spiking neurons. Finally,
+spiking models tend to havemore free parameters than Þring-ratemodels,
+and setting these appropriately can be difÞcult.
+There are two additional arguments in favor of Þring-rate models. The
+Þrst concerns the apparent stochasticity of spiking. The models discussed
+in chapters 5 and 6 produce spike sequences deterministically in response
+to injected current or synaptic input. Deterministic models can predict
+spike sequences accurately only if all their inputs are known. This is unlikely
+to be the case for the neurons in a complex network, and network
+models typically include only a subset of the many different inputs to individual
+neurons. Therefore, the greater apparent precision of spiking models
+may not actually be realized in practice. If necessary, Þring-ratemodels
+can be used to generate stochastic spike sequences from a deterministically
+computed rate, using the methods discussed in chapters 1 and 2.
+The second argument involves a complication with spiking models that
+arises when they are used to construct simpliÞed networks. Although cortical
+neurons receive many inputs, the probability of Þnding a synaptic
+connection between a randomly chosen pair of neurons is actually quite
+low. Capturing this feature, while retaining a high degree of connectivity
+through polysynaptic pathways, requires including a large number of
+neurons in a network model. A standard way of dealing with this problem
+is to use a single model unit to represent the average response of several
+neurons that have similar selectivities. These averaging units can then
+be interconnected more densely than the individual neurons of the actual
+network, so fewer of them are needed to build the model. If neural responses
+are characterized by Þring rates, the output of the model unit is
+simply the average of the Þring rates of the neurons it represents collectively.
+However, if the response is a spike, it is not clear how the spikes
+of the represented neurons can be averaged. The way spiking models are
+typically constructed, an action potential Þred by the model unit duplicates
+the effect of all the neurons it represents Þring synchronously. Not
+surprisingly, such models tend to exhibit large-scale synchronization unlike
+anything seen in a healthy brain.
+Firing-rate models also have their limitations. They cannot account for
+aspects of spike timing and spike correlations that may be important for
+understanding nervous system function. Firing-rate models are restricted
+to cases where the Þring of neurons in a network is uncorrelated, with little
+synchronous Þring, and where precise patterns of spike timing are unimportant.
+In such cases, comparisons of spiking network models with models
+that use Þring-rate descriptions have shown that they produce similar
+results. Nevertheless, the exploration of neural networks undoubtedly requires
+the use of both Þring-rate and spiking models.
+The Þring-rate models described by equations 7.6 and 7.8 differ in their
+assumptions about how Þring rates respond to and track changes in the
+input current to a neuron. In one case (equation 7.6), it is assumed that
+Þring rates follow time-varying input currents instantaneously, without
+attenuation or delay. In the other case (equation 7.8), the Þring rate is a
+low-pass Þltered version of the input current. To study the relationship
+between input current and Þring rate, it is useful to examine the Þring rate
+of a spiking model neuron in response to a time-varying injected current,
+I(t). The model used for this purpose in Þgure 7.2 is an integrate-and-Þre
+neuron receiving balanced excitatory and inhibitory synaptic input along
+with a current injected into the soma that is the sum of constant and oscillating
+components. This model was discussed in chapter 5. The balanced
+synaptic input is used to represent background input not included in the
+computation of Is, and it acts as a source of noise. The noise prevents
+effects, such as locking of the spiking to the oscillations of the injected current,
+that would invalidate a Þring-rate description.

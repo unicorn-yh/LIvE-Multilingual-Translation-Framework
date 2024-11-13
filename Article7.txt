@@ -1,0 +1,526 @@
+Many animals use visual information to navigate1–4, but how such information is
+encoded and integrated by the navigation system remains incompletely understood.
+In Drosophila melanogaster, EPG neurons in the central complex compute the heading
+direction5 by integrating visual input from ER neurons6–12, which are part of the anterior
+visual pathway (AVP)10,13–16. Here we densely reconstruct all neurons in the AVP using
+electron-microscopy data17. The AVP comprises four neuropils, sequentially linked by
+three major classes of neurons: MeTu neurons10,14,15, which connect the medulla in the
+optic lobe to the small unit of the anterior optic tubercle (AOTUsu) in the central
+brain; TuBu neurons9,16, which connect the AOTUsu to the bulb neuropil; and ER
+neurons6–12, which connect the bulb to the EPG neurons. On the basis of morphologies,
+connectivity between neural classes and the locations of synapses, we identify distinct
+information channels that originate from four types of MeTu neurons, and we further
+divide these into ten subtypes according to the presynaptic connections in the medulla
+and the postsynaptic connections in the AOTUsu. Using the connectivity of the entire
+AVP and the dendritic fields of the MeTu neurons in the optic lobes, we infer potential
+visual features and the visual area from which any ER neuron receives input. We confirm
+some of these predictions physiologically. These results provide a strong foundation
+for understanding how distinct sensory features can be extracted and transformed
+across multiple processing stages to construct higher-order cognitive representations.
+The AVP encodes visual features that are essential for navigation, potentially
+including landmarks, intensity gradients, colour, celestial bodies
+and skylight polarization1,5,11,18–22. Considering its fundamental role in
+navigation, it is not surprising that this anatomical structure is largely
+conserved across most known insect species10,23–25. It is likely that deep
+similarities exist across species in the basic logic of visual feature extraction
+for navigation19,23–28. However, despite many studies of the AVP
+across species, researchers’ knowledge about the AVP neurons has
+been fragmented by the lack of a complete circuit diagram to frame
+systematic investigations. Here we aim to provide such a framework
+in flies, and we anticipate that this will also be invaluable for designing
+and prioritizing physiological experiments to interrogate the AVP in
+other species.
+We identified all neurons (Fig. 1) and their connectivity (Supplementary
+Data 1) in the AVP, using a publicly available electron-microscopy
+(EM) dataset (full adult female brain, FAFB) that contains the entire
+adult fly brain, with FlyWire, an AI-assisted collaborative platform17,29,30
+(Extended Data Fig. 1). MeTu neurons, the first stage of the AVP, leave
+the medulla, the largest neuropil in the fly visual system31–36. The axons
+of MeTu neurons innervate the AOTUsu10,14,16,32,37,38 (Fig. 1a,b), where the
+information is further processed by the TuBu neurons that connect
+the AOTUsu to the bulb10,11,38 (Fig. 1a–d and Supplementary Data 1fi,ii).
+There are ten classes of TuBu neurons (Fig. 1c), each synapsing onto the
+dendrites of distinct classes of ER neurons (Fig. 1a,b and Supplementary
+Data 1fiii,iv). ER neurons then send ring-like processes to a donut-shaped
+structure, the ellipsoid body16,39,40 (Fig. 1a), where they together form
+a complex recurrent neural network5,41,42 (Fig. 1b and Supplementary
+Data 1e). Finally, the visual information from the AVP—along with other
+sensory modalities43—is compiled to compute the heading direction
+by EPG neurons5 that share many similarities with mammalian ‘head
+direction’ cells5.
+Our survey of the entire brain29 showed that visual information originating
+from optic lobe structures outside the AVP (the lobula and the
+lobula plate) constitutes minimal input to EPG neurons (Extended Data
+Fig. 2). Thus, we focused our analyses on the medulla-originating AVP.
+Furthermore, although previous anatomical studies of various types of
+MeTu neuron have generally agreed at the macroscale10,14,15 (Extended
+Data Fig. 1d), the insufficient resolution of light microscopy has resulted
+in considerable inconsistencies in grouping MeTu types and predicting
+their connectivity towards the central complex (see Methods for a more
+detailed discussion on the differences). Hence, we sought to provide
+a comprehensive view of this pathway in synapse-level detail. Finally,
+although the connectivity from TuBu to ER to EPG neurons has been
+studied at synaptic resolution16 (a dataset we refer to here as hemibrain
+data), this dataset contains only one hemisphere and lacks upstream
+medulla neuropils and photoreceptor terminals. Therefore, we sought
+to reconstruct the entire AVP in both hemispheres (Supplementary
+Data 1) to provide a solid foundation for understanding how brains
+vary across hemispheres and across animals, as well as which visual
+features are extracted in the AVP.
+Reconstruction of the AVP
+We densely proofread all MeTu neurons (453 on the left hemisphere,
+441 on the right; Fig. 1a,b and Supplementary Data 2), TuBu neurons (75
+on the left, 75 on the right), and ER neurons (116 on the left, 116 on the
+right). We further reconstructed all medulla-intrinsic Mi1 neurons in the
+medulla (782 on the left and 792 on the right31) from both hemispheres
+(Extended Data Fig. 1e) to map the exact locations of all reconstructed
+neurons relative to the retinotopic columns in the medulla. To assess
+our proofreading quality29, we selected 113 (of 441) MeTu neurons from
+the right hemisphere and performed multiple rounds of proofreading
+(Extended Data Fig. 1b). We found that—after the first round—any additional
+volume reconstructed in each round markedly decreased and
+there were no changes in the main backbone (Extended Data Fig. 1bii).
+Moreover, all MeTu neurons (894 neurons—both hemispheres and
+including neurons with a single round of proofreading) shared stereotypical
+arborization patterns in the medulla. Therefore, we were
+confident that our reconstruction quality of the 894 MeTu neurons
+was sufficiently accurate for categorization and morphological and
+connectivity analyses.
+We focused on the detailed connectivity of MeTu neurons because
+the logic of their connections between optic lobes and the central brain
+was missing in previous studies16. We included results from both hemispheres
+in most analyses, but, where indicated, some detailed analyses
+were restricted to the right hemisphere because the left hemisphere
+had an incomplete lamina and (minor) EM image alignment issues17,29,44.
+AOTUsu anatomy defines four MeTu classes
+The AOTUsu is innervated by four types of processes: the axons of
+MeTu neurons; the dendrites of downstream TuBu neurons (Fig. 1c);
+and the synaptic terminals of bilaterally projecting AOTU046 and
+tubercle-to-tubercle (TuTu) neurons16. Drawing on the axonal arborization
+pattern of MeTu and the dendritic arborization pattern of TuBu,
+we divided the AOTUsu into four major subregions: posterior lateral
+(AOTUsu_PL), posterior central (AOTUsu_PC), anterior (AOTUsu_A)
+and medial (AOTUsu_M; Fig. 1c, left). These anatomical divisions led
+us to categorize MeTu neurons into four major classes (MeTu1–MeTu4;
+Fig. 1c–e). Downstream TuBu neurons were categorized into ten types,
+consistent with previous works (Fig. 1c, left; TuBu1–TuBu10; numbering
+follows the nomenclature of a previous study16). See Extended Data
+Fig. 3 for a detailed anatomical description of these four areas and the
+neurons that innervate them.
+Connectivity reveals ten MeTu subtypes
+Within each MeTu class except MeTu1, we observed discrete morphologies
+and anatomical innervations, suggesting multiple channels for
+visual features. To systematically categorize all possible MeTu neuron
+subtypes, we focused our analysis on the 5 strongest synaptic partner
+types; this resulted in 28 types of upstream neuron. Applying a nonlinear
+dimensionality reduction analysis (uniform manifold approximation
+and projection; UMAP) based on the connectivity in the medulla
+but not in the AOTUsu revealed four major patterns of presynaptic
+inputs, mostly consistent with the four major MeTu classes defined
+in the previous section (Fig. 1f and Supplementary Data 1h). We also
+performed categorization analyses (Fig. 1g and Supplementary Data 1i)
+and found ten subtypes. Comparing the expression pattern of genetic
+driver lines (see Methods) with EM data further corroborated our subtyping
+of MeTu neurons.
+MeTu1 neurons form a homogeneous group
+Compass neurons are strongly influenced by vertical stripes and their
+locations in azimuth5,7, whose information is conveyed by ER neurons,
+probably ER4d6,9,12,39. This ER neuron type is the only partner downstream
+of TuBu08, which is, in turn, the only neuron type downstream
+of MeTu1 neurons (Figs. 1d and 2): Our analysis of the anatomy and
+connectivity of MeTu1 neurons helps to explain the mechanisms that
+underlie the selectivity of ER4d neurons.
+MeTu1 neurons (n = 121 left and n = 124 right; Fig. 2) form thick dendritic
+branches in the medulla layer 7, with small vertical protrusions
+extending to layer 6 (Fig. 2c,d). Dendrites span about 30–40 medulla
+columns (Fig. 2b,r) and each medulla column is innervated by multiple
+MeTu1 neurons (Fig. 2s). MeTu1 neurons receive the strongest input
+from Dm2 neurons covering the entire visual field (Fig. 2e,m,n; on average,
+36 Dm2 neurons make 311 synapses per MeTu1 neuron), followed
+by Sm16 (serpentine layer neurons in medulla; following the FlyWire
+nomenclature45,46; see ref. 47 for matches between FlyWire names and
+male optic lobe names), MeTu1 (Supplementary Data 1ai,ii), Sm15 and
+Sm07 (Fig. 2e,m,n). The density of synapses drops at a distance of 20 to
+30 μm from the medulla centroid of a MeTu1 neuron (Fig. 2l, bottom).
+The functional implication of recurrent connections between MeTu1
+neurons in the medulla remains to be examined. The orientation of
+the MeTu1 dendritic span, when fitted with a two-dimensional Gaussian
+function, tends to be vertical. We observe that, near the anterior
+and posterior edges, the dendritic spans of MeTu neurons narrow
+(Fig. 2p,q), but future studies are required to ascertain whether this
+change has functional implications.
+MeTu1 neurons project axons to the AOTUsu_PL, where they synapse
+with TuBu08 neurons (Figs. 1d and 2m, Extended Data Fig. 4 and
+Supplementary Data 1ji), among other connections (Extended Data
+Fig. 4a and Supplementary Data 1fi,ii). The connection from MeTu1
+neurons to TuBu08 neurons is retinotopic; the more anteriorly or
+posteriorly MeTu1 dendrites are located in the medulla, the more ventrally
+or dorsally they project in the AOTUsu_PL, respectively (Fig. 2u).
+In other words, each TuBu08 neuron receives input from a group of
+MeTu1 neurons at a particular azimuth, regardless of their elevation
+in the medulla. Such one-dimensional mapping provides a potential
+anatomical basis for the selectivity of TuBu08 neurons to vertical
+bars or to the azimuthal location of visual stimuli, but not to elevation
+(Supplementary Video 1), an anatomical structure similar to the
+classic Hubel & Wiesel model of how simple cells in the mammalian
+primary visual cortex receive input from the lateral geniculate nucleus
+in the thalamus48.
+MeTu2 subtypes process polarized light
+Many insects navigate relying on skylight polarization18,20,22,49. In Drosophila,
+ER4m neurons are the prominent ER neurons that process
+skylight polarization11,16. MeTu2 neurons (Fig. 3a,d, left and Extended
+Data Fig. 5), previously designated as MeTu-DRA37 are notable as the
+only upstream inputs of these ER neurons16 (Supplementary Data 1e;
+through TuBu01 for ER4m; through TuBu06 in addition for ER5). They
+are clustered in the dorsal half of the medulla, with dendrites mainly
+tiling the dorsal rim area (DRA) (Extended Data Fig. 5a,r), where neurons
+process skylight polarization11,35,50.
+Our clustering analysis identified two MeTu2 subtypes (Extended
+Data Fig. 5k and Supplementary Data 1jii) with distinct ramifications in
+the medulla and notably distinct connectivity patterns in the AOTUsu_
+PC (Supplementary Data 1ciii=iv), which we named MeTu2a (n = 33 left
+and n = 36 right; Fig. 3d, left) and MeTu2b (n = 17 left and n = 14 right).
+Both subtypes exhibit generally vertical arborizations and similar
+dendritic spans (Extended Data Fig. 5n–p), but the interconnectivity
+between MeTu2b in the medulla is much stronger than that between
+MeTu2a (Supplementary Data 1aiii,iv,biii,iv). Furthermore, MeTu2b neurons
+appear to receive more input from MeTu2a than they provide
+input to MeTu2a. Finally, although both MeTu2 subtypes mainly stratify
+within medulla layer 7 (Extended Data Fig. 5b,d), MeTu2a neurons are
+postsynaptic to polarization-sensitive R7 neurons only in the DRA and
+local interneurons DmDRA1, both of which are potentially sensitive to
+light polarization as well37, whereas MeTu2b inputs also include Mi15,
+the function of which remains unknown, and a stronger connection
+from interhemispheric MeMeDRA37 (Extended Data Figs. 5e,k and 3di).
+Hence, MeTu2b might integrate additional inputs from the contralateral
+hemisphere, enabling the processing of a more global skylight
+polarization pattern.
+MeTu2 innervation of the AOTUsu respects the same topographic
+rules as those described for MeTu1 (Fig. 3a and Extended Data Fig. 5m;
+MeTu2 neurons with dendrites in the anterior medulla project axons
+ventrally; those with posteriorly localized dendrites project dorsally
+in the AOTUsu_PC). Also, as in the medulla, MeTu2b neurons are more
+strongly interconnected in the AOTUsu than are MeTu2a neurons (Supplementary
+Data 1biii,iv). Moreover, although MeTu2a and MeTu2b both
+synapse onto TuBu01 and TuBu06, MeTu2b is only weakly connected to
+TuBu01 (Extended Data Fig. 5k and Supplementary Data 1ciii,iv). Finally,
+MeTu2a and MeTu2b differ in their connections to the bilateral neurons
+TuTuB_a and TuTuB_b (Extended Data Figs. 5a,b and 4a,d). Overall,
+these connectivity differences in the AOTUsu_PC, combined with their
+distinct anatomical features in the medulla, indicate that MeTu2a and
+MeTu2b are likely to convey distinct features of skylight polarization
+to downstream circuits, with MeTu2b processing potentially more
+complex and global polarization patterns.
+MeTu3 neurons comprise three subtypes
+The Drosophila compass neurons can use the two-dimensional organization
+of the surrounding world to compute the head direction7, but
+the source of this information was unclear. Here, we provide evidence
+that MeTu3 (Fig. 3b,d, middle and Extended Data Fig. 6) and its downstream
+neurons process, in addition to skylight polarization (through
+ER3w_ab), the two-dimensional organization of the scene (through
+ER2_ad, ER2_b and ER2_c).
+Our connectivity analysis identified three distinct MeTu3 subtypes
+(MeTu3a, MeTu3b and MeTu3c; Fig. 3d, middle, Extended Data Fig. 6l
+and Supplementary Data 1jiii) with regionalized clusters of dendrites
+(Extended Data Fig. 6a). MeTu3a (n = 20 left and n = 19 right; Extended
+Data Fig. 6ai–ei) has dendrites that cluster in the dorsal third of the
+medulla (similar to MeTu2), are confined to layer 7 (Extended Data
+Fig. 6bi,di) and specifically lack vertical protrusions across medulla
+layers (Extended Data Fig. 6bi,di). MeTu3a is the only MeTu3 subtype
+that receives polarization information through input from DmDRA1,
+similar to MeTu2a and MeTu2b. MeTu3b cells (n = 53 left and n = 46 right)
+have dendrites that are clustered most densely in the dorsal half of the
+medulla but also extend to the ventral two-thirds, with pronounced vertical
+protrusions that cover layers 5, 6 and 7 (Extended Data Fig. 6bii,dii).
+They receive direct inhibitory input from ultraviolet (UV)-sensitive
+R7 photoreceptors and indirect input from blue/green-sensitive R8
+cells37 through Mi15, which suggests that they have a role in processing
+chromatic information (Extended Data Figs. 6ei,ii,l,m and 7). MeTu3c
+cells (n = 72 left and n = 64 right) have dendrites that are more ventral
+than those of MeTu3b, covering the equator and some of the ventral
+part of the medulla (Extended Data Fig. 6biii,eiii). Dendritic processes
+innervate the same layers (5, 6 and 7) as MeTu3b and receive the same
+direct and indirect photoreceptor inputs (Extended Data Fig. 6eiii),
+suggesting similar chromatic coding to that of MeTu3b.
+MeTu3 innervation of the AOTUsu_A respects the same topographic
+rules as those described for MeTu1 and MeTu2 (anterior–posterior
+axis in the medulla to ventral–dorsal axis in the AOTUsu_A; Fig. 3b and
+Extended Data Fig. 6h). Axons of MeTu3a, MeTu3b and MeTu3c are
+not well segregated in the AOTUsu_A, despite the downstream TuBu
+neurons (TuBu07, TuBu09 and TuBu10; Supplementary Data 1cv,vi)
+having well-segregated dendrites16 (Fig. 1c and Extended Data Fig. 3c).
+Consequently, some MeTu3 neurons are connected to two TuBu types
+(Extended Data Fig. 6l and Supplementary Data 1cv,vi,jiii). All three MeTu3
+subtypes are strongly and reciprocally connected to bilateral TuTuB_a
+neurons (Extended Data Fig. 4g and Supplementary Data 1fi,ii). Because
+the TuTuB_a neurotransmitter is predicted to be inhibitory51 (Extended
+Data Fig. 4ei), MeTu3 neurons might exhibit strong bilateral inhibitory
+interactions across the entire visual field.
+MeTu3a and MeTu3b neurons are mainly connected to TuBu07,
+upstream of ER3w_ab. This convergence of MeTu3a and MeTu3b suggests
+that ER3w_ab encodes a combination of skylight polarization and
+chromatic information of the sky. On the other hand, MeTu3c neurons
+are mostly presynaptic to both TuBu09 and TuBu10 (Extended Data
+Fig. 6l and Supplementary Data 1cv,vi). Notably, TuBu09 neurons receive
+input from MeTu3c neurons with dendrites located more dorsally in
+the medulla, whereas TuBu10 neurons receive input from MeTu3c neurons
+with dendrites located more ventrally in the medulla (Extended
+Data Fig. 6hii, red dots). Thus, the neurons downstream of MeTu3c
+can encode the elevation of visual stimuli (for example, the Sun) or a
+two-dimensional organization of visual objects in a surrounding scene.
+This capability is unique among all MeTu neurons.
+MeTu4 subtypes transmit widefield inputs
+Compass neurons receive diverse input from ER neurons, some of which
+exhibit responses to the contralateral visual field and self-generated
+motion signals12,39. Considering that these ER neurons, the dendrites
+of which are in the inferior bulb, are downstream of MeTu4 neurons
+(Fig. 3c,d, right, Extended Data Fig. 8 and Supplementary Data
+1cvii,viii,dvii,viii) that originate in the ipsilateral optic lobe, their response
+pattern was puzzling. Our analyses show that MeTu4 neurons receive
+inputs from distinct parts of the visual world (dorsal, frontal or ventral),
+with virtually no input from a columnar medulla cell type. Instead, they
+receive input mostly from large interneurons that span many medulla
+columns (Sm neurons) and from others that potentially convey motor
+information from a neuropil called the superior posterior slope (SPS)
+to the medulla (Extended Data Fig. 8e). These unique properties of
+MeTu4 might explain the mysterious properties of ER neurons in the
+inferior bulb12,39.
+On the basis of the connectivity in the medulla and the AOTUsu_M, we
+categorized MeTu4 into four subgroups: MeTu4a, MeTu4b, MeTu4c and
+MeTu4d (Extended Data Fig. 8a). The dendrites of MeTu4a cells (n = 69
+left and n = 60 right) cluster densely in the dorsal half of the medulla but
+also extend ventrally (Extended Data Fig. 8ai,mi), with unique arborization
+in two medulla layers (M6 and M7; Extended Data Fig. 8b,d). Despite
+their dorsal location, they form no synaptic connections with polarized
+light-sensitive photoreceptors or DRA neurons. MeTu4b neurons (n = 8
+left and n = 12 right) are notable for their unique dendritic arrangement:
+they span a rather small area in the equator, mostly in the posterior–
+medial part of the medulla that represents the frontal central visual
+field (because of the crossover connections from the lamina to the
+medulla along the anterior–posterior axis; Extended Data Fig. 8aii,mii).
+The function of this spatial restriction remains unknown (see also the
+next section about variance across brains). MeTu4c neurons (n = 41 left
+and n = 48 right) span the entire dorsal half of the medulla (Extended
+Data Fig. 8aiii,miii), whereas MeTu4d neurons (n = 19 left and n = 18
+right) cluster exclusively in the ventral half of the medulla (Extended
+Data Fig. 8aiv,miv) and are ideally positioned to detect features in the
+ventral visual field. Both MeTu4c and MeTu4d receive nearly identical
+input from a wide variety of interneurons, including those that convey
+information from other brain areas, such as the SPS (Extended Data
+Figs. 8eiii,iv,k and 3diii).
+Like all other MeTu types, axonal projections of all MeTu4 neurons
+maintain anterior–posterior retinotopy in the AOTUsu_M along the
+ventral–dorsal axis (Fig. 3c, Extended Data Fig. 8j), in contrast to what
+was found in a previous report14. MeTu4a, MeTu4b and MeTu4c also
+have presynaptic connections in the lobula (Extended Data Fig. 8ai–iii),
+but these connections do not contribute to the AVP and were thus
+excluded from further analyses. In the AOTUsu_M, all MeTu4a neurons
+are presynaptic to TuBu03; some are also presynaptic to TuBu04
+(Supplementary Data 1f). MeTu4b neurons are presynaptic to TuBu02
+neurons. Both MeTu4c and MeTu4d subtypes are mainly presynaptic to
+TuBu05 (Supplementary Data 1cvii,viii), but MeTu4d also makes presynaptic
+connections with TuBu02. MeTu4b and MeTu4c receive the main
+interhemispheric connections within the AOTUsu_M (Extended Data
+Fig. 4a,b and Supplementary Data 1fi,ii): MeTu4b receives strong input
+from AOTU046 but does not provide reciprocal input into AOTU046,
+whereas MeTu4c is strongly and reciprocally connected to AOTU046.
+MeTu4d receives no input from AOTU046, and provides only weak
+input to AOTU046. Finally, MeTu4d receives weak input from TuTuB_a.
+Variance across hemispheres and brains
+We compared the AVP within17,44 and across brains16,47 (Extended Data
+Fig. 9). Although our analyses are limited, owing to the lack of optic
+lobes in the hemibrain dataset and a single optic lobe in the male brain
+dataset, tentative comparisons are still possible for most MeTu types,
+on the basis of synapses in the AOTU (hemibrain) or optic lobe synapse
+and cell shapes (male optic lobe). The number of neurons of each type
+was very similar across hemispheres of the same brain (in both FAFB
+and hemibrain), compared to the difference across brains. Notably,
+across brains, only a few cell types showed clear differences in spatial
+arborization patterns, numbers or, in very few cases, perhaps even their
+existence (for example, MeTu3c, MeTu4b, MeTu4e, MeTu4f, TuBu9,
+ER2_ad, ER3d_a and others; Extended Data Fig. 9). For example, MeTu4b
+neurons in FAFB (the dataset used here) and the male brain optic lobe
+both have similar spatially restricted arborizations in the medulla, but
+the FAFB pattern lacks a few cells (in the lateral and frontal medulla)
+that are present in the male optic lobe MeTu4b population. Also, the
+overall number of MeTu4 cells in the male brain dataset is higher and
+two other MeTu4 subtypes (MeTu4e and MeTu4f) are identified. Careful
+comparison suggests that MeTu4e in the male optic lobe could be
+a subset of MeTu4a in FAFB (the segregation of morphological and
+connectivity patterns between candidate MeTu4e and the remaining
+MeTu4a appears less clear in FAFB and there are fewer MeTu4e-like
+neurons; Extended Data Fig. 9i). The source of such variations across
+brains remains incompletely understood but is likely to be, at least in
+part, developmental in nature52.
+Extracting visual features along the AVP
+A common pattern across all AVP channels is the convergence of
+MeTu neurons onto a considerably smaller number of TuBu neurons
+(Extended Data Fig. 9e and Supplementary Data 1c). In this transformation,
+each TuBu neuron integrates information from a large area of the
+visual field, suggesting spatial feature processing with a lower resolution.
+TuBu neurons also receive strong input from the contralateral
+visual field through TuTu neurons (Extended Data Fig. 6). Note that
+individual MeTu neurons sample the visual area differently depending
+on their location in the medulla over the anterior–posterior axis. This
+results in synapse counts and dendritic field shapes differing by their
+locations in the medulla along this axis (Extended Data Fig. 10). The
+effect of this pattern on TuBu integration is not understood at present.
+The next step in processing—from TuBu to ER neurons—exhibits
+a re-expansion in the number of neuronal types (from 10 TuBu types
+to potentially 18 ER neuron types in hemibrain, or 14 ER neuron types
+in FAFB). The ratio of connections from TuBu to ER neurons (Extended
+Data Fig. 9f and Supplementary Data 1d; see also ref. 16) varies between
+0.33 and, for some neurons, 4 (Extended Data Fig. 11). Thus, the transformation
+from TuBu to ER may extract several more visual features.
+Putative receptive fields of ER neurons
+To quantify the putative visual area to which each neuron probably
+responds, we mapped each medulla column (Extended Data Fig. 1e)
+to a micro-computed tomography (microCT)-based eye map of
+D. melanogaster 53 (Supplementary Data 4). Then, for each ER neuron,
+we back-traced the upstream connections in two ways: one followed
+TuBu to MeTu connections (we call this the direct pathway, putatively
+excitatory; Fig. 4a, Extended Data Figs. 11 and 12 and Supplementary
+Videos 1–3) and the other followed TuBu to TuTu to ipsi- and contralateral
+MeTu connections (we call this the indirect pathway, putatively
+inhibitory; Fig. 4b and Extended Data Fig. 4d–f). We used the dendritic
+arborization in the medulla for each pathway to estimate the area of a
+direct pathway or an indirect pathway. We overlaid them into a single
+putative receptive field (Fig. 4c,d), which we further analysed to obtain
+the outline of the visual field of the direct pathway. We then combined
+outlines of the same type of ER neurons to illustrate the visual area that
+the population of ER neurons covers (Fig. 4e). Note that the lack of
+functional data for most optic lobe cell types, including Sm neurons,
+hinders extensive functional predictions. Thus, our predictions are
+based mainly on the dendritic fields of MeTu neurons and the known
+properties of presynaptic neurons.
+Back-tracing the synaptic pathway starting from an ER4d revealed
+that its upstream MeTu1 neurons are aligned vertically in the medulla
+(Supplementary Video 1). They cover about 40° azimuth and the entire
+vertical span (Fig. 4e). This vertical arrangement of MeTu1 neurons was
+consistent across ER4d neurons and covered the entire visual field as a
+population, like an array of vertical bars (Figs. 4e and 5 and Extended
+Data Fig. 13). It suggests that ER4d neurons are selective to vertically
+elongated visual stimuli or to the location of visual stimuli along the
+horizontal plane, regardless of the elevation. Such a pathway would
+be best suited for detecting visual landmarks that are appropriate
+references for setting a heading.
+By contrast, back-tracing starting from single ER2_ad and ER2_b neurons
+revealed that they receive information from MeTu3c neurons with
+dendrites located in the dorsal medulla (Fig. 4e and Supplementary
+Video 2), whereas individual ER2_c neurons receive inputs exclusively
+from MeTu3c neurons with dendrites in the central medulla (Supplementary
+Video 3). Similar to the channel converging into ER4d neurons,
+the MeTu3c populations upstream of ER2_ad, ER2_b and ER2_c neurons
+tile the entire visual field. In other words, the ER2 population tiles the
+visual field two-dimensionally, providing more organizational details
+of the scene in two dimensions than do ER4d neurons (Fig. 4e).
+Furthermore, the roles of ER4d and ER2 in processing chromatic
+information might differ: Dm2, the main upstream input of MeTu1,
+receives inputs predominantly from UV-sensitive pale photoreceptors37
+(81%), which suggests that ER4d neurons could process UV
+stimuli. On the other hand, Mi15, the main upstream input of MeTu3c,
+receives input from green-sensitive yellow R8 photoreceptors37
+(67%), which suggests that ER2 neurons process longer-wavelength
+stimuli.
+Unlike the ER4d and ER2 populations, ER4m and ER5 neurons
+receive strong input from polarization-sensitive channels involving
+the DRA-specific MeTu2a (both ER4m and ER5) and MeTu2b (ER5) neurons,
+respectively. As described before, MeTu2b exhibits more complex
+connectivity than MeTu2a and, therefore, might encode complex
+features of polarized light. Hence, ER5 might process more complex
+features of polarized skylight, whereas ER4m seems to process skylight
+polarization alone as a navigational cue, consistent with a previous
+report11. This difference is notable because ER5 is involved in circadian
+rhythms54,55.
+ER3w receives input from MeTu3a and MeTu3b neurons, potentially
+combining skylight polarization information (from both MeTu3a and
+MeTu3b; Extended Data Fig. 6a,b) and localized visual feature information
+from some of the dorsal visual field (Fig. 4e). On the other hand,
+most other ER3 subtypes with dendrites in the inferior bulb are downstream
+of MeTu4 subtypes that do not receive columnar input in the
+medulla. Thus, until the functions of upstream neurons (Extended
+Data Fig. 8e) are understood, the visual area and features that these
+ER3 neurons encode will remain unclear.
+Overall, we predict that ER neurons downstream of MeTu1–MeTu3
+neurons encode diverse information including polarized light (ER4m,
+ER5 and ER3w), vertical stimuli or the azimuthal location of visual features
+(ER4d), and the two-dimensional organization of visual scenes,
+including azimuth and elevation (ER2), a system suitable for processing
+both the elevation of a celestial body (for example, the Sun)56 and the
+surrounding two-dimensional environment7.
+Physiologically testing predictions
+We performed two-photon calcium imaging to test some of these
+predictions, especially the spatial extent of the visual field to which
+ER4d and ER2 neurons respond (that is, the receptive field; Fig. 5). We
+imaged the dendritic calcium activity of ER neurons in the superior
+bulb while presenting square-shaped dot stimuli to the fly using a
+projector-based visual stimulation set-up (Fig. 5c–e). Both ER neuron
+types were excited by ipsilateral visual stimuli, consistent with previous
+studies6,9,12,39 (Fig. 5f,g). The ellipse contours of the receptive
+fields of ER4d and ER2 tile the visual space differently (Fig. 5h–k). As
+predicted by our connectomic analysis, the receptive fields of ER4d
+neurons are vertically elongated (76 ± 13° (1 s.d.) in height and 31 ± 12°
+in width), and tile the visual space horizontally. The receptive fields
+of ER2 neurons, on the other hand, are markedly smaller (59 ± 13° in
+height and 30 ± 9° in width) and tile the visual space in two dimensions.
+These results precisely match our predictions about the spatial extent
+of these neurons’ receptive fields. Note that the vertical extent of the
+ER4d receptive fields is much greater than that reported previously6; we
+believe this to be because of the limited span of elevation in the set-up
+used previously. By contrast, we tilted the fly head to expose the eyes
+to more vertical visual span. These results show that informed, systematic
+predictions can guide experimental designs to reveal previously
+unexplored dimensions of neural functions.
+Discussion
+We observed four essential organization principles of the AVP: (1) a
+convergence of spatial information from MeTu to TuBu, which suggests
+the compression of visual information into features with coarse
+spatial resolution; (2) segregated and parallel processing of spatially
+overlapping visual features in largely feedforward circuits; (3) parallel
+pathways for interhemispheric integration, selectively mixing visual
+features; and (4) divergent feature expansion through TuBu-to-ER
+connections (Extended Data Fig. 11). Furthermore, by back-tracing
+from ER neurons to MeTu neurons, we inferred the diverse visual features
+that compass neurons might use to compute the head direction
+(Extended Data Fig. 13).
+Our analysis of the reconstructed synaptic pathways reveals that the
+fly’s visual field can be roughly subdivided into three regions: a narrow
+band in the dorsal-most visual field (DRA)11,35,50; the remaining
+upper visual field (both of these two regions are facing the sky); and
+the rest of the visual field (the equator and ventral field). Of note, the
+DRA and upper visual fields are occupied by the large majority of MeTu
+neuron types with overlapping receptive fields (MeTu1, MeTu2a and
+MeTu2b, MeTu3a and MeTu3b, and MeTu4a and MeTu4b); by contrast,
+the lower and frontal visual fields are served by lower numbers of cells
+and subtypes (innervated by MeTu1, MeTu3c, MeTu4c and MeTu4d).
+In particular, MeTu4d neurons cover only the ventral half of the visual
+field. We speculate that this serves to process ventral optic flow57 or
+to orient towards shiny surfaces (for example, water) that produce
+horizontally polarized reflections49,58, which flies detect and use to
+adjust their body orientation59,60. Nine out of the ten parallel information
+channels formed by MeTu neurons seem to maintain only azimuth
+information, discarding information about elevation; this strategy
+seems particularly efficient for computing a heading in azimuth. Only
+the MeTu3c channel may encode both azimuth and elevation—a property
+that seems ideal for perceiving the two-dimensional organization
+of the surrounding environment or for tracking the position of the
+celestial body across the day. Overall, these organizational patterns of
+the AVP suggest that D. melanogaster prioritizes the azimuthal position
+of celestial cues, including the skylight polarization pattern.
+Animals exhibit specific cue preferences during navigation, and we
+have long known that visual features are processed hierarchically16:
+Dung beetles prioritize skylight polarization or sun location depending
+on the environmental context1, and mammals prioritize the geometry
+of the surrounding space2,3. However, the field is only just beginning
+to investigate which visual features are extracted and how they are
+prioritized across insects4,43 and mammals2. As such, our complete
+reconstruction of the AVP in flies is essential for mechanistically understanding
+the circuit implementation and shared functional principles
+that underlie the prioritization, integration and transformation of this
+information into a heading signal. This is exemplified by our experiments
+that physiologically confirm some of the new predictions. Furthermore,
+with the ability to dissect detailed circuit dynamics of neural
+populations using the rich genetic tools in flies, we are poised to gain a
+deeper understanding of how sensory information is transformed into
+more abstract representations, which is fundamental to and essential
+for higher cognitive functions in the brain.

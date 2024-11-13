@@ -1,0 +1,791 @@
+Connections between neurons can be mapped by acquiring and analyzing electron
+microscopic (EM) brain images. In recent years, this approach has been applied to chunks of
+brains to reconstruct local connectivity maps that are highly informative, yet inadequate for
+understanding brain function more globally. Here, we present the first neuronal wiring
+diagram of a whole adult brain, containing 5×107 chemical synapses between ~130,000
+neurons reconstructed from a female Drosophila melanogaster. The resource also
+incorporates annotations of cell classes and types, nerves, hemilineages, and predictions of
+neurotransmitter identities. Data products are available by download, programmatic access,
+and interactive browsing and made interoperable with other fly data resources. We show
+how to derive a projectome, a map of projections between regions, from the connectome.
+We demonstrate the tracing of synaptic pathways and the analysis of information flow from
+inputs (sensory and ascending neurons) to outputs (motor, endocrine, and descending
+neurons), across both hemispheres, and between the central brain and the optic lobes.
+Tracing from a subset of photoreceptors all the way to descending motor pathways illustrates
+how structure can uncover putative circuit mechanisms underlying sensorimotor behaviors.
+The technologies and open ecosystem of the FlyWire Consortium set the stage for future
+large-scale connectome projects in other species.
+While rudimentary nervous systems existed in more ancient animals (Arendt, Tosches, and
+Marlow 2016), brains evolved perhaps half a billion years ago (Ma et al. 2012), and are
+essential for the generation of sophisticated behaviors. It is widely accepted that dividing a
+brain into regions is helpful for understanding brain function (Mesulam 1998). Wiring
+diagrams at the level of neurons and synapses have been controversial (Sporns, Tononi,
+and Kötter 2005; Costandi 2012; Jabr 2012). Skepticism flourished (Sporns, Tononi, and
+Kötter 2005; Costandi 2012; Jabr 2012) largely due to a lack of technologies that could
+reconstruct such wiring diagrams (Lichtman and Denk 2011; Denk, Briggman, and
+Helmstaedter 2012). The situation began to change in the 2000s (Denk and Horstmann
+2004; Lichtman and Sanes 2008), due to the efforts of a small community of researchers.
+Here we report a significant milestone attained by these efforts, the first neuronal wiring
+diagram of a whole adult brain.
+The brain of Drosophila melanogaster may seem tiny, but its 105 neurons and 108 synapses
+enable a fly to see, smell, hear, walk, and, of course, fly. Flies engage in dynamic social
+interactions (Coen et al. 2014), navigate over distances (Fisher 2022), and form long-term
+memories (Cognigni, Felsenberg, and Waddell 2018). Portions of fly brains have been
+reconstructed from electron microscopic (EM) images, which are sharp enough to reveal the
+fine branches of neurons and the synapses that connect them. The resulting wiring diagrams
+of neural circuits have provided crucial insights into how the brain generates social
+(Schretter et al. 2020; Deutsch et al. 2020), memory-related (C.-H. Li and Yang 2020) or
+navigation (Hulse et al. 2020) behaviors. Wiring diagrams of other fly brain regions have
+been mapped and related to visual (S.-Y. Takemura et al. 2013; S. Takemura et al. 2017),
+auditory (Baker et al. 2022), and olfactory (F. Li et al. 2020; Alexander S. Bates et al. 2020;
+P. Schlegel et al. 2021) functions. Similarities with mammalian wiring diagrams (Borst and
+Helmstaedter 2015) are striking.
+The above wiring diagrams and many others from mammals (MICrONS Consortium et al.
+2021; Shapson-Coe et al. 2021; Loomba et al. 2022; Turner et al. 2022; Nguyen et al. 2023)
+have come from pieces of brain. But recordings of Drosophila neural activity have revealed
+nearly brain-wide encoding of sensory (Pacheco et al. 2021) and motor (Brezovec et al.
+2022; Schaffer et al. 2021; Aimon et al. 2022) variables. These studies and others in
+vertebrates highlight that understanding how the brain processes sensory information or
+drives behavior will require understanding global information flow at the scale of the entire
+brain.
+The closest antecedent to our whole brain is the reconstruction of a fly “hemibrain” (Scheffer
+et al. 2020), a resource that has already become indispensable to Drosophila researchers (F.
+Li et al. 2020; P. Schlegel et al. 2021; Klapoetke et al. 2022; Wang et al. 2021). It is
+estimated to contain about 20,000 neurons that are “uncropped,” i.e., minimally truncated by
+the borders of the imaged volume, and 14 million synapses between them. Our
+reconstruction of an entire adult brain contains 127,978 neurons (Fig. 1a), and 53 million
+download, programmatic access, and interactive browsing and made interoperable with
+other fly data resources through a growing ecosystem of software tools (Fig. 1c). The
+primary portal to the data is FlyWire Codex (codex.flywire.ai, manuscript in prep), which
+makes the information visualizable and queryable.
+The wiring diagram from our whole brain reconstruction is complete enough to deserve the
+name “connectome.” It is a clear leap beyond C. elegans (300 neurons, <104 synapses)
+(White et al. 1986; Varshney et al. 2011; Cook et al. 2019) and the 1st instar larva of
+Drosophila (3,000 neurons, 5×105 synapses) (Winding et al. 2023). Our connectome
+advances beyond the hemibrain in ways that are not simply numerical. It encompasses the
+subesophageal zone (SEZ) of the central brain, important for diverse functions such as
+gustation and mechanosensation (see companion paper Shiu et al. (Shiu et al. 2023) as well
+as Eichler et al.(Eichler et al. 2023)), and containing many of the processes of neurons that
+descend from the brain to the ventral nerve cord to drive motor behaviors. It includes
+annotations for nearly all sexually-dimorphic neurons, analyzed in a companion paper
+(Deutsch et al. in prep). Our reconstruction of both optic lobes goes far beyond existing
+maps of columnar visual circuitry (S. Takemura et al. 2017; Shinomiya et al. 2019, 2022).
+Connections between the optic lobes and central brain are included, as explored by a
+companion paper (Kind et al., in prep). Also included are neurons that extend into the brain
+through the nerves and neck connective, which are essential for tracing sensorimotor
+pathways, as illustrated by the present paper and companion papers (list in prep).
+Schlegel et al. have compared our wiring diagram with the hemibrain where they overlap and
+showed that cell type counts and large strong connections were largely in agreement. This
+means that the combined effects of natural variability across individuals and “noise” due to
+imperfect reconstruction tend to be modest, so our wiring diagram of a single brain should be
+useful for studying any normal Drosophila individual. That being said, there are known
+male-female differences (Cachero et al. 2010). In addition, Schlegel et al. report high
+variability for principal neurons of the mushroom body, a brain structure required for olfactory
+learning and memory. Some mushroom body connectivity patterns have even been found to
+be near random (Caron et al. 2013; Murthy, Fiete, and Laurent 2008), though deviations
+from randomness have since been identified (Zheng et al. 2022). In short, Drosophila wiring
+diagrams are useful because of their stereotypy, yet also open the door to studies of
+connectome variation.
+Our reconstruction utilized image acquisition and analysis techniques that are distinct from
+those used for the hemibrain (Methods and Discussion). However, we have built directly on
+the hemibrain in an important way. The companion paper by Schlegel et al. annotated cell
+types of central brain neurons, principally by matching them with hemibrain neurons. This
+approach was enabled by a growing ecosystem of software tools serving interoperability
+between different fly data sources (Fig. 1c). Because annotations of cell types are essential
+for scientific discovery, Schlegel et al. (Philipp Schlegel et al. 2023) should be cited along
+with the present manuscript by those who use the FlyWire resource. Annotations in the SEZ
+and optic lobes, largely absent from the hemibrain, were contributed by Drosophila labs in
+the FlyWire Consortium, as well as by citizen scientists. Synapse predictions (Buhmann et
+al. 2021; Heinrich et al. 2018) and estimates of neurotransmitter identities (Eckstein et al.
+2023) were also contributed by the community.
+In addition to describing the FlyWire resource, this manuscript also presents analyses that
+illustrate how the data products can be used. Additional whole-brain network analyses are
+provided in a companion paper (Lin et al., in prep). From the connectome with its huge
+numbers of neurons and synapses, we derive a projectome, a reduced map of projections
+between 78 fly brain regions known as neuropils (Fig. 1d, Ext. Data Fig. 1-1). We trace
+synaptic pathways and analyze information flow from the inputs to the outputs of the brain,
+across both hemispheres, and between the central brain and the optic lobes. In particular,
+the organization of excitation and inhibition in pathways from photoreceptors in the ocelli to
+descending motor neurons immediately suggests hypotheses about circuit mechanisms of
+behavior.
+Images of an entire adult female fly brain (Fig. 1e, f) were previously acquired by serial
+section transmission EM, and released into the public domain by Zheng et al. (Zheng et al.
+2018). We previously realigned the EM images (Popovych et al. 2022), automatically
+segmented all neurons in the images (Macrina et al. 2021), created a computational system
+that allows interactive proofreading of the segmentation, and assembled an online
+community known as FlyWire (Dorkenwald, McKellar, et al. 2022). During the initial phase,
+much proofreading was done by a distributed community of Drosophila labs in the FlyWire
+Consortium, and focused on neurons of interest to these labs. During the later phase, the
+remaining neurons were mainly proofread by two centralized teams at Princeton and
+Cambridge, with significant contributions from citizen scientists worldwide. The recruitment
+and training of proofreaders and their workflows are described in the Methods.
+Chemical synapses were automatically detected in the images as pairs of
+presynapse-postsynapse locations (Buhmann et al. 2021; Heinrich et al. 2018). The whole
+brain contains 0.0188 mm3 of neuropil volume and ~130 million synapses. This works out to
+6.9 synapses/μm3, much denser than the <1 synapse/μm3 reported for mammalian cortex
+(Schüz and Palm 1989; Dorkenwald et al. 2017). The central brain and left and right optic
+lobes contain 0.0103, 0.0042, and 0.0043 mm3 of neuropil volume, respectively, with
+synapse counts in approximately the same proportion. Synapses were combined with
+proofread neurons to yield the connectome, using the Connectome Annotation Versioning
+Engine (CAVE, manuscript in prep).
+We already showed that FlyWire proofreading can yield accurate results (Dorkenwald,
+McKellar, et al. 2022) through comparison with light microscopic reconstructions of neurons
+that are known to be highly stereotyped across individual flies. A second method is to
+subject neurons to an additional round of proofreading (J. S. Kim et al. 2014; Scheffer et al.
+2020), which was previously shown to yield few changes (Dorkenwald, McKellar, et al.
+2022). Because proofreading workflows and personnel have changed over time, and
+accuracy can vary across brain regions, we repeated this evaluation by subjecting 826
+neurons from the central brain to a second round of proofreading. Relative to the second
+(Ext. Data Fig. 1-2 a,b).
+A third validation method is to quantify how many of the automatically detected synapses are
+attached to proofread segments, as opposed to being isolated in tiny “orphan” segments
+(Buhmann et al. 2021; Heinrich et al. 2018). We found high attachment rates of presynapses
+(92.3% or ~120,100,000 presynapses attached) while attachment rates of postsynapses
+were lower (43.9% or ~57,200,000 postsynapses attached) due to less proofreading and
+reattachment of twigs which contain most of the postsynapses (Dorkenwald, McKellar, et al.
+2022) (Ext. Data Fig. 1-2 c,d). Attachment rates were generally in agreement between the
+two hemispheres of FlyWire and with the hemibrain (Ext. Data Fig. 1-2 e,f,g) and varied by
+neuropil (Ext. Data Fig. 1-3). The bottom line is that accuracy of our connectome is state of
+the art. As with the hemibrain (Scheffer et al. 2020), false negative synapses are the
+dominant kind of error but false positives exist as well - for this reason all analyses we
+present below (and connections indicated in Codex) use a threshold of 5 synapses to
+determine a connection between two neurons). Assuming that such errors are statistically
+independent, accuracy is expected to be high for detection of connections involving multiple
+synapses (Scheffer et al. 2020; Schneider-Mizell et al. 2016; Meinertzhagen 2018).
+FlyWire’s reconstruction remains open for proofreading and annotations and new versions of
+the resource will be released in future. This allows for the correction of remaining errors as
+they are discovered and further rounds of validation to be performed. Additionally, as
+explained below, proofreading of photoreceptor axons in the compound eyes is still ongoing.
+The first public release (called version 630) has been extensively validated for neurons in the
+central brain. All neurons in the optic lobe were proofread but additional validation will likely
+identify and correct minor reconstruction errors.
+Of the 127,978 proofread neurons in FlyWire, 114,423 are fully contained within the brain
+(including both central brain and optic lobes, but excluding afferent and efferent neurons,
+with projections into and out of the brain, respectively; Fig. 2a,b). These intrinsic neurons
+(Fig. 2c left) belong to the brain only, in contrast to other neurons that are shared by the
+brain with other structures. Intrinsic neurons of the brain make up three quarters of the adult
+fly nervous system (Methods), indicating a high degree of centralization in the brain. The
+large fraction is related to the fact that the brain is substantially larger than the ventral nerve
+cord (VNC) (Phelps et al. 2021; S.-Y. Takemura et al. 2023; Marin et al. 2023). Intrinsic
+neurons amount to 84% of brain neurons. Their predominance means that the brain primarily
+communicates with itself, and only secondarily with the outside world.
+The nervous system of the larval fly is less centralized; intrinsic neurons of the brain make
+up one quarter to one third of its nervous system (Winding et al. 2023). The closest structure
+to a brain in C. elegans is the nerve ring (Brittin et al. 2021), which is co-located with multiple
+sensory organs in the worm’s head. The nerve ring contains no intrinsic neurons, as all
+neurons in the nerve ring also extend neurites into the rest of the nervous system. The
+absence of intrinsic neurons is consistent with the convention that the nerve ring is not
+commonly called a brain.
+While the above statistics are based on neuron numbers, they are conceptually related to
+volume-based measures of encephalization used in studies of brain evolution (Jerison
+1955). For comparison, the rat brain occupies 65% of its central nervous system by volume
+(Swanson 1995). Our neuron-based measure of encephalization cannot yet be computed for
+rodents, but this will become possible as connectomics continues to scale.
+Brain neurons that are not intrinsic can be divided into two categories, depending on the
+locations of their cell bodies. For afferent (sensory, ascending) neurons, the cell body is
+outside the brain, while for efferent (descending, motor, endocrine) neurons, the cell body is
+contained in the brain. Overall, it is generally accurate to think of an afferent neuron as a
+brain input, and an efferent neuron as a brain output. The relation to information flow is
+actually more subtle, however, as many fly neurites carry some mixture of presynapses and
+postsynapses on both dendrites and axons (Eckstein et al. 2023; Winding et al. 2023;
+Schneider-Mizell et al. 2016).
+Schlegel et al. exhaustively identified all afferent and efferent neurons contained in cross
+sections of nerves and the neck connective running between the brain and VNC (Fig. 2d).
+Almost 95% of these neurons were in the neck connective, antennal nerve, and
+maxillary-labial nerve. Although afferents are truncated in our reconstruction, Schlegel et al.
+(Philipp Schlegel et al. 2023) along with other community members (Eichler et al. 2023; H.
+Kim et al. 2020) were able to determine the sensory organs corresponding to 5,362 of the
+5,495 non-visual sensory neurons (Fig. 2e,f). Non-visual sensory neurons enter the brain
+through nerves (Fig. 2d) that mostly terminate in the antennal lobe or the SEZ (we define the
+SEZ as containing the following neuropils: SAD, GNG, AMMC, and PRW (Sterne et al.
+2021); see Ext. Data Fig. 1-1 for neuropil definitions). The antennal lobe (AL) is the first relay
+center for processing of olfactory information, and many of the olfactory receptor neuron
+(ORN) inputs to the AL were reconstructed in the hemibrain as well. The SEZ receives more
+diverse inputs, including the projections of both mechanoreceptor and gustatory receptor
+neurons - these projections were not contained in the hemibrain. The nerves contained few
+efferent neurons, among which were head motor neurons (N=100) or endocrine neurons
+(N=80) (Fig. 2a,b,c). A large fraction of efferent neurons have branches in the SEZ, including
+most of the 100 motor neurons.
+Visual afferents are by far the most numerous kind of sensory input, and enter the brain
+directly rather than through nerves. This is the last class of neuron that remains to be fully
+proofread. There are photoreceptor axons coming from the compound eyes (~12,800 of
+which N=3,943 have already been proofread in both eyes), ocelli (N=270), and eyelets (8 of
+which N=4 have been proofread).
+The neurons traversing the neck connective were grouped into 1,303 efferent (descending)
+and 2,364 afferent (ascending) neurons (Fig. 2a,b,c). In a companion paper, Eichler et al. (in
+prep) typed these neurons and matched them to reconstructions from two separate EM
+datasets of a VNC (Phelps et al. 2021; Azevedo et al. 2022; Cheong et al. 2023).
+Of the 114,423 intrinsic neurons, 32,422 are fully contained in the central brain, and 73,655
+are fully contained in the optic lobes and ocellar ganglia (this number excludes the
+photoreceptors, which are sensory afferent neurons, see above). Given that the visual areas
+dominate the count, it seems safe to say that Drosophila is a highly visual animal. The optic
+lobes, which are largely absent from the first larval instar, are a major reason that the adult
+fly brain so dominates its nervous system.
+The optic lobes and ocellar ganglia also contain 7,851 neurons that project into the central
+brain, so called visual projection neurons (VPNs). We provide a more detailed analysis of
+connections in the ocellar ganglion in Fig. 7. Many VPNs are columnar types that tile the
+visual field. VPNs target specific neuropils (e.g., AOTU, PLP, and PVLP) or optic glomeruli
+(Wu et al. 2016; Otsuna and Ito 2006) in the central brain. The influence of VPNs can be
+very strong; 879 central neurons receive more than half their synapses from VPNs.
+The hemibrain already characterized many VPN types along with their outputs in the central
+brain (Scheffer et al. 2020). Our whole brain reconstruction reveals many other aspects of
+VPN connectivity, such as their inputs in the medulla, lobula, or lobula plate - Schlegel et al.
+have typed these neurons based on their axonal projections in the brain and comparing to
+reconstructions in the hemibrain (Scheffer et al. 2020). In addition to feedforward targeting of
+central neurons, VPNs make 20% of their synapses onto other VPNs, and 21% onto optic
+lobe neurons. Companion papers investigate the visual projections to the central complex
+(Kim et al, in prep) and the mushroom body (Heckman and Clowney, in prep).
+There are 494 neurons that project from the central brain to the optic lobes (Otsuna and Ito
+2006). We call these visual centrifugal neurons (VCNs), and they are distinct from previously
+defined types of visual centrifugal neurons that are fully contained in the optic lobe, and their
+functions are mostly unknown. VCNs are 15× less numerous than VPNs. Nevertheless, half
+of all optic lobe neurons receive 5 or more synapses from VCNs, showing that much early
+visual processing incorporates feedback from the central brain. Centrifugal inputs to the
+retina are found in many vertebrate species, including humans (Repérant et al. 2006).
+Many VCNs arborize broadly in the optic lobe, appearing to cover the entire visual field.
+Some VCNs, however, cover only a subset of columns within a portion of the visual field. A
+few optic lobe neurons receive as many as 50% of their synapses from VCNs. These belong
+to the class of peptidergic neurons involved in circadian rhythmicity, which are detailed in a
+companion paper (Zandawala et al., in prep). Tm5c is a columnar type (necessary for
+Drosophila’s preference for UV over visible light (Karuppudurai et al. 2014)) with more than
+10% of its input from VCNs.
+A lamina wide-field neuron (Lawf2) can receive more than 10% of its input from VCNs, and a
+major input source is octopaminergic (OA-AL2b2). It was previously shown that gain
+modulation of Lawf2 neurons increases during flight (Tuthill et al. 2014), and this effect is
+mimicked by bath application of octopamine. Transcriptomic studies showed that Lawf2
+neurons express octopamine receptors at high levels (Davis et al. 2020).
+The neuron classes introduced above are organized into a hierarchy, as explained in our
+companion paper (Philipp Schlegel et al. 2023). The three “flow” classes (afferent, intrinsic,
+efferent) are divided into nine “super-classes” mentioned above (Fig. 2a). A simplified
+representation of the connectome as a graph in which nodes are super-classes is shown in
+Fig. 2b. Node sizes reflect neuron number, and link widths indicate connection number. This
+is the first of several simplified representations that we will introduce to tame the complexity
+of the connectome. Before continuing in this vein, we pause to discuss the properties of
+individual neurons and synapses.
+A basic property of the fly brain is that cell bodies are spatially segregated from neurites. Cell
+bodies reside near the surface (“rind”) of the brain (Fig. 3a), surrounding a synapse-rich
+interior that mainly consists of entangled neurons and glia, fiber bundles or tracts, as well as
+tubules of the tracheal system (Fig. 1f, Ext. Data Figure 1-4a, Colodner et al, in prep).
+A typical non-sensory Drosophila neuron is unipolar and consists of a primary neurite that
+leaves the cell body (soma), enters the neuropil, and branches into secondary and
+higher-order neurites (Fig. 3b). Secondary neurites can sometimes be classified as axons if
+presynapses clearly dominate, or dendrites if postsynapses clearly dominate (Eckstein et al.
+2023; Winding et al. 2023; Schneider-Mizell et al. 2016). Such an axon-dendrite distinction
+was made, for example, when defining visual projection and centrifugal neurons above.
+But some mixture of presynapses and postsynapses is generally found on all non-primary
+neurites (Fig. 3b). In addition, the soma of insect neurons is separated from the main
+processes via a typically thin neural filament (primary neurite, Fig. 3b). Given this structure,
+the concept that signals pass from dendrites to soma to axon, which is often a good
+approximation for mammalian neurons, does not apply for non-sensory neurons in the fly.
+Neurons vary greatly in size and shape (Fig. 3c). We computed skeletons for all
+reconstructed neurons (Fig. 3d) to measure neuronal path lengths. The median path length
+of a neuronal arbor was 656 μm (Fig. 3d). It has been argued that branched arbors are
+optimal for achieving a high degree of connectivity with other neurons (Chklovskii 2004).
+Neurons with short path lengths are exceptions, and can be found in both the optic lobes
+and central brain. Path length and volume both varied over two orders of magnitude (Fig. 3d,
+path length percentiles: 0.1%: 0.059 mm, 99.9%: 19.211 mm, volume percentiles: 0.1%: 80
+μm3, 99.9%: 459 μm3). In total, the brain contains ~146 m of neuronal path length.
+Sizes vary significantly between different cell superclasses (Ext. Data Fig. 3-1a-f). Optic lobe
+neurons are on average much shorter than central brain neurons (0.70 mm vs 2.15 mm on
+average) and take up a smaller volume (0.0066 mm3 vs 0.0086 mm3 total neuronal volume),
+which is why the optic lobes dominate the brain by neuron number but not by volume or
+synapse count. Visual centrifugal neurons are among the largest in the brain, and larger on
+average than visual projection neurons (5.05 mm vs 1.56 mm on average). While we
+measured much shorter path lengths and volumes for afferent neurons because only part of
+their axonal arbors is contained within the brain (Ext. Data Fig. 3-1b,e), arbors of efferents,
+motor and descending neurons which also have some of their arbor outside the brain, were
+among the largest we measured (Ext. Data Fig. 3-1c,f).
+A small fraction of brain volume is glial cells, which are categorized in six types (Kremer et
+al. 2017; Yildirim et al. 2019). We estimated that 13% of the cell bodies in the EM dataset
+are non-neuronal or glial (Mu et al. 2021). Only a few astrocyte-like glia have been proofread
+(Ext. Data Fig. 1-4b). Sheet-like fragments of ensheathing glia are readily found near fiber
+bundles in the automated reconstruction. Further proofreading of glia could be prioritized in
+the future if there is community demand.
+Our connectome includes only chemical synapses; the identification of electrical synapses
+awaits a future EM dataset with higher resolution (see Discussion). We use the term
+“synapse” to mean chemical synapse. A Drosophila synapse is generally polyadic, meaning
+that a single presynapse communicates with multiple target postsynapses (Fig. 1e). FlyWire
+represents a polyadic synapse as multiple synapses, each of which is a pair of presynaptic
+and postsynaptic locations (Buhmann et al. 2021). Polyadic synapses are common in other
+invertebrate species, such as C. elegans, and exist in some mammalian brain structures
+(e.g. retina).
+We define a connection from neuron A to neuron B as the set of synapses from A to B. A
+connection typically contains multiple synapses, and the number can be large (Fig. 3 e,f).
+Connections with less than 10 synapses are typical, but a single connection can comprise
+>100 synapses (N=14,969) or even >1,000 synapses (N=27). The strongest connection was
+from a visual centrifugal neuron (LT39) onto a wide field lobula neuron (mALC2), and
+contained over 2300 synapses.
+These numbers are much larger than the report of a maximum of 41 synapses connecting a
+pair of C. elegans neurons (Cook et al. 2019). To model such a distribution with a long tail,
+(Scheffer et al. 2020) used a power law with exponential cutoff (Fig. 3g). Our fit found
+comparable parameters, but the fit to our whole-brain distribution of connection strengths
+was not as good as their fit to the hemibrain distribution. A similar power law is also a
+reasonable fit to the distribution of connection strengths in C. elegans.
+Setting a threshold of ≥5 synapses for determining a (strong) connection is likely to be
+adequate for avoiding false positives in the dataset, but not missing connections (see
+Methods). There are 2,613,129 such connections between the 124,891 identified neurons.
+There are several reasons to focus on strong connections. First, a connection with many
+synapses is expected to be strong in a physiological sense, other things being equal.
+Second, strong connections are likely to be more reproducible across individuals (Hall and
+Russell 1991; Witvliet et al. 2021; Philipp Schlegel et al. 2023)(Philipp Schlegel et al.
+2023)(Hall and Russell 1991; Witvliet et al. 2021; Philipp Schlegel et al. 2023). Third, higher
+accuracy (both precision and recall) of automatic detection is expected for strong
+connections, assuming that errors are statistically independent (Schneider-Mizell et al. 2016;
+Scheffer et al. 2020).
+One of the most basic properties of a node in any network is its degree, the number of nodes
+to which it is linked. To characterize the degree distribution in the Drosophila connectome,
+we focused on intrinsic neurons (N=114,423) because, unlike afferent and efferent neurons,
+they do not suffer from undercounting of connections due to truncation.
+For any neuron, in-degree is defined as its number of presynaptic partners (input neurons),
+and out-degree is defined as its number of postsynaptic partners (output neurons). The
+median in-degree and out-degree of intrinsic neurons are 11 and 13 (Fig. 3g), respectively,
+with the restriction mentioned above to connections involving five or more synapses. These
+median values do not seem dramatically different from the median in-degree and out-degree
+of 10 and 19 for neurons in the C. elegans hermaphrodite, considering that the latter
+contains several hundred times fewer neurons than Drosophila.
+The neuron in the Drosophila brain with maximum degree is a visual GABAergic interneuron
+(CT1), with 6329 postsynaptic partners and 4999 presynaptic partners. CT1 arborizes
+exclusively in the medulla neuropil of the optic lobe - indeed, most neuropils of the
+Drosophila brain contain one or a few large GABAergic neurons private to that neuropil, with
+high in-degree and out-degree (see Lin et al., in prep, for more analysis on connectivity
+motifs in FlyWire); these neurons are considered to be important for local feedback gain
+control (Prisco et al. 2021; Hong and Wilson 2015). In a C. elegans hermaphrodite (Cook et
+al. 2019), the neuron with maximum degree is a command interneuron for backward
+locomotion (AVAL), with 110 postsynaptic partners and 64 presynaptic partners. The
+existence of neurons with much higher degree is a marked way in which the Drosophila
+connectome differs from that of C. elegans. That being said, the degree of AVAL is large in a
+relative sense because it is a large fraction of the total C. elegans neuron number (302).
+The number of synapses established by a neuron is correlated with its total neurite path
+length (R=0.80 (pre), R=0.89 (post), Ext. Data Fig. 3-1g). Presynapse and postsynapse
+counts are similarly correlated per neuron (R=0.80, Fig. 3h). We asked whether large
+neurons tend to use their many synapses to create stronger connections with individual
+neurons versus more connections with many different neurons. The total number of
+synapses established by a neuron was much better correlated with its in and out degrees
+(R=0.93, R=0.93 respectively) than its average connection strength (R=0.26, R=0.31
+respectively, Ext. Data Fig. 3-1h,i). It remains to be tested whether the additional partners
+are from the same or different cell types.
+Connections and neurons are not necessarily the functional units of neural computation. For
+certain large fly neurons, the arbors are composed of multiple compartments that function
+somewhat independently (Meier and Borst 2019; Amin et al. 2020). Perhaps these
+subcellular compartments, rather than whole cells, should be regarded as nodes of the
+connectome. Then CT1 would be replaced by many nodes with lower degrees. And the
+connection from LT39 to mALC2 would be replaced by many connections with fewer
+synapses between compartments of these neurons. A connectome of neuronal
+compartments can in principle be studied using our resource, which includes the location of
+every synapse.
+A statistical prediction of the small molecule neurotransmitter (GABA, glutamate,
+acetylcholine, serotonin, dopamine, and octopamine) secreted by each neuron is available.
+A number of validations suggest that the predictions are highly accurate in aggregate
+(Eckstein et al. 2023), though for any given synapse the prediction could be wrong. We
+assume that every neuron secretes a single small molecule neurotransmitter and combine
+the predictions for all outgoing synapses to an estimate which we assign to all outgoing
+synapses of a neuron, i.e. we assume neurons obey Dale’s law, although it is known that
+co-transmission does occur in the fly brain (Sherer et al. 2020; Mao and Davis 2009;
+Waddell et al. 2000; Croset, Treiber, and Waddell 2018).
+GABAergic and glutamatergic neurons had much higher degrees than cholinergic neurons
+(Ext. Data Fig. 3-1j). Across all neuron categories, we found that GABAergic neurons were
+on average longer than glutamatergic and cholinergic neurons (Ext. Data Fig. 3-1k).
+As a rule, we will assume that cholinergic neurons are excitatory and GABAergic and
+glutamatergic neurons are inhibitory(Molina-Obando et al. 2019; McCarthy et al. 2011; Lu et
+al. 2022; Liu and Wilson 2013). A companion paper identifies all GABAergic and
+glutamatergic neurons that are bidirectionally coupled with large numbers of cholinergic
+neurons (Lin et al., in prep). This reciprocal inhibitory-excitatory motif is widespread
+throughout the fly brain (Lin et al. 2014; Scheffer et al. 2020).
+For mammals, tracer injection studies have mapped the axonal projections between brain
+regions of mouse (Zingg et al. 2014; Oh et al. 2014; Harris et al. 2019) and macaque
+(Felleman and Van Essen 1991; Markov et al. 2014). In fly, large numbers of light
+microscopic reconstructions of single neurons have been aggregated to map projections
+between brain regions (Meissner et al. 2023; Chiang et al. 2011; Shih et al. 2015). Such
+maps have been called projectomes (Kasthuri and Lichtman 2007) or mesoscale
+connectomes (Sporns, Tononi, and Kötter 2005). In such techniques, the sampling of axons
+is difficult to control, which means that accurate quantification of projection strength is
+challenging.
+Here we compute a projectome from a synapse-level connectome (Fig. 4a, Ext. Data Fig.
+4-1). The interior of the fly brain has been subdivided into hierarchical neuropil regions (Ito et
+al. 2014) (Ext. Fig. 1-1, Fig. 1d). Our fly projectome is defined as a map of projections
+between these neuropil regions. Because cell bodies are spatially separated from neuropils,
+a fly neuron cannot typically be assigned to a single brain region. This is unlike the situation
+for a mammalian neuron, which is conventionally assigned to the region containing its cell
+body. A typical fly neuron belongs to multiple neuropils.
+The projectome is a neuropil-neuropil matrix computed as follows. Each intrinsic neuron
+contributes to the projections between neuropils where it has pre- and postsynaptic sites.
+We weighted neuron projections by the product of the respective number of synapses and
+normalized the result for every neuron such that the matrix sums to the total number of
+intrinsic neurons. Each column corresponds to all the neurons projecting to a neuropil and
+each row to all neurons projecting out of it (Fig. 4b). Each square then represents the
+summed fractional weight of all neurons projecting between two neuropils (Fig. 4c,d). We
+added afferent and efferent neurons to the matrix by calculating the sum of the weighted
+neuron projections per super class to and from all neuropils respectively.
+While each neuropil is connected to many others, most neurons have synaptic sites in only a
+few neuropils (Fig. 4e). We repeated this process for each fast neurotransmitter type (Ext.
+Fig. 4-1). Some neuropil-neuropil connections exist strongly for one neurotransmitter but not
+others. For example, the neuropils making up the central complex (FP, EB, PB, NO) and the
+mushroom body (MB-CA, MB-PED, MB-VL, MB-ML) are largely tied together by excitatory
+connections.
+We observed a strong symmetry between projections in the left and right hemisphere as well
+as with the central neuropils located on the midline (Ext. Data Fig. 4-2a,b); this highlights the
+strong similarity between the two sides of the brain. We observed that contralateral
+projections (projections from one side of the brain to the other) were generally weaker than
+projections to the same or ipsilateral neuropil (Ext. Data Fig. 4-2c).
+The SEZ (Fig. 4f) is the ventral portion of the central brain, and has been shown to
+contribute to a variety of behaviors (Sterne et al. 2021). It is almost wholly unrepresented in
+the hemibrain reconstruction (Scheffer et al. 2020), and is also unreconstructed in the larval
+brain (Winding et al. 2023). The five neuropils in the SEZ (left and right AMMC, GNG, SAD,
+and PRW; Fig. 4f) amount to 17.8% of central brain neuropil volume (0.0018 mm3 of 0.0103
+mm3); they contain afferents mostly from non-visual sensory neurons (mechanosensory and
+taste) and ascending neurons, as well as a large number of efferents (motor, endocrine, and
+descending neurons - in fact, descending neurons receive on average 69% of their inputs in
+one of the five SEZ neuropils). The SEZ is thus important for information flow to and from the
+brain. Judging from the projectome (Fig. 4a), the SEZ neuropils interact with almost all parts
+of the brain. Notable exceptions are the central complex (EB, FB, PB, and NO) and the
+mushroom body (MB), suggesting less crosstalk between those circuits and neurons in the
+SEZ (explored in more detail in Fig. 6).
+Our reconstruction includes both left and right brain hemispheres. This is important for
+tracing sensorimotor pathways that cross from one side to the other, and more generally for
+understanding interactions between the two hemispheres. The projectome (Fig. 4a) already
+reveals that most projections (88%) are ipsilateral or between neuropils on the same side of
+the brain.
+The low fraction of non-ipsilateral neurons is primarily due to their scarceness in the optic
+lobes. Only 157 neurons (0.2%) in the optic lobes cross hemispheres, and cross the central
+brain without making synapses there (Supplemental Information 2) - these neurons are
+considered to be “fully contained” in the optic lobes because our definition depends only on
+synapse locations. These neurons mediate direct interactions between the two optic lobes,
+and their rarity suggests that these interactions represent a smaller fraction of the
+computations that occur within the optic lobes. Integration of information from both eyes may
+rely more on the abundant crossing connections between the central brain targets (AOTU,
+PLP, PVLP) of VPNs.
+A higher proportion (40%) of central brain neurons are non-ipsilateral, largely owing to
+central neuropils, like those of the central complex and SEZ. To classify non-ipsilateral
+neurons, we started by examining the spatial distributions of their postsynapses (inputs). We
+divided the neuropils into three categories. Left and Right included the neuropils that come in
+mirror-symmetric pairs. Center included the seven remaining neuropils that are located on
+the midline. For each neuron, we computed the proportions of its postsynapses in Left,
+Right, and Center neuropils (Ext. Fig. 4-3). Each neuron was assigned to the dominant
+category, and near-ties were rare. The exceptions are symmetric neurons with cell bodies at
+the midline of the brain (Ext. Data Fig. 4-4, N=106).
+Next, we asked how many neurons of Left and Right categories have presynapses (outputs)
+in the other hemisphere. Similar to the analysis of the 1st instar larval connectome (Winding
+et al. 2023), we found that neurons projecting to the other hemisphere can be grouped into
+bilateral neurons, those with outputs in both hemispheres, and contralateral neurons which
+almost exclusively had presynapses in the other hemisphere (Fig. 4g-i). Notably, many more
+visual centrifugal neurons projected to the contralateral hemisphere than visual projection
+neurons, and both visual centrifugal neurons and neurons of the central brain contain a large
+fraction of bilateral neurons (Fig. 4h) - as stated earlier, this analysis again revealed the
+dominance of ipsilateral connections in the brain. While mixing between the hemispheres is
+more rare, mixing between sensory modalities within a hemisphere is common (see Fig. 6
+below).
+Many types of fly neurons are known to exhibit striking stereotypy across individuals, and
+also across both hemispheres of the same individual. A companion paper shows
+quantitatively using FlyWire and hemibrain data that these two kinds of stereotypy are similar
+in degree (Philipp Schlegel et al. 2023).
+So far we have mentioned neurons that connect the optic lobes with each other, or with the
+central brain. The intricate circuitry within each optic lobe is also included in FlyWire’s
+connectome. Photoreceptor axons terminate in the lamina and medulla, neuropils of the
+optic lobes (Fig. 5a,b). Each eye contains approximately 800 ommatidia that map to columns
+in the lamina arranged in a hexagonal lattice (Fig. 5b). This structure repeats in subsequent
+neuropils from lamina to medulla to lobula to lobula plate. The neuropils have been finely
+subdivided into layers that are perpendicular to the columns (Fischbach and Dittrich 1989).
+The 2D visual field is mapped onto each layer. Any given cell type prefers to synapse in
+some subset of the layers. Cell types vary greatly in size. Uni-columnar cell types are the
+smallest (Fig. 5b,c). At the other extreme are large cells that span almost all columns (Fig.
+5d). In between there are many multi-columnar cell types that are still being classified (Fig.
+5e).
+Mi1 is a true “tiling” type, i.e., its arbors cover the visual field with little or no overlap, and
+have similar size and shape (Fig. 5b). Dm12 arbors overlap with each other, but the spatial
+arrangement is still regular. These and other distal medullary cell types were previously
+characterized by multicolor light microscopy (Nern, Pfeiffer, and Rubin 2015). Our EM
+reconstructions reveal even more detailed information about the spatial patterning of these
+types (e.g., co-fasciculation of neurites of neighboring Dm12 cells). More importantly,
+FlyWire’s reconstruction encompasses all multi-columnar cell types, including those outside
+the medulla. Judging from the many examples we have studied throughout the optic lobe, it
+seems that regular coverage of the visual field without gaps is a defining criterion for most
+cell types, similar to mammalian retina (Bae et al. 2018). There are, however, exceptional
+cell types that cover the visual field in an irregular manner. For example, there are exactly
+two LPi1-2 cells per optic lobe (Shinomiya et al. 2022). The shapes of each pair are
+complementary, as if they were created by cutting the visual field into two pieces with a
+jigsaw (Fig. 5f); this tiling was not evident when reconstructing only a portion of an optic lobe
+(Shinomiya et al. 2022).
+Much of the existing research on widefield visual motion processing has relied on the
+simplifying idea that the computations are mostly in columnar circuits, and the columnar
+outputs are finally integrated by large tangential cells in the lobula plate. This research has
+been aided by wiring diagrams containing connections between cells in the same column or
+neighboring columns (S.-Y. Takemura et al. 2013; S. Takemura et al. 2017; Shinomiya et al.
+2019). An absence of information across columns, has necessitated treating each column as
+identical in simulations of the optic lobe (Lappalainen et al. 2023). FlyWire’s connectome
+contains not only the columnar neurons (Fig. 5b), but also all neurons that extend across
+columns (Fig. 5d,e). These neurons are both excitatory and inhibitory, and can support
+interactions between even distant columns. This opens up the possibility of a much richer
+understanding of optic lobe computations, and this is explored in a companion paper on hue
+selectivity (Christenson et al. in prep).
+Some columnar cell types are known to exhibit spatial gradients in connectivity (Dombrovski
+et al. 2023), and our reconstruction makes it possible to investigate such gradients for any
+columnar cell type in the optic lobe. Similar gradients have also been studied in mammalian
+retina (Yu et al. 2018), and such continuous variation is an interesting complement to the
+conventional notion that cell types are discrete.
+While afferent and efferent neurons make up a numerically small proportion of the brain
+(estimated 14.7% and 1.1% respectively), they are important because they connect the brain
+to the outside world. Examining connections to these neurons is useful when attempting to
+predict the functions of intrinsic neurons from the connectome. For example, one might try to
+identify the shortest path in the connectome from an afferent (input) neuron that leads to a
+given intrinsic neuron. The sensory modality of the afferent neuron could provide a clue as to
+the function of the intrinsic neuron. This approach, while intuitive, ignores connection
+strengths and multiplicities of parallel pathways. We therefore use a probabilistic model (P.
+Schlegel et al. 2021) to estimate information flow in the connectome, starting from a set of
+seed neurons (Fig. 6a; see Methods).
+The likelihood of a neuron being traversed increases with the fraction of inputs from already
+traversed neurons and caps out at an input fraction of 30%. We ran the traversal model for
+every subset of afferent neurons as seeds (N=12 input modalities to the central brain, Fig.
+6b, Fig. 2e, Supplemental Information 3, see Methods for full list). We then measured
+information flow from these starting neurons to all intrinsic and efferent neurons of the
+central brain (for this analysis, we ignore circuitry within the optic lobes, and consider VCNs
+(visual centrifugal neurons) as efferents of the central brain). We then ranked all neurons by
+their traversal distance from each set of starting neurons and normalized the order to
+percentiles. For instance, a neuron at the 20th percentile had a lower rank than 80% of
+neurons. This allowed us to determine how early information from each afferent modality
+reached various targets, including the descending neurons, endocrine neurons, motor
+neurons and visual centrifugal neurons (Fig. 6c, Ext. Data Fig. 6-1a). As expected, endocrine
+neurons are closest to the gustatory sensory neurons while motor and descending neurons
+were reached early for mechanosensory and visual afferents (Ext. Data Fig. 6-1a).
+Do the afferent cell classes target inhibitory neurons early or late? We found that putative
+inhibitory neurons (neurons predicted to express GABA and glutamate) were
+overrepresented in the set of early neurons (Fig. 6d). Surprisingly, we identified a sequence
+of GABAergic and glutamatergic peaks in the sequence of neurons targeted that was
+replicated for almost all afferent modalities (Ext. Data Fig. 6-1b).
+To visualize information flow in a common space, we treated the traversal distances starting
+from each seed population as a neuron embedding and built a UMAP projection from all of
+these embeddings (Fig. 6e). Within the map, we found that neurons of the same cell class
+(e.g. two groups of Kenyon cells, all mushroom body output neurons, all antennal lobe local
+neurons, and all central complex neurons) are clustered. Next, we displayed traversal order
+on top of the UMAP plot to compare traversal orders starting from different modalities. We
+find that every neuron in the central brain can be reached by starting from any modality - this
+“small world” property of the network is covered in more detail in a companion paper (Lin et
+al., in prep). Comparing orders revealed that almost all neurons in the central brain are
+reached early starting from some modality, with the exception of neurons in the central
+complex (Fig. 6f, Ext. Data Fig. 6-2), highlighting that the central complex is dominated by
+internal computations (Hulse et al. 2020). Kenyon cells were contained in two clusters - one
+of which is targeted very early from olfactory receptor neurons and the other targeted early
+by visual projection neurons (Vogt et al. 2016).
+Our information flow analysis provides a compressed representation of the connectome, but
+ignores signs of connections and the biophysics of neurons and synapses, and therefore
+terms like “early” and “late” should not be interpreted as true latencies to sensory stimulation.
+A companion paper (Shiu et al. 2023) builds a leaky integrate-and-fire model of Drosophila
+brain dynamics, using the connectome and including connection weights (number of
+synapses) and putative connection signs (excitatory or inhibitory).
+Neurons in Drosophila are considered to be identifiable across hemispheres and individuals
+(Luan et al. 2006; Pfeiffer et al. 2010), enabling cell type classification of all neurons in
+FlyWire - such classification is useful for generating testable hypotheses about circuit
+function from the connectome. FlyWire community members, experts in diverse regions of
+the fly brain, have shared 91,649 annotations of 59,548 neurons (Supplemental Information
+4), including the majority of sexually-dimorphic neurons (Deutsch et al., in prep), sensory
+neurons (Eichler et al. 2023), as well as a diversity of cell types in the optic lobes and SEZ
+(Fig. 2f), two brain regions not covered in the hemibrain connectome. Each neuron in
+FlyWire is given a unique name based on the neuropil it receives and sends most of its
+synapses. Curation of these annotations continues, and we invite further community efforts
+to identify cell types, and these can be contributed through Codex (codex.flywire.ai).
+In addition, matching between cell types identified in the hemibrain (Scheffer et al. 2020) and
+both hemispheres of FlyWire provides additional annotations for neurons contained in both
+datasets. Our companion paper (Philipp Schlegel et al. 2023) provides cell type annotations
+for 26,150 neurons via such matching.
+All cell annotations can be queried in Codex. Some of these have already been mentioned,
+such as the “flow” annotations of intrinsic vs. afferent vs. efferent, super-class annotations of
+Fig. 2, neurotransmitter predictions, left-right annotations for cell body location, in addition to
+lineages, or groups of neurons derived from a single neuroblast (Schlegel et al. 2023).
+The completeness of the FlyWire connectome enables tracing complete pathways from
+sensory inputs to motor outputs - here we demonstrate this capability by examining circuits
+that emanate from the ocellar ganglion and leveraging cell type information. In addition to the
+large compound eyes, flying insects have smaller visual sensory organs (Hofbauer and
+Buchner 1989), including the three ocelli on the dorsal surface of the head cuticle (Fig. 7a).
+The ocelli are under-focused eyes, projecting a blurry image of light level changes in the UV
+and blue color spectrum (Hu, Reichert, and Stark 1978; Stark, Sapp, and Carlson 1989);
+these eyes are thought to be useful for flight control and orientation relative to the horizon
+(Stange et al. 2002). Importantly, while the role of the ocelli has been hypothesized (e.g.,
+light level differences between the eyes when the fly is shifted off axis should quickly drive
+righting motions of the head, wings, and body to stabilize gaze and re-orient the body), little
+is known about the circuitry downstream of this sensory organ that would mediate this
+function.
+Photoreceptor axons (N=270) from the three ocelli innervate three distinct regions of the
+ocellar ganglion separated by glial sheets (Fig. 7a, b). The ocellar ganglion additionally
+contains 62 neurons that we categorized into four broad groups (Fig. 7c, Ext. Data Fig.
+7-1a): local neurons (N=15), two types of interneurons, divided based on their arborizations
+and caliber (OCG01 (N=12), OCG02 (N=8)), descending neurons (DNp28, N=2), and
+centrifugal or feedback neurons (N=25). Ocellar local neurons are small (116 outgoing
+synapses, 449 μm path length on average) and connect sparsely with photoreceptors from
+all ocelli.
+Twelve OCG01 interneurons and two descending neurons (DNp28, one per lateral ocellus)
+represent the main pathway from the ocellar ganglion to the central brain. DNp28 projects to
+the intermediate, haltere, wing, and neck tectula of the ventral nerve cord (Cheong et al.
+2023; S.-Y. Takemura et al. 2023). In each ocellus, half of the OCG01s were inferred to
+express glutamate (likely inhibitory), and the other half acetylcholine (excitatory). There are
+four OCG01s per ocellus (Fig. 7d). OCG01s tile the ocellar ganglion, indicating their
+receptive fields tile the visual fields of the ocelli (Ext. Data Fig. 7-1 b,c). OCG02 axons are
+much thinner than the OCG01s, and likely transmit signals slower. Two OCG02 subgroups
+(a, b) innervate similar neuropils to the OCG01s (IPS, SPS), and OCG02c neurons target
+the PLP, a brain region that also receives input from visual projection neurons from the
+compound eyes (Wu et al. 2016).
+Neurons downstream from OCG01s in the IPS, SPS, and GNG receive inhibitory input from
+the ipsilateral ocellus and excitatory input from the contralateral ocellus (Fig. 7d, right), and
+the amount of synaptic input from each ocellus is tightly correlated (Fig. 7e, R=0.65,
+p<1e-21) - this balance is likely to be a key ingredient in how signals are integrated (the
+descending circuits are activated by a signal difference between the eyes). We found that 15
+different descending neurons (DNs) each receive over 200 synapses from the OCG01
+neurons. For example, two DNs in each hemisphere received over 30% of their synaptic
+inputs in the brain from ocellar projection neurons: DNp20/DNOVS1 (left: 57%, right: 44%),
+DNp22/DNOVS2 (left: 36%, right: 33%). DNOVS1 and other descending neurons with strong
+input from OCG01s generally receive strong input from ipsilateral visual projection neurons
+as well (Ext. Data Fig. 7-1d). For example, DNOVS1 is also activated by rotational optic flow
+fields across the compound eye, and projects to the neck motor system (Suver et al. 2016;
+Haag, Wertz, and Borst 2007). A handful of glutamatergic (putative inhibitory) visual
+projection neurons sparsely innervate descending neurons in both hemispheres. As the
+ocelli transmit mainly information about light levels, the dense integration with motion
+direction signals from the compound eyes was not previously appreciated, but should aid in
+precision adjustments of head and body movements for gaze stabilization and flight control
+(A. J. Kim et al. 2017).
+There is also extensive feedback from the brain directly to the ocellar ganglion via 25 ocellar
+centrifugal neurons (OCC). We found striking targeting specificity of two OCC subgroups
+(OCC01a, b) which synapse onto all OCG01 and DNp28 neurons with strong connections
+compared with their overall synaptic budget (Ext. Data Fig. 7-1e). The OCC01s receive input
+in a wide range of neuropils, notably the SEZ, as well as IPS and SPS, the same neuropils
+that receive inputs from the OCG projection neurons (Ext. Data Fig. 7-1f). It remains to be
+determined what role the OCCs play in gating visual information and potentially driving the
+OCGs in the absence of photoreceptor activity.
+Based on the summary wiring diagram of Fig. 7f, we hypothesize how the pathways from the
+ocelli to descending neurons function. As in a Braitenberg vehicle for phototaxis (Braitenberg
+1984), excitation and inhibition are organized so that the head and body of the fly should roll
+around the anteroposterior axis to orient the ocelli towards light. In this example, the
+whole-brain connectome, extending from brain inputs to outputs, uncovers new pathways
+and facilitates the generation of putative circuit mechanisms of sensorimotor behavior.
+By reconstructing a complete brain wiring diagram, FlyWire enables many kinds of studies
+that were not previously possible using wiring diagrams of portions of the fly brain. The optic
+lobes and the SEZ are two prominent regions mostly missing from the hemibrain, the
+previous state of the art. Both sides of the brain are included, enabling the tracing of
+pathways that cross the midline. Due to the presence of afferent and efferent neurons, one
+can trace pathways from sensory inputs to intrinsic neurons to brain outputs (motor,
+endocrine, and descending neurons). This was done in a global fashion using the
+information flow model, and more specifically to uncover the structure and hypothesize a
+circuit mechanism for behaviors supported by the ocelli. Our companion papers provide
+additional global analyses of the connectome (Lin et al., in prep) and studies of specific
+families of pathways.
+Connectome annotation with structural and functional information is an important emerging
+field, analogous to genome annotation. Annotations are important because they make the
+connectome usable for hypothesis generation about circuit function. We carried out a
+hierarchical and systematic annotation of all neurons in the connectome as detailed in our
+companion paper (Philipp Schlegel et al. 2023), describing over 4000 robustly identifiable
+cell types. We also collected a large number of annotations from the community (57% of all
+neurons have an annotation label) leveraging a broad knowledge base - further curation of
+these labels will help to refine them.
+For the first time, one can now compare entire connectomes of different species, starting
+with Drosophila melanogaster and C. elegans, as touched on by the present manuscript, and
+explored in more depth by Lin et al (Lin et al., in prep). One can also compare connectomes
+of the same species at different developmental stages (Winding et al. 2023). While ours is
+still the only adult fly connectome, it can be compared with the hemibrain reconstruction
+where they overlap, to detect wiring differences between adults of the same species (Philipp
+Schlegel et al. 2023).
+Transcriptomics with single cell resolution is being applied to mammalian brains (BRAIN
+Initiative Cell Census Network (BICCN) 2021), and to the Drosophila brain as well.
+Transcriptomic atlases of the central adult brain (Croset, Treiber, and Waddell 2018; Davie et
+al. 2018) and optic lobes (Kurmangaliyev et al. 2020; Özel et al. 2021) are appearing.
+Comparing connectomes with transcriptomes is already proving useful for studying
+molecular mechanisms of development (Kovács, Barabási, and Barabási 2020; Yoo et al.
+2023; Alexander Shakeel Bates et al. 2019). Clearly more fly connectomes at multiple
+developmental stages are needed.
+Connectome-based brain simulation was one of the original motivations for connectomics
+(Seung 2012). A neural network simulation of visual motion detection based on the wiring
+diagram of columnar circuits in the optic lobe has been created (Lappalainen et al. 2023).
+Such a connectome-based approach can at last be scaled up to an entire brain, as shown by
+Shiu et al. (Shiu et al. 2023).
+The hemibrain was reconstructed (Scheffer et al. 2020) from images acquired by FIB-SEM
+(Knott et al. 2008; Xu et al. 2017; Hayworth et al. 2020), a form of block face EM (Denk and
+Horstmann 2004). FlyWire is based on transmission EM images of serial sections (ssTEM)
+that were manually cut and collected (Zheng et al. 2018), an evolution of the approach that
+was used for the C. elegans connectome (White et al. 1986). In the end, both block face and
+serial section EM have turned out to be viable for fly connectomes. Both approaches yield
+similar accuracy (Ext. Fig. 1-2, Ext. Fig. 1-3). Hybrid methods that combine both imaging
+approaches are also being developed (Hayworth et al. 2020).
+Owing to the use of artificial intelligence (AI), the hemibrain and FlyWire have yielded
+connectomes that are orders of magnitude larger than those of C. elegans (Cook et al. 2019)
+or the larval fly (Winding et al. 2023). The hemibrain images were automatically segmented
+using flood-filling convolutional nets (Januszewski et al. 2018), whereas FlyWire used the
+older approach of boundary-detecting convolutional nets (Jain et al. 2007; Turaga et al.
+2010). FlyWire also required another kind of AI, alignment of serial section images using
+convolutional nets (Popovych et al. 2022). The improved alignment was crucial for making
+ssTEM as amenable as block face to automated reconstruction (Lee et al. 2019). In spite of
+enormous progress in AI, both the hemibrain (Scheffer et al. 2020) and FlyWire (Methods)
+required an estimated 50 and 30 person-years of human effort for proofreading the
+automated segmentation respectively (see Methods). This is because AI has reduced the
+amount of human labor required per unit brain volume, but EM image volumes have
+increased even faster. Further reduction in human proofreading is necessary for
+reconstructing many fly connectomes to study variation, or to scale up to whole mammalian
+brains.
+The EM images used by FlyWire were acquired at a resolution of 4×4×40 nm3. Sharpening
+this resolution would presumably enable accurate attachment of twigs to backbones, which
+is currently the main factor limiting the accuracy of reconstructing synaptic connectivity.
+Higher resolution might also enable the reconstruction of electrical synapses, which are
+included in the C. elegans connectome. Increasing resolution by 2× in all three dimensions
+would increase the data volume by 8×. Handling much larger data volumes should be
+possible as methods for acquiring and analyzing EM images are progressing rapidly.
+Imaging a larger volume would open up other interesting opportunities. Imaging a whole fly
+CNS would enable the mapping of all pathways linking the brain and VNC. The volume of
+the whole CNS is not much larger than that of the brain. In the meantime, it is possible to
+establish correspondences between FlyWire and FANC, a reconstruction of a separate VNC
+(Phelps et al. 2021; Azevedo et al. 2022). The first C. elegans connectome was obtained
+similarly as a mosaic drawn from multiple worms (White et al. 1986). Imaging an entire fly,
+both CNS and body, would enable the addition of sensory organs and muscles to the
+reconstruction. This also has precedent in the C. elegans connectome, which includes
+neuromuscular junctions, and the first instar Drosophila larva for which a whole-animal EM
+dataset was recently published (Schoofs et al. 2023).
+FlyWire and other related technologies have already been applied to millimeter-scale chunks
+of mammalian brain (MICrONS Consortium et al. 2021; Shapson-Coe et al. 2021), which are
+>50× larger in volume than a fly brain. The U.S. National Institutes of Health is planning a
+ten year project to reconstruct a whole mouse brain from an exabyte of EM images and a
+report from the Wellcome trust recently examined the road to a whole mouse brain
+connectome (Jefferis et al. 2023).
+The 1996 Bermuda Principles mandated daily release of Human Genome Project sequences
+into the public domain (Collins, Morgan, and Patrinos 2003). We believe that openness is
+also important for large-scale connectomics projects, particularly because these projects are
+expensive, require coordinated effort, and take several years to complete - sharing
+connectomes only after proofreading and annotation are completed prevents scientific
+discovery that can occur while the connectome is being completed. Shortly after its
+inception, FlyWire has been open to any Drosophila researcher. As a result, hundreds of
+scientists and proofreaders from over 50 labs joined FlyWire with over 200 of them
+contributing over 100 edits (Supplemental Table 1) and 86 contributing ten or more
+annotations (Supplemental Table 2). As a result, there are multiple studies that used
+completed portions of FlyWire’s connectome as proofreading proceeded (Zhao et al. 2022;
+Mabuchi et al. 2023a; Eichler et al. 2023; Shiu et al. 2022; Baker et al. 2022; Zheng et al.
+2022; Deutsch et al. 2020; Task et al. 2022; Chou et al. 2022; Israel et al. 2022; Kind et al.
+2021; Sterne et al. 2021; P. Schlegel et al. 2021; Mabuchi et al. 2023b). Openness has also
+enabled FlyWire to move faster by incorporating data sources from the community. The EM
+data on which FlyWire is built was shared in 2018 by Bock and colleagues (Zheng et al.
+2018). FlyWire’s synapse data was previously published by Buhmann et al. (Buhmann et al.
+2021) who incorporated synapse segmentations from Heinrich et al. (Heinrich et al. 2018),
+neurotransmitter labels for every synapse were made available ahead of publication by
+Eckstein et al. (Eckstein et al. 2023), numerous annotations were contributed by Schlegel et
+al., and over 90K (and counting) cell annotations have been shared by the community.
+Meshes for individual neuropils were based on work by Ito et al. (Ito et al. 2014). More
+specifically, we took meshes previously generated from a full brain segmentation of the
+JFRC2 template brain which are also used by the Virtual Fly Brain project (see also
+https://natverse.org/nat.flybrains/reference/JFRC2NP.surf.html). These meshes were moved
+from JFRC2 into FlyWire (FAFB14.1) space through a series of non-rigid transforms. In
+addition, we also generated two neuropil meshes for the laminae and for the ocellar
+ganglion. For these, the FlyWire synapse cloud was voxelized with 2 μm isotropic resolution,
+meshed using the marching cube algorithm using Python and manually post-processed in
+Blender 3d.
+We calculated a volume for each neuropil using its mesh. In the aggregated volumes
+presented in the paper we assigned the lamina, medulla, accessory medulla, lobula, lobula
+plate to the optic lobe. The remaining neuropils but the ocellar ganglion were assigned to the
+central brain.
+We assigned synapses to neuropils based on their presynaptic location. We used ncollpyde
+(https://pypi.org/project/ncollpyde/) to calculate if the location was within a neuropil mesh and
+assigned the synapse accordingly. Some synapses remained unassigned after this step
+because the neuropils only resemble rough outlines of the underlying data. We then
+assigned all remaining synapses to the closest neuropil if the synapse was within 10 μm
+from it. The remaining synapses were left unassigned.
+Our reconstruction used the FAFB EM dataset (Zheng et al. 2018). A number of consortium
+members (A. Bates, P. Kandimalla, S. Noselli) alerted us that the FAFB imagery seemed
+left-right inverted based on cell types innervating the asymmetric body (Lapraz et al. 2023).
+Eventually a left-right inversion during FAFB imaging was confirmed. All side annotations in
+figures, in Codex and elsewhere are based on the true biological side. For technical reasons
+we were unable to invert the underlying FAFB image data and therefore continue to show
+images and reconstructions in the same orientation as (Zheng et al. 2018) although we now
+know in such frontal views the fly’s left is on the viewer’s left. For full details of this issue
+including approaches to display FAFB and other brain data with the correct chirality, please
+see our companion paper (Schlegel et al., in prep).

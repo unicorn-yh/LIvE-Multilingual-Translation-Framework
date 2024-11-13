@@ -1,0 +1,947 @@
+All tissues and organs in the body consist of cells. The specialized functions
+of cells and how they interact determine the functions of organs. The brain
+is an organ—to be sure, the most sophisticated and complex organ that
+nature has devised. But the basic strategy for unraveling its function is no
+different from that used to investigate the pancreas or the lung. We must
+begin by learning how brain cells work individually and then see how they
+are assembled to work together. In neuroscience, there is no need to separate
+mind from brain; once we fully understand the individual and concerted
+actions of brain cells, we will understand the origins of our mental
+abilities. The organization of this book reflects this “neurophilosophy.” We
+start with the cells of the nervous system—their structure, function, and
+means of communication. In later chapters, we will explore how these cells
+are assembled into circuits that mediate sensation, perception, movement,
+speech, and emotion.
+In this chapter, we focus on the structure of the different types of cells
+in the nervous system: neurons and glia. These are broad categories, within
+which are many types of cells that differ based on their structure, chemistry,
+and function. Nonetheless, the distinction between neurons and glia
+is important. Although there are many neurons in the human brain (about
+100 billion), glia outnumber neurons by tenfold. Based on these numbers,
+it might appear that we should focus our attention on glia for insights into
+the cellular functions of the nervous system. However, neurons are the
+most important cells for the unique functions of the brain. It is the neurons
+that sense changes in the environment, communicate these changes to
+other neurons, and command the body’s responses to these sensations.
+Glia, or glial cells, are thought to contribute to brain function mainly by
+insulating, supporting, and nourishing neighboring neurons. If the brain
+were a chocolate-chip cookie and the neurons were chocolate chips, the
+glia would be the cookie dough that fills all the other space and ensures
+that the chips are suspended in their appropriate locations. Indeed, the
+term glia is derived from the Greek word for “glue,” giving the impression
+that the main function of these cells is to keep the brain from running out
+of our ears! As we shall see later in the chapter, the simplicity of this
+view is probably a good indication of the depth of our ignorance about glial
+function. However, we still are confident that neurons perform the bulk of
+information processing in the brain. Therefore, we will focus 90% of our
+attention on 10% of brain cells: the neurons.
+Neuroscience, like other fields, has a language all its own. To use this language,
+you must learn the vocabulary. After you have read this chapter,
+take a few minutes to review the key terms list and make sure you understand
+the meaning of each term. Your neuroscience vocabulary will grow
+as you work your way through the book.
+To study the structure of brain cells, scientists have had to overcome several
+obstacles. The first was the small size. Most cells are in the range of
+0.01–0.05 mm in diameter. The tip of an unsharpened pencil lead is about
+2 mm across; neurons are 40–200 times smaller. (For a review of the metric
+system, see Table 2.1.) This size is at or beyond the limit of what can be
+seen by the naked eye. Therefore, progress in cellular neuroscience was not
+possible before the development of the compound microscope in the late
+seventeenth century. Even then, obstacles remained. To observe brain tissue
+using a microscope, it was necessary to make very thin slices, ideally not
+much thicker than the diameter of the cells. However, brain tissue has a
+consistency like a bowl of Jello: not firm enough to make thin slices. Thus,
+the study of the anatomy of brain cells had to await the development of a
+method to harden the tissue without disturbing its structure and an instrument
+that could produce very thin slices. Early in the nineteenth century,
+scientists discovered how to harden, or “fix,” tissues by immersing them in
+formaldehyde, and they developed a special device called a microtome to
+make very thin slices.
+These technical advances spawned the field of histology, the microscopic
+study of the structure of tissues. But scientists studying brain structure
+faced yet another obstacle. Freshly prepared brain has a uniform,
+cream-colored appearance under the microscope; the tissue has no differences
+in pigmentation to enable histologists to resolve individual cells.
+Thus, the final breakthrough in neurohistology was the introduction of
+stains that could selectively color some, but not all, parts of the cells in
+brain tissue.
+One stain, still used today, was introduced by the German neurologist
+Franz Nissl in the late nineteenth century. Nissl showed that a class of basic
+dyes would stain the nuclei of all cells and also stain clumps of material
+surrounding the nuclei of neurons (Figure 2.1). These clumps are called
+Nissl bodies, and the stain is known as the Nissl stain. The Nissl stain is extremely
+useful for two reasons. First, it distinguishes neurons and glia from
+one another. Second, it enables histologists to study the arrangement, or
+cytoarchitecture, of neurons in different parts of the brain. (The prefix
+cyto- is from the Greek word for “cell.”) The study of cytoarchitecture led
+to the realization that the brain consists of many specialized regions. We
+now know that each region performs a different function.
+The Nissl stain, however, does not tell the whole story. A Nissl-stained neuron
+looks like little more than a lump of protoplasm containing a nucleus.
+Neurons are much more than that, but how much more was not recognized
+until the publication of the work of Italian histologist Camillo Golgi
+(Figure 2.2). In 1873, Golgi discovered that by soaking brain tissue in a silver
+chromate solution, now called the Golgi stain, a small percentage of
+neurons became darkly colored in their entirety (Figure 2.3). This revealed
+that the neuronal cell body, the region of the neuron around the nucleus
+that is shown with the Nissl stain, is actually only a small fraction of the
+total structure of the neuron. Notice in Figures 2.1 and 2.3 how different
+histological stains can provide strikingly different views of the same tissue.
+Today, neurohistology remains an active field in neuroscience, along with
+its credo: “The gain in brain is mainly in the stain.”
+The Golgi stain shows that neurons have at least two distinguishable
+parts: a central region that contains the cell nucleus, and numerous thin
+tubes that radiate away from the central region. The swollen region containing
+the cell nucleus has several names that are used interchangeably:
+cell body, soma (plural: somata), and perikaryon (plural: perikarya). The
+thin tubes that radiate away from the soma are called neurites and are of
+two types: axons and dendrites (Figure 2.4).
+The cell body usually gives rise to a single axon. The axon is of uniform
+diameter throughout its length, and if it branches, the branches generally
+extend at right angles. Because axons can travel over great distances in the
+body (a meter or more), it was immediately recognized by the histologists
+of the day that axons must act like “wires” that carry the output of the
+neurons. Dendrites, on the other hand, rarely extend more than 2 mm in length. Many dendrites extend from the cell body and generally taper to a
+fine point. Early histologists recognized that because dendrites come in
+contact with many axons, they must act as the antennae of the neuron to
+receive incoming signals, or input.
+Golgi invented the stain, but it was a Spanish contemporary of Golgi who
+used it to greatest effect. Santiago Ramón y Cajal was a skilled histologist
+and artist who learned about Golgi’s method in 1888 (Figure 2.5). In a
+remarkable series of publications over the next 25 years, Cajal used the
+Golgi stain to work out the circuitry of many regions of the brain (Figure
+2.6). Ironically, Golgi and Cajal drew completely opposite conclusions about
+neurons. Golgi championed the view that the neurites of different cells are
+fused together to form a continuous reticulum, or network, similar to the
+arteries and veins of the circulatory system. According to this reticular theory,
+the brain is an exception to the cell theory, which states that the individual
+cell is the elementary functional unit of all animal tissues. Cajal, on the
+other hand, argued forcefully that the neurites of different neurons are not
+continuous with one another and must communicate by contact, not continuity.
+This idea that the neuron adhered to the cell theory came to be known as
+the neuron doctrine. Although Golgi and Cajal shared the Nobel Prize in
+1906, they remained rivals to the end.
+The scientific evidence over the next 50 years weighed heavily in favor
+of the neuron doctrine, but final proof had to wait until the development
+of the electron microscope in the 1950s (Box 2.1). With the increased resolving
+power of the electron microscope, it was finally possible to show
+that the neurites of different neurons are not continuous with one another.
+Thus, our starting point in the exploration of the brain must be the individual
+neuron.
+The human eye can distinguish two points only if they are
+separated by more than about one-tenth of a millimeter
+(100 m). Thus, we can say that 100 m is near the limit
+of resolution for the unaided eye. Neurons have a diameter
+of about 20 m, and neurites can measure as small as
+a fraction of a micrometer. The light microscope, therefore,
+was a necessary development before neuronal structure
+could be studied. But this type of microscopy has a
+theoretical limit imposed by the properties of microscope
+lenses and visible light. With the standard light microscope,
+the limit of resolution is about 0.1 m. However,
+the space between neurons measures only 0.02 m (20
+nm). No wonder two esteemed scientists, Golgi and Cajal,
+disagreed about whether neurites were continuous
+from one cell to the next.This question could not be answered
+until the electron microscope was developed and
+applied to biological specimens, which occurred only
+within the past 60 years or so.
+The electron microscope uses an electron beam instead
+of light to form images, dramatically increasing the
+resolving power. The limit of resolution for an electron
+microscope is about 0.1 nm—a million times better than
+the unaided eye. Our insights into the fine structure of
+the inside of neurons—the ultrastructure—have all come
+from electron microscopic examination of the brain.
+Today, microscopes on the leading edge of technology
+use laser beams to illuminate the tissue and computers
+to create digital images (Figure A). Unlike the traditional
+methods of light and electron microscopy, which require
+tissue fixation, these new techniques give neuroscientists
+their first chance to peer into brain tissue
+that is still alive.
+As we have seen, the neuron (also called a nerve cell) consists of several
+parts: the soma, the dendrites, and the axon. The inside of the neuron is
+separated from the outside by the limiting skin, the neuronal membrane,
+which lies like a circus tent on an intricate internal scaffolding, giving each
+part of the cell its special three-dimensional appearance. Let’s explore the
+inside of the neuron and learn about the functions of the different parts
+(Figure 2.7).
+The Soma
+We begin our tour at the soma, the roughly spherical central part of the
+neuron. The cell body of the typical neuron is about 20 μm in diameter.
+The watery fluid inside the cell, called the cytosol, is a salty, potassiumrich
+solution that is separated from the outside by the neuronal membrane.
+Within the soma are a number of membrane-enclosed structures called
+organelles.
+The cell body of the neuron contains the same organelles that are found
+in all animal cells. The most important ones are the nucleus, the rough
+endoplasmic reticulum, the smooth endoplasmic reticulum, the Golgi apparatus,
+and the mitochondria. Everything contained within the confines
+of the cell membrane, including the organelles but excluding the nucleus,
+is referred to collectively as the cytoplasm.
+The Nucleus. Its name derived from the Latin word for “nut,” the nucleus
+of the cell is spherical, centrally located, and about 5–10 μm across. It is
+contained within a double membrane called the nuclear envelope. The nuclear
+envelope is perforated by pores that measure about 0.1 μm across.
+Within the nucleus are chromosomes, which contain the genetic material,
+DNA (deoxyribonucleic acid). Your DNA was passed on to you from
+your parents, and it contains the blueprint for your entire body. The DNA
+in each of your neurons is the same, and it is the same as the DNA in the
+cells of your liver and kidney. What distinguishes a neuron from a liver cell
+are the specific parts of the DNA that are used to assemble the cell. These
+segments of DNA are called genes.
+Each chromosome contains an uninterrupted double-stranded braid of
+DNA, 2 nm wide. If the DNA from the 46 human chromosomes were laid
+out straight, end to end, it would measure more than 2 m in length. If
+we were to consider this total length of DNA as analogous to the string
+of letters that makes up this book, the genes would be analogous to the
+individual words. Genes can measure anywhere from 0.1 μm to several
+micrometers in length.
+The “reading” of the DNA is known as gene expression. The final
+product of gene expression is the synthesis of molecules called proteins,
+which exist in a wide variety of shapes and sizes, perform many different
+functions, and bestow upon neurons virtually all of their unique characteristics.
+Protein synthesis, the assembly of protein molecules, occurs in
+the cytoplasm. Because the DNA never leaves the nucleus, there must be
+an intermediary that carries the genetic message to the sites of protein
+synthesis in the cytoplasm. This function is performed by another long
+molecule called messenger ribonucleic acid, or mRNA. Messenger RNA
+consists of four different nucleic acids strung together in various sequences
+to form a chain. The detailed sequence of the nucleic acids in the chain represents
+the information in the gene, just as the sequence of letters gives
+meaning to a written word.
+The process of assembling a piece of mRNA that contains the information
+of a gene is called transcription, and the resulting mRNA is called the
+transcript (Figure 2.8a). Protein-coding genes are flanked by stretches of
+DNA that are not used to encode proteins but are important for regulating
+transcription. At one end of the gene is the promoter, the region where
+the RNA-synthesizing enzyme, RNA polymerase, binds to initiate transcription.
+The binding of the polymerase to the promoter is tightly regulated by
+other proteins called transcription factors. At the other end is a sequence
+of DNA called the terminator that the RNA polymerase recognizes as the end
+point for transcription.
+In addition to the non-coding regions of DNA that flank the genes, there
+are often additional stretches of DNA within the gene itself that cannot be
+used to code for protein. These interspersed regions are called introns, and
+the coding sequences are called exons. Initial transcripts contain both introns
+and exons, but then, by a process called RNA splicing, the introns
+are removed and the remaining exons are fused together (Figure 2.8b). In
+some cases, specific exons are also removed with the introns, leaving an
+“alternatively spliced” mRNA that actually encodes a different protein.
+Thus, transcription of a single gene can ultimately give rise to several different
+mRNAs and protein products.
+Messenger RNA transcripts emerge from the nucleus via pores in the
+nuclear envelope and travel to the sites of protein synthesis elsewhere in
+the neuron. At these sites, a protein molecule is assembled much as the
+mRNA molecule was: by linking together many small molecules into a
+chain. In the case of protein, the building blocks are amino acids, of which
+there are 20 different kinds. This assembling of proteins from amino acids
+under the direction of the mRNA is called translation.
+The scientific study of this process, which begins with the DNA of the nucleus
+and ends with the synthesis of protein molecules in the cell, is known
+as molecular biology. The “central dogma” of molecular biology is summarized
+as follows:A new field within neuroscience is called molecular neurobiology. Molecular
+neurobiologists use the information contained in the genes to determine
+the structure and functions of neuronal proteins (Box 2.2).
+Rough Endoplasmic Reticulum. Not far from the nucleus are enclosed
+stacks of membrane dotted with dense globular structures called ribosomes,
+which measure about 25 nm in diameter. The stacks are called rough
+endoplasmic reticulum, or rough ER (Figure 2.9). Rough ER abounds
+in neurons, far more than in glia or most other non-neuronal cells. In fact,
+we have already been introduced to rough ER by another name: Nissl
+bodies. This organelle is stained with the dyes that Nissl introduced 100
+years ago.
+Rough ER is a major site of protein synthesis in neurons. RNA transcripts
+bind to the ribosomes, and the ribosomes translate the instructions contained
+in the mRNA to assemble a protein molecule. Thus, ribosomes take
+raw material in the form of amino acids and manufacture proteins using
+the blueprint provided by the mRNA (Figure 2.10a).
+Not all ribosomes are attached to the rough ER. Many are freely floating
+and are called free ribosomes. Several free ribosomes may appear to be attached
+by a thread; these are called polyribosomes. The thread is a single
+strand of mRNA, and the associated ribosomes are working on it to make
+multiple copies of the same protein.
+What is the difference between proteins synthesized on the rough ER
+and those synthesized on the free ribosomes? The answer appears to lie in
+the intended fate of the protein molecule. If it is destined to reside within
+the cytosol of the neuron, then the protein’s mRNA transcript shuns the
+ribosomes of the rough ER and gravitates toward the free ribosomes.
+Sequencing the human genome—the entire length of
+DNA that comprises the genetic information in our
+chromosomes—was a truly monumental achievement,
+completed in 2003. The Human Genome Project
+identifed all of the approximately 20,000 genes in
+human DNA.We now live in what has been called the
+“post-genomic era,” in which information about the
+genes expressed in our tissues can be used to diagnose
+and treat diseases. Neuroscientists are now using
+this information to tackle long-standing questions
+about the biological basis of neurological and psychiatric
+disorders, as well as to probe deeper into the
+origins of individuality.The logic goes as follows.The
+brain is the product of the genes expressed in it.
+Differences in gene expression between a normal
+brain and a diseased brain, or a brain of unusual ability,
+can be used to identify the molecular basis of the
+observed symptoms or traits.
+The level of gene expression is usually defined as
+the number of mRNA transcripts synthesized by
+different cells and tissues to direct the synthesis of
+specific proteins.Thus, the analysis of gene expression
+requires a method to compare the relative abundance
+of various mRNAs in the brains of two groups
+of humans or animals. One way to perform such a
+comparison is to use DNA microarrays, which are
+created by robotic machines that arrange thousands
+of small spots of synthetic DNA on a microscope
+slide. Each spot contains a unique DNA sequence
+that will recognize and stick to a different specific
+mRNA sequence.To compare the gene expression in
+two brains, one begins by collecting a sample of
+mRNAs from each brain. The mRNA of one brain is
+labeled with a chemical tag that fluoresces green, and
+the mRNA of the other brain is labeled with a tag
+that fluoresces red. These samples are then applied
+to the microarray. Highly expressed genes will
+produce brightly fluorescent spots, and differences in
+the relative gene expression between the brains will
+be revealed by differences in the color of the
+fluorescence (Figure A).
+
+However, if the protein is destined to be inserted into the membrane of the
+cell or an organelle, then it is synthesized on the rough ER. As the protein
+is being assembled, it is threaded back and forth through the membrane of
+the rough ER, where it is trapped (Figure 2.10b). It is not surprising that
+neurons are so well endowed with rough ER, because, as we shall see in
+later chapters, special membrane proteins are what give these cells their
+remarkable information-processing abilities.
+Smooth Endoplasmic Reticulum and the Golgi Apparatus. The remainder
+of the cytosol of the soma is crowded with stacks of membranous
+organelles that look a lot like rough ER without the ribosomes, so much so
+that one type is called smooth endoplasmic reticulum, or smooth ER.
+Smooth ER is actually quite heterogeneous and performs different functions
+in different locations. Some smooth ER is continuous with rough ER
+and is believed to be a site where the proteins that jut out from the membrane
+are carefully folded, giving them their three-dimensional structure.
+Other types of smooth ER play no direct role in the processing of protein
+molecules but instead regulate the internal concentrations of substances
+such as calcium. (This organelle is particularly prominent in muscle cells,
+where it is called sarcoplasmic reticulum, as we will see in Chapter 13.)
+The stack of membrane-enclosed disks in the soma that lies farthest from
+the nucleus is the Golgi apparatus, first described in 1898 by Camillo
+Golgi (Figure 2.11). This is a site of extensive “post-translational” chemical
+processing of proteins. One important function of the Golgi apparatus is
+believed to be the sorting of certain proteins that are destined for delivery
+to different parts of the neuron, such as the axon and the dendrites.
+The Mitochondrion. Another very abundant organelle in the soma is the
+mitochondrion (plural: mitochondria). In neurons, these sausage-shaped
+structures measure about 1 μm in length. Within the enclosure of their
+outer membrane are multiple folds of inner membrane called cristae (singular:
+crista). Between the cristae is an inner space called matrix (Figure 2.12a).
+Mitochondria are the site of cellular respiration (Figure 2.12b). When a
+mitochondrion “inhales,” it pulls inside pyruvic acid (derived from sugars
+and digested proteins and fats) and oxygen, both of which are floating in the
+cytosol. Within the inner compartment of the mitochondrion, pyruvic acid
+enters into a complex series of biochemical reactions called the Krebs cycle,
+named after the German-British scientist Hans Krebs, who first proposed it
+in 1937. The biochemical products of the Krebs cycle provide energy that,
+in another series of reactions within the cristae (called the electron-transport
+chain), results in the addition of phosphate to adenosine diphosphate
+(ADP), yielding adenosine triphosphate (ATP), the cell’s energy source.
+When the mitochondrion “exhales,” 17 ATP molecules are released for
+every molecule of pyruvic acid that had been taken in.
+ATP is the energy currency of the cell. The chemical energy stored in ATP is
+used to fuel most of the biochemical reactions of the neuron. For example,
+as we shall see in Chapter 3, special proteins in the neuronal membrane
+use the energy released by the breakdown of ATP into ADP to pump certain
+substances across the membrane to establish concentration differences
+between the inside and the outside of the neuron.
+The neuronal membrane serves as a barrier to enclose the cytoplasm inside
+the neuron and to exclude certain substances that float in the fluid that bathes
+the neuron. The membrane is about 5 nm thick and is studded with proteins.
+As mentioned earlier, some of the membrane-associated proteins pump substances
+from the inside to the outside. Others form pores that regulate which
+substances can gain access to the inside of the neuron. An important characteristic
+of neurons is that the protein composition of the membrane varies
+depending on whether it is in the soma, the dendrites, or the axon.
+The function of neurons cannot be understood without understanding the structure
+and function of the membrane and its associated proteins. In fact, this topic
+is so important that we’ll spend a good deal of the next four chapters looking
+at how the membrane endows neurons with the remarkable ability to
+transfer electrical signals throughout the brain and body.
+Earlier, we compared the neuronal membrane to a circus tent that was draped
+on an internal scaffolding. This scaffolding is called the cytoskeleton, and
+it gives the neuron its characteristic shape. The “bones” of the cytoskeleton
+are the microtubules, microfilaments, and neurofilaments (Figure 2.13). By
+drawing an analogy with a scaffolding, we do not mean that the cytoskeleton
+is static. On the contrary, elements of the cytoskeleton are dynamically
+regulated and are very likely in continual motion. Your neurons are probably
+squirming around in your head even as you read this sentence.
+Microtubules. Measuring 20 nm in diameter, microtubules are big and
+run longitudinally down neurites. A microtubule appears as a straight,
+thick-walled hollow pipe. The wall of the pipe is composed of smaller
+strands that are braided like rope around the hollow core. Each of the
+smaller strands consists of the protein tubulin. A single tubulin molecule is
+small and globular; the strand consists of tubulins stuck together like pearls
+on a string. The process of joining small proteins to form a long strand is
+called polymerization; the resulting strand is called a polymer. Polymerization
+and depolymerization of microtubules and, therefore, of neuronal shape
+can be regulated by various signals within the neuron.
+One class of proteins that participate in the regulation of microtubule assembly
+and function are microtubule-associated proteins, or MAPs. Among
+other functions (many of which are unknown), MAPs anchor the microtubules
+to one another and to other parts of the neuron. Pathological
+changes in an axonal MAP, called tau, have been implicated in the dementia
+that accompanies Alzheimer’s disease (Box 2.3).
+Neurites are the most remarkable structural feature of a
+neuron. Their elaborate branching patterns, critical for
+information processing, reflect the organization of the
+underlying cytoskeleton. It is therefore no surprise that
+a devastating loss of brain function can result when the
+cytoskeleton of neurons is disrupted. An example is
+Alzheimer’s disease, which is characterized by the disruption
+of the cytoskeleton of neurons in the cerebral cortex,
+a region of the brain crucial for cognitive function.
+This disorder and its underlying brain pathology were
+first described in 1907 by the German physician A.
+Alzheimer in a paper titled “A Characteristic Disease of
+the Cerebral Cortex.” Below are excerpts from the English
+translation.
+One of the first disease symptoms of a 51-year-old
+woman was a strong feeling of jealousy toward her
+husband. Very soon she showed rapidly increasing
+memory impairments; she could not find her way about
+her home, she dragged objects to and fro, hid herself,
+or sometimes thought that people were out to kill her,
+then she would start to scream loudly.
+During institutionalization her gestures showed a
+complete helplessness. She was disoriented as to time
+and place. From time to time she would state that she
+did not understand anything, that she felt confused and
+totally lost. Sometimes she considered the coming of
+the doctor as an official visit and apologized for not
+having finished her work, but other times she would
+start to yell in the fear that the doctor wanted to operate
+on her; or there were times that she would send
+him away in complete indignation, uttering phrases that
+indicated her fear that the doctor wanted to damage
+her woman’s honor. From time to time she was completely
+delirious, dragging her blankets and sheets to
+and fro, calling for her husband and daughter, and seeming
+to have auditory hallucinations. Often she would
+scream for hours and hours in a horrible voice.
+Mental regression advanced quite steadily.After four
+and a half years of illness the patient died. She was
+completely apathetic in the end, and was confined to
+bed in a fetal position. (Bick et al., 1987, pp. 1–2.)
+Following her death, Alzheimer examined the woman’s
+brain under the microscope. He made particular note of
+changes in the “neurofibrils,” elements of the cytoskeleton
+that are stained by a silver solution.
+The Bielschowsky silver preparation showed very
+characteristic changes in the neurofibrils. However,
+inside an apparently normal-looking cell, one or more
+single fibers could be observed that became prominent
+through their striking thickness and specific impregnability.
+At a more advanced stage,many fibrils arranged
+parallel showed the same changes. Then they accumulated
+forming dense bundles and gradually advanced to
+the surface of the cell. Eventually, the nucleus and cytoplasm
+disappeared, and only a tangled bundle of fibrils
+indicated the site where once the neuron had been
+located.
+As these fibrils can be stained with dyes different
+from the normal neurofibrils, a chemical transformation
+of the fibril substance must have taken place. This
+might be the reason why the fibrils survived the destruction
+of the cell. It seems that the transformation
+of the fibrils goes hand in hand with the storage of an
+as yet not closely examined pathological product of
+the metabolism in the neuron. About one-quarter to
+one-third of all the neurons of the cerebral cortex
+showed such alterations. Numerous neurons, especially
+in the upper cell layers, had totally disappeared. (Bick
+et al., 1987, pp. 2–3.)
+The severity of the dementia in Alzheimer’s disease is
+well correlated with the number and distribution of what
+are now commonly known as neurofibrillary tangles, the
+“tombstones” of dead and dying neurons (Figure A). Indeed,
+as Alzheimer speculated, tangle formation in the
+cerebral cortex very likely causes the symptoms of the
+disease. Electron microscopy reveals that the major
+components of the tangles are paired helical filaments, long
+fibrous proteins braided together like strands of a rope
+(Figure B). It is now understood that these filaments
+consist of the microtubule-associated protein tau.
+Tau normally functions as a bridge between the microtubules
+in axons, ensuring that they run straight and parallel to one another. In Alzheimer’s disease, the tau detaches
+from the microtubules and accumulates in the
+soma. This disruption of the cytoskeleton causes the
+axons to wither, thus impeding the normal flow of information
+in the affected neurons.
+What causes the changes in tau? Attention is focused
+on another protein that accumulates in the brain of
+Alzheimer’s patients, called amyloid.The field of Alzheimer’s
+disease research moves very fast, but the consensus today
+is that the abnormal secretion of amyloid by neurons is
+the first step in the process that leads to neurofibrillary
+tangle formation and dementia. Current hope for therapeutic
+intervention is focused on strategies to reduce the
+depositions of amyloid in the brain.The need for effective
+therapy is urgent: In the United States alone, more than 4
+million people are afflicted with this tragic disease.
+Microfilaments. Measuring only 5 nm in diameter, microfilaments are
+about the same thickness as the cell membrane. Found throughout the
+neuron, they are particularly numerous in the neurites. Microfilaments are
+braids of two thin strands, and the strands are polymers of the protein actin.
+Actin is one of the most abundant proteins in cells of all types, including
+neurons, and is believed to play a role in changing cell shape. Indeed, as
+we shall see in Chapter 13, actin filaments are critically involved in the
+mechanism of muscle contraction.
+Like microtubules, actin microfilaments are constantly undergoing assembly
+and disassembly, and this process is regulated by signals in the
+neuron. Besides running longitudinally down the core of the neurites
+like microtubules, microfilaments are also closely associated with the
+membrane. They are anchored to the membrane by attachments with a
+meshwork of fibrous proteins that line the inside of the membrane like
+a spider web.
+Neurofilaments. With a diameter of 10 nm, neurofilaments are intermediate
+in size between microtubules and microfilaments. They exist in
+all cells of the body as intermediate filaments; only in neurons are they
+called neurofilaments. The difference in name actually does reflect subtle
+differences in structure from one tissue to the next. An example of an
+intermediate filament from another tissue is keratin, which, when bundled
+together, makes up hair.
+Of the types of fibrous structure we have discussed, neurofilaments most
+closely resemble the bones and ligaments of the skeleton. A neurofilament
+consists of multiple subunits (building blocks) that are organized like a
+chain of sausages. The internal structure of each subunit consists of three
+protein strands woven together. Unlike microfilaments and microtubules,
+these strands consist of individual long protein molecules, each of which is
+coiled in a tight, springlike configuration. This structure makes neurofilaments
+mechanically very strong.
+The Axon
+So far, we’ve explored the soma, organelles, membrane, and cytoskeleton.
+However, none of these structures is unique to neurons; they are found in
+all the cells in our body. Now we encounter the axon, a structure found
+only in neurons that is highly specialized for the transfer of information
+over distances in the nervous system.
+The axon begins with a region called the axon hillock, which tapers to
+form the initial segment of the axon proper (Figure 2.14). Two noteworthy
+features distinguish the axon from the soma:
+1. No rough ER extends into the axon, and there are few, if any, free ribosomes.
+2. The protein composition of the axon membrane is fundamentally different
+from that of the soma membrane.
+These structural differences translate into functional distinctions. Because
+there are no ribosomes, there is no protein synthesis in the axon. This
+means that all proteins in the axon must originate in the soma. And it is
+the different proteins in the axonal membrane that enable it to serve as the
+“telegraph wire” that sends information over great distances.
+Axons may extend from less than a millimeter to over a meter long.
+Axons often branch, and these branches are called axon collaterals. Occasionally,
+an axon collateral will return to communicate with the same cell
+that gave rise to the axon or with the dendrites of neighboring cells. These
+axon branches are called recurrent collaterals.
+The diameter of an axon is variable, ranging from less than 1 mm to about
+25 mm in humans and to as large as 1 mm in the squid. This variation in axon
+size is important. As will be explained in Chapter 4, the speed of the electrical
+signal that sweeps down the axon—the nerve impulse—varies depending on
+axonal diameter. The thicker the axon, the faster the impulse travels.
+The Axon Terminal. All axons have a beginning (the axon hillock), a
+middle (the axon proper), and an end. The end is called the axon terminal
+or terminal bouton (French for “button”), reflecting the fact that it
+usually appears as a swollen disk (Figure 2.15). The terminal is a site where
+the axon comes in contact with other neurons (or other cells) and passes
+information on to them. This point of contact is called the synapse, a word
+derived from the Greek, meaning “to fasten together.” Sometimes axons
+have many branches at their ends, and each branch forms a synapse on
+dendrites or cell bodies in the same region. These branches are collectively
+called the terminal arbor. Sometimes axons form synapses at swollen
+regions along their length and then continue on to terminate elsewhere.
+Such swellings are called boutons en passant (“buttons in passing”). In either
+case, when a neuron makes synaptic contact with another cell, it is said to
+innervate that cell, or to provide innervation.
+The cytoplasm of the axon terminal differs from that of the axon in
+several ways:
+The Synapse. Although Chapters 5 and 6 are devoted entirely to how
+information is transferred from one neuron to another at the synapse, we
+provide a preview here. The synapse has two sides: presynaptic and postsynaptic
+(see Figure 2.15). These names indicate the usual direction of information
+flow, which is from “pre” to “post.” The presynaptic side generally
+consists of an axon terminal, while the postsynaptic side may be the
+dendrite or soma of another neuron. The space between the presynaptic
+and postsynaptic membranes is called the synaptic cleft. The transfer of
+information at the synapse from one neuron to another is called synaptic
+transmission.
+At most synapses, information in the form of electrical impulses traveling
+down the axon is converted in the terminal into a chemical signal that
+crosses the synaptic cleft. On the postsynaptic membrane, this chemical signal
+is converted again into an electrical one. The chemical signal is called
+a neurotransmitter, and it is stored in and released from the synaptic
+vesicles within the terminal. As we will see, different neurotransmitters are
+used by different types of neurons.
+This electrical-to-chemical-to-electrical transformation of information
+makes possible many of the brain’s computational abilities. Modification of
+this process is involved in memory and learning, and synaptic transmission
+dysfunction accounts for certain mental disorders. The synapse is also the
+site of action for many toxins and for most psychoactive drugs.
+Axoplasmic Transport. As mentioned, one feature of the cytoplasm of
+axons, including the terminal, is the absence of ribosomes. Because ribosomes
+are the protein factories of the cell, their absence means that the proteins
+of the axon must be synthesized in the soma and then shipped down
+the axon. Indeed, in the mid-nineteenth century, English physiologist Augustus
+Waller showed that axons cannot be sustained when separated from
+their parent cell body. The degeneration of axons that occurs when they
+are cut is now called Wallerian degeneration. Because it can be detected with
+certain staining methods, Wallerian degeneration is one way to trace axonal
+connections in the brain.
+Wallerian degeneration occurs because the normal flow of materials from
+the soma to the axon terminal is interrupted. This movement of material
+down the axon is called axoplasmic transport, first demonstrated directly
+by the experiments of American neurobiologist Paul Weiss and his colleagues
+in the 1940s. They found that if they tied a thread around an axon,
+material accumulated on the side of the axon closest to the soma. When
+the knot was untied, the accumulated material continued down the axon
+at a rate of 1–10 mm per day.
+This was a remarkable discovery, but it is not the whole story. If all
+material moved down the axon by this transport mechanism alone, it
+would not reach the ends of the longest axons for at least half a year—too
+long a wait to feed hungry synapses. In the late 1960s, methods were
+developed to track the movements of protein molecules down the axon
+into the terminal. These methods entailed injecting the somata of neurons
+with radioactive amino acids. Recall that amino acids are the building
+blocks of proteins. The “hot” amino acids were assembled into proteins, and
+the arrival of radioactive proteins in the axon terminal was measured to
+calculate the rate of transport. Bernice Grafstein of Rockefeller University
+discovered that this fast axoplasmic transport (so named to distinguish it from
+slow axoplasmic transport described by Weiss) occurred at a rate as high as
+1000 mm per day.
+Much is now known about how axoplasmic transport works. Material is
+enclosed within vesicles, which then “walk down” the microtubules of the axon. The “legs” are provided by a protein called kinesin, and the process is
+fueled by ATP (Figure 2.16). Kinesin moves material only from the soma to
+the terminal. All movement of material in this direction is called anterograde
+transport.
+In addition to anterograde transport, there is a mechanism for the movement
+of material up the axon from the terminal to the soma. This process
+is believed to provide signals to the soma about changes in the metabolic
+needs of the axon terminal. Movement in this direction, from terminal to
+soma, is called retrograde transport. The molecular mechanism is similar
+to anterograde transport, except the “legs” for retrograde transport are
+provided by a different protein, dynein. Both anterograde and retrograde
+transport mechanisms have been exploited by neuroscientists to trace connections
+in the brain (Box 2.4).
+The term dendrite is derived from the Greek for “tree,” reflecting the fact that
+these neurites resemble the branches of a tree as they extend from the soma.
+The dendrites of a single neuron are collectively called a dendritic tree;
+each branch of the tree is called a dendritic branch. The wide variety of shapes
+and sizes of dendritic trees are used to classify different groups of neurons.
+Because dendrites function as the antennae of the neuron, they are
+covered with thousands of synapses (Figure 2.17). The dendritic membrane
+under the synapse (the postsynaptic membrane) has many specialized protein
+molecules called receptors that detect the neurotransmitters in the
+synaptic cleft.
+Fast anterograde transport of proteins in axons was
+shown by injecting the soma with radioactive amino acids.
+The success of this method immediately suggested a way
+to trace connections in the brain. For example, to determine
+where neurons in the eye send their axons, the eye
+was injected with radioactive proline, an amino acid. The
+proline was incorporated into proteins in the somata that
+were then transported to the axon terminals. By use of a
+technique called autoradiography, the location of radioactive
+axon terminals could be detected, thereby revealing the
+extent of the connection between the eye and the brain.
+Researchers subsequently discovered that retrograde
+transport could also be exploited to work out connections
+in the brain. Strangely enough, the enzyme horseradish
+peroxidase (HRP) is selectively taken up by axon
+terminals and then transported retrogradely to the soma.
+A chemical reaction can then be initiated to visualize the
+location of the HRP in slices of brain tissue.This method
+is commonly used to trace connections in the brain (Figure
+A).
+Some viruses also exploit retrograde transport to infect
+neurons. For example, the oral type of herpesvirus
+enters axon terminals in the lips and mouth and is then
+transported back to the parent cell bodies. Here the virus
+usually remains dormant until physical or emotional stress
+occurs (as on a first date), at which time it replicates and
+returns to the nerve ending, causing a painful cold sore.
+Similarly, the rabies virus enters the nervous system by
+retrograde transport through axons in the skin. However,
+once inside the soma, the virus wastes no time in replicating
+madly, killing its neuronal host. The virus is then
+taken up by other neurons within the nervous system,
+and the process repeats itself again and again, usually until
+the victim dies.
+The dendrites of some neurons are covered with specialized structures
+called dendritic spines that receive some types of synaptic input. Spines
+look like little punching bags that hang off the dendrite (Figure 2.18). The
+unusual morphology of spines has fascinated neuroscientists ever since
+their discovery by Cajal. They are believed to isolate various chemical
+reactions that are triggered by some types of synaptic activation. Spine
+structure is sensitive to the type and amount of synaptic activity. Unusual
+changes in spines have been shown to occur in the brains of individuals
+with cognitive impairments (Box 2.5). William Greenough of the University
+of Illinois at Urbana discovered that spine number is also very sensitive
+to the quality of the environment experienced during early development
+and in adulthood (Box 2.6).
+The elaborate architecture of a neuron’s dendritic tree is
+a good reflection of the complexity of its synaptic connections
+with other neurons. Brain function depends on these
+highly precise synaptic connections, which are formed
+during the fetal period and are refined during infancy and
+early childhood. Not surprisingly, this very complex developmental
+process is vulnerable to disruption. Mental retardation
+is said to have occurred if a disruption of brain
+development results in subaverage cognitive functioning
+that impairs adaptive behavior.
+The use of standardized tests indicates that intelligence
+in the general population is distributed along a
+bell-shaped (Gaussian) curve. By convention, the mean intelligence
+quotient (IQ) is set to be 100. About twothirds
+of the total population falls within 15 points (one
+standard deviation) of the mean, and 95% of the population
+falls within 30 points (two standard deviations). People
+with intelligence scores below 70 are considered to
+be mentally retarded if the cognitive impairment affects
+the person’s ability to adapt his or her behavior to the
+setting in which he or she lives. Some 2–3% of humans
+fit this description.
+Mental retardation has many causes. The most severe
+forms are associated with genetic disorders. An example
+is a condition called phenylketonuria (PKU). The basic abnormality
+is a deficit in the liver enzyme that metabolizes
+the dietary amino acid phenylalanine. Infants born with
+PKU have an abnormally high level of the amino acid in
+the blood and brain. If the condition goes untreated, brain
+growth is stunted and severe mental retardation results.
+Another example is Down syndrome, which occurs when the
+fetus has an extra copy of chromosome 21, thus disrupting
+normal gene expression during brain development.
+A second known cause of mental retardation is accidents
+during pregnancy and childbirth. Examples are
+maternal infections with German measles (rubella) and
+asphyxia during childbirth. A third cause of mental retardation
+is poor nutrition during pregnancy. An example
+is fetal alcohol syndrome, a constellation of developmental
+abnormalities that occur in children born to
+alcoholic mothers. A fourth cause, thought to account
+for the majority of cases, is environmental impoverishment—
+the lack of good nutrition, socialization, and sensory
+stimulation—during infancy.
+While some forms of mental retardation have very
+clear physical correlates (e.g., stunted growth; abnormalities
+in the structure of the head, hands, and body), most
+cases have only behavioral manifestations. The brains of
+these individuals appear grossly normal. How, then, do
+we account for the profound cognitive impairment? An
+important clue came in the 1970s from the research of
+Miguel Marin-Padilla, working at Dartmouth College, and
+Dominick Purpura, working at the Albert Einstein College
+of Medicine in New York City. Using the Golgi stain, they
+studied the brains of retarded children and discovered
+remarkable changes in dendritic structure. The dendrites
+of retarded children had many fewer dendritic spines, and
+the spines that they did have were unusually long and thin
+(Figure A).The extent of the spine changes was well correlated
+with the degree of mental retardation.
+Dendritic spines are an important target of synaptic
+input. Purpura pointed out that the dendritic spines of
+mentally retarded children resemble those of the normal
+human fetus. He suggested that mental retardation reflects
+the failure of normal circuits to form in the brain.
+In the 3 decades since this seminal work was published,
+it has been established that normal synaptic development,
+including maturation of the dendritic spines, depends critically
+on the environment during infancy and early childhood.
+An impoverished environment during an early “critical
+period” of development can lead to profound changes
+in the circuits of the brain. However, there is some good
+news. Many of the deprivation-induced changes in the
+brain can be reversed if intervention occurs early enough.
+In Chapter 22, we will take a closer look at the role of
+experience in brain development.
+It is a frequent misconception that scientific research results
+in simple, clear answers to questions. The truth is
+that almost every answer results in a whole battery of
+new questions. But the research serves to increase our
+understanding so that we know how to frame the new
+questions, and try to tackle them.
+When we first saw polyribosomes below synapses in
+dendritic spines, we asked: “What are they doing away
+from the soma, where mRNA is usually translated?” An
+exciting possibility was that they might make special
+proteins that were involved in remodeling the synapse.
+I had seen that in animals exposed to enriched environments,
+new spines were made and other spines were
+remodeled from small to larger structures with—presumably—
+more efficient signaling. Could these synaptic
+polyribosomes be manufacturing crucial proteins that
+could account for the improved efficiency? Some kind
+of “memory proteins”?
+I recalled a paper by Hollingsworth, in which he figured
+out a way to shear off synapses on spines, a preparation
+called synaptoneurosomes (Figure A), and study them biochemically.
+My colleague Ivan Jeanne Weiler and I attempted
+to isolate the mRNA in synaptoneurosomes to
+identify the crucial “memory proteins.” Repeated failures,
+due apparently to mRNA degradation, both frustrated
+and slowed us. But eventually we found that some of the
+mRNA was being incorporated into polyribosomes, meaning
+that protein was being synthesized.We then discovered
+that this protein synthesis was strongly increased
+when we stimulated the synaptoneurosomes with the
+neurotransmitter glutamate, and we were able to identify
+the glutamate receptor that was responsible.We now
+thought we were poised to isolate the “memory proteins”
+from the newly assembled polyribosomes.
+We set up to harvest polyribosomes from stimulated and
+unstimulated synaptoneurosomes to see which mRNAs
+were translated in response to glutamate. About this time,
+Jim Eberwine (University of Pennsylvania) told us about the
+mRNAs he had isolated from single dendrites.We looked
+for their translation in our new system, and the first one
+that was increased by stimulation turned out to be the
+fragile X mental retardation protein (FMRP). This has led
+us to study brain abnormalities in fragile X syndrome, the
+largest cause of inherited mental retardation.
+Do we now, at last, have a “memory protein”? Not yet,
+because FMRP is not a structural or receptor protein, but
+a protein that binds mRNA. It seems to orchestrate the
+translation of an impressive array of other mRNAs, few
+of which, at first glance, look like “memory proteins.” But,
+if FMRP is a key to how the synapse changes itself, then
+we think we are still on the right track to understand
+synaptic remodeling. Indeed, people with fragile X syndrome
+have immature-appearing synapses.
+So we have been wrong a lot of the time, and frustrated
+on a near-weekly basis. Nature is full of surprises,
+but we have increased our understanding of synaptic protein
+synthesis. Indeed, we are now asking new questions
+that may help us understand and possibly treat the leading
+inherited form of mental retardation. It was worth the
+effort.
+For the most part, the cytoplasm of dendrites resembles that of axons. It
+is filled with cytoskeletal elements and mitochondria. One interesting difference
+was discovered by neuroscientist Oswald Steward. He found that
+polyribosomes can be observed in dendrites, often right under spines. Steward’s
+research suggests that synaptic transmission can actually direct local
+protein synthesis in some neurons. In Chapter 25, we will see that synaptic
+regulation of protein synthesis is crucial for information storage by the brain.
+It is unlikely that we can ever hope to understand how each of the hundred
+billion neurons in the nervous system uniquely contributes to the
+function of the brain. But what if we could show that all the neurons in
+the brain can be divided into a small number of categories, and that within
+each category, all neurons function identically? The complexity of the problem
+might then be reduced to understanding the unique contribution of
+each category, rather than each cell. It is with this hope that neuroscientists
+have devised schemes for classifying neurons.
+Neurons can be classified according to the total number of neurites (axons
+and dendrites) that extend from the soma (Figure 2.19). A neuron that has
+a single neurite is said to be unipolar. If there are two neurites, the cell is
+bipolar, and if there are three or more, the cell is multipolar. Most neurons
+in the brain are multipolar.
+Dendritic trees can vary widely from one type of neuron to another. Some
+have inspired elegant names like “double bouquet cells.” Others have less
+interesting names, such as “alpha cells.” Classification is often unique to a
+particular part of the brain. For example, in the cerebral cortex (the structure
+that lies just under the surface of the cerebrum), there are two broad
+classes: stellate cells (star-shaped) and pyramidal cells (pyramid-shaped)
+(Figure 2.20).
+Another simple way to classify neurons is according to whether their
+dendrites have spines. Those that do are called spiny, and those that do
+not are called aspinous. These dendritic classification schemes can overlap.
+For example, in the cerebral cortex, all pyramidal cells are spiny. Stellate
+cells, on the other hand, can be either spiny or aspinous.
+Information is delivered to the nervous system by neurons that have neurites
+in the sensory surfaces of the body, such as the skin and the retina of
+the eye. Cells with these connections are called primary sensory neurons.
+Other neurons have axons that form synapses with the muscles and command
+movements; these are called motor neurons. But most neurons in
+the nervous system form connections only with other neurons. According
+to this classification scheme, these cells are all called interneurons.
+Some neurons have long axons that extend from one part of the brain to
+the other; these are called Golgi type I neurons, or projection neurons. Other
+neurons have short axons that do not extend beyond the vicinity of the cell
+body; these are called Golgi type II neurons, or local circuit neurons. In the
+cerebral cortex, for example, pyramidal cells usually have long axons that
+extend to other parts of the brain and are therefore Golgi type I neurons.
+In contrast, stellate cells have axons that never extend beyond the cerebral
+cortex and are therefore Golgi type II neurons.
+The classification schemes presented so far are based on the morphology of
+neurons as revealed by a Golgi stain. Newer methods that enable neuroscientists
+to identify which neurons contain specific neurotransmitters have
+resulted in a scheme for classifying neurons based on their chemistry. For
+example, the motor neurons that command voluntary movements all release
+the neurotransmitter acetylcholine at their synapses. These cells are therefore
+also classified as cholinergic, meaning that they use this particular neurotransmitter.
+Collections of cells that use a common neurotransmitter make
+up the brain’s neurotransmitter systems (see Chapters 6 and 15).
+We have devoted most of our attention in this chapter to the neurons.
+While this decision is justified by the state of current knowledge, some neuroscientists
+consider glia to be the “sleeping giants” of neuroscience. One
+day, they suppose, it will be shown that glia contribute much more importantly
+to information processing in the brain than is currently appreciated.
+At present, however, the evidence indicates that glia contribute to brain
+function mainly by supporting neuronal functions. Although their role may
+be subordinate, without glia, the brain could not function properly.
+The most numerous glia in the brain are called astrocytes (Figure 2.21).
+These cells fill the spaces between neurons. The space that remains between
+the neurons and the astrocytes in the brain measures only about 20 nm
+wide. Consequently, astrocytes probably influence whether a neurite can
+grow or retract. And when we speak of fluid “bathing” neurons in the brain,
+it is more like a soaking from a hose than immersion in a swimming pool.
+An essential role of astrocytes is regulating the chemical content of this
+extracellular space. For example, astrocytes envelop synaptic junctions in the
+brain, thereby restricting the spread of neurotransmitter molecules that
+have been released. Astrocytes also have special proteins in their membranes
+that actively remove many neurotransmitters from the synaptic
+cleft. A recent and unexpected discovery is that astrocytic membranes also
+possess neurotransmitter receptors that, like the receptors on neurons, can
+trigger electrical and biochemical events inside the glial cell. Besides regulating
+neurotransmitters, astrocytes also tightly control the extracellular
+concentration of several substances that have the potential to interfere with
+proper neuronal function. For example, astrocytes regulate the concentration
+of potassium ions in the extracellular fluid.
+Unlike astrocytes, the primary function of oligodendroglial and Schwann
+cells is clear. These glia provide layers of membrane that insulate axons.
+Boston University anatomist Alan Peters, a pioneer in the electron microscopic
+study of the nervous system, showed that this wrapping, called
+myelin, spirals around axons in the brain (Figure 2.22). Because the axon
+fits inside the spiral wrapping like a sword in its scabbard, the name myelin
+sheath describes the entire covering. The sheath is interrupted periodically,
+leaving a short length where the axonal membrane is exposed. This region
+is called a node of Ranvier (Figure 2.23).
+We will see in Chapter 4 that myelin serves to speed the propagation of
+nerve impulses down the axon. Oligodendroglia and Schwann cells differ
+in their location and some other characteristics. For example, oligodendroglia
+are found only in the central nervous system (brain and spinal
+cord), while Schwann cells are found only in the peripheral nervous system
+(parts outside the skull and vertebral column). Another difference is
+that one oligodendroglial cell will contribute myelin to several axons, while
+each Schwann cell myelinates only a single axon.
+Even if we eliminated every neuron, every astrocyte, and every oligodendroglial
+cell, other cells would still remain in the brain. For the sake of completeness,
+we must mention these other cells. First, special cells called
+ependymal cells provide the lining of fluid-filled ventricles within the
+brain, and they also play a role in directing cell migration during brain development.
+Second, a class of cells called microglia function as phagocytes
+to remove debris left by dead or degenerating neurons and glia. Finally, the
+vasculature of the brain—arteries, veins, and capillaries—would still be there.
+Learning about the structural characteristics of the neuron provides insight
+into how neurons and their different parts work, because structure correlates
+with function. For example, the absence of ribosomes in the axon
+correctly predicts that proteins in the axon terminal must be provided by
+the soma via axoplasmic transport. A large number of mitochondria in the
+axon terminal correctly predicts a high energy demand. The elaborate
+structure of the dendritic tree appears ideally suited for the receipt of incoming
+information, and indeed, this is where most of the synapses are
+formed with the axons of other neurons.
+From the time of Nissl, it has been recognized that an important feature
+of neurons is the rough ER. What does this tell us about neurons? We have
+said that rough ER is a site of the synthesis of proteins destined to be inserted
+into the membrane. We will now see how the various proteins in
+the neuronal membrane give rise to the unique capabilities of neurons to
+transmit, receive, and store information.

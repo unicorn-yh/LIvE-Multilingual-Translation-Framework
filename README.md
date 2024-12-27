@@ -1,4 +1,4 @@
-# <img src="/Users/olivia/Project/Gemma-Multilingual-Model/figure/languages_icon.png" alt="Icon" style="vertical-align: middle; width: 1.4em; height: 1.2em;"> *LIvE*: *L*inguistic *I*ntermediary *v*ia *E*nglish for Information Distribution in Low-Resource Languages
+# <img src="figure/languages_icon.png" alt="Icon" style="vertical-align: middle; width: 1.4em; height: 1.2em;"> *LIvE*: *L*inguistic *I*ntermediary *v*ia *E*nglish for Information Distribution in Low-Resource Languages
 
 
 

@@ -1,4 +1,4 @@
-# <img src="figure/languages_icon.png" alt="Icon" width="40" height="35"> *LIvE*: *L*inguistic *I*ntermediary *v*ia *E*nglish for Information Distribution in Low-Resource Languages
+# <img src="figure/languages_icon.png" alt="Icon" width="30" height="30"> *LIvE*: *L*inguistic *I*ntermediary *v*ia *E*nglish for Information Distribution in Low-Resource Languages
 
 
 

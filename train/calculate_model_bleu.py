@@ -15,13 +15,6 @@ seg = pkuseg.pkuseg()
 def init():
     dirr = "../evaluation/"
     files = os.listdir(dirr)
-    # custom_order = [
-    #     "妇产科", "儿科", "普通外科", "风湿免疫科", "精神心理科", "皮肤科", 
-    #     "神经内外科", "胃肠科", "心脏科", "血液科", "肿瘤科", "肾脏内科", 
-    #     "骨科", "耳鼻喉科", "口腔科", "泌尿外科", "内分泌科", "感染科", 
-    #     "急诊", "眼科", "呼吸科"
-    # ]
-    # files = sorted(files, key=lambda x: custom_order.index(x.split("_")[0]))
     print(files)
     print("BLEU Scores:")
 

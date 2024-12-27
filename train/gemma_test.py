@@ -6,23 +6,6 @@ import pandas as pd
 from calculate_model_bleu import compute_bleu
 from rag import preprocess_retrieval_data, initialize_retriever, integrate_rag_with_finetuned_model, translate_with_rag
 
-# EPOCH = 1
-# DATA_SIZE = 2000
-# LORA_RANK = 16
-# LORA_ALPHA = 0.5
-# BATCH_SIZE = 4
-# GRADIENT_ACCUMULATION_STEPS = 16
-# LEARNING_RATE = 0.0001  #1e-5
-# TEST_SIZE = 0.2
-
-
-# TRAIN_DATA_SIZE = DATA_SIZE
-# TEST_DATA_SIZE = 200
-
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-# data_file_path = "../data/biology_test.jsonl"
-# write_test_path = f"../evaluation/R{LORA_RANK}_A{LORA_ALPHA}_LR{LEARNING_RATE}_{TRAIN_DATA_SIZE}_E{EPOCH}.jsonl"
-# path_to_model = f"../fine_tuned_model/R{LORA_RANK}_A{LORA_ALPHA}_LR{LEARNING_RATE}_{TRAIN_DATA_SIZE}_E{EPOCH}"
 
 def load_model(path_to_model):
     print(path_to_model)

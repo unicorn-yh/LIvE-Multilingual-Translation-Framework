@@ -19,7 +19,7 @@ The **Linguistic Intermediary via English (LIvE)** framework leverages English a
 ## LIvE Architecture
 
 <div align="center">
-  <img src="figure/methodology.png" width="50%" />
+  <img src="figure/methodology.png" width="80%" />
 </div>
 
 To address the challenges of translating between low-resource languages, we implement a multilingual architecture that leverages English as a pivot language. This approach capitalizes on the model's strong alignment with English, which serves as an intermediary to bridge the linguistic gap between source and target low-resource languages. The architecture employs a three-stage process: **(1)** translation from the source low-resource language to English, **(2)** translation from English to the target low-resource language, and **(3)** direct translation between low-resource languages using a Multilingual Neural Machine Translation (MNMT) model fine-tuned for this purpose. 
@@ -41,7 +41,7 @@ The fine-tuned model integrates synthesized datasets and LoRA adaptations to ena
 
 
 <div align="center">
-  <img src="figure/result1.png" width="67%" />
+  <img src="figure/result1.png" width="80%" />
 </div>
 
 

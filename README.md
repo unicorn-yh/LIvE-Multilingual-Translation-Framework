@@ -1,6 +1,8 @@
 
 
-<img src="figure/title.png" style="zoom:67%;" />
+<div align="center">
+  <img src="figure/title.png" width="80%" />
+</div>
 
 
 
@@ -16,7 +18,9 @@ The **Linguistic Intermediary via English (LIvE)** framework leverages English a
 
 ## LIvE Architecture
 
-<img src="figure/methodology.png" style="zoom:30%;" />
+<div align="center">
+  <img src="figure/methodology.png" width="50%" />
+</div>
 
 To address the challenges of translating between low-resource languages, we implement a multilingual architecture that leverages English as a pivot language. This approach capitalizes on the model's strong alignment with English, which serves as an intermediary to bridge the linguistic gap between source and target low-resource languages. The architecture employs a three-stage process: **(1)** translation from the source low-resource language to English, **(2)** translation from English to the target low-resource language, and **(3)** direct translation between low-resource languages using a Multilingual Neural Machine Translation (MNMT) model fine-tuned for this purpose. 
 
@@ -36,7 +40,9 @@ The fine-tuned model integrates synthesized datasets and LoRA adaptations to ena
 
 
 
-<img src="figure/result1.png" style="zoom:67%;" />
+<div align="center">
+  <img src="figure/result1.png" width="67%" />
+</div>
 
 
 
@@ -46,7 +52,7 @@ The LIvE framework, utilizing the Gemma-9B model with only 9 billion parameters,
 
 
 
-<img src="figure/case1.png" style="zoom:67%;" />
+<img src="figure/case1.png"  />
 
 The figure above ilustrates a comparative evaluation of translations produced by various models using English as a pivot language to translate from Malay to Chinese. Corect translations preserve the scientific terminology and context from the original sentence, such as "电化学梯度" (electrochemical gradient) and "钠离子的平衡电位" (equilibrium potential of sodium ions). Errors are marked in red, highlighting deviations like substituting "电化学梯度" with "电解质梯度"(electrolyte gradient), which misrepresents the scientific meaning in terms of Neurobiology. The highlighted translations from GPT-4 and GLM-4 demonstrate high fluency but occasionally lose precision, while Google Translate maintains accuracy but lacks natural readability. **LIvE (Ours)** achieves a balanced translation. ensuring both fluency and fidelity to the original scientific context.
 

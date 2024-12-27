@@ -14,6 +14,8 @@ The **Linguistic Intermediary via English (LIvE)** framework leverages English a
 
 
 
+<br>
+
 
 
 ## LIvE Architecture
@@ -34,7 +36,7 @@ The fine-tuned model integrates synthesized datasets and LoRA adaptations to ena
 
 
 
-
+<br>
 
 ## Result and Case Study
 
@@ -50,7 +52,7 @@ The LIvE framework, utilizing the Gemma-9B model with only 9 billion parameters,
 
 
 
-
+<br>
 
 <img src="figure/case1.png"  />
 
@@ -58,24 +60,25 @@ The figure above ilustrates a comparative evaluation of translations produced by
 
 
 
-
+<br>
 
 ## Domain-Specific Insights
 
 
 
-##### <span style="color:grey;"><i>Handling Rare Terms and Technical Vocabulary.</i></span>
+<h4 style="color:grey; font-style:italic;">Handling Rare Terms and Technical Vocabulary.</h4>
 
 One of the primary challenges in domain-specific translation is the accurate handling of rare terms and technical vocabulary that are often underrepresented in standard training datasets. Our approach, leveraging English as a pivot language, provides a significant advantage in this aspect. By fine-tuning the Gemma model first for translations into English, a language with extensive linguistic and domain-specific resources, the model gains a robust understanding of the source language's semantic and syntactic structures. Subsequently, fine-tuning for translation from English to the target language allows the model to transfer this knowledge effectively. This two-step process ensures that rare and complex terms in Neurobiology, such as “synaptic plasticity,” “neurogenesis,” or “axon guidance,” are accurately mapped between languages, maintaining their scientific integrity.
 Direct translation methods often suffer from poor performance when encountering such terms due to the lack of sufficient training data and contextual grounding. The pivot-based approach mitigates this limitation by using English as a bridge, where these terms are more likely to be well-represented in existing corpora and understood by the model.
 
 
 
-#### <span style="color:grey;"><i>Addressing Linguistic and Contextual Nuances.</i></span>
+<h4 style="color:grey; font-style:italic;">Addressing Linguistic and Contextual Nuances.</h4>
+
 Scientific content in Neurobiology often involves complex sentence structures, nuanced meanings, and context-dependent interpretations. For example, terms like "action potential" or "ion channel" can have different implications depending on the surrounding context. Direct translation models, particularly for low-resource languages, often struggle to capture these nuances due to limited exposure to domain-specific content in both source and target languages. By contrast, our method benefits from the pivot language’s rich contextual resources, enabling the model to encode these nuances during the intermediate translation step. The use of synthetic data augmentation further enhances the model’s exposure to domain-specific variations, ensuring robustness in handling diverse linguistic constructs.
 
 
 
+<h4 style="color:grey; font-style:italic;">Adaptability to Low-Resource Languages.</h4>
 
-#### <span style="color:grey;"><i>Adaptability to Low-Resource Languages.</i></span>
 The pivot-based methodology’s adaptability to low-resource languages is another critical factor contributing to its success in domain-specific contexts. Direct translation models often fail to bridge the gap between two low-resource languages due to the scarcity of parallel data. By introducing English as a high-resource pivot, our method facilitates knowledge transfer between low-resource languages, effectively utilizing the wealth of linguistic and domain-specific information available in English. This transfer learning process ensures that even low-resource language pairs benefit from a rich intermediary representation, enhancing translation quality significantly.
